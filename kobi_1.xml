@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@drawable/kobita_back1" android:layout_width="match_parent" android:layout_height="match_parent" android:keepScreenOn="true">
+    <FrameLayout android:id="@+id/kobi_1" android:background="@drawable/btn_border" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3c01">
+        <ImageView android:background="@drawable/f_kazi_nazrul_islam" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="22sp" android:textColor="#fffc34" android:id="@+id/kn" android:paddingLeft="60dp" android:paddingTop="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="কাজী নজরুল ইসলাম" />
+        <TextView android:textSize="14sp" android:textColor="#ffffff" android:id="@+id/kb" android:paddingLeft="60dp" android:paddingTop="33dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="(জন্ম-১৮৯৯ / মৃত্যু-১৯৭৬)" />
+        <TextView android:textSize="14sp" android:textColor="#d2a4a4" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kt" android:paddingRight="5dp" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x3c01" android:text="৯৫টি
+কবিতা" />
+    </FrameLayout>
+    <com.google.android.gms.ads.AdView android:id="@+id/adView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:adSize="BANNER" android:adUnitId="ca-app-pub-7960193263009665/4951506033" />
+    <TextView android:textAppearance="?unknown_attr_ref: 1010040" android:textColor="#92ffec" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/shuchi" android:background="#464646" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1e01" android:layout_marginTop="5dp" android:text="সূচিপত্র" android:layout_below="@+id/kobi_1" android:layout_centerHorizontal="true" />
+    <ScrollView android:id="@+id/scrollView2" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="10dp" android:layout_marginBottom="50dp" android:layout_below="@+id/shuchi" android:layout_centerHorizontal="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textSize="20sp" android:textStyle="bold" android:textColor="#ffffff" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/p1" android:background="#063605" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="wrap_content" android:text="১ম পাতা" />
+            <Button android:textSize="18sp" android:textColor="#fffffa00" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/p1_10" android:background="#031f02" android:paddingLeft="20sp" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="wrap_content" android:text="১। মুনাজাত          
+২। মানুষ          
+৩। বিদায় বেলায়          
+৪। আজ সৃষ্টি-সুখের উল্লাসে          
+৫। কান্ডারী হুশিয়ার          
+৬। আপন-পিয়াসী          
+৭। পথহারা          
+৮। ঈশ্বর          
+৯। বিদ্রোহী          
+১০। লিচু চোর" android:onClick="page1" />
+            <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textSize="20sp" android:textStyle="bold" android:textColor="#ffffff" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/p2" android:background="#063605" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="২য় পাতা" />
+            <Button android:textSize="18sp" android:textColor="#fffffa00" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/p2_10" android:background="#031f02" android:paddingLeft="20dp" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="wrap_content" android:text="১। নারী          
+২। অভিশাপ          
+৩। সাহেব ও মোসাহেব          
+৪। গোপন প্রিয়া          
+৫। খোকার সাধ          
+৬। সংকল্প          
+৭। প্রভাতী          
+৮। খুকি ও কাঠবেড়ালি          
+৯। শিশু যাদুকর          
+১০। মা" android:onClick="page2" />
+            <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textSize="20sp" android:textStyle="bold" android:textColor="#ffffff" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/p3" android:background="#063605" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="৩য় পাতা" />
+            <Button android:textSize="18sp" android:textColor="#fffffa00" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/p3_10" android:background="#031f02" android:paddingLeft="20dp" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="wrap_content" android:text="১। চল্ চল্ চল্          
+২। অ-নামিকা          
+৩। অবেলার ডাক          
+৪। আনন্দময়ীর আগমনে          
+৫। আমাদের নারী          
+৬। আমার কৈফিয়ৎ          
+৭। আশীর্বাদ          
+৮। উমর ফারুখ          
+৯। এক আল্লাহ জিন্দাবাদ          
+১০। কবি-রাণী" android:onClick="page3" />
+            <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textSize="20sp" android:textStyle="bold" android:textColor="#ffffff" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/p4" android:background="#063605" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="৪র্থ পাতা" />
+            <Button android:textSize="18sp" android:textColor="#fffffa00" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/p4_10" android:background="#031f02" android:paddingLeft="20dp" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="wrap_content" android:text="১। কারার ঐ লৌহকপাট          
+২। কুলি- মজুর          
+৩। কোরবানী          
+৪। ছাত্রদলের গান          
+৫। জাগরণী          
+৬। দারিদ্র          
+৭। পউষ          
+৮। পিছু- ডাক          
+৯। পূজারিণী          
+১০। বারাঙ্গনা" android:onClick="page4" />
+            <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textSize="20sp" android:textStyle="bold" android:textColor="#ffffff" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/p5" android:background="#063605" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="৫ম পাতা" />
+            <Button android:textSize="18sp" android:textColor="#fffffa00" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/p5_10" android:background="#031f02" android:paddingLeft="20dp" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="wrap_content" android:text="১। মোরা ঝঞ্চার মত উদ্দ্যম          
+২। মোহররম          
+৩। সর্বহারা          
+৪। সাম্যবাদী          
+৫। হিন্দু-মুসলিম সম্পর্ক          
+৬। সন্ধ্যাতারা          
+৭। শায়ক-বেঁধা পাখী          
+৮। ব্যথা-নিশীথ          
+৯। বিজয়িনী          
+১০। পলাতকা" android:onClick="page5" />
+            <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textSize="20sp" android:textStyle="bold" android:textColor="#ffffff" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/p6" android:background="#063605" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="৬ষ্ঠ পাতা" />
+            <Button android:textSize="18sp" android:textColor="#fffffa00" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/p6_10" android:background="#031f02" android:paddingLeft="20dp" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="wrap_content" android:text="১। দূরের বন্ধু          
+২। চৈতী হাওয়া          
+৩। চিরশিশু          
+৪। কমল-কাঁটা          
+৫। আশা          
+৬। অ-কেজোর গান          
+৭। সুপার (জেলের) বন্দনা          
+৮। শহীদী-ঈদ          
+৯। ল্যাবেন্ডিশ বাহিনীর বিজাতীয় সঙ্গীত          
+১০। মোহান্তের মোহ-অন্তের গান" android:onClick="page6" />
+            <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textSize="20sp" android:textStyle="bold" android:textColor="#ffffff" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/p7" android:background="#063605" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="৭ম পাতা" />
+            <Button android:textSize="18sp" android:textColor="#fffffa00" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/p7_10" android:background="#031f02" android:paddingLeft="20dp" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="wrap_content" android:text="১।পূর্ণ-অভিনন্দন          
+২। দুঃশাসনের রক্ত-পান          
+৩। আশু-প্রয়াণ গীতি          
+৪। ফরিয়াদ          
+৫। গোকুল নাগ          
+৬। ১৪০০ সাল          
+৭। বাতায়ন-পাশে গুবাক-তরুর সারি          
+৮। বর্ষা-বিদায়          
+৯। পথচারী          
+১০। তোমারে পড়িছে মনে" android:onClick="page7" />
+            <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textSize="20sp" android:textStyle="bold" android:textColor="#ffffff" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/p8" android:background="#063605" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="৮ম পাতা" />
+            <Button android:textSize="18sp" android:textColor="#fffffa00" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/p8_10" android:background="#031f02" android:paddingLeft="20dp" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="wrap_content" android:text="১। গানের আড়াল          
+২। কুহেলিকা          
+৩। হিন্দু-মুসলিম যুদ্ধ          
+৪। সব্যসাচী          
+৫। সত্য-কবি          
+৬। পথের দিশা          
+৭। দ্বীপান্তরের বন্দিনী          
+৮। বারাঙ্গনা          
+৯। পাপ          
+১০। অবেলার ডাক" android:onClick="page8" />
+            <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textSize="20sp" android:textStyle="bold" android:textColor="#ffffff" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/p9" android:background="#063605" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="৯ম পাতা" />
+            <Button android:textSize="18sp" android:textColor="#fffffa00" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/p9_10" android:background="#031f02" android:paddingLeft="20dp" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="wrap_content" android:text="১। চাঁদনী-রাতে          
+২। রাখীবন্ধন          
+৩। অভিযান          
+৪। ধূ-বরণ          
+৫। ফাল্গুনী          
+৬। বিদায়-স্মরণে          
+৭। সিন্ধুঃ প্রথম তরঙ্গ          
+৮। সিন্ধুঃ দ্বিতীয় তরঙ্গ          
+৯। সিন্ধুঃ তৃতীয় তরঙ্গ          
+১০। প্রলয়োল্লাস" android:onClick="page9" />
+            <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textSize="20sp" android:textStyle="bold" android:textColor="#ffffff" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/p10" android:background="#063605" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="১০ম পাতা" />
+            <Button android:textSize="18sp" android:textColor="#fffffa00" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/p10_10" android:background="#031f02" android:paddingLeft="20dp" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="wrap_content" android:text="১। উৎসর্গ (অগ্নিবীণা)          
+২। আগমনী          
+৩। ধূমকেতু          
+৪। রণ-ভেরী          
+৫। খেয়া-পারের তরণী" android:onClick="page10" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

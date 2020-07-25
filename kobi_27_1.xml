@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/RL_Main" android:background="@drawable/kobita_back1" android:layout_width="match_parent" android:layout_height="match_parent" android:keepScreenOn="true">
+    <FrameLayout android:id="@+id/top_frame" android:background="@drawable/btn_border" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3c01">
+        <ImageView android:background="@drawable/f_abu_zafar_ubaydullah" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="22sp" android:textColor="#fffc34" android:id="@+id/kobi_name" android:paddingLeft="60dp" android:paddingTop="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="আবু জাফর ওবায়দুল্লাহ" />
+        <TextView android:textSize="14sp" android:textColor="#ffffff" android:id="@+id/kobi_birth" android:paddingLeft="60dp" android:paddingTop="33dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="(জন্ম-১৯৩৪ / মৃত্যু-২০০১)" />
+        <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textColor="#ffffff" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/pata" android:background="@drawable/kobitabtn_60x50" android:layout_width="UNKNOWN_DATA_0x3c01" android:layout_height="UNKNOWN_DATA_0x3c01" android:layout_marginRight="10dp" android:text="১ম 
+পাতা" />
+    </FrameLayout>
+    <HorizontalScrollView android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginBottom="35dp" android:layout_below="@+id/adView">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="match_parent"
+            <LinearLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:textSize="22sp" android:textColor="#fffffa00" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_1" android:background="@drawable/kobitabtn1" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0x2801" android:text="মাগো, ওরা বলে" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+                <ScrollView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/sv_1" android:background="@drawable/kobita_back2" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                    <TextView android:enabled="true" android:textSize="18sp" android:textColor="#ffffffff" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_01" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="‘কুমড়ো ফুলে ফুলে  
+ নুয়ে পড়েছে লতাটা,  
+ সজনে ডাঁটায়  
+ ভরে গেছে গাছটা,  
+ আর, আমি ডালের বড়ি  
+ শুকিয়ে রেখেছি—  
+ খোকা তুই কবে আসবি!  
+ কবে ছুটি?’  
+  
+ চিঠিটা তার পকেটে ছিল,  
+ ছেঁড়া আর রক্তে ভেজা।  
+  
+ ‘মাগো, ওরা বলে,  
+ সবার কথা কেড়ে নেবে  
+ তোমার কোলে শুয়ে  
+ গল্প শুনতে দেবে না।  
+ বলো, মা, তাই কি হয়?  
+ তাইতো আমার দেরী হচ্ছে।  
+ তোমার জন্য কথার ঝুড়ি নিয়ে  
+ তবেই না বাড়ী ফিরবো।  
+ লক্ষ্মী মা রাগ ক’রো না,  
+ মাত্রতো আর কটা দিন।’  
+  
+ ‘পাগল ছেলে’,  
+ মা পড়ে আর হাসে,  
+ ‘তোর ওপরে রাগ করতে পারি!’  
+  
+ নারকেলের চিঁড়ে কোটে,  
+ উড়কি ধানের মুড়কি ভাজে  
+ এটা সেটা আরো কত কি!  
+ তার খোকা যে বাড়ী ফিরবে!  
+ ক্লান্ত খোকা!  
+  
+ কুমড়ো ফুল  
+ শুকিয়ে গেছে,  
+ ঝ’রে প’ড়েছে ডাঁটা;  
+ পুঁইলতাটা নেতানো,—  
+ ‘খোকা এলি?’  
+  
+ ঝাপসা চোখে মা তাকায়  
+ উঠোনে, উঠোনে  
+ যেখানে খোকার শব  
+ শকুনিরা ব্যবচ্ছেদ করে।  
+  
+ এখন,  
+ মা’র চোখে চৈত্রের রোদ  
+ পুড়িয়ে দেয় শকুনিদের।  
+ তারপর,  
+ দাওয়ায় ব’সে  
+ মা আবার ধান ভানে,  
+ বিন্নি ধানের খই ভাজে,  
+ খোকা তার  
+ কখন আসে! কখন আসে!  
+  
+ এখন,  
+ মা’র চোখে শিশির ভোর,  
+ স্নেহের রোদে  
+ ভিটে ভরেছে। 
+  
+====== 
+" android:textIsSelectable="true" />
+                </ScrollView>
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:textSize="22sp" android:textColor="#fffffa00" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_2" android:background="@drawable/kobitabtn1" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0x2801" android:text="আমি কিংবদন্তির কথা বলছি" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:textIsSelectable="true" />
+                <ScrollView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/sv_2" android:background="@drawable/kobita_back2" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                    <TextView android:textSize="18sp" android:textColor="#ffffffff" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_02" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5pt" android:text="আমি আমার পূর্বপুরুষের কথা বলছি।  
+ তাঁর করতলে পলিমাটির সৌরভ ছিল  
+ তাঁর পিঠে রক্তজবার মত ক্ষত ছিল।  
+ তিনি অতিক্রান্ত পাহাড়ের কথা বলতেন  
+ অরণ্য এবং শ্বাপদের কথা বলতেন  
+ পতিত জমি আবাদের কথা বলতেন  
+ তিনি কবি এবং কবিতার কথা বলতেন।  
+ জিহ্বায় উচ্চারিত প্রতিটি সত্য শব্দ কবিতা,  
+ কর্ষিত জমির প্রতিটি শস্যদানা কবিতা।  
+ যে কবিতা শুনতে জানে না  
+ সে ঝড়ের আর্তনাদ শুনবে।  
+ যে কবিতা শুনতে জানে না  
+ সে দিগন্তের অধিকার থেকে বঞ্চিত হবে।  
+ যে কবিতা শুনতে জানে না  
+ সে আজন্ম ক্রীতদাস থেকে যাবে।  
+ আমি উচ্চারিত সত্যের মতো  
+ স্বপ্নের কথা বলছি।  
+ উনুনের আগুনে আলোকিত  
+ একটি উজ্জ্বল জানালার কথা বলছি।  
+ আমি আমার মা’য়ের কথা বলছি,  
+ তিনি বলতেন প্রবহমান নদী  
+ যে সাতার জানে না তাকেও ভাসিয়ে রাখে।  
+ যে কবিতা শুনতে জানে না  
+ সে নদীতে ভাসতে পারে না।  
+ যে কবিতা শুনতে জানে না  
+ সে মাছের সঙ্গে খেলা করতে পারে না।  
+ যে কবিতা শুনতে জানে না  
+ সে মা’য়ের কোলে শুয়ে গল্প শুনতে পারে না  
+ আমি কিংবদন্তির কথা বলছি  
+ আমি আমার পূর্বপুরুষের কথা বলছি।  
+ আমি বিচলিত স্নেহের কথা বলছি  
+ গর্ভবতী বোনের মৃত্যুর কথা বলছি  
+ আমি আমার ভালোবাসার কথা বলছি।  
+ ভালোবাসা দিলে মা মরে যায়  
+ যুদ্ধ আসে ভালোবেসে  
+ মা’য়ের ছেলেরা চলে যায়,  
+ আমি আমার ভাইয়ের কথা বলছি।  
+ যে কবিতা শুনতে জানে না  
+ সে সন্তানের জন্য মরতে পারে না।  
+ যে কবিতা শুনতে জানে না  
+ সে ভালোবেসে যুদ্ধে যেতে পারে না।  
+ যে কবিতা শুনতে জানে না  
+ সে সূর্যকে হৃদপিন্ডে ধরে রাখতে পারে না।  
+ আমি কিংবদন্তীর কথা বলছি  
+ আমি আমার পূর্ব পুরুষের কথা বলছি  
+ তাঁর পিঠে রক্তজবার মত ক্ষত ছিল  
+ কারণ তিনি ক্রীতদাস ছিলেন।  
+ আমরা কি তা’র মতো কবিতার কথা বলতে পারবো,  
+ আমরা কি তা’র মতো স্বাধীনতার কথা বলতে পারবো!  
+ তিনি মৃত্তিকার গভীরে  
+ কর্ষণের কথা বলতেন  
+ অবগাহিত ক্ষেত্রে  
+ পরিচ্ছন্ন বীজ বপনের কথা বলতেন  
+ সবত্সা গাভীর মত  
+ দুগ্ধবতী শস্যের পরিচর্যার কথা বলতেন  
+ তিনি কবি এবং কবিতার কথা বলতেন।  
+ যে কর্ষণ করে তাঁর প্রতিটি স্বেদবিন্দু কবিতা  
+ কর্ষিত জমির প্রতিটি শস্যদানা কবিতা।  
+ যে কবিতা শুনতে জানে না  
+ শস্যহীন প্রান্তর তাকে পরিহাস করবে।  
+ যে কবিতা শুনতে জানে না  
+ সে মাতৃস্তন্য থেকে বঞ্চিত হবে।  
+ যে কবিতা শুনতে জানে না  
+ সে আজন্ম ক্ষুধার্ত থেকে যাবে।  
+ যখন প্রবঞ্চক ভূস্বামীর প্রচন্ড দাবদাহ  
+ আমাদের শস্যকে বিপর্যস্ত করলো  
+ তখন আমরা শ্রাবণের মেঘের মত  
+ যূথবদ্ধ হলাম।  
+ বর্ষণের স্নিগ্ধ প্রলেপে  
+ মৃত মৃত্তিকাকে সঞ্জীবিত করলাম।  
+ বারিসিক্ত ভূমিতে  
+ পরিচ্ছন্ন বীজ বপন করলাম।  
+ সুগঠিত স্বেদবিন্দুর মত  
+ শস্যের সৌকর্য অবলোকন করলাম,  
+ এবং এক অবিশ্বাস্য আঘ্রাণ  
+ আনিঃশ্বাস গ্রহণ করলাম।  
+ তখন বিষসর্প প্রভুগণ  
+ অন্ধকার গহ্বরে প্রবেশ করলো  
+ এবং আমরা ঘন সন্নিবিষ্ট তাম্রলিপির মত  
+ রৌদ্রালোকে উদ্ভাসিত হলাম।  
+ তখন আমরা সমবেত কন্ঠে  
+ কবিতাকে ধারণ করলাম।  
+ দিগন্ত বিদীর্ণ করা বজ্রের উদ্ভাসন কবিতা  
+ রক্তজবার মত প্রতিরোধের উচ্চারণ কবিতা।  
+ যে কবিতা শুনতে জানে না  
+ পরভৃতের গ্লানি তাকে ভূলুন্ঠিত করবে।  
+ যে কবিতা শুনতে জানে না  
+ অভ্যূত্থানের জলোচ্ছ্বাস তাকে নতজানু করবে।  
+ যে কবিতা শুনতে জানে না  
+ পলিমাটির সৌরভ তাকে পরিত্যাগ করবে।  
+ আমি কিংবদন্তির কথা বলছি  
+ আমি আমার পূর্বপুরুষের কথা বলছি।  
+ তিনি স্বপ্নের মত সত্য ভাষণের কথা বলতেন  
+ সুপ্রাচীন সংগীতের আশ্চর্য ব্যাপ্তির কথা বলতেন  
+ তিনি কবি এবং কবিতার কথা বলতেন।  
+ যখন কবিকে হত্যা করা হল  
+ তখন আমরা নদী এবং সমুদ্রের মোহনার মত  
+ সৌভ্রত্রে সম্মিলিত হলাম।  
+ প্রজ্জ্বলিত সূর্যের মত অগ্নিগর্ভ হলাম।  
+ ক্ষিপ্রগতি বিদ্যুতের মত  
+ ত্রিভূবন পরিভ্রমণ করলাম।  
+ এবং হিংস্র ঘাতক নতজানু হয়ে  
+ কবিতার কাছে প্রাণভিক্ষা চাইলো।  
+ তখন আমরা দুঃখকে ক্রোধ  
+ এবং ক্রোধকে আনন্দিত করলাম।  
+ নদী এবং সমুদ্রে মোহনার মত  
+ সম্মিলিত কন্ঠস্বর কবিতা  
+ অবদমিত ক্রোধের আনন্দিত উত্সারণ কবিতা।  
+ যে কবিতা শুনতে জানে না  
+ সে তরঙ্গের সৌহার্দ থেকে বঞ্চিত হবে।  
+ যে কবিতা শুনতে জানে না  
+ নিঃসঙ্গ বিষাদ তাকে অভিশপ্ত করবে।  
+ যে কবিতা শুনতে জানে না  
+ সে মূক ও বধির থেকে যাবে।  
+ আমি কিংবদন্তির কথা বলছি  
+ আমি আমার পূর্বপুরুষের কথা বলছি।  
+ তাঁর পিঠে রক্তজবার মত ক্ষত ছিল  
+ আমি একগুচ্ছ রক্তজবার কথা বলছি।  
+ আমি জলোচ্ছ্বাসের মত  
+ অভ্যূত্থানের কথা বলছি  
+ উত্ক্ষিপ্ত নক্ষত্রের মত  
+ কমলের চোখের কথা বলছি  
+ প্রস্ফুটিত পুষ্পের মত  
+ সহস্র ক্ষতের কথা বলছি  
+ আমি নিরুদ্দিষ্ট সন্তানের জননীর কথা বলছি  
+ আমি বহ্নমান মৃত্যু  
+ এবং স্বাধীনতার কথা বলছি।  
+ যখন রাজশক্তি আমাদের আঘাত করলো  
+ তখন আমরা প্রাচীণ সংগীতের মত  
+ ঋজু এবং সংহত হলাম।  
+ পর্বত শৃংগের মত  
+ মহাকাশকে স্পর্শ করলাম।  
+ দিকচক্রবালের মত  
+ দীর্ঘ থেকে দীর্ঘতর হলাম;  
+ এবং শ্বেত সন্ত্রাসকে  
+ সমূলে উত্পাটিত করলাম।  
+ তখন আমরা নক্ষত্রপুঞ্জের মত  
+ উজ্জ্বল এবং প্রশান্ত হলাম।  
+ উত্ক্ষিপ্ত নক্ষত্রের প্রস্ফুটিত ক্ষতচিহ্ন কবিতা  
+ স্পর্ধিত মধ্যাহ্নের আলোকিত উম্মোচন কবিতা।  
+ যে কবিতা শুনতে জানে না  
+ সে নীলিমাকে স্পর্শ করতে পারে না।  
+ যে কবিতা শুনতে জানে না  
+ সে মধ্যাহ্নের প্রত্যয়ে প্রদীপ্ত হতে পারে না।  
+ যে কবিতা শুনতে জানে না  
+ সে সন্ত্রাসের প্রতিহত করতে পারে না।  
+ আমি কিংবদন্তীর কথা বলছি  
+ আমি আমার পূর্বপুরুষের কথা বলছি।  
+ আমি শ্রমজীবী মানুষের  
+ উদ্বেল অভিযাত্রার কথা বলছি  
+ আদিবাস অরণ্যের  
+ অনার্য সংহতির কথা বলছি  
+ শৃংখলিত বৃক্ষের  
+ উর্দ্ধমুখী অহংকারের কথা বলছি,  
+ আমি অতীত এবং সমকালের কথা বলছি।  
+ শৃংখলিত বৃক্ষের উর্দ্ধমুখী অহংকার কবিতা  
+ আদিবাস অরণ্যের অনার্য সংহতি কবিতা।  
+ যে কবিতা শুনতে জানে না  
+ যূথভ্রষ্ট বিশৃংখলা তাকে বিপর্যস্ত করবে।  
+ যে কবিতা শুনতে জানে না  
+ বিভ্রান্ত অবক্ষয় তাকে দৃষ্টিহীন করবে।  
+ যে কবিতা শুনতে জানে না  
+ সে আজন্ম হীনমন্য থেকে যাবে।  
+ যখন আমরা নগরীতে প্রবেশ করলাম  
+ তখন চতুর্দিকে ক্ষুধা।  
+ নিঃসঙ্গ মৃত্তিকা শস্যহীন  
+ ফলবতী বৃক্ষরাজি নিস্ফল  
+ এবং ভাসমান ভূখন্ডের মত  
+ ছিন্নমূল মানুষেরা ক্ষুধার্ত।  
+ যখন আমরা নগরীতে প্রবেশ করলাম  
+ তখন আদিগন্ত বিশৃংখলা।  
+ নিরুদ্দিষ্ট সন্তানের জননী শোকসন্তপ্ত  
+ দীর্ঘদেহ পুত্রগণ বিভ্রান্ত  
+ এবং রক্তবর্ণ কমলের মত  
+ বিস্ফোরিত নেত্র দৃষ্টিহীন।  
+ তখন আমরা পূর্বপুরুষকে  
+ স্মরণ করলাম।  
+ প্রপিতামহের বীর গাঁথা  
+ স্মরণ করলাম।  
+ আদিবাসী অরণ্য এবং নতজানু শ্বাপদের কথা  
+ স্মরণ করলাম।  
+ তখন আমরা পর্বতের মত অবিচল  
+ এবং ধ্রুবনক্ষত্রের মত স্থির লক্ষ্য হলাম।  
+ আমি কিংবদন্তীর কথা বলছি  
+ আমি আমার পূর্বপুরুষের কথা বলছি।  
+ আমি স্থির লক্ষ্য মানুষের  
+ সশস্ত্র অভ্যুত্থানের কথা বলছি  
+ শ্রেণীযুদ্ধের অলিন্দে  
+ ইতিহাসের বিচরণের কথা বলছি  
+ আমি ইতিহাস এবং স্বপ্নের কথা বলছি।  
+ স্বপ্নের মত সত্যভাষণ ইতিহাস  
+ ইতিহাসের আনন্দিত অভিজ্ঞান কবিতা  
+ যে বিনিদ্র সে স্বপ্ন দেখতে পারে না  
+ যে অসুখী সে কবিতা লিখতে পারে না।  
+ যে উদ্গত অংকুরের মত আনন্দিত  
+ সে কবি  
+ যে সত্যের মত স্বপ্নভাবী  
+ সে কবি  
+ যখন মানুষ মানুষকে ভালবাসবে  
+ তখন প্রত্যেকে কবি।  
+ আমি কিংবদন্তির কথা বলছি  
+ আমি আমার পূর্বপুরুষের কথা বলছি।  
+ আমি বিচলিত বর্তমান  
+ এবং অন্তিম সংগ্রামের কথা বলছি।  
+ খন্ডযুদ্ধের বিরতিতে  
+ আমরা ভূমি কর্ষণ করেছি।  
+ হত্যা এবং ঘাতকের সংকীর্ণ ছায়াপথে  
+ পরিচ্ছন্ন বীজ বপন করেছি।  
+ এবং প্রবহমান নদীর সুকুমার দাক্ষিণ্যে  
+ শস্যের পরিচর্যা করছি।  
+ আমাদের মুখাবয়ব অসুন্দর  
+ কারণ বিকৃতির প্রতি ঘৃণা  
+ মানুষকে কুশ্রী করে দ্যায়।  
+ আমাদের কণ্ঠস্বর রূঢ়  
+ কারণ অন্যায়ের বিরুদ্ধে ক্ষোভ  
+ কণ্ঠকে কর্কশ করে তোলে।  
+ আমাদের পৃষ্ঠদেশে নাক্ষত্রিক ক্ষতচিহ্ন  
+ কারণ উচ্চারিত শব্দ আশ্চর্য বিশ্বাসঘাতক  
+ আমাদেরকে বারবার বধ্যভূমিতে উপনীত করেছে।  
+ আমি কিংবদন্তির কথা বলছি  
+ আমি আমার পূর্বপুরুষের কথা বলছি।  
+ আমার সন্তানেরা  
+ আমি তোমাদের বলছি।  
+ যেদিন প্রতিটি উচ্চারিত শব্দ  
+ সূর্যের মত সত্য হবে  
+ সেই ভবিষ্যতের কথা বলছি,  
+ সেই ভবিষ্যতের কবিতার কথা বলছি।  
+ আমি বিষসর্প প্রভুদের  
+ চির প্রয়াণের কথা বলছি  
+ দ্বন্দ্ব এবং বিরোধের  
+ পরিসমাপ্তির কথা বলছি  
+ সুতীব্র ঘৃণার  
+ চূড়ান্ত অবসানের কথা বলছি।  
+ আমি সুপুরুষ ভালবাসার  
+ সুকণ্ঠ সংগীতের কথা বলছি।  
+ যে কর্ষণ করে  
+ শস্যের সম্ভার তাকে সমৃদ্ধ করবে।  
+ যে মত্স্য লালন করে  
+ প্রবহমান নদী তাকে পুরস্কৃত করবে।  
+ যে গাভীর পরিচর্যা করে  
+ জননীর আশীর্বাদ তাকে দীর্ঘায়ু করবে।  
+ যে লৌহখন্ডকে প্রজ্জ্বলিত করে  
+ ইস্পাতের তরবারি তাকে সশস্ত্র করবে।  
+ দীর্ঘদেহ পুত্রগণ  
+ আমি তোমাদের বলছি।  
+ আমি আমার মায়ের কথা বলছি  
+ বোনের মৃত্যুর কথা বলছি  
+ ভাইয়ের যুদ্ধের কথা বলছি  
+ আমি আমার ভালবাসার কথা বলছি।  
+ আমি কবি এবং কবিতার কথা বলছি।  
+ সশস্ত্র সুন্দরের অনিবার্য অভ্যুত্থান কবিতা  
+ সুপুরুষ ভালবাসার সুকণ্ঠ সংগীত কবিতা  
+ জিহ্বায় উচ্চারিত প্রতিটি মুক্ত শব্দ কবিতা  
+ রক্তজবার মতো প্রতিরোধের উচ্চারণ কবিতা।  
+ আমরা কি তাঁর মত কবিতার কথা বলতে পারবো  
+ আমরা কি তাঁর মত স্বাধীনতার কথা বলতে পারবো? 
+  
+====== 
+" android:textIsSelectable="true" />
+                </ScrollView>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:textSize="22sp" android:textColor="#fffffa00" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_3" android:background="@drawable/kobitabtn1" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0x2801" android:text="একজন প্রবীণ বয়াতি" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+                <ScrollView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/sv_3" android:background="@drawable/kobita_back2" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                    <TextView android:textSize="18sp" android:textColor="#ffffffff" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_03" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="মায়ের কাছে সন্তানের অঙ্গীকার,  
+তোমার জন্য কথার ঝুড়ি নিয়ে  
+তবেই না বাড়ি ফিরবো  
+লক্ষী মা, রাগ করো না,  
+মাত্রতো আর কটা দিন।   
+  
+সেদিন সকালের রোদে  
+কৃষ্ণচূড়ার আবির  
+আকাশের চূড়ায় লালঝুটি।   
+  
+সেগুন ফুলের আঘ্রাণ গায়ে মেখে  
+রুপালি মাছের মতো  
+উজানে সাঁতার কেটে  
+ওরা আসে  
+এক-দুই-দশটি পাঁপড়িতে  
+যুথবদ্ধ রক্তকমল।   
+  
+পরনে বর্ণমালার নামাবলী  
+দৃষ্টিতে সবুজ হাওয়ার মুকুল  
+ধমণীতে নির্ঝরের জলতরঙ্গ  
+হৃদয়ে মায়ের দুধের শিশির  
+কণ্ঠে শিমুল ফুলের আনন্দ।   
+  
+ওরা যখন গান করে  
+কখনো নক্ষত্রের মতো উচ্চকিত  
+কখনো শিশিরের মতো নিঃশব্দ  
+কখনো মাটির শিকর আন্দোলিত  
+কখনো মায়ের চোখ ভিজে যায়।   
+  
+তখন বেতের ফলের মতো বিপন্ন রোদ  
+মায়ের আঁচলে শাবকের মতো বেড়ে ওঠে  
+দৃষ্টিহীন অন্ধকার হিরন্ময় সুনেত্র  
+মৃত্যুর চৌকাঠে পলাশের বৈভব  
+এবং কুয়াশার মানুষ স্পর্ধিত মধ্যাহ্ণ।   
+  
+হাওয়ায় মৃত্যুর গন্ধ  
+ব্যাধের কুটিল চক্রান্তে  
+সুপুরুষ পাখিরা নিহত  
+জননীর পুত্র নিরুদ্দিষ্ট  
+বোবা বয়াতি  
+কাগজের চোখে কথা বলে  
+ছবির একতারায় গান বাধে।   
+  
+তারপর বিষন্ন শালিকের মতো  
+প্রবীণ দরোজায় সাবধানের শৃঙ্খল।   
+  
+কৃষ্ণচূড়া আবার বেড়া ভাঙে  
+লোহার বেড়া  
+কখনো কমলের চোখের মত উৎক্ষিপ্ত  
+কখনো সহস্র ক্ষতের মতো প্রস্ফুটিত  
+কখনো উল্কার মতো অগ্নিগর্ভ।   
+  
+এবং বাধেঁর ঘাস  দাতে কেটে  
+অনায়াসে ভেদ করে শত্রুর ব্যুহ-  
+ছেঁড়া অন্ধ পোড়া চোখ স্ফুরিত অধর  
+গান গায় বিজয়ের গান।  
+তারপর যাহা থাকে যাহা কিছু অবশিষ্ট  
+প্রায় ঠোঁট প্রায় মুখ অথবা গোলাপ  
+সুফলা পলির মতো মেঘনার পাড়ে শুয়ে থাকে।   
+  
+যারা ভালোবাসে  
+তারা যুদ্ধে যায়  
+যারা যুদ্ধে যায়  
+সকলে ফিরে আসে না  
+এবং যারা মায়ের কাছে ফিরে আসে  
+তাদের ঝুলিতে বর্ণমালার নুপুর  
+ঢেঁকিতে কিশোরী পা  
+ডুরে শাড়ি ঘাসের ফড়িং।   
+  
+তখন জোনাকির মতো বৃষ্টি নামে  
+ধানের ক্ষেতে শামুক ওঠে  
+প্রবীণ বয়াতি একতারায় গান বাধেঁ,  
+সশস্ত্র সুন্দরের অনিবার্য অভ্যুত্থান  
+কবিতা  
+রক্তজবার মতো প্রতিরোধের উচ্চারণ  
+কবিতা।  
+  
+====== 
+" android:textIsSelectable="true" />
+                </ScrollView>
+            </LinearLayout>
+            <Button android:textSize="18sp" android:textColor="#ffffffff" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/btn_thanks" android:background="@connectionresult/SUCCESS" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0x3201" android:text="ধন্যবাদ" />
+        </LinearLayout>
+    </HorizontalScrollView>
+    <FrameLayout android:id="@+id/bottom_frame" android:background="#043800" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2301" android:layout_alignParentBottom="true">
+        <Button android:textColor="#d7d7d7" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/DayMode" android:background="@drawable/btn_100x35" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x2301" android:layout_marginLeft="10dp" android:text="Day Mode" android:onClick="Day_Mode" android:textAllCaps="false" />
+        <Button android:textColor="#d7d7d7" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/Default" android:background="@drawable/btn_100x35_back" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x2301" android:text="Default" android:onClick="Default" android:textAllCaps="false" />
+        <Button android:textColor="#d7d7d7" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/NightMode" android:background="@drawable/btn_100x35" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x2301" android:layout_marginRight="10dp" android:text="Night Mode" android:onClick="Night_Mode" android:textAllCaps="false" />
+    </FrameLayout>
+    <com.google.android.gms.ads.AdView android:id="@+id/adView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/top_frame" android:layout_centerHorizontal="true" android:adSize="BANNER" android:adUnitId="ca-app-pub-7960193263009665/4951506033" />
+</RelativeLayout>

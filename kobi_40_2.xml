@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/RL_Main" android:background="@drawable/kobita_back1" android:layout_width="match_parent" android:layout_height="match_parent" android:keepScreenOn="true">
+    <FrameLayout android:id="@+id/top_frame" android:background="@drawable/btn_border" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3c01">
+        <ImageView android:background="@drawable/f_buddhodeb_bosu" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="22sp" android:textColor="#fffc34" android:id="@+id/kobi_name" android:paddingLeft="60dp" android:paddingTop="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="বুদ্ধদেব বসু" />
+        <TextView android:textSize="14sp" android:textColor="#ffffff" android:id="@+id/kobi_birth" android:paddingLeft="60dp" android:paddingTop="33dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="(জন্ম-১৯০৮ / মৃত্যু-১৯৭৪)" />
+        <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textColor="#ffffff" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/pata" android:background="@drawable/kobitabtn_60x50" android:layout_width="UNKNOWN_DATA_0x3c01" android:layout_height="UNKNOWN_DATA_0x3c01" android:layout_marginRight="10dp" android:text="২য় 
+পাতা" />
+    </FrameLayout>
+    <HorizontalScrollView android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginBottom="35dp" android:layout_below="@+id/adView">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="match_parent"
+            <LinearLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:textSize="22sp" android:textColor="#fffffa00" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_1" android:background="@drawable/kobitabtn1" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0x2801" android:text="সুন্দর জাহাজ" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+                <ScrollView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/sv_1" android:background="@drawable/kobita_back2" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                    <TextView android:enabled="true" android:textSize="18sp" android:textColor="#ffffffff" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_01" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="অলস মায়াবিনী, বলবো তোরে, শোন,  
+অঙ্গে শোভে তোর কত না আভরণ ।  
+আকবো অপরূপ মাধুরী –  
+বালিকা – মহিলার মিলন মোহনার চাতুরী ।  
+যখন ফুলে ওঠে আচলে ঢেউ হাওয়ার অভিমান,  
+তখন মানি তোরে সুতিনু তরনির সাগর-অভিযান ।  
+তেমনি চঞ্চল, উত্তাল,  
+শিথিল, মন্থর ছন্দে হেলে-দুলে ছড়িয়ে দিলি পাল ।  
+দৃপ্ত গ্রীবা তোর, নধর স্কন্ধের আয়োজন  
+দেখায় মাথাটির কত যে অদ্ভুত বিকিরণ;  
+সৌম্য বিজয়ের নির্যাস  
+ছড়িয়ে, ওরে শিশু রাজ্ঞী ! তোর পথেহেলায় চলে যাস ।  
+অলস মায়াবিনী, বলবো তোরে,শোন,  
+অঙ্গে শোভে তোর কত না আভরণ ।  
+আকবো অপরুপ মাধুরী-  
+বালিকা-মহিলার মিলন-মোহনার চাতুরী ।  
+এগিয়ে আসে তোর নিটোল স্তনভার তুঙ্গ,উদ্দাম,  
+অনেক দ্বৈরথে বিজয়ী ওরা দুটি বর্ম অভিরাম-  
+যুগল ঢাল ধরে কত না  
+সুগোল, রেখায়িত আলোক-রশ্নির দ্যোতনা ।  
+উগ্র ঢাল, তার তীক্ষ শরমুখ রঙিন, কোপনীয়  
+রেখেছে সঞ্চিত যা-কিছু মায়াময়, মধুর,গোপনীয়-  
+আসব,সুরা, সৌগণ্ধ্য-  
+বুদ্ধি বানচাল, হৃদয়ে প্রলাপের ছন্দ ।  
+যখন ফুলে ওঠে আচলে ঢেউ তুলে হাওয়ার অভিমান,  
+তখন মানি তোরে সুতনু তরণীর সাগর-অভিযান ।  
+তেমনি চঞ্চল, উত্তাল,  
+শিথিল, মন্থর ছন্দে হেলে-দুলে ছড়িয়ে দিলি পাল ।  
+মহান জঙ্ঘার আঘাতে বসনের আলোড়ন  
+জাগায় যাতনায় আধার বাসনার আবেদন ।  
+যেন রে ডাকিনীরা দু-জনে  
+গভীর খলে নাড়ে কালিমা-ঘন এক পাচনে ।  
+প্রবল নায়কের বিরোধী খেলোয়াড় অকাতর,  
+ও-দুটি বাহু যেন কান্তিঝলকিত অজগর;  
+প্রেমিক বাধা পড়ে, ক্ষমাহীন  
+অতি কঠিন তোর, হৃদয়-কারাগারে,চিরদিন ।  
+দৃপ্ত গ্রীবা তোর, নধর স্কন্ধের আয়োজন  
+দেখায় মাথাটির কত যে অদ্ভুত বিকিরন;  
+সৌম্য বিজয়ের নির্যাস  
+ছড়িয়ে, ওরে শিশু-রাজ্ঞী ! তোর পথেহেলায় চলে যাস ।   
+  
+[ সুন্দর জাহাজ ( Le Beau Navire) শার্ল বোদলেয়ার : তার কবিতা ; বিতৃষ্ণা ও আদর্শ ( Spleen et Ideal ) অনুবাদ : বুদ্ধদেব বসু ]  
+  
+====== 
+" android:textIsSelectable="true" />
+                </ScrollView>
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:textSize="22sp" android:textColor="#fffffa00" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_2" android:background="@drawable/kobitabtn1" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0x2801" android:text="স্বচ্ছ বসনে ঢেউ তুলে" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:textIsSelectable="true" />
+                <ScrollView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/sv_2" android:background="@drawable/kobita_back2" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                    <TextView android:textSize="18sp" android:textColor="#ffffffff" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_02" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5pt" android:text="স্বচ্ছ বসনে ঢেউ তুলে চলে শ্রীমতী –  
+পদক্ষেপেই জাগে নৃত্যের ছন্দ,  
+যষ্টি প্রান্তে লতানো ময়াল যেমতি  
+তালে – তালে দুলে শোনে মায়াময় মন্ত্র ।  
+মানুষের সুখদু:খে নির্বিকার  
+যেমন মরুর ধূসর আস্তরন,  
+কিংবা ফেনিল সিন্ধু- তেমনি তার  
+উদাসীনতার হিমেই উন্মোচন ।  
+দীপ্ত ধাতুর ঝলকে মধুর নয়নে  
+রূপক – রঙ্গ খেলা করে অদ্ভুত,  
+মিল খুজে পায় স্ফিঙ্কস আর দেবদূত,  
+ইস্পাত, সোনা, হীরক, আলোর চয়নে  
+জ্বলে চিরকাল – নিস্ফল নক্ষত্র !–  
+বন্ধ্যা নারীর নিস্তাপ রাজছত্র ।   
+  
+[ স্বচ্ছ বসনে ঢেউ তুলে ( Avce ses vetements ondoyants et nacres) শার্ল বোদলেয়ার : তার কবিতা ; বিতৃষ্ণা ও আদর্শ ( Spleen et Ideal ) অনুবাদ : বুদ্ধদেব বসু ]  
+  
+====== 
+" android:textIsSelectable="true" />
+                </ScrollView>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:textSize="22sp" android:textColor="#fffffa00" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_3" android:background="@drawable/kobitabtn1" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0x2801" android:text="প্যাঁচারা" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+                <ScrollView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/sv_3" android:background="@drawable/kobita_back2" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                    <TextView android:textSize="18sp" android:textColor="#ffffffff" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_03" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="ইউ গাছের কালো ছায়ার খাপে  
+কোন বিদেশের দেবতা, প্যাচার দল,  
+ঘুরিয়ে লাল চক্ষু অবিরল  
+ফুলকি ছড়ায় । তারা কেবল ভাবে ।  
+নিথর তারা অসাড় হয়ে কাটায়,  
+যতক্ষণে বিষণ্ণ সেই যাম  
+হারিয়ে দিয়ে রবির সংগ্রাম  
+অন্ধকারের রাজত্ব না রটায় ।  
+জ্ঞানীর চোখ, তা দেখে যায় খুলে,  
+হাতের কাছে যা আছে নেয় তুলে,  
+থামায় গতি, অবুঝ আন্দোলন ;  
+হায় মানুষ, ছায়ার মোহে পাগল,  
+শাস্তি তার এ-ই তো চিরন্তন –  
+কেবল চায় বদল, বাসা – বদল !   
+  
+[প্যাঁচারা ( Les Hiboux) শার্ল বোদলেয়ার : তার কবিতা ; বিতৃষ্ণা ও আদর্শ ( Spleen et Ideal ) অনুবাদ : বুদ্ধদেব বসু ]  
+  
+====== 
+" android:textIsSelectable="true" />
+                </ScrollView>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:textSize="22sp" android:textColor="#fffffa00" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_4" android:background="@drawable/kobitabtn1" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0x2801" android:text="বিষাদগীতিকা ১" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+                <ScrollView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/sv_4" android:background="@drawable/kobita_back2" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                    <TextView android:textSize="18sp" android:textColor="#ffffffff" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_04" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5pt" android:text="কী এসে যায়, থাকলে তোমার সুমতি ?  
+হও রূপসী, বিষাদময়ী ! অশ্রুজল  
+নতুন রূপে করে তোমায় শ্রীমতী,  
+বনের বুকে ঝর্নাধারা যেমতি,  
+কিংবা ঝড়ে সঞ্জীবিত ফুলের দল ।  
+পরম ভালোবাসি, যখন আনন্দ  
+তোমার নত ললাট থেকে গেছে সরে ;  
+হৃদয় জুড়ে সংক্রমিত আতঙ্ক,  
+এবং তোমার বর্তমানে, কবন্ধ  
+গত কালের করাল ছায়া ছড়িয়ে পড়ে ।  
+ভালোবাসি, আয়ত ঐ চক্ষু যখন  
+তপ্ত যেন রক্ত ঢালে জলের ফোটায়,  
+ব্যর্থ করে আমার হাতের সাধ্যসাধন  
+অতি পৃথুল দু:খ তোমার ছেঁড়ে বাঁধন –  
+নাভিশ্বাসের শব্দে যেন মৃত্যু রটায় ।  
+নিশ্বাসে নিই – স্বর্গসুখের পরিমেলে –  
+এ কি গভীর স্তোত্র, মধুর আরাধনা !–  
+কান্না যত ওঠে তোমার বক্ষ ঠেলে ;  
+ভাবি, তোমার হৃদয়তল দেয় কি জ্বেলে  
+নয়ন দুটি ঝরায় যত মুক্তোকণা ?   
+  
+[ বিষাদগীতিকা ১ ( Madrigal triste) শার্ল বোদলেয়ার : তার কবিতা ; আরোকবিতা ( Poemes ajoutes ) অনুবাদ : বুদ্ধদেব বসু ]  
+  
+====== 
+" android:textIsSelectable="true" />
+                </ScrollView>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:textSize="22sp" android:textColor="#fffffa00" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_5" android:background="@drawable/kobitabtn1" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0x2801" android:text="বিষাদগীতিকা ২" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+                <ScrollView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/sv_5" android:background="@drawable/kobita_back2" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                    <TextView android:textSize="18sp" android:textColor="#ffffffff" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_05" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="জানি, তোমার হৃদয় শুধু উগরে তোলে  
+জীর্ণ প্রেম, পরিত্যাগে পচে- ওঠা,  
+আজ ও সেথায় কামারশালের চুল্লি জ্বলে,  
+এবং রয় লুকিয়ে তোমার বুকের তলে  
+মহাপাপীর অহমিকার ছিটেফোটা ।  
+কিন্তু, শোনো, স্বপ্নে তোমার যতক্ষণে  
+না দেয় ধরা বিকট আভা নরকের,  
+এবং ডুবে অন্তহীন দু:স্বপনে  
+না চাও বিষ, তীক্ষ্ণ ফলা মনে- মনে  
+বারুদ, ছোরা, কিংবা ছোয়া মড়কের,  
+না পাও ভয় দরজাটুকু খুলতে হলে,  
+কারো নিখিল অমঙ্গলের পাঠোদ্ধার,  
+কেপে ওঠো, ঘন্টা পাছে বাজে বলে –  
+জানলে না, কোন অপ্রতিরোধ অন্ধ বলে  
+আকড়ে ধরে কঠিন মুঠি বিতৃষ্ণার ;  
+রানী, দাসী, সভয় তোমার ভালোবাসায়  
+তা না হলে ফুটবে না এই উচ্চারণ  
+অস্বাস্থ্যকর আতঙ্কিত কালো নিশায়  
+আমার প্রতি পূর্ণ প্রানের বিবমিষায় –  
+‘রাজা ! আমি তোমার সমকক্ষ এখন !’   
+  
+[ বিষাদগীতিকা ২ ( Madrigal triste) শার্ল বোদলেয়ার : তার কবিতা ; আরোকবিতা ( Poemes ajoutes ) অনুবাদ : বুদ্ধদেব বসু ]  
+  
+====== 
+" android:textIsSelectable="true" />
+                </ScrollView>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:textSize="22sp" android:textColor="#fffffa00" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_6" android:background="@drawable/kobitabtn1" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0x2801" android:text="দিনের শেষে" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+                <ScrollView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/sv_6" android:background="@drawable/kobita_back2" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                    <TextView android:textSize="18sp" android:textColor="#ffffffff" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_06" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5pt" android:text="উদ্ধত বেগে, পাংশু আলোর তলে,  
+চেচিয়ে, পেচিয়ে অকারণ অভিযাত্রী,  
+মত্ত জীবন নেচে – নেচে ছুটে চলে ।  
+তারপর, যেন রতিবিলাসিনী রাত্রি  
+দিকমন্ডলে উঠে এসে, দেয় মুছে  
+এমনকি উন্মুখর বুভুক্ষারে,  
+সে – নীরবতায় লজ্জা ও যায় ঘুচে –  
+তখন কবির মনে হয় :’ এই বারে  
+আত্মা আমার বিশ্রামে পায় যত্ন,  
+ক্লান্ত পাজর কাতর মিনতি করে ;  
+হৃদয়ে আমার শত বিষন্ন স্বপ্ন !  
+তবে ফিরে যাই, শিথিল শয্যা পরে  
+অন্ধকারের পর্দা জড়ানো ঘরে  
+শুশ্রূষাময় কালিমায় হই মগ্ন !’   
+  
+[দিনের শেষে ( La Fin de la Journee) শার্ল বোদলেয়ার : তার কবিতা ; মৃত্যু ( La Mort ) অনুবাদ : বুদ্ধদেব বসু ]  
+  
+====== 
+" android:textIsSelectable="true" />
+                </ScrollView>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:textSize="22sp" android:textColor="#fffffa00" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_7" android:background="@drawable/kobitabtn1" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0x2801" android:text="স্মারক লিপি" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+                <ScrollView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/sv_7" android:background="@drawable/kobita_back2" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                    <TextView android:textSize="18sp" android:textColor="#ffffffff" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_07" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5pt" android:text="এমন মানুষ কে আছে, বুকের তলে  
+না পোষে হলদে সাপের তীব্র ফণা  
+মসনদে বসে অনবরত যে বলে:  
+‘ আমি রাজি’, আর উত্তরে ‘পারবো না!’  
+কিন্নর, পরি, অস্পরীদের স্তব্ধ  
+নয়নে তোমার নয়ন করো নিবদ্ধ,  
+বিষদাত বলে : ‘মন দাও কর্তব্যে !’  
+গাছে ঢালো জল, সন্তানে দাও জন্ম,  
+গড়ো কবিতায়, মর্মরে কারুকর্ম,  
+সে বলের : ‘হয়তো আজকেই তুমি মরবে!’  
+মানুষ যতই ভাবুক. করুক চেষ্টা,  
+মেলে না জীবনে এমন কোনো মুহূর্ত  
+মানতে যখন না হয় – দারুন ধূর্ত  
+এই অসহ্য সর্পই উপদেষ্টা ।   
+  
+[ স্মারক লিপি ( L’Avertisseur) শার্ল বোদলেয়ার : তার কবিতা ; আরোকবিতা ( Poemes ajoutes ) অনুবাদ : বুদ্ধদেব বসু ]  
+  
+====== 
+" android:textIsSelectable="true" />
+                </ScrollView>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:textSize="22sp" android:textColor="#fffffa00" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_8" android:background="@drawable/kobitabtn1" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0x2801" android:text="আত্ম" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+                <ScrollView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/sv_8" android:background="@drawable/kobita_back2" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                    <TextView android:textSize="18sp" android:textColor="#ffffffff" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_08" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="(জে. জি. এফ কে)   
+  
+মারবো আমি তোকে, যেন কসাই,  
+ঘৃনার লেশ নেই, শূন্য মন,  
+কিংবা শিলাতটে মুশা যেমন !  
+তাহলে আখি তোর যদি খসায়  
+আমার সাহারার সান্ত্বনাতে  
+দু:খধারা এক উচ্ছ্বসিত; –  
+আমার অভিলাষ, আশায় স্ফীত  
+সে – লোনা জলে পারে ভাসতে যাতে  
+নোঙর- তুলে- নেয়া তরী যেমন ।  
+মাতাল এ হৃদয়ে কান্না তোর  
+শব্দ তুলে করে দিক বিভোর,  
+ঢাকের নাদে যেন আক্রমন !  
+নই কি আমি এই দিব্য গানে  
+স্বরের অন্বয়ে এক বেসুর,  
+যেহেতু ব্যঙ্গের মুঠি চতুর  
+ 
+আমার সত্তারে নিত্য হানে ?  
+আমারই কন্ঠ সে – কি জঞ্জাল !  
+আমারই কালো বিষ রক্তে মাতে !  
+আমি সে – উৎকট মুকুর, যাতে  
+আপন মুখ দ্যাখে সে – দজ্জাল !  
+আমিই চাকা, দেহ আমারই দলি !  
+আঘাত আমি, আর ছুরিকা লাল !  
+চপেটাঘাত, আর খিন্ন গাল !  
+আমিই জল্লাদ, আমিই বলি ।  
+ছন্নছাড়া আমি শূন্যবাসী  
+আপন হৃদয়ের রক্ত গিলে,  
+কখনো প্রীত হতে শিখিনি বলে  
+আমার আছে শুধু অট্টহাসি ।   
+  
+[আত্ম – প্রতিহিংসা ( L’Heautontimoroumenos ) শার্ল বোদলেয়ার : তার কবিতা ; বিতৃষ্ণা ও আদর্শ ( Spleen et Ideal ) অনুবাদ : বুদ্ধদেব বসু ]  
+  
+====== 
+" android:textIsSelectable="true" />
+                </ScrollView>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:textSize="22sp" android:textColor="#fffffa00" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_9" android:background="@drawable/kobitabtn1" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0x2801" android:text="লাল চুলের ভিখিরি মেয়েকে" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+                <ScrollView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/sv_9" android:background="@drawable/kobita_back2" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                    <TextView android:textSize="18sp" android:textColor="#ffffffff" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_09" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5pt" android:text="লাল চুলের, ফর্সা, একমুঠো  
+বালিকা, তোর ঘাঘরা – ভরা ফুটো  
+দেখায় তোকে অকিঞ্চন অতি  
+এবং রূপবতী ।  
+স্বাস্থ্যহীন তরুন তনু তোর  
+ছুলির দাগে চোখে লাগায় ঘোর,  
+আমাকে দেয় মধুরতার ছবি –  
+আমি গরিব কবি ।  
+কাঠের জুতোর গরবে তোর, মানি,  
+লজ্জা পায় উপন্যাসের রানী ;  
+চলুন তিনি কিংখাবের জুতোয় ; –  
+ভঙ্গি তোকে জিতোয় ।  
+ন্যাকড়া – কানি ঢাকে না তোর লাজ ;  
+তার বদলে দরবারি এক সাজ  
+নিস্বনিত লম্বা ভাঁজে – ভাঁজে  
+পড়ুক পায়ের খাঁজে ;  
+রন্ধ্রময়, ছিন্ন মোজা জোড়া,  
+তার বদলে সোনার এক ছোরা  
+জঙ্ঘা তোর যেন মোহন রেখায়  
+লম্পটেরে দেখায়;  
+হালকা গেরো উন্মোচন করুক  
+দুটি চোখের মতো রে তোর বুক  
+দীপ্তিময় – লাবণ্যের চাপে  
+আমরা জ্বলি পাপে;  
+নির্বাসনের সময় বাহুযুগল  
+যেন অনেক আরজিতে হয় উতল,  
+ফিরিয়ে দিতে না যেন হয় ভুল  
+দুর্জনের আঙুল,  
+যত সনেট লিখে গেছেন বেলো,  
+বাছাই – করা মুক্তো ঝলোমলো,  
+বান্দারা তোর বন্দনাতে দান  
+দিক না অফুরান,  
+হতচ্ছাড়া কবির দল, খাতায়  
+নামটি তোর লিখুক প্রথম পাতায়,  
+কুড়িয়ে নিতে খুঁজুক ছলছুতো  
+সিঁড়ির চটিজুতো ;-  
+চটি তো নয়, কোমল এক নীড়,  
+তার লোভে যে বেয়ারাগুলোর ভিড়,  
+আড়ি পাতেন ওমরাহেরা নাচার,  
+এবং অনেক রঁসার !  
+ফুলের চেয়ে আরো অনেক বেশি  
+শয্যা তোর চুমোয় মেশামেশি,  
+তোর ক্ষমতার বিপুল পরিমানে  
+ভালোয়া হার মানে !  
+অবশ্য তুই এখন ভিখারিনী  
+ঐ যেখানে চলছে বিকিকিনি,  
+হাত বাড়িয়ে দাঁড়াস চৌকাঠে  
+শস্তা মালের হাটে ;  
+আহা রে তোর চক্ষু ভরে জ্বালায়  
+চোদ্দ আনা দামের মোতির মালায়,  
+সেটাও তোকে – মাপ করো গো মিতে –  
+পারি না আজ দিতে ।  
+তাহলে তুই এমনি চলে যা রে,  
+বিনা সাজে, গন্ধে, অলংকারে,  
+শীর্ণ দেহে নগ্নতাই শুধু  
+সাজাক তোকে বঁধু !   
+  
+[লাল চুলের ভিখিরি মেয়েকে ( A une Mendiante rousse ) শার্ল বোদলেয়ার : তার কবিতা ; প্যারিস – চিত্র ( Tableaux parisiens ) অনুবাদ : বুদ্ধদেব বসু ]  
+  
+====== 
+" android:textIsSelectable="true" />
+                </ScrollView>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:textSize="22sp" android:textColor="#fffffa00" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_10" android:background="@drawable/kobitabtn1" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0x2801" android:text="এক পথচারিণীকে" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+                <ScrollView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/sv_10" android:background="@drawable/kobita_back2" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                    <TextView android:textSize="18sp" android:textColor="#ffffffff" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_010" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5pt" android:text="গর্জনে বধির করে রাজপথে বেগ ওঠে দুলে ।  
+কৃশতনু, দীর্ঘকায়, ঘন কালো বসনে সংবৃত,  
+চলে নারী, শোকের সম্পদে এক সম্রাজ্ঞীর মতো,  
+মহিমামন্থর হাতে ঘাঘরার প্রান্তটুকু তুলে –  
+সাবলীল, শোভমান, ভাস্করিত কপোল, চিবুক ।  
+আর আমি – আমি তার চক্ষু থেকে, যেখানে পিঙ্গল  
+আকাশে ঝড়ের বীজ বেড়ে ওঠে, পান করি, কম্পিতবিহবল  
+মোহময় কোমলতা, আর এক মর্মঘাতী সুখ ।  
+রশ্মি জ্বলে… রাত্রি ফের ! মায়াবিনী, কোথায় লুকোলে ?  
+আমাকে নতুন জন্ম দিলো যার দৃষ্টির প্রতিভা –  
+আর কি হবে না দেখা ত্রিকালের সমাপ্তি না হলে ?  
+অন্য কোথা, বহু দুরে ! অসম্ভব ! নেই আর সময় বুঝি বা !  
+পরস্পর – অজ্ঞতায় সরে যাই – আমারই যদিও  
+কথা ছিলো তোমাকে ভালোবাসার, জানোতা তুমিও !   
+  
+[এক পথচারিণীকে ( A une Passante ) শার্ল বোদলেয়ার : তার কবিতা ; প্যারিস – চিত্র ( Tableaux parisiens ) অনুবাদ : বুদ্ধদেব বসু ]  
+  
+====== 
+" android:textIsSelectable="true" />
+                </ScrollView>
+            </LinearLayout>
+        </LinearLayout>
+    </HorizontalScrollView>
+    <FrameLayout android:id="@+id/bottom_frame" android:background="#043800" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2301" android:layout_alignParentBottom="true">
+        <Button android:textColor="#d7d7d7" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/DayMode" android:background="@drawable/btn_100x35" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x2301" android:layout_marginLeft="10dp" android:text="Day Mode" android:onClick="Day_Mode" android:textAllCaps="false" />
+        <Button android:textColor="#d7d7d7" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/Default" android:background="@drawable/btn_100x35_back" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x2301" android:text="Default" android:onClick="Default" android:textAllCaps="false" />
+        <Button android:textColor="#d7d7d7" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/NightMode" android:background="@drawable/btn_100x35" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x2301" android:layout_marginRight="10dp" android:text="Night Mode" android:onClick="Night_Mode" android:textAllCaps="false" />
+    </FrameLayout>
+    <com.google.android.gms.ads.AdView android:id="@+id/adView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/top_frame" android:layout_centerHorizontal="true" android:adSize="BANNER" android:adUnitId="ca-app-pub-7960193263009665/4951506033" />
+</RelativeLayout>

@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/RL_Main" android:background="@drawable/kobita_back1" android:layout_width="match_parent" android:layout_height="match_parent" android:keepScreenOn="true">
+    <FrameLayout android:id="@+id/top_frame" android:background="@drawable/btn_border" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3c01">
+        <ImageView android:background="@drawable/f_bankimchandra_c" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="22sp" android:textColor="#fffc34" android:id="@+id/kobi_name" android:paddingLeft="60dp" android:paddingTop="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="বঙ্কিমচন্দ্র চট্টোপাধ্যায়" />
+        <TextView android:textSize="14sp" android:textColor="#ffffff" android:id="@+id/kobi_birth" android:paddingLeft="60dp" android:paddingTop="33dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="(জন্ম-১৮৩৮ / মৃত্যু-১৮৯৪)" />
+        <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textColor="#ffffff" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/pata" android:background="@drawable/kobitabtn_60x50" android:layout_width="UNKNOWN_DATA_0x3c01" android:layout_height="UNKNOWN_DATA_0x3c01" android:layout_marginRight="10dp" android:text="২য় 
+পাতা" />
+    </FrameLayout>
+    <HorizontalScrollView android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginBottom="35dp" android:layout_below="@+id/adView">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="match_parent"
+            <LinearLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:textSize="22sp" android:textColor="#fffffa00" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_1" android:background="@drawable/kobitabtn1" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0x2801" android:text="বায়ু" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+                <ScrollView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/sv_1" android:background="@drawable/kobita_back2" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                    <TextView android:enabled="true" android:textSize="18sp" android:textColor="#ffffffff" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_01" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="১ 
+জন্ম মম সূর্য্য-তেজে, আকাশ মণ্ডলে। 
+যথা ডাকে মেঘরাশি, 
+হাসিয়া বিকট হাসি, 
+বিজলি উজলে || 
+কেবা মম সম বলে, 
+হুহুঙ্কার করি যবে, নামি রণস্থলে। 
+কানন ফেলি উপাড়ি, 
+গুঁড়াইয়া ফেলি বাড়ী, 
+হাসিয়া ভাঙ্গিয়া পাড়ি, 
+অটল অচলে। 
+হাহাকার শব্দ তুলি এ সুখ অবনীতলে ||  
+
+২ 
+পর্ব্বতশিখরে নাচি, বিষম তরসে, 
+মাতিয়া মেঘের সনে, 
+পিঠে করি বহি ঘনে, 
+সে ঘন বরষে। 
+হাসে দামিনী সে রসে। 
+মহাশব্দে ক্রীড়া করি, সাগর উরসে || 
+মথিয়া অনন্ত জলে 
+সফেন তরঙ্গবদলে, 
+ভাঙ্গি তুলে নভস্তলে, 
+ব্যাপি দিগ্‌দশে। 
+শীকরে আঁধারি জগৎ, ভাসাই দেশ অলসে ||  
+
+৩ 
+বসন্তে নবীন লতা, ফুল দোলে তায়। 
+যেন বায়ু সে বা নহি, 
+অতি মৃদু মৃদু বহি, 
+প্রবেশি তথায় || 
+হেসে মরি যে লজ্জায়- 
+পুষ্পগন্ধ চুরি করি, মাখি নিজ গায়ে || 
+সরোবরে স্নান করি, 
+যাই যথায় সুন্দরী, 
+বসে বাতায়নোপরি, 
+গ্রীষ্মের জ্বালায় || 
+তাহার অলকা ধরি, 
+মুখ চুম্বি ঘর্ম্ম হরি, 
+অঞ্চল চঞ্চল করি, 
+স্নিগ্ধ করি কায় || 
+আমার সমান কেবা যুবতিমন ভুলায়?  
+
+৪ 
+বেণুখণ্ড মধ্যে থাকি, বাজাই বাঁশরী। 
+রন্ধ্রে রন্ধ্রে যাই আসি, 
+আমিই মোহন বাঁশী, 
+সুরের লহরী || 
+আর কার গুণে হরি, 
+ভুলাইত বৃন্দাবনে, বৃন্দাবনেশ্বরী? 
+ঢল ঢল চল চল, 
+চঞ্চল যমুনা জল, 
+নিশীথে ফুলে উজল, 
+কানন বল্লরী, 
+তার মাঝে বাজিতাম বংশীনাদ রূপ ধরি ||  
+
+৫ 
+জীবকণ্ঠে যাই আসি, আমি কণ্ঠস্বর! 
+আমি বাক্য, ভাষা আমি, 
+সাহিত্য বিজ্ঞান স্বামী, 
+মহীর ভিতর ||  
+
+সিংহের কণ্ঠেতে আমিই হুঙ্কার 
+ঋষির কণ্ঠেতে আমিই ওঙ্কার 
+গায়ককণ্ঠেতে আমিই ঝঙ্কার, 
+বিশ্ব-মনোহর || 
+আমিই রাগিণী আমি ছয় রাগ, 
+কামিনীর মুখে আমিই সোহাগ, 
+বালকের বাণী অমৃতের ভাগ, 
+মম রূপান্তর || 
+গুণ গুণ রবে ভ্রময়ে ভ্রমর, 
+কোকিল কুহরে বৃক্ষের উপর, 
+কলহংস নাদে সরসী ভিতর 
+আমারি কিঙ্কর || 
+আমি হাসি আমি কান্না, স্বরূপে শাসি নর ||  
+
+৬ 
+কে বাঁচিত এ সংসারে, আমার বিহনে? 
+আমি না থাকিলে ভুবনে? 
+আমিই জীবের প্রাণ, 
+দেহে করি অধিষ্ঠান, 
+নিশ্বাস বহনে। 
+উড়াই খগে গগনে।4 
+দেশে দেশে লয়ে যাই, বহি যত ঘনে। 
+আনিয়া সাগরনীরে, 
+ঢালে তারা গিরিশিরে 
+সিক্ত করি পৃথিবীরে, 
+বেড়ায় গগনে। 
+মম সম দোষে গুণে, দেখেছ কি কোন জনে?  
+
+৭ 
+মহাবীর দেব অগ্নি জ্বালি সে অনলে। 
+আমিই জ্বালাই যাঁরে, 
+আমিই নিবাই তাঁরে, 
+আপনার বলে। 
+মহাবলে বলী আমি, মন্থন করি সাগর। 
+রসে সুরসিক আমি, কুসুমকুলনাগর || 
+শিহরে পরসে মম কুলের কামিনী। 
+মজাইনু বাঁশী হয়ে, গোপের গোপিনী || 
+বাক্যরূপে জ্ঞান আমি স্বরূপে গীত। 
+আমারি কৃপায় ব্যক্ত ভক্তি দম্ভ প্রীত || 
+প্রাণবায়ুরূপে আমি রক্ষা করি জীবগণ। 
+হুহু হুহু! মম সম গুণবান্ আছে কোন জন? 
+
+==========
+" android:textIsSelectable="true" />
+                </ScrollView>
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:textSize="22sp" android:textColor="#fffffa00" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_2" android:background="@drawable/kobitabtn1" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0x2801" android:text="সংযুক্তা" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:textIsSelectable="true" />
+                <ScrollView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/sv_2" android:background="@drawable/kobita_back2" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                    <TextView android:textSize="18sp" android:textColor="#ffffffff" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_02" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5pt" android:text="১। স্বপ্ন 
+১ 
+নিশীথে শুইয়া, রজত পালঙ্কে 
+পুষ্পগন্ধি শির, রাখি রামা অঙ্কে, 
+দেখিয়া স্বপন, শিহরে সশঙ্কে, 
+মহিষীর কোলে, শিহরে রায়। 
+চমকি সুন্দরী, নৃপে জাগাইল, 
+বলে প্রাণনাথ, এ বা কি হইল, 
+লক্ষ যোধ রণে, যে না চমকিল 
+মহিষীর কোলে সে ভয় পায়!  
+
+২ 
+উঠিয়া নৃপতি কহে মৃদু বাণী 
+যে দেখিনু স্বপন, শিহরে পরাণি, 
+স্বর্গীয়া জননী চৌহনের রাণী 
+বন্য হস্তী তাঁরে মারিতে ধায়। 
+ভয়ে ভীত প্রায় রাজেন্দ্রঘরণী 
+আমার নিকটে আসিল অমনি 
+বলে পুত্র রাখ, মরিল জননী 
+বন্যহস্তি-শূণ্ডে প্রাণ বা যায় ||  
+
+৩ 
+ধরি ভীম গদা মারি হস্তিতুণ্ডে 
+না মানিল গদা, বাড়াইয়া শূণ্ডে 
+জননীকে ধরি, উঠাইলে মুণ্ডে; 
+পড়িয়া ভূমেতে বধিল প্রাণ। 
+কুস্বপন আজি দেখিলাম রাণি, 
+কি আছে বিপদ কপালে না জানি 
+মত্ত হস্তী আসি বধে রাজেন্দ্রাণী 
+আমি পুত্র নারি করিতে ত্রাণ ||  
+
+৪ 
+শুনিয়াছি নাকি তুরস্কের দল 
+আসিতেছে হেথা, লঙ্ঘি হিমাচল 
+কি হইবে রণে, ভাবি অমঙ্গল, 
+বুঝি এ সামান্য স্বপন নয়। 
+জননীরূপেতে বুঝি বা স্বদেশ 
+বুঝি বা তুরস্ক মত্ত হস্তী বেশ, 
+বার বার বুঝি এইবার শেষ! 
+পৃথ্বীরাজ নাম বুঝি না রয় ||  
+
+৫ 
+শুনি পতিবাণী যুড়ি দুই পাণি 
+জয় জয় জয়! বলে রাজরাণী 
+জয় জয় জয় পৃথ্বীরাজের জয়- 
+জয় জয় জয়! বলিল বামা। 
+কার সাধ্য তোমা করে পরাভব 
+ইন্দ্র চন্দ্র যম বরুণ বাসব। 
+কোথাকার ছার তুরষ্ক পহ্লব 
+জয় পৃথ্বীরাজ প্রথিতনামা ||  
+
+৬ 
+আসে আসুক না পাঠান পামর, 
+আসে আসুক না আরবি বানর, 
+আসে আসুক না নর না অমর। 
+কার সাধ্য তব শকতি সয়? 
+পৃথ্বীরাজ সেনা অনন্ত মণ্ডল 
+পৃথ্বীরাজভূজে অবিজিত বল 
+অক্ষয় ও শিরে কিরীট কুণ্ডল 
+জয় জয় পৃথ্বীরাজের জয় ||  
+
+৭ 
+এত বলি বামা দিল করতালি 
+দিল করতালি গৌরবে উছলি, 
+ভূষণে শিঞ্জিনী, নয়নে বিজলি 
+দেখিয়া হাসিল ভরতপতি। 
+সহসা কঙ্কণে লাগিল কঙ্কণ, 
+আঘাতে ভাঙ্গিয়া খসিল ভূষণ, 
+নাচিয়া উঠিল দক্ষিণ নয়ন, 
+কবি বলে তালি না দিও সতি ||  
+
+২। রণসজ্জা। 
+১ 
+রণসাজে সাজে চৌহানের বল, 
+অশ্ব গজ রথ পদাতির দল, 
+পতাকার রবে, পবন চঞ্চল, 
+বাজিল বাজনা-ভীষণ নাদ। 
+ধূলিতে পূরিল গগনমণ্ডল, 
+ধূলিতে পূরিল যমুনার জল, 
+ধূলিতে পূরিল অলক কুন্তল, 
+যথা কূলনারী গণে প্রমাদ ||  
+
+২ 
+দেশ দেশ হতে এলো রাজগণ 
+স্থানেশ্বর পদে বধিতে যবন 
+সঙ্গে চতুরঙ্গ সেনা অগণন- 
+হর হর বলে যতেক বীর। 
+মদবার হতে আইল সমর 
+আবু হতে এলো দুরন্ত প্রমর 
+আর্য্য বীরদল ডাকে হর! হর! 
+উছলে কাঁপিয়া কালিন্দী-নীর ||  
+
+৩ 
+গ্রীবা বাঁকাইয়া চলিল তুরঙ্গ 
+শূণ্ড আছাড়িয়া চলিল মাতঙ্গ 
+ধনু আস্ফালিয়া- শুনিতে আতঙ্গ- 
+দলে দলে দলে পদাতি চলে। 
+বসি বাতায়নে কনৌজনন্দিনী 
+দেখিলা অদূরে চলিছে বাহিনী 
+ভারত ভরসা, ধরম রক্ষিণী- 
+ভাসিলা সুন্দরী নয়নজলে ||  
+
+৪ 
+সহসা পশ্চাতে দেখিল স্বামীরে, 
+মুছিলা অঞ্চলে নয়নের নীরে, 
+যুড়ি দুই কর বলে “হেন বীরে 
+রণসাজে আমি সাজাব আজ।” 
+পরাইল ধনী কবচকুণ্ডল 
+মুকতার দাম বক্ষে ঝলমল 
+ঝলসিল রত্ন কিরীট মণ্ডল 
+ধনু হস্তে হাসে রাজেন্দ্ররাজ ||  
+
+৫ 
+সাজাইয়া নাথে যোড় করি পাণি 
+ভারতের রাণী কহে মৃদু বাণী 
+“সুখী প্রাণেশ্বর তোমায় বাখানি 
+এ বাহিনীপতি চলিলা রণে। 
+লক্ষ যোধ প্রভু তব আজ্ঞাকারী, 
+এ রণসাগরে তুমি হে কাণ্ডারী 
+মথিবে সে সিন্ধু নিয়তি প্রহারি 
+সেনার তরঙ্গ তরঙ্গসনে ||  
+
+৬ 
+আমি অভাগিনী জনমি কামিনী 
+অবরোধে আজি রহিনু বন্দিনী 
+না হতে পেলাম তোমার সঙ্গিনী, 
+অর্দ্ধাঙ্গ হইয়া রহিনু পাছে। 
+যবে পশি তুমি সমর-সাগরে 
+খেদাইবে দূরে ঘোরির বানরে 
+না পাব দেখিতে, দেখিবে ত পরে, 
+তব বীরপনা! না রব কাছে ||  
+
+৭ 
+সাধ প্রাণনাথ সাধ নিজ কাজ 
+তুমি পৃথ্বীপতি মহা মহারাজ 
+হানি শত্রুশিরে বাসবের বাজ 
+ভারতের বীর আইস ফিরে। 
+নহে যদি শম্ভু হয়েন নির্দ্দয় 
+যদি হয় রণে পাঠানের জয় 
+না আসিও ফিরে,- দেহ যেন বয় 
+রণক্ষেত্রে ভাসি শত্রুরুধিরে ||  
+
+৮ 
+কত সুখ প্রভু, ভুঞ্জিলে জীবনে! 
+কি সাধ বা বাকি এ তিন ভূবনে? 
+নয় গেল প্রাণ, ধর্ম্মের কারণে? 
+চিরদিন রহে জীবন কার? 
+যুগে যুগে নাথ ঘোষিবে সে যশ 
+গৌরবে পূরিত হবে দিক্ দশ 
+এ কান্ত শরীর এ নব বয়স 
+স্বর্গ গিয়ে প্রভু পাবে আবার ||  
+
+৯ 
+করিলাম পণ শুন হে রাজন 
+নাশিয়া ঘোরীরে, জিতি এই রণ 
+নাহি যতক্ষণ কর আগমণ, 
+না খাব কিছু, না করিব পান। 
+জয় জয় বীর জয় পৃথ্বীরাজ, 
+লভ পূর্ণ জয় সমরেতে আজ 
+যুগে যুগে প্রভু ঘোষিবে এ কাজ 
+হর হর শম্ভো কর কল্যাণ ||  
+
+১০ 
+হর হর হর! বম্ বম্ কালী! 
+বম্ বম্ বলি রাজার দুলালি, 
+করতালি দিল- দিল করতালি 
+রাজরাজপতি ফুল্ল হৃদয়। 
+ডাকো বামা জয় জয় পৃথ্বীরাজ 
+জয় জয় জয় জয় পৃথ্বীরাজ- 
+জয় জয় জয় জয় পৃথ্বীরাজ 
+কর, দুর্গে, পৃথ্বীরাজের জয় ||  
+
+১১ 
+প্রসারিয়া রাজ মহা ভূজদ্বয়ে, 
+কমনীয় বপু, ধরিল হৃদয়ে, 
+পড়ে অশ্রুধারা চারি গণ্ড বয়ে, 
+চুম্বিল সুবাহু চন্দ্রবদনে। 
+স্মরি ইষ্টদেবে বাহিরিল বীর, 
+মহাগজপৃষ্ঠে শোভিল শরীর 
+মহিষীর চক্ষে বহে ঘন নীর। 
+যে জানে এতই জল নয়নে।  
+
+১২ 
+লুটাইয়া পড়ি ধরণীর তলে 
+তবু চন্দ্রাননী জয় জয় বলে 
+জয় জয় বলে- নয়নের জলে 
+জয় জয় কথা না পায় ঠাই। 
+কবি বলে মাতা মিছে গাও জয় 
+কাঁদ যতক্ষণ দেহ প্রাণ রয়, 
+ও কান্না রহিবে এ ভারতময় 
+আজিও আমরা কাঁদি সবাই ||  
+
+৩। চিতারোহণ 
+১ 
+কত দিন রাত পড়ে রহে রাণী 
+না খাইল অন্ন না খাইল পানি 
+কি হইল রণে কিছুই না জানি, 
+মুখে বলে পৃথ্বীরাজের জয়। 
+হেন কালে দূত আসিল দিল্লীতে 
+রোদন উঠিল পল্লীতে পল্লীতে- 
+কেহ নারে কারে ফুটিয়া বলিতে, 
+হায় হায় শব্দ ফাটে হৃদয়!  
+
+২ 
+মহারবে যেন সাগর উছলে 
+উঠিল রোদন ভারতমণ্ডলে 
+ভারতের রবি গেল অস্তাচলে 
+প্রাণ ত গেলই, গেল যে মান। 
+আসিছে যবন সামাল সামাল 
+আর যোদ্ধা নাই সে ধরিবে ঢাল? 
+পৃথ্বীরাজ বীরে হরিয়াছে কাল, 
+এ ঘোর বিপদে কে করে ত্রাণ ||  
+
+৩ 
+ভূমিশয্যা ত্যজি উঠে চন্দ্রানী, 
+সখীজনে ডাকি বলিল  তখনি, 
+সম্মুখ সমরে বীরশিরোমণি 
+গিয়াছে চলিয়া অনন্ত স্বর্গে। 
+আমি যাইব সেই স্বর্গপুরে, 
+বৈকুণ্ঠেতে গিয়া পূজিব প্রভুরে, 
+পূরাও রে সাধ; দুঃখ যাক দূরে, 
+সাজা মোর চিতা সজনীবর্গে ||  
+
+৪ 
+যে বীর পড়িল সম্মুখ সমরে 
+অনন্ত মহিমা তার চরাচরে 
+সে নহে বিজিত; অপ্সরে কিন্নরে, 
+গায়িতেছে তাহার অনন্ত জয়। 
+বল সখি সবে জয় জয় বল, 
+জয় জয় বলি চড়ি গিয়া চল 
+জ্বলন্ত চিতার প্রচণ্ড অনল, 
+বল জয় পৃথ্বীরাজের জয় ||  
+
+৫ 
+চন্দনের কাষ্ঠ এলো রাশি রাশি 
+কুসুমের হার যোগাইল দাসী 
+রতন ভূষণ কর পরে হাসি 
+বলে যাব আজি প্রভুর পাশে। 
+আয় আয় সখি, চড়ি চিতানলে 
+কি হবে রহিয়ে ভারতমণ্ডলে? 
+আয় আয় সখি যাইব সকলে 
+যথা প্রভু মোর বৈকুণ্ঠবাসে ||  
+
+৬ 
+আরোহিলা চিতা কামিনীর দল 
+চন্দনের কাষ্ঠে জ্বলিল অনল 
+সুগন্ধে পূরিল গগনমণ্ডল- 
+মধুর মধুর সংযুক্তা হাসে। 
+বলে সবে বল পৃথ্বীরাজ জয় 
+জয় জয় জয় পৃথ্বীরাজ জয় 
+করি জয়ধ্বনি সঙ্গে সখীচয় 
+চলি গেলা সতী বৈকুণ্ঠবাসে ||  
+
+৭ 
+কবি বলে মাতা কি কাজ করিলে 
+সন্তানে ফেলিয়া নিজে পলাইলে, 
+এ চিতা অনল কেন বা জ্বালিলে, 
+ভারতের চিতা, পাঠান ডরে। 
+সেই চিতানল, দেখিল সকলে 
+আর না নিবিল ভারতমণ্ডলে 
+দহিল ভারত তেমনি অনলে 
+শতাব্দী শতাব্দী শতাব্দী পরে || 
+
+==========
+" android:textIsSelectable="true" />
+                </ScrollView>
+            </LinearLayout>
+            <Button android:textSize="18sp" android:textColor="#ffffffff" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/btn_thanks" android:background="@connectionresult/SUCCESS" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0x3201" android:text="ধন্যবাদ" />
+        </LinearLayout>
+    </HorizontalScrollView>
+    <FrameLayout android:id="@+id/bottom_frame" android:background="#043800" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2301" android:layout_alignParentBottom="true">
+        <Button android:textColor="#d7d7d7" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/DayMode" android:background="@drawable/btn_100x35" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x2301" android:layout_marginLeft="10dp" android:text="Day Mode" android:onClick="Day_Mode" android:textAllCaps="false" />
+        <Button android:textColor="#d7d7d7" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/Default" android:background="@drawable/btn_100x35_back" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x2301" android:text="Default" android:onClick="Default" android:textAllCaps="false" />
+        <Button android:textColor="#d7d7d7" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/NightMode" android:background="@drawable/btn_100x35" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x2301" android:layout_marginRight="10dp" android:text="Night Mode" android:onClick="Night_Mode" android:textAllCaps="false" />
+    </FrameLayout>
+    <com.google.android.gms.ads.AdView android:id="@+id/adView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/top_frame" android:layout_centerHorizontal="true" android:adSize="BANNER" android:adUnitId="ca-app-pub-7960193263009665/4951506033" />
+</RelativeLayout>

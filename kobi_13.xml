@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@drawable/kobita_back1" android:layout_width="match_parent" android:layout_height="match_parent" android:keepScreenOn="true">
+    <FrameLayout android:id="@+id/kobi_13" android:background="@drawable/btn_border" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3c01">
+        <ImageView android:background="@drawable/f_shukumar_borua" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="22sp" android:textColor="#fffc34" android:id="@+id/kn" android:paddingLeft="60dp" android:paddingTop="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="সুকুমার বড়ুয়া" />
+        <TextView android:textSize="14sp" android:textColor="#ffffff" android:id="@+id/kb" android:paddingLeft="60dp" android:paddingTop="33dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="(জন্ম-১৯৩৮)" />
+        <TextView android:textSize="14sp" android:textColor="#d2a4a4" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kt" android:paddingRight="5dp" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x3c01" android:text="৭টি
+কবিতা" />
+    </FrameLayout>
+    <com.google.android.gms.ads.AdView android:id="@+id/adView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:adSize="BANNER" android:adUnitId="ca-app-pub-7960193263009665/4951506033" />
+    <TextView android:textAppearance="?unknown_attr_ref: 1010040" android:textColor="#92ffec" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/shuchi" android:background="#464646" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1e01" android:layout_marginTop="5dp" android:text="সূচিপত্র" android:layout_below="@+id/kobi_13" android:layout_centerHorizontal="true" />
+    <ScrollView android:id="@+id/scrollView2" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="10dp" android:layout_marginBottom="50dp" android:layout_below="@+id/shuchi" android:layout_centerHorizontal="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textSize="20sp" android:textStyle="bold" android:textColor="#ffffff" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/p1" android:background="#063605" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="wrap_content" android:text="১ম পাতা" />
+            <Button android:textSize="18sp" android:textColor="#fffffa00" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/p1_10" android:background="#031f02" android:paddingLeft="20dp" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="wrap_content" android:text="১। ঠিক আছে          
+২। মুক্তিসেনা          
+৩। নেই          
+৪। ছত্রচ্ছায়া          
+৫। ডাটা সংবাদ          
+৬। আনিকা ও শারিকা          
+৭। শাখা" android:onClick="page1" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

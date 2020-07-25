@@ -1,0 +1,924 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/RL_Main" android:background="@drawable/kobita_back1" android:layout_width="match_parent" android:layout_height="match_parent" android:keepScreenOn="true">
+    <FrameLayout android:id="@+id/top_frame" android:background="@drawable/btn_border" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3c01">
+        <ImageView android:background="@drawable/f_kazi_nazrul_islam" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="22sp" android:textColor="#fffc34" android:id="@+id/kobi_name" android:paddingLeft="60dp" android:paddingTop="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="কাজী নজরুল ইসলাম" />
+        <TextView android:textSize="14sp" android:textColor="#ffffff" android:id="@+id/kobi_birth" android:paddingLeft="60dp" android:paddingTop="33dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="(জন্ম-১৮৯৯ / মৃত্যু-১৯৭৬)" />
+        <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textColor="#ffffff" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/pata" android:background="@drawable/kobitabtn_60x50" android:layout_width="UNKNOWN_DATA_0x3c01" android:layout_height="UNKNOWN_DATA_0x3c01" android:layout_marginRight="10dp" android:text="৭ম 
+পাতা" />
+    </FrameLayout>
+    <HorizontalScrollView android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginBottom="35dp" android:layout_below="@+id/adView">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="match_parent"
+            <LinearLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:textSize="22sp" android:textColor="#fffffa00" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_1" android:background="@drawable/kobitabtn1" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0x2801" android:text="পূর্ণ-অভিনন্দন" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+                <ScrollView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/sv_1" android:background="@drawable/kobita_back2" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                    <TextView android:enabled="true" android:textSize="18sp" android:textColor="#ffffffff" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_01" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="এস অষ্টমী-পূর্ণচন্দ্র! এস পূর্ণিমা-পূর্ণচাঁদ!  
+ ভেদ করি পুন বন্ধ কারার অন্ধকারের পাষাণ-ফাঁদ!  
+ এস অনাগত নব-প্রলয়ের মহা সেনাপতি মহামহিম!  
+ এস অক্ষত মোহান্ধ-ধৃতরাষ্ট্র-মুক্ত লৌহ-ভীম!  
+ স্বাগত ফরিদপুরের ফরিদ, মাদারিপুরের মর্দবীর,  
+ বাংলা-মায়ের বুকের মানিক, মিলন পদ্মা-ভাগীরথীর!   
+  
+ ছয়বার জয় করি কারা-ব্যুহ, রাজ-রাহু-গ্রাস-মুক্ত চাঁদ!  
+ আসিলে চরণে দুলায়ে সাগর নয়-বছরের মুক্ত-বাঁধ!  
+ নবগ্রহ ছিঁড়ি ফণি-মনসার মুকুটে তোমার গাঁথিলে হার,  
+ উদিলে দশম মহাজ্যোতিষ্ক ভেদিয়া গভীর অন্ধকার!  
+ স্বাগত ফরিদপুরের ফরিদ, মাদারিপুরের মর্দবীর,  
+ বাংলা-মায়ের বুকের মানিক, মিলন পদ্মা-ভাগীরথীর!   
+  
+ স্বাগত শুদ্ধ রুদ্ধ-প্রতাপ, প্রবুদ্ধ নব মহাবলী!  
+ দনুজ-দমন দধীচি-অস্থি, বহ্নিগর্ভ দম্ভোলি!  
+ স্বাগত সিংহ-বাহিনী-কুমার! স্বাগত হে দেব-সেনাপতি!  
+ অনাগত রণ-কুরুক্ষেত্রে সারথি-পার্থ-মহারথী!  
+ স্বাগত ফরিদপুরের ফরিদ, মাদারিপুরের মর্দবীর,  
+ বাংলা-মায়ের বুকের মানিক, মিলন পদ্মা-ভাগীরথীর!   
+  
+ নৃশংস রাজ-কংস-বংশে হানিতে তোমরা ধ্বংস-মার  
+ এস অষ্টমী-পূর্ণচন্দ্র, ভাঙিয়া পাষাণ-দৈত্যাগার!  
+ এস অশান্তি-অগ্নিকাণ্ডে শান্তিসেনার কাণ্ডারি!  
+ নারায়ণী-সেনা-সেনাধিপ, এস প্রতাপের হারা- তরবারি!  
+ স্বাগত ফরিদপুরের ফরিদ, মাদারিপুরের মর্দবীর,  
+ বাংলা-মায়ের বুকের মানিক, মিলন-পদ্মা-ভাগীরথীর!   
+  
+ ওগো অতীতের আজো-ধূমায়িত আগ্নেয়গিরি ধূম্রশিখ!  
+ না-আসা-দিনের অতিথি তরুণ তব পানে চেয়ে নিনিমিখ।  
+ জয় বাংলার পূর্ণচন্দ্র, জয় জয় আদি-অন্তরীণ!  
+ জয় যুগে-যুগে-আসা-সেনাপতি, জয় প্রাণ আদি-অন্তহীন!  
+ স্বাগত ফরিদপুরের ফরিদ, মাদারিপুরের মর্দবীর,  
+ বাংলা-মায়ের বুকের মানিক, মিলন পদ্মা-ভাগীরথীর!   
+  
+ স্বর্গ হইতে জননী তোমার পেতেছেন নামি মাটিতে কোল,  
+ শ্যামল শস্যে হরিৎ ধান্যে বিছানো তাঁহারই শ্যাম আঁচল।  
+ তাঁহারি স্নেহের করুণ গন্ধ নবান্নে ভরি উঠিছে ঐ,  
+ নদীস্রোত-স্বরে কাঁদিছেন মাতা, 'কই রে আমার দুলাল কই?'  
+ স্বাগত ফরিদপুরের ফরিদ, মাদারিপুরের মর্দবীর,  
+ বাংলা-মায়ের বুকের মানিক, মিলন পদ্মা-ভাগীরথীর!   
+  
+ মোছো আঁখি-জল, এস বীর! আজ খুঁজে নিতে হবে আপন মায়,  
+ হারানো মায়ের স্মৃতি-ছাই আছে এই মাটিতেই মিশিয়া,হায়!  
+ তেত্রিশ কোটি ছেলের রক্তে মিশেছে মায়ের ভস্ম-শেষ,  
+ ইহাদেরি মাঝে কাঁদিছেন মাতা, তাই আমাদের মা স্বদেশ।  
+ স্বাগত ফরিদপুরের ফরিদ, মাদারিপুরের মর্দবীর,  
+ বাংলা-মায়ের বুকের মানিক, মিলন-পদ্মা-ভাগীরথীর!   
+  
+ এস বীর! এস যুগ-সেনাপতি! সেনাদল তব চায় হুকুম,  
+ হাঁকিছে প্রলয়, কাঁপিছে ধরণী, উদ্‌গারে গিরি অগ্নি-ধূম।  
+ পরাধীন এই তেত্রিশ কোটি বন্দির আঁখি-জলে হে বীর,  
+ বন্দিনী মাতা যাচিছে শক্তি তোমার অভয় তরবারির।  
+ স্বাগত ফরিদপুরের ফরিদ, পাদারিপুরের মর্দবীর,  
+ বাংলা-মায়ের বুকের মানিক, মিলন পদ্মা-ভাগীরথীর!   
+  
+ গল-শৃঙ্খল টুটেনি আজিও, করিতে পারি না প্রণাম পা'য়,  
+ রুদ্ধ কণ্ঠে ফরিয়াদ শুধু গুমরিয়া মরে গুরু ব্যথায়।  
+ জননীর যবে মিলিবে আদেশ, মুক্ত সেনানী দিবে হুকুম,  
+ শত্রু-খড়্‌গ-ছিন্ন-মুণ্ড দানিবে ও-পায়ে প্রণাম-চুম।  
+ স্বাগত ফরিদপুরের ফরিদ, পাদারিপুরের মর্দবীর,  
+ বাংলা-মায়ের বুকের মানিক, মিলন পদ্মা-ভাগীরথীর!  
+  
+====== 
+" android:textIsSelectable="true" />
+                </ScrollView>
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:textSize="22sp" android:textColor="#fffffa00" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_2" android:background="@drawable/kobitabtn1" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0x2801" android:text="দুঃশাসনের রক্ত-পান" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:textIsSelectable="true" />
+                <ScrollView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/sv_2" android:background="@drawable/kobita_back2" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                    <TextView android:textSize="18sp" android:textColor="#ffffffff" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_02" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5pt" android:text="বল রে বন্য হিংস্র বীর,  
+ দুঃশাসনের চাই রুধির।  
+ চাই রুধির রক্ত চাই,  
+ ঘোষো দিকে দিকে এই কথাই  
+ দুঃশাসনের রক্ত চাই!  
+ দুঃশাসনের রক্ত চাই!!   
+  
+ অত্যাচারী সে দুঃশাসন  
+ চাই খুন তার চাই শাসন,  
+ হাঁটু গেড়ে তার বুকে বসি  
+ ঘাড় ভেঙে তার খুন শোষি।  
+ আয় ভীম আয় হিংস্র বীর,  
+ কর অ-কণ্ঠ পান রুধির।  
+ ওরে এ যে সেই দুঃশাসন  
+ দিল শত বীরে নির্বাসন,  
+ কচি শিশু বেঁধে বেত্রাঘাত  
+ করেছে রে এই ক্রূর স্যাঙাত।  
+ মা-বোনেদের হরেছে লাজ  
+ দিনের আলোকে এই পিশাচ।  
+ বুক ফেটে চোখে জল আসে,  
+ তারে ক্ষমা করা? ভীরুতা সে!  
+ হিংসাশী মোরা মাংসাশী,  
+ ভণ্ডামি ভালবাসাবাসি!  
+ শত্রুরে পেলে নিকটে ভাই  
+ কাঁচা কলিজাটা চিবিয়ে খাই!  
+ মারি লাথি তার মড়া মুখে,  
+ তাতা-থৈ নাচি ভীম সুখে।   
+  
+ নহি মোরা ভীরু সংসারী,  
+ বাঁধি না আমরা ঘরবাড়ি।  
+ দিয়াছি তোদের ঘরের সুখ,  
+ আঘাতের তরে মোদের বুক।  
+ যাহাদের তরে মোরা চাঁড়াল  
+ তাহারাই আজি পাড়িছে গা’ল!  
+ তাহাদের তরে সন্ধ্যা-দীপ.  
+ আমাদের আন্দামান-দ্বীপ!  
+ তাহাদের তরে প্রিয়ার বুক  
+ আমাদের তরে ভীম চাবুক।  
+ তাহাদের ভালবাসাবাসি,  
+ আমাদের তরে নীল ফাঁসি।  
+ বরিছে তাদের বাজিয়া শাঁখ,  
+ মোদের মরণে নিনাদে ঢাক।   
+  
+ জীবনের ভোগ শুধু ওদের,  
+ তরুণ বয়সে মরা মোদের।  
+ কার তরে ওরে কার তরে  
+ সৈনিক মোরা পচি মরে?  
+ কার তরে পশু সেজেছি আজ,  
+ অকাতরে বুক পেতে নি বাজ।  
+ ধর্মাধর্ম কেন যে নাই  
+ আমাদের, তাহা কে বোঝে ভাই?  
+ কেন বিদ্রোহী সব-কিছুর?  
+ সব মায়া কেন করেছি দূর?  
+ কারে ক’স মন সে-ব্যথা তোর?  
+ যার তরে চুরি বলে চোর।  
+ যার তরে মাখি গায়ে কাদা,  
+ সেই হয় এসে পথে বাধা।   
+  
+ ভয় নাই গৃহী! কোরো না ভয়,  
+ সুখ আমাদের লক্ষ্য নয়।  
+ বিরূপাক্ষ যে মোরা ধাতার,  
+ আমাদের তরে ক্লেশ-পাথার।  
+ কাড়ি না তোদের অন্ন-গ্রাস,  
+ তোমাদের ঘরে হানি না ত্রাস;  
+ জালিমের মোরা ফেলাই লাশ,  
+ রাজ-রাজড়ার সর্বনাশ!  
+ ধর্ম-চিন্তা মোদের নয়,  
+ আমাদের নাই মৃত্যু-ভয়!  
+ মৃত্যুকে ভয় করে যারা,  
+ ধর্মধ্বজ হোক তারা।  
+ শুধু মানবের শুভ লাগি  
+ সৈনিক যত দুখভাগী।  
+ ধার্মিক! দোষ নিয়ো না তার,  
+ কোরবানির১ সে, নয় রোজার২ !  
+ তোমাদের তরে মুক্ত দেশ,  
+ মোদের প্রাপ্য তোদের শ্লেষ।   
+  
+ জানি জানি ঐ রণাঙ্গন  
+ হবে যবে মোর মৃৎ-কাফন৩  
+ ফেলিবে কি ছোট একটি শ্বাস?  
+ তিক্ত হবে কি মুখের গ্রাস?  
+ কিছুকাল পরে হাড্‌ডি মোর  
+ পিষে যাবি ভাই জুতিতে তোর!  
+ এই যারা আজ ধর্মহীন  
+ চিনে শুধু খুন আর সঙিন;  
+ তাহাদের মনে পড়িবে কার  
+ ঘরে পড়ে যারা খেয়েছে মার?  
+ ঘরে বসে নিস স্বর্গ-লোক,  
+ মেরে মরে তারে দিস দোজখ৪!  
+ ভয়ে-ভীরু ওরে ধর্মবীর!  
+ আমরা হিংস্র চাই রুধির!  
+ শহতান মোরা? আচ্ছা, তাই।  
+ আমাদের পথে এসো না ভাই।   
+  
+ মোদের রক্ত-রুধির-রথ,  
+ মোদের জাহান্নামের পথ,  
+ ছেড়ে দেও ভাই জ্ঞান-প্রবীণ,  
+ আমরা কাফের ধর্মহীন!  
+ এর চেয়ে বেশি কি দেবে গা’ল?  
+ আমরা পিশাচ খুন-মাতাল।  
+ চালাও তোমার ধর্ম-রথ,  
+ মোদের কাঁটার রক্ত-পথ।  
+ আমরা বলিব সর্বদাই  
+ দুঃশাসনের রক্ত চাই!!   
+  
+ চাই না ধর্ম, চাই না কাম,  
+ চাই না মোক্ষ, সব হারাম  
+ আমাদের কাছে: শুধু হালাল৫  
+ দুশমন-খুন লাল-সে-লাল॥   
+  
+ ১ কোরবানি– বলি।  
+ ২. রোজা– উপবাস  
+ ৩. মৃৎ-কাফন –লাশ যেখানে থাকে।  
+ ৪. দোজখ –নরক  
+ ৫. হালাল –পবিত্র  
+  
+====== 
+" android:textIsSelectable="true" />
+                </ScrollView>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:textSize="22sp" android:textColor="#fffffa00" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_3" android:background="@drawable/kobitabtn1" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0x2801" android:text="আশু-প্রয়াণ গীতি" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+                <ScrollView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/sv_3" android:background="@drawable/kobita_back2" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                    <TextView android:textSize="18sp" android:textColor="#ffffffff" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_03" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="কোরাস্: বাংলার 'শের', বাংলার শির,  
+ বাংলার বাণী, বাংলার বীর  
+ সহসা ও-পারে অস্তমান।  
+ এপারে দাঁড়ায়ে দেখিল ভারত মহা-ভারতের মহাপ্রয়াণ॥   
+  
+ বাংলার ঋষি বাংলার জ্ঞান বঙ্গবাণীর শ্বেতকমল,  
+ শ্যাম বাংলার বিদ্যা-গঙ্গা অবিদ্যা-নাশী তীর্থ-জল!  
+ মহামহিমার বিরাট পুরুষ শক্তি-ইন্দ্র তেজ-তপন—  
+ রক্ত-উদয় হেরিতে সহসা হেরিনু সে-রবি মেঘ-মগন।   
+  
+ কোরাস্: বাংলার 'শের', বাংলার শির,  
+ বাংলার বাণী, বাংলার বীর  
+ সহসা ও-পারে অস্তমান।  
+ এপারে দাঁড়ায়ে দেখিল ভারত মহা-ভারতের মহাপ্রয়াণ॥   
+  
+ মদ-গর্বীর গর্ব-খর্ব বল-দর্পীর দর্প-নাশ  
+ শ্বেত-ভিতুদের শ্যাম বরাভয় রক্তাসুরের কৃষ্ণ ত্রাস।  
+ নব ভারতের নব আশা-রবি প্রাচী'র উদার অভ্যুদয়  
+ হেরিতে হেরিতে হেরিনু সহসা বিদায়-গোধূলি গগনময়।   
+  
+ কোরাস্: বাংলার 'শের', বাংলার শির,  
+ বাংলার বাণী, বাংলার বীর  
+ সহসা ও-পারে অস্তমান।  
+ এপারে দাঁড়ায়ে দেখিল ভারত মহা-ভারতের মহাপ্রয়াণ॥   
+  
+ পড়িল ধসিয়া গৌরীশঙ্কর হিমালয়-শির স্বর্গচূড়,  
+ গিরি কাঞ্চন-জঙ্ঘা গিরিল—বাংলার যবে দিন-দুপুর।  
+ শিশুক-হাঙর শোষিছে রক্ত, মৃত্যু শোষিছে সাগর-প্রাণ—  
+ পরাধীনা মা'র স্বাধীন সুতের মেদ-ধূমে কালো দেশ-শ্মশান।   
+  
+ কোরাস্: বাংলার 'শের', বাংলার শির,  
+ বাংলার বাণী, বাংলার বীর  
+ সহসা ও-পারে অস্তমান।  
+ এপারে দাঁড়ায়ে দেখিল ভারত মহা-ভারতের মহাপ্রয়াণ॥   
+  
+ অরাজক মারি মড়া-কান্নায় দেশ-জননীর বদ্ধ শ্বাস,  
+ হে দেব-আত্মা! স্বর্গ হইতে দাও কল্যাণ, দাও আভাস,  
+ কেমন করিয়া মৃত্যু মথিয়া মৃত্যুঞ্জয় হয় মানব;  
+ শব হয়ে গেছ, শিব হয়ে এস দেবকী-কারার নীল কেশব।   
+  
+ কোরাস্: বাংলার 'শের', বাংলার শির,  
+ বাংলার বাণী, বাংলার বীর  
+ সহসা ও-পারে অস্তমান।  
+ এপারে দাঁড়ায়ে দেখিল ভারত মহা-ভারতের মহাপ্রয়াণ॥  
+  
+====== 
+" android:textIsSelectable="true" />
+                </ScrollView>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:textSize="22sp" android:textColor="#fffffa00" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_4" android:background="@drawable/kobitabtn1" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0x2801" android:text="ফরিয়াদ" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+                <ScrollView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/sv_4" android:background="@drawable/kobita_back2" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                    <TextView android:textSize="18sp" android:textColor="#ffffffff" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_04" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5pt" android:text="এই ধরণীর ধূলি-মাখা তব অসহায় সন্তান  
+ মাগে প্রতিকার, উত্তর দাও, আদি-পিতা ভগবান!-  
+ আমার আঁখির দুখ-দীপ নিয়া  
+ বেড়াই তোমার সৃষ্টি ব্যাপিয়া,  
+ যতটুকু হেরি বিস্ময়ে মরি, ভ’রে ওঠে সারা প্রাণ!  
+ এত ভালো তুমি? এত ভালোবাসা? এত তুমি মহীয়ান্?  
+ ভগবান! ভগবান!   
+  
+ তোমার সৃষ্টি কত সুন্দর, কত সে মহৎ, পিতা!  
+ সৃষ্টি-শিয়রে ব’সে কাঁদ তবু জননীর মতো ভীতা!  
+ নাহি সোয়াসি-, নাহি যেন সুখ,  
+ ভেঙে গড়ো, গড়ে ভাঙো, উৎসুক!  
+ আকাশ মুড়েছ মরকতে-পাছে আঁখি হয় রোদে ম্লান।  
+ তোমার পবন করিছে বীজন জুড়াতে দগ্ধ প্রাণ!  
+ ভগবান! ভগবান!   
+  
+ রবি শশী তারা প্রভাত-সন্ধ্যা তোমার আদেশ কহে-  
+‘এই দিবা রাতি আকাশ বাতাস নহে একা কারো নহে।  
+ এই ধরণীর যাহা সম্বল,-  
+ বাসে-ভরা ফুল, রসে-ভরা ফল,  
+ সু-স্নিগ্ধ মাটি, সুধাসম জল, পাখীর কন্ঠে গান,-  
+ সকলের এতে সম অধিকার, এই তাঁর ফরমান!’  
+ ভগবান! ভগবান!   
+  
+ শ্বেত পীত কালো করিয়া সৃজিলে মানবে, সে তব সাধ।  
+ আমরা যে কালো, তুমি ভালো জান, নহে তাহা অপরাধ!  
+ তুমি বল নাই, শুধু শ্বেতদ্বীপে  
+ জোগাইবে আলো রবি-শশী-দীপে,  
+ সাদা র’বে সবাকার টুঁটি টিপে, এ নহে তব বিধান।  
+ সন্তান তব করিতেছে আজ তোমার অসম্মান!  
+ ভগবান! ভগবান!   
+  
+ তব কনিষ্ঠ মেয়ে ধরণীরে দিলে দান ধুলা-মাটি,  
+ তাই দিয়ে তার ছেলেদের মুখে ধরে সে দুধের বাটি!  
+ ময়ূরের মতো কলাপ মেলিয়া  
+ তার আনন্দ বেড়ায় খেলিয়া-  
+ সন্তান তার সুখী নয়, তারা লোভী, তারা শয়তান!  
+ ঈর্ষায় মাতি’ করে কাটাকাটি, রচে নিতি ব্যবধান!  
+ ভগবান! ভগবান!  
+ তোমারে ঠেলিয়া তোমার আসনে বসিয়াছে আজ লোভী,  
+ রসনা তাহার শ্যামল ধরায় করিছে সাহারা গোবী!  
+ মাটির ঢিবিতে দু’দিন বসিয়া  
+ রাজা সেজে করে পেষণ কষিয়া!  
+ সে পেষণে তারি আসন ধসিয়া রচিছে গোরস’ান!  
+ ভাই-এর মুখের গ্রাস কেড়ে খেয়ে বীরের আখ্যা পান!  
+ ভগবান! ভগবান!   
+  
+ জনগণে যারা জোঁক সম শোষে তারে মহাজন কয়,  
+ সন্তান সম পালে যারা জমি, তারা জমিদার নয়।  
+ মাটিতে যাদের ঠেকে না চরণ,  
+ মাটির মালিক তাঁহারাই হন-  
+ যে যত ভন্ড ধড়িবাজ আজ সেই তত বলবান।  
+ নিতি নব ছোরা গড়িয়া কসাই বলে জ্ঞান-বিজ্ঞান।  
+ ভগবান! ভগবান!   
+  
+ অন্যায় রণে যারা যত দড় তারা তত বড় জাতি,  
+ সাত মহারথী শিশুরে বধিয়া ফুলায় বেহায়া ছাতি!  
+ তোমার চক্র রুধিয়াছে আজ  
+ বেনের রৌপ্য-চাকায়, কি লাজ!  
+ এত অনাচার স’য়ে যাও তুমি, তুমি মহা মহীয়ান্ ।  
+ পীড়িত মানব পারে না ক’ আর, সবে না এ অপমান-  
+ ভগবান! ভগবান!  
+ ঐ দিকে দিকে বেজেছে ডঙ্কা শঙ্কা নাহি ক’ আর!  
+ ‘ মরিয়া’র মুখে মারণের বাণী উঠিতেছে ‘মার মার!’  
+ রক্ত যা ছিল ক’রেছে শোষণ,  
+ নীরক্ত দেহে হাড় দিয়ে রণ!  
+ শত শতাব্দী ভাঙেনি যে হাড়, সেই হাড়ে ওঠে গান-  
+ ‘ জয় নিপীড়িত জনগণ জয়! জয় নব উত্থান!  
+ জয় জয় ভগবান!’   
+  
+ তোমার দেওয়া এ বিপুল পৃথ্বী সকলে কবির ভোগ,  
+ এই পৃথিবীর নাড়ী সাথে আছে সৃজন-দিনের যোগ।  
+ তাজা ফুল ফলে অঞ্চলি পুরে  
+ বেড়ায় ধরণী প্রতি ঘরে ঘুরে,  
+ কে আছে এমন ডাকু যে হরিবে আমার গোলার ধান?  
+ আমার ক্ষুধার অন্নে পেয়েছি আমার প্রাণের ঘ্রাণ-  
+ এতদিনে ভগবান!   
+  
+ যে-আকাশে হ’তে ঝরে তব দান আলো ও বৃষ্টি-ধারা,  
+ সে-আকাশ হ’তে বেলুন উড়ায়ে গোলাগুলি হানে কা’রা?  
+ উদার আকাশ বাতাস কাহারা  
+ করিয়া তুলিছে ভীতির সাহারা?  
+ তোমার অসীম ঘিরিয়া পাহারা দিতেছে কা’র কামান?  
+ হবে না সত্য দৈত্য-মুক্ত? হবে না প্রতিবিধান?  
+ ভগবান! ভগবান!   
+  
+ তোমার দত্ত হসে-রে বাঁধে কোন্‌ নিপীড়ন-চেড়ী?  
+ আমার স্বাধীন বিচরণ রোধে কার আইনের বেড়ী?  
+ ক্ষুধা তৃষা আছে, আছে মোর প্রাণ,  
+ আমিও মানুষ, আমিও মহান্ !  
+ আমার অধীনে এ মোর রসনা, এই খাড়া গর্দান!  
+ মনের শিকল ছিঁড়েছি, পড়েছে হাতের শিকলে টান-  
+ এতদিনে ভগবান!  
+ চির-অবনত তুলিয়াছে আজ গগনে উ”চ শির।  
+ বান্দা আজিকে বন্ধন ছেদি’ ভেঙেছে কারা-প্রাচীর।  
+ এতদিনে তার লাগিয়াছে ভালো-  
+ আকাশ বাতাস বাহিরেতে আলো,  
+ এবার বন্দী বুঝেছে, মধুর প্রাণের চাইতে ত্রাণ।  
+ মুক্ত-কন্ঠে স্বাধীন বিশ্বে উঠিতেছে একতান-  
+ জয় নিপীড়িত প্রাণ!  
+ জয় নব অভিযান!  
+ জয় নব উত্থান!  
+  
+====== 
+" android:textIsSelectable="true" />
+                </ScrollView>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:textSize="22sp" android:textColor="#fffffa00" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_5" android:background="@drawable/kobitabtn1" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0x2801" android:text="গোকুল নাগ" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+                <ScrollView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/sv_5" android:background="@drawable/kobita_back2" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                    <TextView android:textSize="18sp" android:textColor="#ffffffff" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_05" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="না ফুরাতে শরতের বিদায়-শেফালি,  
+ না নিবিতে আশ্বিনের কমল-দীপালি,  
+ তুমি শুনেছিলে বন্ধু পাতা-ঝরা গান  
+ ফুলে ফুলে হেমনে-র বিদায়-আহবান!  
+ অতন্দ্র নয়নে তব লেগেছিল চুম  
+ ঝর-ঝর কামিনীর, এল চোখে ঘুম  
+ রাত্রিময়ী রহস্যের; ছিন্ন শতদল  
+ হ’ল তব পথ-সাথী; হিমানী-সজল  
+ ছায়াপথ-বিথী দিয়া শেফালি দলিয়া  
+ এল তব মায়া বধূ ব্যথা-জাগানিয়া!  
+ এল অশ্রু হেমনে-র,এল ফুল-খসা  
+ শিশির-তিমির-রাত্রি; শ্রান- দীর্ঘশ্বাসা  
+ ঝাউ-শাখে সিক্ত বায়ু ছায়া-কুহেলির  
+ অশ্রু-ঘন মায়া-আঁখি, বিরহ-অথির  
+ বুকে তব ব্যথা-কীট পশিল সেদিন!  
+ যে-কান্না এল না চোখে, মর্মে হ’ল লীন,  
+ বক্ষে তাহা নিল বাসা, হ’ল রক্তে রাঙা  
+ আশাহীন ভালবাসা, ভাষা অশ্রু-ভাঙা!  
+ বন্ধু,  তব জীবনের কুমারী আশ্বিন  
+ পরিল বিধবা বেশ করে কোন্‌ দিন,  
+ কোন্‌ দিন সেঁউতির মালা হ’তে তার  
+ ঝ’রে গেল বৃন-গুলি রাঙা কামনার-  
+ জানি নাই; জানি নাই, তোমার জীবনে  
+ হাসিছে বি”েছদ-রাত্রি, অজানা গহনে  
+ এবে যাত্রা শুরু তব, হে পথ-উদাসী!  
+ কোন্‌ বনান-র হ’তে ঘর-ছাড়া বাঁশী  
+ ডাক দিল, তুমি জান। মোরা শুধু জানি  
+ তব পায়ে কেঁদেছিল সারা পথখানি!  
+ সেধেছিল, এঁকেছিল ধূলি-তুলি দিয়া  
+ তোমার পদাঙ্ক-স্মৃতি।   
+  
+ রহিয়া রহিয়া  
+ কত কথা মনে পড়ে! আজ তুমি নাই,  
+ মোরা তব পায়ে-চলা পথে শুধু তাই  
+ এসেছি খুঁজিতে সেই তপ্ত পদ-রেখা,  
+ এইখানে আছে তব ইতিহাস লেখা।   
+  
+ জানি না ক’ আজ তুমি কোন্‌ লোকে রহি’  
+ শুনিছ আমার গান হে কবি বিরহী!  
+ কোথা কোন্‌ জিজ্ঞাসার অসীম সাহারা,  
+ প্রতীক্ষার চির-রাত্রি, চন্দ্র, সুর্য, তারা,  
+ পারায়ে চলেছ একা অসীম বিরহে?  
+ তব পথ-সাথী যারা-পিছু ডাকি’ কহে,  
+ ‘ওগো বন্ধু শেফালির, শিশিরের প্রিয়!  
+ তব যাত্রা-পথে আজ নিও বন্ধু নিও  
+ আমাদের অশ্রু-আর্দ্র এ স্মরণখানি!’  
+ শুনিতে পাও কি তুমি, এ-পারে ও-পারে?  
+ এ কাহার শব্দ শুনি মনের বেতারে?  
+ কতদূরে আছ তুমি কোথা কোন্‌ বেশে?  
+ লোকান-রে, না সে এই হৃদয়েরি দেশে  
+ পারায়ে নয়ন-সীমা বাঁধিয়াছ বাসা?  
+ হৃদয়ে বসিয়া শোন হৃদয়ের ভাষা?  
+ হারায়নি এত সূর্য এত চন্দ্র তারা,  
+ যেথা হোক আছ বন্ধু, হওনি ক’ হারা!   
+  
+ সেই পথ, সেই পথ-চলা গাঢ় স্মৃতি,  
+ সব আছে! নাই শুধু সেই নিতি নিতি  
+ নব নব ভালোবাসা প্রতি দরশনে,  
+ আরো প্রিয় ক’রে পাওয়া চির প্রিয়জনে-  
+ আদি নাই, অন- নাই, ক্লানি- তৃপ্তি নাই-  
+ যত পাই তত চাই-আরো আরো চাই,-  
+ সেই নেশা, সেই মধু নাড়ী-ছেঁড়া টান  
+ সেই কল্পলোকে নব নব অভিযান,-  
+ সব নিয়ে গেছ বন্ধু! সে কল-কল্লোল,  
+ সে হাসি-হিল্লোল নাই চিত-উতরোল!  
+ আজ সেই প্রাণ-ঠাসা একমুঠো ঘরে  
+ শূন্যের শূন্যতা রাজে, বুক নাহি ভরে!….  
+ হে নবীন, অফুরন- তব প্রাণ-ধারা।  
+ হয়ত এ মরু-পথে হয়নি ক’ হারা,  
+ হয়ত আবার তুমি নব পরিচয়ে  
+ দেবে ধরা; হবে ধন্য তব দান ল’য়ে  
+ কথা-সরস্বতী! তাহা ল’য়ে ব্যথা নয়,  
+ কত বাণী এল, গেল, কত হ’ল লয়,  
+ আবার আসিবে কত। শুধু মনে হয়  
+ তোমারে আমরা চাই, রক্তমাংসময়!  
+ আপনারে ক্ষয় করি’ যে অক্ষয় বাণী  
+ আনিলে আনন্দ-বীর, নিজে বীণাপাণি  
+ পাতি’ কর লবে তাহা, তবু যেন হায়,  
+ হৃদয়ের কোথা কোন্‌ ব্যথা থেকে যায়!  
+ কোথা যেন শূন্যতার নিঃশব্দ ক্রন্দন  
+ গুমরি’ গুমরি’ ফেরে, হু-হু করে মন!   
+  
+ বাণী তব- তব দান- সে তা সকলের,  
+ ব্যথা সেথা নয় বন্ধু! যে ক্ষতি একের  
+ সেথায় সান-্বনা কোথা? সেথা শানি- নাই,  
+ মোরা হারায়েছি,- বন্ধু, সখা, প্রিয়, ভাই।…  
+ কবির আনন্দ-লোকে নাই দুঃখ-শোক,  
+ সে-লোকে বিরহে যারা তারা সুখী হোক!  
+ তুমি শিল্পী তুমি কবি দেখিয়াছে তারা,  
+ তারা পান করে নাই তব প্রাণ-ধারা!   
+ 
+ ‘ পথিকে’ দেখেছে তা’রা, দেখেনি ‘গোকুলে’,  
+ ডুবেনি ক’-সুখী তা রা-আজো তা’রা কূলে!  
+ আজো মোরা প্রাণা”ছন্ন, আমরা জানি না  
+ গোকুল সে শিল্পী গল্পী কবি ছিল কি-না!  
+ আত্মীয়ে স্মরিয়া কাঁদি, কাঁদি প্রিয় তরে  
+ গোকুলে পড়েছে মনে-তাই অশ্রু ঝরে!   
+  
+ না ফুরাতে আশা ভাষা, না মিটিতে ক্ষুধা,  
+ না ফুরাতে ধরণীর মৃৎ-পাত্র-সুধা,  
+ না পূরিতে জীবনের সকল আস্বাদ-  
+ মধ্যাহ্নে আসিল দূত! যত তৃষ্ণা সাধ  
+ কাঁদিল আঁকড়ি’ ধরা, যেতে নাহি চায়!  
+ ছেড়ে যেতে যেন সব স্নায়ু ছিঁড়ে যায়!  
+ ধরার নাড়ীতে পড়ে টান! তরুলতা  
+ জল বায়ু মাটি সব কয় যেন কথা!  
+ যেয়ো না ক’  যেয়ো না ক’ যেন সব বলে-  
+ তাই এত আকর্ষণ এই জলে স’লে  
+ অনুভব করেছিলে প্রকৃতি-দুলাল!  
+ ছেড়ে যেতে ছিঁড়ে গেল বক্ষ, লালে লাল  
+ হ’ল ছিন্ন প্রাণ! বন্ধু, সেই রক্ত ব্যথা  
+ র’য়ে গেল আমাদের বুকে চেপে হেথা!   
+  
+ হে তরুণ, হে অরুণ, হে শিল্পী সুন্দর,  
+ মধ্যাহ্ন আসিয়াছিলে সুমেরু-শিখর  
+ কৈলাসের কাছাকাছি দারুণ তৃষ্ণায়,  
+ পেলে দেখা সুন্দরের, স্বরগ-গঙ্গায়  
+ হয়ত মিটেছে তৃষ্ণা, হয়ত আবার  
+ ক্ষুধাতুর!-স্রোতে ভেসে এসেছে এ-পার  
+ অথবা হয়ত আজ হে ব্যথা-সাধক,  
+ অশ্রু-সরস্বতী কর্ণে তুমি কুরুবক!   
+  
+ হে পথিক-বন্ধু মোর, হে প্রিয় আমার,  
+ যেখানে যে লোকে থাক/ করিও স্বীকার  
+ অশ্রু-রেবা-কূলে মোর স্মৃতি-তর্পণ,  
+ তোমারে অঞ্জলি করি’ করিনু অর্পণ!   
+  
+ সুন্দরের তপস্যায় ধ্যানে আত্মহারা  
+ দারিদ্র্যে দর্প তেজ নিয়া এল যারা,  
+ যারা চির-সর্বহারা করি’ আত্মদান,  
+ যাহারা সৃজন করে, করে না নির্মাণ,  
+ সেই বাণীপুত্রদের আড়ম্বরহীন  
+ এ-সহজ আয়োজন এ-স্মরণ-দিন  
+ স্বীকার করিও কবি, যেমন স্বীকার  
+ ক’রেছিলে তাহাদের জীবনে তোমার!   
+  
+ নহে এরা অভিনেতা, দেশ-নেতা নহে,  
+ এদের সৃজন-কুঞ্জ অভাবে, বিরহে,  
+ ইহাদের বিত্ত নাই, পুঁজি চিত্তদল,  
+ নাই বড় আয়োজন,নাই কোলাহল;  
+ আছে অশ্রু, আছে প্রীতি, আছে বক্ষ-ক্ষত,  
+ তাই নিয়ে সুখী হও, বন্ধু স্বর্গগত!  
+ গড়ে যারা, যারা করে প্রাসাদ নির্মাণ  
+ শিরোপা তাদের তরে, তাদের সম্মান।   
+  
+ দু’দিনে ওদের গড়া প’ড়ে ভেঙে যায়  
+ কিন’ স্রষ্টা সম যারা গোপনে কোথায়  
+ সৃজন করিছে জাতি, সৃজিছে মানুষ  
+ অচেনা রহিল তা’রা। কথার ফানুস  
+ ফাঁপাইয়া যারা যত করে বাহাদুরী,  
+ তারা তত পাবে মালা যমের কস’রী!  
+ ‘আজ’টাই সত্য নয়, ক’টা দিন তাহা?  
+ ইতিহাস আছে, আছে অবিষ্যৎ, যাহা  
+ অনন- কালের তরে রচে সিংহাসন,  
+ সেখানে বসাবে তোমা বিশ্বজনগণ।  
+ আজ তারা নয় বন্ধু, হবে সে তখন,-  
+ পূজা নয়-আজ শুধু করিনু স্মরণ।  
+  
+====== 
+" android:textIsSelectable="true" />
+                </ScrollView>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:textSize="22sp" android:textColor="#fffffa00" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_6" android:background="@drawable/kobitabtn1" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0x2801" android:text="১৪০০ সাল" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+                <ScrollView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/sv_6" android:background="@drawable/kobita_back2" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                    <TextView android:textSize="18sp" android:textColor="#ffffffff" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_06" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5pt" android:text="আজি হ’তে শত বর্ষ আগে!  
+ কে কবি, স্মরণ তুমি ক’রেছিলে আমাদেরে শত আনুরাগে,  
+ আজি হ’তে শত বর্ষ আগে।   
+  
+ ধেয়ানী গো, রহস্য-দুলাল!  
+ উতারি’ ঘোমটাখানি তোমার আঁখির আগে  
+ কবে এল সুদূর আড়াল?   
+  
+ আনাগত আমাদের দখিন-দূয়ারী  
+ বাতায়ন খুলি তুমি, হে গোপন হে স্বপ্ন-চারী,  
+ এসেছিলে বসন্তের গন্ধবহ-সাথে,  
+ শত বর্ষ পরে যেথা তোমার কবিতাখানি পড়িতেছি রাতে।  
+ নেহারিলে বেদনা-উজ্জ্বল আঁখি-নীরে,  
+ আনমনা প্রজাপতি নীরব পাখায়  
+ উদাসীন, গেলে ধীরে ফিরে।   
+  
+ আজি মোরা শত বর্ষ পরে  
+ যৌবন-বেদনা-রাঙা তোমার কবিতাখানি  
+ পড়িতেছি অনুরাগ-ভরে ।।  
+ জড়িত জাগর ঘুমে শিথিল শয়নে  
+ শুনিতেছি প্রিয়া মোর তোমার ইঙ্গিত গান সজল নয়নে।   
+  
+ আজো হায়  
+ বারে বারে খুলে যায়  
+ দক্ষিণের রুদ্ধ বাতায়ন,  
+ গুমরি গুমরি কাঁদে উচাটন বসন্ত-পবন  
+ মনে মনে বনে বনে পল্লব মর্মরে,  
+ কবরীর অশ্রুজল বেশী-খসা ফুল-দল পড়ে ঝ’রে ঝ’রে!   
+  
+ ঝিরি ঝিরি কাঁপে কালো নয়ন-পল্লব,  
+ মধুপের মুখ হতে কাড়িয়া মধুপী পিয়ে পরাগ আসব!  
+ কপোতের চষ্ণুপুটে কপোতীর হারায় কূজন  
+ পরিয়াছে বনবধূ যৌবন-আরক্তিম কিংশুক-বসন।  
+ রহিয়া রহিয়া আজো ধরনীর হিয়া  
+ সমীর উচ্ছ্বাস্ব যেন উঠে নিঃশ্বসিয়া!   
+  
+ তোমা হ’তে শত বর্ষ পরে--  
+ তোমার কবিতাখানি পড়িতেছি,  
+ হে কবীন্দ্র, অনুরাগ ভরে!  
+ আজি এই মদালসা ফাগুন-নিশীথে  
+ তোমার ইঙ্গিত জাগে তোমার সঙ্গীতে!  
+ চতুরালি, ধরিয়াছি তোমার চাতুরী।  
+ করি' চুরি   
+  
+ আসিয়াছ আমাদের দুরন্ত যৌবনে,  
+ কাব্য হ’য়ে, গান হ’য়ে, সিক্তকন্ঠে রঙ্গীলা স্বপনে।  
+ আজিকার যত ফুল- বিহঙ্গের যত গান যত রক্ত-রাগ  
+ তব অনুরাগ হ’তে হে চির-কিশোর কবি,  
+ আনিয়াছে ভাগ !  
+ আজি নব-বসন্তের প্রভাত-বেলায়  
+ গান হ’য়ে মাতিয়াছে আমাদের যৌবন-মেলায়।   
+  
+ আনন্দ দুলাল ওগো হে চির অমর।  
+ তরুণ তরুণি মোরা জাগিতেছি আজ তব মাধবী বাসর।  
+ যত গান গাহিয়াছ ফুল-ফোটা রাতে--  
+ সবগুলি তার  
+ একবার--তা’ পর আবার  
+ প্রিয়া গাহে, আমি গাহি, আমি গাহি প্রিয়া গাহে সাথে।  
+ গান-শেষে অর্ধরাতে স্বপনেতে শুনি  
+ কাঁদে প্রিয়া, “ওগো কবি ওগো বন্ধু ওগো মোর গুণী--”  
+ স্বপ্ন যায় থামি',  
+ দেখি, বন্ধু, আসিয়াছ প্রিয়ার নয়ন-পাতে অশ্রু হ’য়ে নামি'।  
+ মনে লাগে, শত বর্ষ আগে  
+ তুমি জাগো--তব সাথে আরো কেহ জাগে  
+ দূরে কোন্ ঝিলিমিলি-তলে  
+ লুলিত-অঞ্চলে।  
+ তোমার ইঙ্গিতখানি সঙ্গীতের করুণ পাখায়  
+ উড়ে যেতে যেতে সেই বাতায়নে ক্ষণিক তাকায়,  
+ ছুঁয়ে যায় আখি-জল রেখা,  
+ নুয়ে যায় অলক-কুসুম,  
+ তারপর যায় হারাইয়া,--তুমি একা বসিয়া নিঝ্‌ঝুম।  
+ সে কাহার আঁখিনীর- শিশির লাগিয়া,  
+ মুকুলিকা বাণী তব কোনটি বা ওঠে মঞ্জুরিয়া,  
+ কোনটি বা তখনো গুঞ্জরি ফেরে মনে  
+ গোপনে স্বপনে।   
+ সহসা খুলিয়া গেল দ্বার,  
+ আজিকার বসন্ত প্রভাতখানি দাঁড়াল করিয়া নমস্কার।  
+ শতবর্ষ আগেকার তোমারি সে বাসন্তিকা দূতি  
+ আজি তব নবীনের জানায় আকুতি!...  
+ হে কবি-শাহান-শাহ। তোমারে দেখিনি মোরা,  
+ সৃজিয়াছ যে তাজমহল-  
+ শ্বেতচন্দনের ফোঁটা কালের কপালে ঝলমল--  
+ বিস্ময়-বিমুগ্ধ মোরা তাই হেরি,  
+ যৌবনেরে অভিশাপি-- “কেন তুই শতবর্ষ করিলি রে দেরী?”  
+ হায়, মোরা আজ  
+ মোম্‌তাজে দেখিনি, শুধু দেখিতেছি তাজ!   
+  
+ শতবর্ষ পরে আজি হে কবি-সম্রাট!  
+ এসেছে নূতন কবি--করিতেছে তব নান্দীপাঠ!  
+ উদয়াস্ত জুড়ি' আজো তব  
+ কত না বন্দনা-ঋক ধ্বনিছে নব নব।  
+ তোমারি সে হারা-সুরখানি  
+ নববেণু-কুঞ্জে-ছায়ে বিকশিয়া তোলে নব বাণী।   
+  
+ আজি তব বরে  
+ শতবেণু-বীণা বাজে আমাদের ঘরে।  
+ তবুও পুরে না হিয়া ভরে না ক' প্রাণ,  
+ শতবর্ষ সাঁতরিয়া ভেসে আসে স্বপ্নে তব গান।  
+ মনে হয়, কবি ,  
+ আজো আছ অস্তপাট আলো করি' আমাদেরি রবি!  
+ আজি হ’তে শত বর্ষ আগে  
+ যে অভিবাদন তুমি ক’রেছিলে নবীনেরে রাঙা অনুরাগে,  
+ সে-অভিবাদনখানি আজি ফিরে চলে  
+ প্রণামী-কমল হ’য়ে তব পদতলে!   
+  
+ মনে হয়, আসিয়াছ অপূর্ণের রূপে  
+ ওগো পূর্ণ আমাদেরি মাঝে চুপে চুপে।  
+ আজি এই অপূর্ণের কম্প্র কন্ঠস্বরে  
+ তোমারি বসন্তগান গাহি তব বসন্ত-বাসরে--  
+ তোমা হ’তে শতবর্ষ পরে!  
+  
+====== 
+" android:textIsSelectable="true" />
+                </ScrollView>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:textSize="22sp" android:textColor="#fffffa00" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_7" android:background="@drawable/kobitabtn1" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0x2801" android:text="বাতায়ন-পাশে গুবাক-তরুর সারি" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+                <ScrollView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/sv_7" android:background="@drawable/kobita_back2" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                    <TextView android:textSize="18sp" android:textColor="#ffffffff" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_07" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5pt" android:text="বিদায়, হে মোর বাতায়ন-পাশে নিশীথ জাগার সাথী !  
+ ওগো বন্ধুরা, পান্ডুর হ’য়ে এল বিদায়ের রাতি !  
+ আজ হ’তে হ’ল বন্ধ আমার জানালার ঝিলিমিলি,  
+ আজ হ’তে হ’ল বন্ধ মোদের আলাপন নিরিবিলি --   
+  
+ অস্ত-আকাশ-অলিন্দে তার শীর্ণ-কপোল রাখি’  
+ কাঁদিতেছে চাঁদ, “মুসাফির জাগো, নিশি আর নাই বাকী |  
+ নিশীথিনী যার দূর বন-ছায় তন্দ্রায় ঢুলু ঢুল্ ,  
+ ফিরে ফিরে চায়, দু’-হাতে জড়ায় আঁধারের এলোচুল !”   
+  
+ চমকিয়া জাগি, ললাটে আমার কাহার নিশাস লাগে ?  
+ কে করে ব্যজন তপ্ত ললাটে, কে মোর শিয়রে জাগে ?  
+ জেগে দেখি, মোর বাতায়ন-পাশে জাগিছে স্বপনচারী  
+ নিশীথ রাতের বন্ধু আমার গুবাক-তরুর সারি !   
+  
+ তোমাদের আর আমার আঁখির পল্লব-কম্পনে  
+ সারা রাত মোরা ক’য়েছি যে কথা, বন্ধু পড়িছে মনে !  
+ জাগিয়া একাকী জ্বালা ক’রে আঁখি আসিত যখন জল,  
+ তোমাদের পাতা মনে হ’তে যেন সুশীতল করতল !   
+  
+ আমার প্রিয়ার !-- তোমার শাখার পল্লব-মর্মর  
+ মনে হ’ত যেন তারি কন্ঠের আবেদন সকাতর|  
+ তোমার পাতায় দেখেছি তাহারি আঁখির কাজল-লেখা,  
+ তোমার দেহেরই মতন দীঘল তাহার দেহের রেখা|   
+  
+ তব ঝির্-ঝির্ মির্-মির্ যেন তারি কুন্ঠিত বাণী,  
+ তোমার শাখায় ঝুলানো তারির সাড়ির আঁচল খানি !  
+.---তোমার পাখার হাওয়া  
+ তারি অঙ্গুলি-পরশের মত নিবিড় আদর ছাওয়া !   
+  
+ ভাবিতে ভাবিতে ঢুলিয়া প’ড়েছি ঘুমের শ্রান্ত কোলে,  
+ ঘুমায়ে স্বপন দেখেছি,----তোমারি সুনীল ঝালর দোলে  
+ তেমনি আমার শিথানের পাশে | দেখেছি স্বপনে , তুমি  
+ গোপনে আসিয়া গিয়াছ আমার তপ্ত ললাট চুমি’ !   
+  
+ হয়ত স্বপনে বাড়ায়েছি হাত লইতে পরশখানি,  
+ বাতায়নে ঠেকি’ ফিরিয়া এসেছে লইয়াছি লাজে টানি’ |  
+ বন্ধু, এখন রুদ্ধ করিতে হইবে সে বাতায়ন !  
+ ডাকে পথ, হাঁকে যাত্রীরা, “কর বিদায়ের আয়োজন !”   
+  
+ --আজি বিদায়ের আগে  
+ আমারে জানাতে তোমারে জানিতে কত কি যে সাধ জাগে !  
+ মর্মের বাণী শুনি তব, শুধু মুখের ভাষায় কেন  
+ জানিতে চায় ও বুকের ভাষারে লোভাতুর মন হেন !  
+ জানি-----মুখে মুখে হবে না মোদের কোনোদিন জানাজানি,  
+ বুকে বুকে শুধু বাজাইবে বীণা বেদনার বীণাপানি !   
+ হয়ত তোমারে দেখিয়াছি, তুমি যাহা নও তাই ক’রে,  
+ ক্ষতি কি তোমার, যদি গো আমার তাতেই হৃদয় ভরে ?  
+ সুন্দর যদি করে গো তোমারে আমার আঁখির জল,  
+ হারা-মোমতাজে ল’য়ে কারো প্রেম রচে যদি তাজ-ম’ল,  
+ --বল তাহে কার ক্ষতি ?  
+ তোমাকরে লইয়া সাজাব না ঘর , সৃজিব অমরাবতী !--------   
+  
+ হয়ত তোমার শাখায় কখনো বসেনি আসিয়া শাখী,  
+ তোমার কুঞ্জে পত্রকুঞ্জে কোকিল ওঠেনি ডাকি’ |  
+ শূন্যের পানে তুলিয়া ধরিয়া পল্লব-আবেদন  
+ জেগেছে নিশীথে জাগে নি ক’ সাথে খুলি’ কেহ বাতায়ন |  
+ --সব আগে আমি আসি’  
+ তোমারে চাহিয়া জেগেছি নিশীথ, গিয়াছে গো ভালবাসি’ !  
+ তোমার পাতায় লিখিলাম আমি প্রথম প্রণয়-লেখা  
+ এইটুকু হোক্ সান্ত্বনা মোর, হোক্ বা না হোক্ দেখা |-------   
+  
+ তোমাদের পানে চাহিয়া বন্ধু, আর আমি জাগিব না,  
+ কোলাহল করি’ সারা দিনমান কারো ধ্যান ভাঙিব না |  
+ -- নিশ্চল নিশ্চুপ  
+ আপনার মনে পুড়িব একাকী গন্ধবিধূর ধূপ !------   
+  
+ শুধাইতে নাই, তবুও শুধাই আজিকে যাবার আগে-----  
+ ঐ পল্লব-জাফ্ রি খুলিয়া তুমিও কি অনুরাগে  
+ দেখেছ আমারে ----দেখিয়াছি যবে আমি বাতায়ন খুলি’ ?  
+ হাওয়ায় না মোর অনুরাগে তব পাতা উঠিয়াছে দুলি’ ?   
+  
+ তোমার পাতার হরিৎ আঁচলে চাঁদিনী ঘুমাবে যবে,  
+ মূর্চ্ছিতা হবে সুখের আবেশ,----সে আলোর উত্সবে,  
+ মনে কি পড়িবে এই ক্ষণিকের অতিথির কথা আর ?  
+ তোমার নিশাস শূন্য এ ঘরে করিবে কি হাহাকার ?  
+ চাঁদের আলোক বিস্বাদ কি গো লাগিবে সেদিন চোখে ?  
+ খড়খড়ি খুলি’ চেয়ে রবে দূর অস্ত অলখ-লোকে ?  
+ --অথবা এমনি করি’  
+ দাঁড়ায়ে রহিবে আপন ধেয়ানে সারা দিনমান ভরি’ ?   
+  
+ মলিন মাটীর বন্ধনে বাঁধা হায় অসহায় তরু,  
+ পদতলে ধূলি, ঊর্ধ্বে তোমার শূন্য গগন-মরু |  
+ দিবসে পুড়িছ রৌদ্রের দাহে, নিশীথে ভিজিছ হিমে,  
+ কাঁদিবারও নাই শকতি, মৃত্যু-আফিমে পড়িছ ঝিমে !  
+ তোমার দুঃখ তোমারেই যদি, বন্ধু ব্যথা না হানে,  
+ কি হবে রিক্ত চিত্ত ভরিয়া আমার ব্যথার দানে !   
+  
+ ভুল ক’রে কভু আসিলে স্মরণে অমনি তা যেয়ো ভুলি’  
+ যদি ভুল ক’রে কখনো এ মোর বাতায়ন যায় খুলি’,  
+ বন্ধ করিয়া দিও পুনঃ তায় !--- তোমার জাফ্ রি-ফাঁকে  
+ খুঁজো না তাহারে গগন-আঁধারে----মাটিতে পেলে না যাকে !  
+  
+====== 
+" android:textIsSelectable="true" />
+                </ScrollView>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:textSize="22sp" android:textColor="#fffffa00" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_8" android:background="@drawable/kobitabtn1" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0x2801" android:text="বর্ষা-বিদায়" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+                <ScrollView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/sv_8" android:background="@drawable/kobita_back2" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                    <TextView android:textSize="18sp" android:textColor="#ffffffff" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_08" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="ওগো বাদলের পরী!  
+ যাবে কোন্ দূরে ঘাটে বাঁধা তব কেতকী পাতার তরী!  
+ ওগো ও ক্ষণিকায়, পুব-অভিসার ফুরাল কি আজ তব?  
+ পহিল ভাদরে পড়িয়াছে মনে কোন্ দেশ অভিনব?   
+  
+ তোমার কপোল-পরশ না পেয়ে পাণ্ডুর কেয়া-রেণু/  
+ তোমারে স্মরিয়া ভাদরের ভরা নদীতটে কাঁদে বেনু।   
+  
+ কুমারী ভীরু-বেদনা-বিধূর প্রণয়-অশ্র“ সম।  
+ ঝরিছে শিশির-সিক্ত সেফালী নিশি-ভোরে অনুপম।   
+  
+ ওগো ও কাজল মেয়ে,  
+ উদাস আকাশ ছলছল চোখ তব মুখে আছে চেয়ে।  
+ কাশফুল সম শুভ্র ধবল রাশ রাশ শ্বেত মেঘে  
+ তোমার তরীর উড়িতেছে পাল উদাস বাতাস লেগে।   
+  
+ ওগো জলের দেশের কন্যা। তব ও বিদায় পথে  
+ কাননে কাননে কদম-কেশর ঝরিছে প্রভাত হ’তে।  
+ তোমার আদরে মুকুলিতা হয়ে ঊঠিল যে বল্লরী  
+ তরুর কণ্ঠ জড়াইয়া তারা কাঁদে নিশিদিন ভরি।’   
+ 
+ ‘বৌ-কথা-কও’ পাখি  
+ উড়ে গেছে কোথা, বাতায়নে বৃথা বউ করে ডাকাডাকি।  
+ চাঁপার গেলাস গিয়াছে ভাঙিয়া, পিয়াসী মধুপ এসে’  
+ কাঁদিয়া কখন গিয়াছে উড়িয়া কমল-কুমদী দেশে।   
+  
+ তুমি চলে যাবে দূরে,  
+ ভদরের নদী দুকূল ছাপায়ে কাঁদে ছলছল সুরে!   
+  
+ যাব যবে দূর হিম-গিরি শিল, ওগো বাদলের পরী  
+ ব্যথা ক’রে বুক উঠিবে না কভু সেথা কাহারেও স্মরি?  
+ সেথা নাই জল, কঠিন তুষার, নির্মম শুভ্রতা-  
+ কে জানে কী ভাল বিধুর ব্যথা -- না মধুর পবিত্রতা!  
+ সেথা মহিমার ঊর্ধ্বে শিখরে নাই তরলতা হাসি,  
+ সেথা যাও তব মুখের পায়ের বরষা-নূপুর খুলি,  
+ চলিতে চকিতে চমকি’ উঠ না, কবরী উঠে না দুলি।   
+  
+ সেথা রবে তুমি ধেয়ান-মগ্না তাপসিনী অচপল,  
+ তোমার আশায় কাঁদিবে ধারায় তেমনি “ফটিক-জল”  
+  
+====== 
+" android:textIsSelectable="true" />
+                </ScrollView>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:textSize="22sp" android:textColor="#fffffa00" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_9" android:background="@drawable/kobitabtn1" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0x2801" android:text="পথচারী" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+                <ScrollView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/sv_9" android:background="@drawable/kobita_back2" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                    <TextView android:textSize="18sp" android:textColor="#ffffffff" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_09" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5pt" android:text="কে জানে কোথায় চলিয়াছি ভাই মুসাফির পথচারি,  
+ দু'ধারে দু'কুল দুঃখ-সুখের-মাঝে আমি স্রোত-বারি!  
+ আপনার বেগে আপনি ছুটেছি জন্ম-শিখর হ'তে  
+ বিরাম-বিহীন রাত্রি ও দিন পথ হ'তে আন পথে!  
+ নিজ বাস হ'ল চির-পরবাস, জন্মের ক্ষন পরে  
+ বাহিরিনি পথে গিরি-পর্বতে-ফিরি নাই আর ঘরে।  
+ পলাতকা শিশু জন্মিয়াছিনু গিরি-কন্যার কোলে,  
+ বুকে না ধরিতে চকিতে ত্বরিতে আসিলাম ছুটে চ'লে।   
+  
+ জননীরে ভুলি' যে-পথে পলায় মৃগ-শিশু বাঁশী শুনি',  
+ যে পথে পলায় শশকেরা শুনি' ঝরনার ঝুনঝুনি,  
+ পাখী উড়ে যায় ফেলিয়া কুলায় সীমাহীন নভোপানে,  
+ সাগর ছাড়িয়া মেঘের শিশুরা পলায় আকাশ-যানে,-  
+ সেই পথ ধরি' পলাইনু আমি! সেই হ'তে ছুটে চলি  
+ গিরি দরী মাঠ পল্লীর বাট সজা বাঁকা শত গলি।   
+  
+ -কোন গ্রহ হ'তে ছিঁড়ি  
+ উল্কার মত ছুতেছি বাহিয়া সৌর-লোকের সিঁড়ি!  
+ আমি ছুটে যাই জানিনা কোথায়, ওরা মোর দুই তীরে  
+ রচে নীড়, ভাবে উহাদেরি তীরে এসেছি পাহাড় চিরে।  
+ উহাদের বদূ কলস ভরিয়া নিয়ে যায় মোর বারি,  
+ আমার গহনে গাহন করিয়া বলে সন্তাপ-হারী!  
+ ঊহারা দেখিল কেবলি আমার সলিলের শিতলতা,  
+ দেখে নাই-জ্বলে কত চিতাগ্নি মোর কূলে কূলে কোথা!   
+  
+ -হায়, কত হতভাগী-  
+ আমিই কি জানি- মরিল ডুবিয়া আমার পরশ মাগি'।  
+ বাজিয়াছে মোর তটে-তটে জানি ঘটে-ঘটে কিঙ্কিণী,  
+ জল-তরঙ্গে বেজেছে বধূর মধুর রিনিকি-ঝিনি।  
+ বাজায়েছে বেণু রাখাল-বালক তীর-তরুতলে বসি'।  
+ আমার সলিলে হেরিয়াছে মুখ দূর আকাশের শশী।  
+ জানি সব জানি, ওরা ডাকে মোরে দু'তীরে বিছায়ে স্নেহ,  
+ দীঘি হ'তে ডাকে পদ্মমুখীরা 'থির হও বাঁধি গেহ!'   
+  
+ আমি ব'য়ে যাই- ব'য়ে যাই আমি কুলু-কুলু-কুলু-কুলু  
+ শুনি না- কোথায় মোরই তীরে হায় পুরনারী দেয় উলু!  
+ সদাগর-জাদী মণি-মাণিক্যে বোঝাই করিয়া তরী  
+ ভাসে মর জলে,-'ছল ছল' ব'লে আমি দূরে যাই সরি'।  
+ আঁকড়িয়া ধ'রে দু'তীর বৃথাই জড়ায়ে তন্তুলতা,  
+ ওরা দেখে নাই আবর্ত মর, মোর অন্তর-ব্যথা!   
+  
+ লুকাইয়া আসে গোপনে নিশীথে কূলে মোর অভাগিনী,  
+ আমি বলি 'চল ছল ছল ছল ওরে বধূ তোরে চিনি!  
+ কূল ছেড়ে আয় রে অভিসারিকা, মরণ-অকূলে ভাসি!'  
+ মোর তীরে-তীরে আজো খুঁজে ফিরে তোরে ঘর-ছাড়া বাঁশী।  
+ সে পড়ে ঝাঁপায়-জলে,  
+  
+ আমি পথে ধাই-সে কবে হারায় স্মৃতির বালুকা-তলে!   
+  
+ জানি না ক' হায় চলেছি কোথায় অজানা আকর্ষণে,  
+ চ'লেছি যতই তত সে অথই বাজে জল খনে খনে।  
+ সন্মুখ-টানে ধাই অবিরাম, নাই নাই অবসর,  
+ ছুঁইতে হারাই-এই আছে নাই- এই ঘর এই পর!  
+ ওরে চল চল ছল ছল কি হবে ফিরায়ে আঁখি?  
+ তরি তীরে ডাকে চক্রবাকেরে তরি সে চক্রবাকী!   
+  
+ ওরা সন্ধ্যায় ঘরে ফিরে যায় কূলের কুলায়-বাসী,  
+ আঁচল ভরিয়া কুড়ায় আমার কাদায়-ছিটানো হাসি।  
+ ওরা চ'লে এক্যায়, আমি জাগি হায় ল'ইয়ে চিতাগ্নি শব,  
+ ব্যথা-আবর্ত মচড় খাইয়া বুকে করে কলরব!  
+ ওরে বেনোজল, ছল ছল ছল ছুটে চল ছুটে চল!  
+ হেথা কাদাজল পঙ্কিল তোরে করিতেছে অবিরল।  
+ কোথা পাবি হেথা লোনা আঁখিজল, চল চল পথচারী!  
+ করে প্রতীক্ষা তোর তরে লোনা সাত-সমুদ্র-বারি!  
+  
+====== 
+" android:textIsSelectable="true" />
+                </ScrollView>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:textSize="22sp" android:textColor="#fffffa00" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_10" android:background="@drawable/kobitabtn1" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0x2801" android:text="তোমারে পড়িছে মনে" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+                <ScrollView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/sv_10" android:background="@drawable/kobita_back2" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                    <TextView android:textSize="18sp" android:textColor="#ffffffff" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_010" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5pt" android:text="তোমারে পড়িছে মনে  
+ আজি নীপ-বালিকার ভীরু-শিহরণে,  
+ যুথিকার অশ্রুসিক্ত ছলছল মুখে  
+ কেতকী-বধূর অবগুন্ঠিত ও বুকে-  
+ তোমারে পড়িছে মনে।  
+ হয়তো তেমনি আজি দূর বাতায়নে  
+ ঝিলিমিলি-তলে  
+ ম্লান লুলিত অঞ্ছলে  
+ চাহিয়া বসিয়া আছ একা,  
+ বারে বারে মুছে যায় আঁখি-জল-লেখা।  
+ বারে বারে নিভে যায় শিয়রেরে বাতি,  
+ তুমি জাগ, জাগে সাথে বরষার রাতি।   
+  
+ সিক্ত-পক্ষ পাখী  
+ তোমার চাঁপার ডালে বসিয়া একাকী  
+ হয়ত তেমনি করি, ডাকিছ সাথীরে,  
+ তুমি চাহি' আছ শুধু দূর শৈল-শিরে ।।  
+ তোমার আঁখির ঘন নীলাঞ্জন ছায়া  
+ গগনে গগনে আজ ধরিয়াছে কায়া । ...   
+  
+ আজি হেথা রচি' নব নীপ-মালা--  
+ স্মরণ পারের প্রিয়া, একান্তে নিরালা  
+ অকারণে !-জানি আমি জানি  
+ তোমারে পাব না আমি। এই গান এই মালাখানি  
+ রহিবে তাদেরি কন্ঠে- যাহাদেরে কভু  
+ চাহি নাই, কুসুমে কাঁটার মত জড়ায়ে রহিল যারা তবু।  
+ বহে আজি দিশাহারা শ্রাবণের অশান্ত পবন,  
+ তারি মত ছুটে ফেরে দিকে দিকে উচাটন মন,  
+ খুঁজে যায় মোর গীত-সুর  
+ কোথা কোন্‌ বাতায়নে বসি' তুমি বিরহ-বিধুর।  
+ তোমার গগনে নেভে বারে বারে বিজলীর দীপ,  
+ আমার অঙ্গনে হেথা বিকশিয়া ঝরে যায় নীপ।  
+ তোমার গগনে ঝরে ধারা অবিরল,  
+ আমার নয়নে হেথা জল নাই, বুকে ব্যথা করে টলমল।   
+  
+ আমার বেদনা আজি রূপ ধরি' শত গীত-সুরে  
+ নিখিল বিরহী-কন্ঠে--বিরহিণী--তব তরে ঝুরে!  
+ এ-পারে ও-পারে মোরা, নাই নাই কূল!  
+ তুমি দাও আঁখি-জল, আমি দেই ফুল!  
+  
+====== 
+" android:textIsSelectable="true" />
+                </ScrollView>
+            </LinearLayout>
+        </LinearLayout>
+    </HorizontalScrollView>
+    <FrameLayout android:id="@+id/bottom_frame" android:background="#043800" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2301" android:layout_alignParentBottom="true">
+        <Button android:textColor="#d7d7d7" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/DayMode" android:background="@drawable/btn_100x35" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x2301" android:layout_marginLeft="10dp" android:text="Day Mode" android:onClick="Day_Mode" android:textAllCaps="false" />
+        <Button android:textColor="#d7d7d7" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/Default" android:background="@drawable/btn_100x35_back" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x2301" android:text="Default" android:onClick="Default" android:textAllCaps="false" />
+        <Button android:textColor="#d7d7d7" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/NightMode" android:background="@drawable/btn_100x35" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x2301" android:layout_marginRight="10dp" android:text="Night Mode" android:onClick="Night_Mode" android:textAllCaps="false" />
+    </FrameLayout>
+    <com.google.android.gms.ads.AdView android:id="@+id/adView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/top_frame" android:layout_centerHorizontal="true" android:adSize="BANNER" android:adUnitId="ca-app-pub-7960193263009665/4951506033" />
+</RelativeLayout>

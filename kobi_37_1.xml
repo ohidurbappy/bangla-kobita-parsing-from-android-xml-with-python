@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/RL_Main" android:background="@drawable/kobita_back1" android:layout_width="match_parent" android:layout_height="match_parent" android:keepScreenOn="true">
+    <FrameLayout android:id="@+id/top_frame" android:background="@drawable/btn_border" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3c01">
+        <ImageView android:background="@drawable/f_tarapod_roy" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="22sp" android:textColor="#fffc34" android:id="@+id/kobi_name" android:paddingLeft="60dp" android:paddingTop="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="তারাপদ রায়" />
+        <TextView android:textSize="14sp" android:textColor="#ffffff" android:id="@+id/kobi_birth" android:paddingLeft="60dp" android:paddingTop="33dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="(জন্ম-১৯৩৬ / মৃত্যু-২০০৭)" />
+        <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textColor="#ffffff" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/pata" android:background="@drawable/kobitabtn_60x50" android:layout_width="UNKNOWN_DATA_0x3c01" android:layout_height="UNKNOWN_DATA_0x3c01" android:layout_marginRight="10dp" android:text="১ম 
+পাতা" />
+    </FrameLayout>
+    <HorizontalScrollView android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginBottom="35dp" android:layout_below="@+id/adView">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="match_parent"
+            <LinearLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:textSize="22sp" android:textColor="#fffffa00" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_1" android:background="@drawable/kobitabtn1" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0x2801" android:text="স্মাইল প্লিজ" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+                <ScrollView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/sv_1" android:background="@drawable/kobita_back2" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                    <TextView android:enabled="true" android:textSize="18sp" android:textColor="#ffffffff" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_01" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="স্মাইল প্লিজ, আপনারা প্রত্যেকেই একটু হাসুন,  
+ দয়া করে তাড়াতাড়ি, তা না হলে রোদ পড়ে গেলে  
+ আপনারা যে রকম চাইছেন তেমন হবে না,  
+ তেমন উঠবে না ছবি। আপনার ঘড়িটা ডানদিকে  
+ আর একটু, একটু সোজা করে প্লিজ, আপনি কি বলছেন  
+ ঘাড়-টাড় সোজা করে দাঁড়ানো হ্যাবিট নেই, তবে,  
+ কি বলছেন অনেকদিন, অনেকদিন হাসার অভ্যাস,  
+ হাসার-ও অভ্যাস নেই? এদিকে যে রোদ পড়ে এলো  
+ এ রকম ঘাড়গোঁজা বিমর্ষ মুখের একদল  
+ মানুষের গ্রুপফটো, ফটো অনেকদিন থেকে যায়,  
+ ব্রমাইড জ্বলে যেতে প্রায় বিশ-পঁচিশ বছর।  
+ বিশ-পঁচিশ বছর পরে যদি কোনো পুরোনো দেয়ালে  
+ কিংবা কোনো অ্যালবামে এরকম ফটো কেউ দেখে,  
+ কি বলবেন, বলবেন, ক্যামেরাম্যানের ত্রুটি ছিলো,  
+ ঘাড় ঠিকই সোজা ছিলো, সব শালা ক্যামেরাম্যানের  
+ সেই এক বোকার শাটারে এই রকম ঘটেছে। 
+  
+====== 
+" android:textIsSelectable="true" />
+                </ScrollView>
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:textSize="22sp" android:textColor="#fffffa00" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_2" android:background="@drawable/kobitabtn1" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0x2801" android:text="পুরনো শহরতলিতে" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:textIsSelectable="true" />
+                <ScrollView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/sv_2" android:background="@drawable/kobita_back2" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                    <TextView android:textSize="18sp" android:textColor="#ffffffff" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_02" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5pt" android:text="আবার ফিরে এলাম,  
+ আর একটু খোঁজ নিয়ে এলেই ভাল হত।  
+  
+ বাড়ির সামনের দিকে  
+ একটা কয়লার দোকান ছিল  
+ কাঠ, কয়লা, কেরোসিন -খুচরো কেনা বেচা,  
+ কেউ চিনতে পারল না  
+  
+ দু’জন রাস্তার লোক বলল,  
+ ‘এদিকে কোনো কয়লার দোকান নেই  
+ গলির এপারে রাধানাথ দত্তের গ্যাসের দোকান  
+ সেখানে খোঁজখবর নিয়ে দেখুন।  
+  
+ ‘মনে আছে কয়লার দোকানের পিছনে ছিল বড় উঠোন,  
+ কয়েকটা আম কাঁঠাল গাছ, ভাঙা বারান্দা, ঘর দোর।  
+ এখন তো কিছুই নেই,  
+ শুধু একটা নেমপ্লেট, ‘নাগরিক’।  
+ চারতলা বাড়ি, ষোলটা ফ্ল্যাট,  
+ এরই মধ্যে কোনওটায় আমি ফিরে এসেছি।  
+ কিন্তু কয়তলায়, কাদের ফ্ল্যাট?  
+ স্বর্গীয় রূপকবাবুর পদবিটা যেন কী ছিল,  
+ তাঁদের নতুন বাসাবাড়িতে এখন কে থাকে-  
+ কোনও খোঁজখবর রাখি না,  
+ শুধু মনে আছে তাঁর ভাইঝি টুলটুলি।  
+ না। সেই বাড়িটা জগৎসংসারে আর নেই,  
+ টুলটুলিকে কেউ চেনে না।  
+ পুরনো শহরতলির নতুন পাড়ায় বোকার মতো ঘুরি। 
+  
+====== 
+" android:textIsSelectable="true" />
+                </ScrollView>
+            </LinearLayout>
+            <Button android:textSize="18sp" android:textColor="#ffffffff" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/btn_thanks" android:background="@connectionresult/SUCCESS" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0x3201" android:text="ধন্যবাদ" />
+        </LinearLayout>
+    </HorizontalScrollView>
+    <FrameLayout android:id="@+id/bottom_frame" android:background="#043800" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2301" android:layout_alignParentBottom="true">
+        <Button android:textColor="#d7d7d7" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/DayMode" android:background="@drawable/btn_100x35" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x2301" android:layout_marginLeft="10dp" android:text="Day Mode" android:onClick="Day_Mode" android:textAllCaps="false" />
+        <Button android:textColor="#d7d7d7" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/Default" android:background="@drawable/btn_100x35_back" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x2301" android:text="Default" android:onClick="Default" android:textAllCaps="false" />
+        <Button android:textColor="#d7d7d7" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/NightMode" android:background="@drawable/btn_100x35" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x2301" android:layout_marginRight="10dp" android:text="Night Mode" android:onClick="Night_Mode" android:textAllCaps="false" />
+    </FrameLayout>
+    <com.google.android.gms.ads.AdView android:id="@+id/adView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/top_frame" android:layout_centerHorizontal="true" android:adSize="BANNER" android:adUnitId="ca-app-pub-7960193263009665/4951506033" />
+</RelativeLayout>

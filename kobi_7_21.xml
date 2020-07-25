@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/RL_Main" android:background="@drawable/kobita_back1" android:layout_width="match_parent" android:layout_height="match_parent" android:keepScreenOn="true">
+    <FrameLayout android:id="@+id/top_frame" android:background="@drawable/btn_border" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3c01">
+        <ImageView android:background="@drawable/f_shamshur_rahman" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="22sp" android:textColor="#fffc34" android:id="@+id/kobi_name" android:paddingLeft="60dp" android:paddingTop="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="শামসুর রহমান" />
+        <TextView android:textSize="14sp" android:textColor="#ffffff" android:id="@+id/kobi_birth" android:paddingLeft="60dp" android:paddingTop="33dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="(জন্ম-১৯২৯ / মৃত্যু-২০০৬)" />
+        <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textColor="#ffffff" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/pata" android:background="@drawable/kobitabtn_60x50" android:layout_width="UNKNOWN_DATA_0x3c01" android:layout_height="UNKNOWN_DATA_0x3c01" android:layout_marginRight="10dp" android:text="২১তম 
+পাতা" />
+    </FrameLayout>
+    <HorizontalScrollView android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginBottom="35dp" android:layout_below="@+id/adView">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="match_parent"
+            <LinearLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:textSize="22sp" android:textColor="#fffffa00" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_1" android:background="@drawable/kobitabtn1" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0x2801" android:text="শহুরে এক ছোট্র ছেলে" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+                <ScrollView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/sv_1" android:background="@drawable/kobita_back2" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                    <TextView android:enabled="true" android:textSize="18sp" android:textColor="#ffffffff" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_01" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="শহুরে এক ছোট্র ছেলে 
+গেলো দূরে গাঁয়ে একা। 
+বহুদিন আর বেশকিছু মাস 
+তার সাথে আর হয়নি দেখা।  
+
+সেই ছেলেটি সত্যি ছিলো 
+আমার দুটি চোখের মণি। 
+তার সে গলার স্বরটি ছিলো 
+মিষ্টি গানের মধুর ধ্বনি।  
+
+সেই ছেলেটা পুত্র আমার 
+গেলো দূরে খেলার ছলে। 
+গেলো হঠাৎ আঁধারপুরে 
+হিংসুটে এক নদীর জলে। 
+
+==========
+" android:textIsSelectable="true" />
+                </ScrollView>
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:textSize="22sp" android:textColor="#fffffa00" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_2" android:background="@drawable/kobitabtn1" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0x2801" android:text="শিশুর মেলা" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:textIsSelectable="true" />
+                <ScrollView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/sv_2" android:background="@drawable/kobita_back2" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                    <TextView android:textSize="18sp" android:textColor="#ffffffff" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_02" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5pt" android:text="নতুন গাছে ফুলের হাসি 
+দেখলে বড় লাগে ভালো। 
+অন্ধকারে জাগে খুশি 
+যদি দেখি চাঁদের আলো।  
+
+শিশুর মেলা পড়লে চোখে 
+সবার হৃদয় নেচে ওঠে। 
+খেলতে ওরা খেলার মাঠে 
+হাসি মুখে নিত্য জোটে।  
+
+শিশুর খেলা নষ্ট করে 
+যারা হিংসবশে কোনো, 
+তাদের ভালো, সত্যি বলি, 
+কখনো ঠিক হয় না জেনো।  
+
+তাই তো বলি ছোট্র আমার 
+ভাই-বোনেরা হাসিমুখে 
+থাকবে সদাই! তা’হলে ঠিক 
+সকল সময় থাকবে সুখে। 
+
+==========
+" android:textIsSelectable="true" />
+                </ScrollView>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:textSize="22sp" android:textColor="#fffffa00" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_3" android:background="@drawable/kobitabtn1" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0x2801" android:text="সবার পানি চাই" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+                <ScrollView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/sv_3" android:background="@drawable/kobita_back2" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                    <TextView android:textSize="18sp" android:textColor="#ffffffff" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_03" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="করিম বলো, কানু বলো 
+সবার পানি চাই। 
+পানি ছাড়া কারুর জানি 
+বাঁচার উপায় নাই।  
+
+মিঠাই বলো, মণ্ডা বলো- 
+মজার খাদ্য বটে। 
+কিন্তু যদি না পাই পানি 
+মস্ত বিপদ ঘটে।  
+
+বাঁচতে হ’লে রোজানা ভাই 
+সত্যি পানি চাই। 
+নইলে গলা শুকিয়ে ঠিক 
+হবে ভষ্ম ছাই।  
+
+কিন্তু পানি ফেঁপে ফুলে 
+বাড়তে যখন থাকে, 
+তখন প্রাণে ধাক্কা লাগে, 
+বিপদ আসে ঝাঁকে। 
+
+==========
+" android:textIsSelectable="true" />
+                </ScrollView>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:textSize="22sp" android:textColor="#fffffa00" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_4" android:background="@drawable/kobitabtn1" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0x2801" android:text="সেই ছেলেটা-১" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+                <ScrollView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/sv_4" android:background="@drawable/kobita_back2" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                    <TextView android:textSize="18sp" android:textColor="#ffffffff" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_04" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5pt" android:text="আচ্ছা খোকা, আচ্ছা খুকী 
+তোমরা যারা আছো সুখী, 
+খাচ্ছো দাচ্ছো, খেলছো খেলা 
+মধুর আলোয় বিকেল বেলা-  
+
+যে-ছেলেটা অনেক আগে, 
+যখন শুধু পাখি জাগে, 
+ছোটো ঘরের জানলা ধরে 
+দাঁড়িয়ে থেকে মিষ্টি করে 
+তাকাতো দূর মেঘের দিকে 
+হাতের মুঠো থাকতো শিকে।  
+
+নাম কী তার, বলতে পারো? 
+সময় দিচ্ছি সেকেন্ড বারো, 
+পারলে নাতো? দিচ্ছি বলে 
+শোনো সবাই ভাল করে কানটি মলে, 
+সেই ছেলেটা জোড়াসাঁকোর রবি ঠাকুর 
+তার পদ্য জাগে সত্যি নানান সুর। 
+
+==========
+" android:textIsSelectable="true" />
+                </ScrollView>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:textSize="22sp" android:textColor="#fffffa00" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_5" android:background="@drawable/kobitabtn1" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0x2801" android:text="সেই ছেলেটা-২" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+                <ScrollView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/sv_5" android:background="@drawable/kobita_back2" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                    <TextView android:textSize="18sp" android:textColor="#ffffffff" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_05" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="হুট করে সেই গলি থেকে 
+ছুট দিলো এক দুষ্টু ছেলে, 
+সেই ছেলেটা মেতে ওঠে 
+খেলায় কোনো সঙ্গী পেলে।  
+
+সেই ছেলেটা যায় ছুটে যায় 
+খেলার লোভে দূরের মাঠে, 
+সঙ্গী সাথীর সঙ্গে খেলে 
+সময়টা ওর মজায় কাটে।  
+
+কিন্তু সাঁঝের অনেক পরে 
+সেই ছেলেটা ফিরলে ঘরে, 
+বকা-ঝকা খায় না শুধু 
+লাল হয়ে যায় গালটা চড়ে।  
+
+বেশ কিছুদিন কেটে গেলে, 
+ছেলেটিকে দেখে না কেউ, 
+খেলার মাঠে জাগে না আর 
+হৈ-হুল্লোড়, খুশির ঢেউ। 
+
+==========
+" android:textIsSelectable="true" />
+                </ScrollView>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:textSize="22sp" android:textColor="#fffffa00" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_6" android:background="@drawable/kobitabtn1" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0x2801" android:text="আমার পাড়া" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+                <ScrollView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/sv_6" android:background="@drawable/kobita_back2" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                    <TextView android:textSize="18sp" android:textColor="#ffffffff" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_06" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5pt" android:text="এইতো আমি বসেই আছি 
+রাতের বেলা নিজের ঘরে 
+হঠাৎ মনে হল যেন 
+শুয়ে আছি একলা চরে।  
+
+হচ্ছে কী-যে এখন আমার, 
+স্বপ্ন দেখি এমন কিছু- 
+চলতে চলতে চোখে পড়ে, 
+সর্প যে নেয় আমার পিছু।  
+
+আমার পাড়ার সবাই খুবই 
+ভদ্র এবং শান্তিময়। 
+এমন মানুষ যায় না দেখা 
+তাদের গুণের হবেই জয়। 
+
+==========
+" android:textIsSelectable="true" />
+                </ScrollView>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:textSize="22sp" android:textColor="#fffffa00" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_7" android:background="@drawable/kobitabtn1" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0x2801" android:text="একটা পাখি" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+                <ScrollView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/sv_7" android:background="@drawable/kobita_back2" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                    <TextView android:textSize="18sp" android:textColor="#ffffffff" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_07" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5pt" android:text="বহু দূরের পথ পেরিয়ে, বন পেরিয়ে 
+এই শহরে আসবে উড়ে 
+একটা পাখি ভালো। 
+তার দু চোখে মায়াপুরীর ছায়া আছে, 
+দূর পাতালের স্বপ্ন আছে, 
+আছে তারার আলো।  
+
+সেই পাখিটা এই শহরে আসবে ব’লে 
+পথের ধারে ভিড় জমেছে, 
+সবাই তাকায় দূরে। 
+চোখগুলো সব আকাশ পারে বেড়ায় ছুটে- 
+মস্ত রঙিন পাখা নেড়ে 
+আসবে পাখি উড়ে।  
+
+রাঙা ঠোঁটের সেই পাখিটা ঝড়ে-কাঁপা 
+আকাশ ছেড়ে নামবে পথে, 
+সবাই নেবে পিছু। 
+সেই পাখিটা স্বর্গপথের নানান গানে 
+শহরটাকে করবে মধুর, 
+বলবে খবর কিছু।  
+
+কিন্তু কোথায় সেই পাখিটা? এই শহরে 
+বাজলো না তার পাখা দুটি; 
+আকাশ করে ধুধু। 
+শহরবাসী ক্লান্ত হয়ে ফিরলো ঘরে, 
+সবাই ঘুমে সেই পাখিটার 
+স্বপ্ন দ্যাখে শুধু। 
+
+==========
+" android:textIsSelectable="true" />
+                </ScrollView>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:textSize="22sp" android:textColor="#fffffa00" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_8" android:background="@drawable/kobitabtn1" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0x2801" android:text="কেউটেরা সব" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+                <ScrollView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/sv_8" android:background="@drawable/kobita_back2" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                    <TextView android:textSize="18sp" android:textColor="#ffffffff" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_08" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="যাসনে খোকা, যাসনে খুকি 
+আলবদরের ঘরে। 
+(ওরা) খুন করেছে অনেক মানুষ 
+এই তো একাত্তরে।  
+
+খুনের নেশা যায়নি ওদের 
+স্বাধীন বাংলাদেশে। 
+আজো ওরা লোকের গলায় 
+চালায় ছুরি হেসে।  
+
+কেউটে ওরা, যখন-তখন 
+ফোঁসে ফণা নেড়ে। 
+একাত্তরের কথা বললে 
+মারতে আসে তেড়ে।  
+
+এমন সবুজ বাংলাদেশে 
+আর নয়রে খুনের দাগ। 
+(ওরে) আলবদরের কেউটেরা সব 
+ভাগরে তোরা ভাগ। 
+
+==========
+" android:textIsSelectable="true" />
+                </ScrollView>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:textSize="22sp" android:textColor="#fffffa00" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_9" android:background="@drawable/kobitabtn1" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0x2801" android:text="কেমনতরো লোক" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+                <ScrollView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/sv_9" android:background="@drawable/kobita_back2" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                    <TextView android:textSize="18sp" android:textColor="#ffffffff" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_09" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5pt" android:text="লোকটা যেন দেখতে কেমন, 
+আমি কি ছাই ডরাই? 
+যখন-তখন লুফে বেড়ায় 
+লোহার মস্ত কড়াই। 
+হোক সে যতই বীর বাহাদুর 
+কেয়ার কবি থোড়াই।  
+
+কখন কোথায় ঘুমায় সে যে, 
+কখন ঘোরে বাউল সেজে, 
+বলতে পারা সহজ নয়। 
+যখন হঠাৎ মরজি হয়, 
+নেচে বেড়ায় তেপান্তরে, 
+কিংবা বসে বালুচরে।  
+
+তার খেলার সঙ্গী চখা, 
+ময়না, শালিক, চড়াই। 
+কাজ করে সে হরেক রকম, 
+একটু বেশি, একটু-বা কম। 
+রাঙা মেঘে উড়ে বেড়ায়, 
+খানিক জিরোয় তারার ডেরায়। 
+লোকটা তবু একরত্তি 
+করে নাকো বড়াই।  
+
+আসলে এই লোকটা, শোনো, 
+ভয়ের পাত্র নয় সে কোনো, 
+নিজের সাথেই সকালসন্ধ্যা 
+করছে শুধু লড়াই। 
+
+==========
+" android:textIsSelectable="true" />
+                </ScrollView>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:textSize="22sp" android:textColor="#fffffa00" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_10" android:background="@drawable/kobitabtn1" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0x2801" android:text="খোকন লিখবে ছড়া" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+                <ScrollView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/sv_10" android:background="@drawable/kobita_back2" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                    <TextView android:textSize="18sp" android:textColor="#ffffffff" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_010" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5pt" android:text="খোকন সোনা একটা পাখি খুঁজতে গিয়ে 
+পেয়ে গেল আটটা, 
+পালকিগুলো ময়ূরপঙ্খি নাও হয়েছে- 
+নয়কো মোটে ঠাট্রা।  
+
+খোকন সোনা সকালবেলা দু’হাতে রোজ 
+তবলা বাজায় জোরসে। 
+পাড়ার সবাই তাক ধিনা ধিন তবলা শুনে 
+চোখে দ্যাখে সর্ষে।  
+
+খোকন এখন ঘুড়ি ওড়ায় আকাশ জুড়ে, 
+হাজার ঘুড়ি ভোকাট্রা। 
+নানার রঙের পাখির মতো ঘুড়ির মেলায় 
+ভ’রে গেল মাঠটা।  
+
+জ্যোৎস্নারাতে খোকন সোনা দোলনা দোলে, 
+ঘোড়ারা ঘাস খাচ্ছে। 
+লাল পরী আর সবুজ পরী আকাশ ছেড়ে 
+ফুটপাতে আজ নাচছে।  
+
+পরীর নাচন দেখবে যদি তাড়াতাড়ি 
+এই পাড়াতে আসবে। 
+খোকন সোনা লিখবে কত মজার ছড়া, 
+তোমরা শুনে হাসবে। 
+
+==========
+" android:textIsSelectable="true" />
+                </ScrollView>
+            </LinearLayout>
+        </LinearLayout>
+    </HorizontalScrollView>
+    <FrameLayout android:id="@+id/bottom_frame" android:background="#043800" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2301" android:layout_alignParentBottom="true">
+        <Button android:textColor="#d7d7d7" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/DayMode" android:background="@drawable/btn_100x35" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x2301" android:layout_marginLeft="10dp" android:text="Day Mode" android:onClick="Day_Mode" android:textAllCaps="false" />
+        <Button android:textColor="#d7d7d7" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/Default" android:background="@drawable/btn_100x35_back" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x2301" android:text="Default" android:onClick="Default" android:textAllCaps="false" />
+        <Button android:textColor="#d7d7d7" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/NightMode" android:background="@drawable/btn_100x35" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x2301" android:layout_marginRight="10dp" android:text="Night Mode" android:onClick="Night_Mode" android:textAllCaps="false" />
+    </FrameLayout>
+    <com.google.android.gms.ads.AdView android:id="@+id/adView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/top_frame" android:layout_centerHorizontal="true" android:adSize="BANNER" android:adUnitId="ca-app-pub-7960193263009665/4951506033" />
+</RelativeLayout>

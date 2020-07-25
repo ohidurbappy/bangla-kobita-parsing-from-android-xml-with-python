@@ -1,0 +1,875 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/RL_Main" android:background="@drawable/kobita_back1" android:layout_width="match_parent" android:layout_height="match_parent" android:keepScreenOn="true">
+    <FrameLayout android:id="@+id/top_frame" android:background="@drawable/btn_border" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3c01">
+        <ImageView android:background="@drawable/f_jashimuddin" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="22sp" android:textColor="#fffc34" android:id="@+id/kobi_name" android:paddingLeft="60dp" android:paddingTop="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="জসীমউদ্দীন" />
+        <TextView android:textSize="14sp" android:textColor="#ffffff" android:id="@+id/kobi_birth" android:paddingLeft="60dp" android:paddingTop="33dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="(জন্ম-১৯০৩ / মৃত্যু-১৯৭৬)" />
+        <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textColor="#ffffff" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/pata" android:background="@drawable/kobitabtn_60x50" android:layout_width="UNKNOWN_DATA_0x3c01" android:layout_height="UNKNOWN_DATA_0x3c01" android:layout_marginRight="10dp" android:text="২য় 
+পাতা" />
+    </FrameLayout>
+    <HorizontalScrollView android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginBottom="35dp" android:layout_below="@+id/adView">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="match_parent"
+            <LinearLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:textSize="22sp" android:textColor="#fffffa00" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_1" android:background="@drawable/kobitabtn1" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0x2801" android:text="নক্সী কাঁথার মাঠ (০১/১৪)" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+                <ScrollView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/sv_1" android:background="@drawable/kobita_back2" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                    <TextView android:enabled="true" android:textSize="18sp" android:textColor="#ffffffff" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_01" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="বন্ধুর বাড়ি আমার বাড়ি মধ্যে ক্ষীর নদী,  
+ উইড়া যাওয়ার সাধ ছিল, পাঙ্খা দেয় নাই বিধি।  
+                   -রাখালী গান  
+  
+ এই এক গাঁও, ওই এক গাঁও — মধ্যে ধু ধু মাঠ,  
+ ধান কাউনের লিখন লিখি করছে নিতুই পাঠ।  
+ এ-গাঁও যেন ফাঁকা ফাঁকা, হেথায় হোথায় গাছ;  
+ গেঁয়ো চাষীর ঘরগুলি সব দাঁড়ায় তারি পাছ।  
+ ও-গাঁয় যেন জমাট বেঁধে বনের কাজল কায়া,  
+ ঘরগুলিরে জড়িয়ে ধরে বাড়ায় বনের মায়া।  
+  
+ এ-গাঁও চেয়ে ও-গাঁর দিকে, ও-গাঁও এ-গাঁর পানে,  
+ কতদিন যে কাটবে এমন, কেইবা তাহা জানে!  
+ মাঝখানেতে জলীর বিলে জ্বলে কাজল-জল,  
+ বক্ষে তাহার জল-কুমুদী মেলছে শতদল।  
+ এ-গাঁর ও-গাঁর দুধার হতে পথ দুখানি এসে,  
+ জলীর বিলের জলে তারা পদ্ম ভাসায় হেসে!  
+ কেউবা বলে — আদ্যিকালের এই গাঁর এক চাষী,  
+ ওই গাঁর এক মেয়ের প্রেমে গলায় পরে ফাঁসি;  
+ এ-পথ দিয়ে একলা মনে চলছিল ওই গাঁয়ে,  
+ ও-গাঁর মেয়ে আসছিল সে নূপুর-পরা পায়ে!  
+  
+ এইখানেতে এসে তারা পথ হারায়ে হায়,  
+ জলীর বিলে ঘুমিয়ে আছে জল-কুমুদীর গায়ে।  
+ কেইবা জানে হয়তো তাদের মাল্য হতেই খসি,  
+ শাপলা-লতা মেলছে পরাগ জলের উপর বসি।  
+ মাঠের মাঝের জলীর বিলের জোলো রঙের টিপ,  
+ জ্বলছে যেন এ-গাঁর ও-গাঁর বিরহেরি দীপ!  
+ বুকে তাহার এ-গাঁর ও-গাঁর হরেক রঙের পাখি,  
+ মিলায় সেথা নতুন জগৎ নানান সুরে ডাকি।  
+ সন্ধ্যা হলে এ-গাঁর পাখি ও-গাঁর পানে ধায়,  
+ ও-গাঁর পাখি এ-গাঁয় আসে বনের কাজল ছায়।  
+ এ-গাঁর লোকে নাইতে আসে, ও-গাঁর লোকেও আসে  
+ জলীর বিলের জলে তারা জলের খেলায় ভাসে।  
+  
+ এ-গাঁও ও-গাঁও মধ্যে ত দূর — শুধুই জলের ডাক,  
+ তবু যেন এ-গাঁয় ও-গাঁয় নেইকো কোন ফাঁক।  
+ ও-গাঁর বধু ঘট ভরিতে যে ঢেউ জলে জাগে,  
+ কখন কখন দোলা তাহার এ-গাঁয় এসে লাগে।  
+ এ-গাঁর চাষী নিঘুম রাতে বাঁশের বাঁশীর সুরে,  
+ ওইনা গাঁয়ের মেয়ের সাথে গহন ব্যথায় ঝুরে!  
+ এ-গাঁও হতে ভাটীর সুরে কাঁদে যখন গান,  
+ ও-গাঁর মেয়ে বেড়ার ফাঁকে বাড়ায় তখন কান।  
+ এ-গাঁও ও-গাঁও মেশামেশি কেবল সুরে সুরে;  
+ অনেক কাজে এরা ওরা অনেকখানি দূরে।  
+  
+ এ-গাঁর লোকে দল বাঁধিয়া ও-গাঁর লোকের সনে,  
+ কাইজা ফ্যাসাদ্ করেছে যা জানেই জনে জনে।  
+ এ-গাঁর লোকেও করতে পরখ্ ও-গাঁর লোকের বল,  
+ অনেকবারই লাল করেছে জলীর বিলের জল।  
+ তবুও ভাল, এ-গাঁও ও-গাঁও, আর যে সবুজ মাঠ,  
+ মাঝখানে তার ধূলায় দোলে দুখান দীঘল বাট;  
+ দুই পাশে তার ধান-কাউনের অথই রঙের মেলা,  
+ এ-গাঁর হাওয়ায় দোলে দেখি ও-গাঁয় যাওয়ার ভেলা। 
+  
+====== 
+" android:textIsSelectable="true" />
+                </ScrollView>
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:textSize="22sp" android:textColor="#fffffa00" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_2" android:background="@drawable/kobitabtn1" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0x2801" android:text="নক্সী কাঁথার মাঠ (০২/১৪)" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:textIsSelectable="true" />
+                <ScrollView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/sv_2" android:background="@drawable/kobita_back2" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                    <TextView android:textSize="18sp" android:textColor="#ffffffff" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_02" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5pt" android:text="এক কালা দতের কালি যা দ্যা কলম লেখি,  
+ আর এক কালা চক্ষের মণি, যা দ্যা দৈনা দেখি,  
+  
+  
+ -ও কালা, ঘরে রইতে দিলি না আমারে।  
+                   -মুর্শিদা গান  
+  
+ এই গাঁয়ের এক চাষার ছেলে লম্বা মাথার চুল,  
+ কালো মুখেই কালো ভ্রমর, কিসের রঙিন ফুল!  
+ কাঁচা ধানের পাতার মত কচি-মুখের মায়া,  
+ তার সাথে কে মাখিয়ে দেছে নবীন তৃণের ছায়া।  
+ জালি লাউয়ের ডগার মত বাহু দুখান সরু,  
+ গা-খানি তার শাঙন মাসের যেমন তমাল তরু।  
+ বাদল-ধোয়া মেঘে কে গো মাখিয়ে দেছে তেল,  
+ বিজলী মেয়ে পিছলে পড়ে ছড়িয়ে আলোর খেল।  
+ কচি ধানের তুলতে চারা হয়ত কোনো চাষী,  
+ মুখে তাহার ছড়িয়ে গেছে কতকটা তার হাসি।  
+  
+ কালো চোখের তারা দিয়েই সকল ধরা দেখি,  
+ কালো দতের কালি দিয়েই কেতাব কোরাণ লেখি।  
+ জনম কালো, মরণ কালো, কালো ভূবনময়;  
+ চাষীদের ওই কালো ছেলে সব করেছে জয়।  
+  
+ সোনায় যে জন সোনা বানায়, কিসের গরব তার’  
+ রঙ পেলে ভাই গড়তে পারি রামধণুকের হার।  
+ কালোয় যে-জন আলো বানায়, ভুলায় সবার মন,  
+ তারি পদ-রজের লাগি লুটায় বৃন্দাবন।  
+ সোনা নহে, পিতল নহে, নহে সোনার মুখ,  
+ কালো-বরণ চাষীর ছেলে জুড়ায় যেন বুক।  
+ যে কালো তার মাঠেরি ধান, যে কালো তার গাঁও!  
+ সেই কালোতে সিনান করি উজল তাহার গাও।  
+  
+ আখড়াতে তার বাঁশের লাঠি অনেক মানে মানী,  
+ খেলার দলে তারে নিয়েই সবার টানাটানি।  
+ জারীর গানে তাহার গলা উঠে সবার আগে,  
+ “শাল-সুন্দী-বেত” যেন ও, সকল কাজেই লাগে।  
+ বুড়োরা কয়, ছেলে নয় ও, পাগাল লোহা যেন,  
+ রূপাই যেমন বাপের বেটা, কেউ দেখেছ হেন?  
+ যদিও রূপা নয়কো রূপাই, রূপার চেয়ে দামী,  
+ এক কালেতে ওরই নামে সব গাঁ হবে নামী। 
+  
+====== 
+" android:textIsSelectable="true" />
+                </ScrollView>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:textSize="22sp" android:textColor="#fffffa00" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_3" android:background="@drawable/kobitabtn1" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0x2801" android:text="নক্সী কাঁথার মাঠ (০৩/১৪)" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+                <ScrollView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/sv_3" android:background="@drawable/kobita_back2" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                    <TextView android:textSize="18sp" android:textColor="#ffffffff" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_03" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="ওই গাঁখানি কালো কালো, তারি হেলান দিয়ে,  
+ ঘরখানি যে দাঁড়িয়ে হাসে ছোনের ছানি নিয়ে;  
+ সেইখানে এক চাষীর মেয়ে নামটি তাহার সোনা,  
+ সাজু বলেই ডাকে সবে, নাম নিতে যে গোনা।  
+ লাল মোরগের পাখার মত ওড়ে তাহার শাড়ী,  
+ ভোরের হাওয়া যায় যেন গো প্রভাতী মেঘ নাড়ি।  
+ মুখখানি তার ঢলঢল ঢলেই যেত পড়ে,  
+ রাঙা ঠোঁটের লাল বাঁধনে না রাখলে তায় ধরে।  
+ ফুল-ঝর-ঝর জন্তি গাছে জড়িয়ে কেবা শাড়ী,  
+ আদর করে রেখেছে আজ চাষীদের ওই বাড়ি।  
+ যে ফুল ফোটে সোণের খেতে, ফোটে কদম গাছে,  
+ সকল ফুলের ঝলমল গা-ভরি তার নাচে।  
+  
+ কচি কচি হাত পা সাজুর, সোনায় সোনার খেলা,  
+ তুলসী-তলায় প্রদীপ যেন জ্বলছে সাঁঝের বেলা।  
+ গাঁদাফুলের রঙ দেখেছি, আর যে চাঁপার কলি,  
+ চাষী মেয়ের রূপ দেখে আজ তাই কেমনে বলি?  
+ রামধনুকে না দেখিলে কি-ই বা ছিল ক্ষোভ,  
+ পাটের বনের বউ টুবাণী, নাইক দেখার লোভ।  
+ দেখেছি এই চাষী মেয়ের সহজ গেঁয়ো রূপ,  
+ তুলসী-ফুলের মঞ্জরী কি দেব-দেউলের ধূপ!  
+ দু একখানা গয়না গায়ে, সোনার দেবালয়ে,  
+ জ্বলছে সোনার পঞ্চ প্রদীপ কার বা পূজা বয়ে!  
+ পড়শীরা কয়—মেয়ে ত নয়, হলদে পাখির ছা,  
+ ডানা পেলেই পালিয়ে যেত ছেড়ে তাদের গাঁ।  
+  
+ এমন মেয়ে—বাবা ত নেই, কেবল আছেন মা;  
+ গাঁওবাসীরা তাই বলে তায় কম জানিত না।  
+ তাহার মতন চেরন “সেওই” কে কাটিতে পারে,  
+ নক্সী করা পাকান পিঠায় সবাই তারে হারে।  
+ হাঁড়ির উপর চিত্র করা শিকেয় তোলা ফুল,  
+ এই গাঁয়েতে তাহার মত নাইক সমতুল।  
+ বিয়ের গানে ওরই সুরে সবারই সুর কাঁদে,  
+ “সাজু গাঁয়ের লক্ষ্মী মেয়ে” -বলে কি লোক সাধে? 
+  
+====== 
+" android:textIsSelectable="true" />
+                </ScrollView>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:textSize="22sp" android:textColor="#fffffa00" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_4" android:background="@drawable/kobitabtn1" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0x2801" android:text="নক্সী কাঁথার মাঠ (০৪/১৪)" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+                <ScrollView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/sv_4" android:background="@drawable/kobita_back2" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                    <TextView android:textSize="18sp" android:textColor="#ffffffff" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_04" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5pt" android:text="চৈত্র গেল ভীষণ খরায়, বোশেখ রোদে ফাটে,  
+ এক ফোঁটা জল মেঘ চোঁয়ায়ে নামল না গাঁর বাটে।  
+ ডোলের বেছন ডোলে চাষীর, বয় না গরু হালে,  
+ লাঙল জোয়াল ধূলায় লুটায় মরচা ধরে ফালে।  
+ কাঠ-ফাটা রোদ মাঠ বাটা বাট আগুন লয়ে খেলে,  
+ বাউকুড়াণী উড়ছে তারি ঘূর্ণী ধূলী মেলে।  
+ মাঠখানি আজ শূণ্য খাঁ খাঁ, পথ যেতে দম আঁটে,  
+ জন্-মানবের নাইক সাড়া কোথাও মাঠের বাটে:  
+ শুকনো চেলা কাঠের মত শুকনো মাঠের ঢেলা,  
+ আগুন পেলেই জ্বলবে সেথায় জাহান্নামের খেলা।  
+ দরগা তলা দুগ্ধে ভাসে, সিন্নি আসে ভারে:  
+ নৈলা গানের ঝঙ্কারে গাঁও কানছে বারে বারে।  
+ তবুও গাঁয়ে নামল না জল, গগনখানা ফাঁকা;  
+ নিঠুর নীলের বক্ষে আগুন করছে যেনে খাঁ খাঁ।  
+  
+ উচ্চে ডাকে বাজপক্ষি “আজরাইলে”র ডাক,  
+ “খর দরজাল” আসছে বুঝি শিঙায় দিয়ে হাঁক!  
+ এমন সময় ওই গাঁ হতে বদনা-বিয়ের গানে,  
+ গুটি কয়েক আসলো মেয়ে এই না গাঁয়ের পানে।  
+ আগে পিছে পাঁচটি মেয়ে—পাঁচটি রঙে ফুল,  
+ মাঝের মেয়ে সোনার বরণ, নাই কোথা তার তুল।  
+ মাথায় তাহার কুলোর উপর বদনা-ভরা জল,  
+ তেল হলুদে কানায় কানায় করছে ছলাৎ ছল।  
+ মেয়ের দলে বেড়িয়ে তারে চিকন সুরের গানে,  
+ গাঁয়ের পথে যায় যে বলে বদনা-বিয়ের মানে।  
+ ছেলের দলে পড়ল সাড়া, বউরা মিঠে হাসে,  
+ বদনা বিয়ের গান শুনিতে সবাই ছুটে আসে।  
+ পাঁচটি মেয়ের মাঝের মেয়ে লাজে যে যায় মরি,  
+ বদনা হাতে ছলাৎ ছলাৎ জল যেতে চায় পড়ি।  
+ এ-বাড়ি যায় ও-বাড়ি যায়, গানে মুখর গাঁ,  
+ ঝাঁকে ঝাঁকে উড়ছে যেন-রাম-শালিকের ছা।  
+ কালো মেঘা নামো নামো, ফুল তোলা মেঘ নামো,  
+ ধূলট মেঘা, তুলট মেঘা, তোমরা সবে ঘামো!  
+ কানা মেঘা, টলমল বারো মেঘার ভাই,  
+ আরও ফুটিক ডলক দিলে চিনার ভাত খাই!  
+  
+ কাজল মেঘা নামো নামো চোখের কাজল দিয়া,  
+ তোমার ভালে টিপ আঁকিব মোদের হলে বিয়া!  
+ আড়িয়া মেঘা, হাড়িয়া মেঘা, কুড়িয়া মেঘার নাতি,  
+ নাকের নোলক বেচিয়া দিব তোমার মাথার ছাতি।  
+ কৌটা ভরা সিঁদুর দিব, সিঁদুর মেঘের গায়,  
+ আজকে যেন দেয়ার ডাকে মাঠ ডুবিয়া যায়!  
+  
+ দেয়ারে তুমি অধরে অধরে নামো।  
+ দেয়ারে তুমি নিষালে নিষালে নামো।  
+ ঘরের লাঙল ঘরে রইল, হাইলা চাষা রইদি মইল;  
+ দেয়ারে তুমি অরিশাল বদনে ঢলিয়া পড়।  
+ ঘরের গরু ঘরে রইল, ডোলের বেছন ডোলে রইল;  
+ দেয়ারে তুমি অধরে অধরে নামো।  
+  
+ বারো মেঘের নামে নামে এমনি ডাকি ডাকি,  
+ বাড়ি বাড়ি চলল তারা মাঙন হাঁকি হাঁকি  
+ কেউবা দিল এক পোয়া চাল, কেউবা ছটাকখানি,  
+ কেউ দিল নুন, কেউ দিল ডাল, কেউ বা দিল আনি।  
+ এমনি ভাবে সবার ঘরে মাঙন করি সারা,  
+ রূপাই মিয়ার রুশাই-ঘরের সামনে এল তারা।  
+ রূপাই ছিল ঘর বাঁধিতে, পিছন ফিরে চায়,  
+ পাঁটি মেয়ের রূপ বুঝি ওই একটি মেয়ের গায়!  
+ পাঁচটি মেয়ে, গান যে গায়, গানের মতই লাগে,  
+ একটি মেয়ের সুর ত নয় ও বাঁশী বাজায় আগে।  
+ ওই মেয়েটির গঠন-গাঠন চলন-চালন ভালো,  
+ পাঁচটি মেয়ের রূপ হয়েছে ওরই রূপে আলো।  
+  
+ রূপাইর মা দিলেন এনে সেরেক খানেক ধান,  
+ রূপাই বলে, এই দিলে মা থাকবে না আর মান।  
+ ঘর হতে সে এনে দিল সেরেক পাঁচেক চাল,  
+ সেরেক খানেক দিল মেপে সোনা মুগের ডাল।  
+ মাঙন সেরে মেয়ের দল চলল এখন বাড়ি,  
+ মাঝের মেয়ের মাথার ঝোলা লাগছে যেন ভারি।  
+ বোঝার ভারে চলতে নারে, পিছন ফিরে চায়;  
+ রূপার দুচোখ বিঁধিল গিয়ে সোনার চোখে হায়! 
+  
+====== 
+" android:textIsSelectable="true" />
+                </ScrollView>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:textSize="22sp" android:textColor="#fffffa00" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_5" android:background="@drawable/kobitabtn1" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0x2801" android:text="নক্সী কাঁথার মাঠ (০৫/১৪)" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+                <ScrollView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/sv_5" android:background="@drawable/kobita_back2" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                    <TextView android:textSize="18sp" android:textColor="#ffffffff" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_05" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="আশ্বিনেতে ঝড় হাঁকিল, বাও ডাকিল জোরে,  
+ গ্রামভরা-ভর ছুটল ঝপট লট্ পটা সব করে।  
+ রূপার বাড়ির রুশাই-ঘরের ছুটল চালের ছানি,  
+ গোয়াল ঘরের খাম থুয়ে তার চাল যে নিল টানি।  
+ ওগাঁর বাঁশ দশটা টাকায়, সে-গাঁয় টাকায় তেরো,  
+ মধ্যে আছে জলীর বিল কিইবা তাহে গেরো।  
+ বাঁশ কাটিতে চলল রূপাই কোঁচায় বেঁধে চিঁড়া,  
+ দুপুর বেলায় খায় যেন সে—মায় দিয়াছে কিরা।  
+ মাজায় গোঁজা রাম-কাটারী চক্ চকাচক্ ধার,  
+ কাঁধে রঙিন গামছাখানি দুলছে যেন হার।  
+ মোল্লা-বাড়ির বাঁশ ভাল, তার ফাঁপগুলি নয় বড়;  
+ খাঁ-বাড়ির বাঁশ ঢোলা ঢোলা, করছে কড়মড়।  
+ সর্ব্বশেষে পছন্দ হয় খাঁ-বাড়ির বাঁশ:  
+ ফাঁপগুলি তার কাঠের মত, চেকন-চোকন আঁশ।  
+  
+ বাঁশ কাটিতে যেয়ে রূপাই মারল বাঁশে দা,  
+ তল দিয়ে যায় কাদের মেয়ে—হলদে পাখির ছা!  
+ বাঁশ কাটিতে বাঁশের আগায় লাগল বাঁশের বাড়ি,  
+ চাষী মেয়ের দেখে তার প্রাণ বুঝি যায় ছাড়ি।  
+ লম্বা বাঁশের লম্বা যে ফাঁপ, আগায় বসে টিয়া,  
+ চাষীদের ওই সোনার মেয়ে কে করিবে বিয়া!  
+ বাঁশ কাটিতে এসে রূপাই কাটল বুকের চাম,  
+ বাঁশের গায়ে বসে রূপাই ভুলল নিজের কাম।  
+ ওই মেয়ে ত তাদের গ্রামে বদনা-বিয়ের গানে,  
+ নিয়েছিল প্রাণ কেড়ে তার চিকন সুরের দানে।  
+  
+ “খড়ি কুড়াও সোনার মেয়ে! শুকনো গাছের ডাল,  
+ শুকনো আমার প্রাণ নিয়ে যাও, দিও আখার জ্বাল।  
+ শুকনো খড়ি কুড়াও মেয়ে! কোমল হাতে লাগে,  
+ তোমায় যারা পাঠায় বনে বোঝেনি কেন আগে?”  
+ এমনিতর কত কথাই উঠে রূপার মনে,  
+ লজ্জাতে সে হয় যে রঙিন পাছে বা কেউ শোনে।  
+ মেয়েটিও ডাগর চোখে চেয়ে তাহার পানে,  
+ কি কথা সে ভাবল মনে সেই জানে তার মানে!  
+  
+ এমন সময় পিছন হতে তাহার মায়ে ডাকে,  
+ “ওলো সাজু! আয় দেখি তোর নথ বেঁধে দেই নাকে!  
+ ওমা! ও কে বেগান মানুষ বসে বাঁশের ঝাড়ে!”  
+ মাথায় দিয়ে ঘোমটা টানি দেখছে বারে বারে।  
+  
+ খানিক পরে ঘোমটা খুলে হাসিয়া এক গাল,  
+ বলল, “ও কে, রূপাই নাকি? বাঁচবি বহকাল!  
+ আমি যে তোর হইযে খালা, জানিসনে তুই বুঝি?  
+ মোল্লা বাড়ির বড়ুরে তোর মার কাছে নিস্ খুঁজি।  
+ তোর মা আমার খেলার দোসর—যাকগে ও সব কথা,  
+ এই দুপুরে বাঁশ কাটিয়া খাবি এখন কোথা?”  
+  
+ রূপাই বলে, “মা দিয়েছেন কোঁচায় বেঁধে চিঁড়া”  
+ “ওমা! ও তুই বলিস কিরে? মুখখানা তোর ফিরা!  
+ আমি হেথা থাকতে খালা, তুই থাকবি ভুখে,  
+ শুনলে পরে তোর মা মোরে দুষবে কত রুখে!  
+ ও সাজু, তুই বড় মোরগ ধরগে যেয়ে বাড়ি,  
+ ওই গাঁ হতে আমি এদিক দুধ আনি এক হাঁড়ি।  
+  
+ চলল সাজু বাড়ির দিকে, মা গেল ওই পাড়া।  
+ বাঁশ কাটতে রূপাই এদিক মারল বাঁশে নাড়া।  
+ বাঁশ কাটিতে রূপার বুকে ফেটে বেরোয় গান,  
+ নলী বাঁশের বাঁশীতে কে মারছে যেন টান!  
+ বেছে বেছে কাটল রূপাই ওড়া-বাঁশের গোড়া,  
+ তল্লা বাঁশের কাটল আগা, কালধোয়ানির জোড়া;  
+ বাল্ কে কাটে আল্ কে কাটে কঞ্চি কাটে শত,  
+ ওদিক বসে রূপার খালা রান্ধে মনের মত।  
+  
+ সাজু ডাকে তলা থেকে, রূপা-ভাইগো এসো,  
+ এই কথাটি বলতে তাহার লজ্জারো নাই শেষও!  
+ লাজের ভারে হয়তো মেয়ে যেতেই পারে পড়ে,  
+ রূপাই ভাবে হাত দুখানি হঠাৎ যেয়ে ধরে।  
+  
+ যাহোক রূপা বাঁশ কাটিয়া এল খালার বাড়ি,  
+ বসতে তারে দিলেন খালা শীতল পাটি পাড়ি।  
+ বদনা ভরে জল দিল আর খড়ম দিল মেলে,  
+ পাও দুখানি ধুয়ে রূপাই বসল বামে হেলে।  
+ খেতে খেতে রূপাই কেবল খালার তারীফ করে,  
+ অনেক দিনই এমন ছালুন খাইনি কারো ঘরে।  
+ খালায় বলে আমি ত নয়, রেঁধেছে তোর বোনে,  
+ লাজে সাজুর ইচ্ছা করে লুকায় আঁচল কোণে।  
+ এমনি নানা কথায় রূপার আহার হল সারা,  
+ সন্ধ্যা বেলায় চলল ঘরে মাথায় বাঁশের ভারা।  
+  
+ খালার বাড়ির এত খাওয়া, তবুও তার মুখ,  
+ দেখলে মনে হয় যে সেথা অনেক লেখা দুখ।  
+ ঘরে যখন ফিরল রূপা লাগল তাহার মনে,  
+ কি যেন তার হয়েছে আজ বাঁশ কাটিতে বনে।  
+ মা বলিল, বাছারে, কেন মলিন মুখে চাও?  
+ রূপাই কহে, বাঁশ কাটিতে হারিয়ে এলেম দাও। 
+  
+====== 
+" android:textIsSelectable="true" />
+                </ScrollView>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:textSize="22sp" android:textColor="#fffffa00" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_6" android:background="@drawable/kobitabtn1" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0x2801" android:text="নক্সী কাঁথার মাঠ (০৬/১৪)" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+                <ScrollView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/sv_6" android:background="@drawable/kobita_back2" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                    <TextView android:textSize="18sp" android:textColor="#ffffffff" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_06" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5pt" android:text="ঘরেতে রূপার মন টেকে না যে, তরলা বাঁশীর পারা,  
+ কোন বাতাসেতে ভেসে যেতে চায় হইয়া আপন হারা।  
+ কে যেন তার মনের তরীরে ভাটির করুণ তানে,  
+ ভাটিয়াল সোঁতে ভাসাইয়া নেয় কোন্ সে ভাটার পানে।  
+ সেই চিরকেলে গান আজও গাহে, সুরখানি তার ধরি,  
+ বিগানা গাঁয়ের বিরহিয়া মেয়ে আসে যেন তরি!  
+ আপনার গানে আপনার প্রাণ ছিঁড়িয়া যাইতে চায়,  
+ তবু সেই ব্যথা ভাল লাগে যেন, একই গান পুনঃ গায়।  
+ খেত-খামারেতে মন বসেনাকো; কাজে কামে নাই ছিরি,  
+ মনের তাহার কি যে হল আজ ভাবে তাই ফিরি ফিরি।  
+ গানের আসরে যায় না রূপাই সাথীরা অবাক মানে,  
+ সারাদিন বসি কি যে ভাবে তার অর্থ সে নিজে জানে!  
+ সময়ের খাওয়া অসময় খায়, উপোসীও কভু থাকে,  
+ “দিন দিন তোর কি হল রূপাই” বার বার মায় ডাকে।  
+ গেলে কোনখানে হয়তো সেথাই কেটে যায় সারা দিন,  
+ বসিলে উঠেনা উঠিলে বসেনা, ভেবে ভেবে তনু ক্ষীণ।  
+ সবে হাটে যায় পথ বরাবর রূপা যায় ঘুরে বাঁকা,  
+ খালার বাড়ির কাছ দিয়ে পথ, বাঁশ-পাতা দিয়ে ঢাকা।  
+ পায়ে-পায় ছাই বাঁশ-পাতাগুলো মচ্ মচ্ করে বাজে;  
+ কেউ সাথে নেই, তবু যে রূপাই মরে যায় যেন লাজে।  
+ চোরের মতন পথে যেতে যেতে এদিক ওদিক চায়,  
+ যদিবা হঠাৎ সেই মেয়েটির দুটি চোখে চোখ যায়।  
+ ফিরিবার পথে খালার বাড়ির নিকটে আসিয়া তার,  
+ কত কাজ পড়ে, কি করে রূপাই দেরি না করিয়া আর।  
+ কোনদিন কহে, “খালামা, তোমার জ্বর নাকি হইয়াছ।  
+ ও-বাড়ির ওই কানাই আজিকে বলেছে আমার কাছে।  
+ বাজার হইতে আনিয়াছি তাই আধসেরখানি গজা।”  
+ “বালাই! বালাই! জ্বর হবে কেন? রূপাই, করিলি মজা ;  
+ জ্বর হলে কিরে গজা খায় কেহ?” হেসে কয় তার খালা,  
+ “গজা খায়নাক, যা হোক এখন কিনে ত হইল জ্বালা;  
+ আচ্ছা না হয় সাজুই খাইবে।” ঠেকে ঠেকে রূপা কহে,  
+ সাজু যে তখন লাজে মরে যায়, মাথা নিচু করে রহে।  
+ কোন দিন কহে, “সাজু কই ওরে, শোনো কিবা মজা, খালা!  
+ আজকের হাটে কুড়ায়ে পেয়েছি দুগাছি পুঁতির মালা;  
+ এক ছোঁড়া কয়, “রাঙা সূতো” নেবে? লাগিবে না কোন দাম;  
+ নিলে কিবা ক্ষতি, এই ভেবে আমি হাত পেতে রইলাম।  
+ এখন ভাবছি, এসব লইয়া কিবা হবে মোর কাজ,  
+ ঘরেতে থাকিলে ছোট বোনটি সে ইহাতে করিত সাজ।  
+ সাজু ত আমার বোনেরই মতন, তারেই না দিয়ে যাই,  
+ ঘরে ফিরে যেতে একটু ঘুরিয়া এ-পথে আইনু তাই।”  
+ এমনি করিয়া দিনে দিনে যেতে দুইটি তরুণ হিয়া,  
+ এ উহারে নিল বরণ করিয়া বিনে-সূতী মালা দিয়া।  
+ এর প্রাণ হতে ওর প্রাণে যেয়ে লাগিল কিসের ঢেউ,  
+ বিভোর কুমার, বিভোর কুমারী, তারা বুঝিল না কেউ।  
+ —তারা বুঝিল না, পাড়ার লোকেরা বুঝিল অনেকখানি,  
+ এখানে ওখানে ছেলে বুড়ো মিলে শুরু হল কানাকানি।  
+ সেদিন রূপাই হাট-ফেরা পথে আসিল খালার বাড়ি,  
+ খালা তার আজ কথা কয়নাক, মুখখানি যেন হাঁড়ি।  
+ “রূপা ভাই এলে?” এই বলে সাজু কাছে আসছিল তাই,  
+ মায় কয়, “ওরে ধাড়ী মেয়ে, তোর লজ্জা শরম নাই?”  
+ চুল ধরে তারে গুড়ুম গুড়ুম মারিল দু’তিন কিল,  
+ বুঝিল রূপাই এই পথে কোন হইয়াছে গরমিল।  
+ মাথার বোঝাটি না-নামায়ে রূপা যেতেছিল পথ ধরি,  
+ সাজুর মায়ে যে ডাকিল তাহারে হাতের ইশারা করি;  
+ শোন বাছা কই, লোকের মুখেতে এমন তেমন শুনি,  
+ ঘরে আছে মোর বাড়ন্ত মেয়ে জ্বলন্ত এ আগুনি।  
+ তুমি বাপু আর এ-বাড়ি এসো না। খালা বলে রোষে রোষে,  
+ কে কি বলে? তার ঘাড় ভেঙে দেব! রূপা কহে দম কসে।  
+ ও-সবে আমার কাজ নাই বাপু, সোজা কথা ভালবাসি,  
+ সারা গাঁয়ে আজ ঢি ঢি পড়ে গেছে, মেয়ে হল কুল-নাশী।  
+ সাজুর মায়ের কথাগুলি যেন বঁরশীর মত বাঁকা,  
+ ঘুরিয়া ঘুরিয়া মনে দিয়ে যায় তীব্র বিষের ধাকা।  
+ কে যেন বাঁশের জোড়-কঞ্চিতে তাহার কোমল পিঠে,  
+ মহারোষ-ভরে সপাং সপাং বাড়ি দিল গিঠে গিঠে।  
+ টলিতে টলিতে চলিল রূপাই একা গাঁর পথ ধরি,  
+ সম্মুখ হতে জোনাকীর আলো দুই পাশে যায় সরি।  
+ রাতের আঁধারে গালি-ভরা বিষে জমাট বেঁধেছে বুঝি,  
+ দুই হাতে তাহা ঠেলিয়া ঠেলিয়া চলে রূপা পথ খুঁজি।  
+ মাথার ধামায় এখনও রয়েছে দুজোড়া রেশমী চুরী,  
+ দুপায়ে তাহারে দলিয়া রূপাই ভাঙিয়া করিল গুঁড়ি।  
+ টের সদাই জলীর বিলেতে দুহাতে ছুঁড়িয়া ফেলি,  
+ পথ থুয়ে রূপা বেপথে চলিল, ইটা খেতে পাও মেলি।  
+ চলিয়া চলিয়া মধ্য মাঠেতে বসিয়া কাঁদিল কত,  
+ অষ্টমী চাঁদ হেলিয়া হেলিয়া ওপারে হইল গত।  
+ প্রভাতে রূপাই উঠিল যখন মায়ের বিছানা হতে,  
+ চেহারা তাহার আধা হয়ে গেছে, চেনা যায় কোন মতে।  
+ মা বলে, রূপাই কি হলরে তোর? রূপাই কহে না কথা  
+ দুখিনী মায়ের পরাণে আজিকে উঠিল দ্বিগুণ ব্যথা।  
+ সাত নয় মার পাঁচ নয় এক রুপাই নয়ন তারা,  
+ এমনি তাহার দশা দেখে মায় ভাবিয়া হইল সারা।  
+ শানাল পীরের সিন্নি মানিল খেতে দিল পড়া-পানি,  
+ হেদের দৈন্য দেখিল জননী, দেখিলনা প্রাণখানি।  
+ সারা গায়ে মাতা হাত বুলাইল চোখে মুখে দিল জল,  
+ বুঝিল না মাতা বুকের ব্যথার বাড়ে যে ইহাতে বল।  
+ আজকে রূপার সকলি আঁধার, বাড়া-ভাতে ওড়ে ছাই,  
+ কলঙ্ক কথা সবে জানিয়াছে, কেহ বুঝি বাকি নাই।  
+ জেনেছে আকাশ, জেনেছে বাতাস, জেনেছে বনের তরু;  
+ উদাস-দৃষ্টি য়ত দিকে চাহে সব যেন শূনো মরু।  
+ চারিদিক হতে উঠিতেছে সুর, ধিক্কার! ধিক্কার!!  
+ শাঁখের করাত কাটিতেছে তারে লয়ে কলঙ্ক ধার।  
+ ব্যথায় ব্যথায় দিন কেটে গেল, আসিল ব্যথার সাঁজ,  
+ পূবে কলঙ্কী কালো রাত এল, চরণে ঝিঁঝির ঝাঁজ!  
+ অনেক সুখের দুখের সাক্ষী বাঁশের বাঁশীটি নিয়ে,  
+ বসিল রূপাই বাড়ির সামনে মধ্য মাঠেতে গিয়ে।  
+ মাঠের রাখাল, বেদনা তাহার আমরা কি অত বুঝি;  
+ মিছেই মোদের সুখ-দুখ দিয়ে তার সুখ-দুখ খুঁজি।  
+ আমাদের ব্যথা কেতাবেতে লেখা, পড়িলেই বোঝা যায়;  
+ যে লেখে বেদনা বে-বুঝ বাঁশীতে কেমন দেখাব তায়?  
+ অনন্তকাল যাদের বেদনা রহিয়াছে শুধু বুকে,  
+ এ দেশের কবি রাখে নাই যাহা মুখের ভাষায় টুকে;  
+ সে ব্যথাকে আমি কেমনে জানাব? তবুও মাটিতে কান;  
+ পেতে রহি কভু শোনা যায় কি কহে মাটির প্রাণ!  
+ মোরা জানি খোঁজ বৃন্দাবনেতে ভগবান করে খেলা,  
+ রাজা-বাদশার সুখ-দুখ দিয়ে গড়েছি কথার মালা।  
+ পল্লীর কোলে নির্ব্বাসিত এ ভাইবোনগুলো হায়,  
+ যাহাদের কথা আধ বোঝা যায়, আধ নাহি বোঝা যায়;  
+ তাহাদেরই এক বিরহিয়া বুকে কি ব্যথা দিতেছে দোল,  
+ কি করিয়া আ দেখাইব তাহা, কোথা পাব সেই বোল?  
+ —সে বন-বিহগ কাঁদিতে জানে না, বেদনার ভাষা নাই,  
+ ব্যাধের শায়ক বুকে বিঁধিয়াছে জানে তার বেদনাই।  
+ বাজায় রূপাই বাঁশীটি বাজায় মনের মতন করে,  
+ যে ব্যথা সে বুকে ধরিতে পারেনি সে ব্যথা বাঁশীতে ঝরে।  
+ বাজে বাঁশী বাজে, তারি সাথে সাথে দুলিছে সাঁজের আলো;  
+ নাচে তালে তালে জোনাকীর হারে কালো মেঘে রাত-কালো।  
+ বাজাইল বাঁশী ভাটিয়ালী সুরে বাজাল উদাস সুরে,  
+ সুর হতে সুর ব্যথা তার চলে যায় কোন দূরে!  
+ আপনার ভাবে বিভোল পরাণ, অনন্ত মেঘ-লোকে,  
+ বাঁশী হতে সুরে ভেসে যায় যেন, দেখে রূপা দুই চোখে।  
+ সেই সুর বয়ে চলেছে তরুণী, আউলা মাথার চুল,  
+ শিথিল দুখান বাহু বাড়াইয়াছিঁড়িছে মালার ফুল।  
+ রাঙা ভাল হতে যতই মুছিছে ততই সিঁদুর জ্বলে;  
+ কখনও সে মেয়ে আগে আগে চলে, কখনও বা পাছে চলে।  
+ খানিক চলিয়া থামিল করুণী আঁচলে ঢাকিয়া চোখ,  
+ মুছিতে মুছিতে মুছিতে পারে না, কি যেন অসহ শোক!  
+ করুণ তাহার করুণ কান্না আকাশ ছাইয়া যায়,  
+ কি যে মোহের রঙ ভাসে মেঘে তাহার বেদনা-ঘায়।  
+ পুনরায় যেন খিল খিল করে একগাল হাসি হাসে,  
+ তারি ঢেউ লাগি গগনে গগনে তড়িতের রেখা ভাসে।  
+ কখনও আকাশ ভীষণ আঁধার, সব গ্রাসিয়াছে রাহু,  
+ মহাশূণ্যের মাঝে ভেসে উঠে যেন দুইখানি বাহু!  
+ দোলে-দোলে-বাহু তারি সাথে যেন দোলে-দোলে কত কথা,  
+ ঘরে ফিরে যাও, মোর তরে তুমি সহিও না আর ব্যথা।  
+ মুহূর্ত পরে সেই বাহু যেন শূণ্যে মিলায় হায়  
+ রামধনু বেয়ে কে আসে ও মেয়ে, দেখে যেন চেনা যায়!  
+ হাসি হাসি মুখ গলিয়া গলিয়া হাসি যায় যেন পড়ে,  
+ সার গায়ে তার রূপ ধরেনাক, পড়িছে আঁচল ঝরে।  
+ কণ্ঠে তাহার মালার গন্ধে বাতাস পাগল পারা,  
+ পায়ে রিনি ঝিনি সোনার নূপুর বাজিয়া হইছে সারা;  
+ হঠাৎ কে এল ভীষণ দস্যু—ধরি তার চুল মুঠি,  
+ কোন্ আন্ধার গ্রহপথ বেয়ে শূণ্যে সে গেল উঠি।  
+ বাঁশী ফেলে দিয়ে ডাক ছেড়ে রূপা আকাশের পানে চায়,  
+ আধা চাঁদখানি পড়িছে হেলিয়া সাজুদের ওই গাঁয়।  
+ শুনো মাঠে রূপা গড়াগড়ি যায়, সারা গায়ে ধূলো মাখে,  
+ দেহেরে ঢাকিছে ধূলো মাটি দিয়ে, ব্যথারে কি দিয়ে ঢাকে! 
+  
+====== 
+" android:textIsSelectable="true" />
+                </ScrollView>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:textSize="22sp" android:textColor="#fffffa00" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_7" android:background="@drawable/kobitabtn1" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0x2801" android:text="নক্সী কাঁথার মাঠ (০৭/১৪)" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+                <ScrollView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/sv_7" android:background="@drawable/kobita_back2" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                    <TextView android:textSize="18sp" android:textColor="#ffffffff" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_07" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5pt" android:text="কান্-কানা-কান্ ছুটল কথা গুন্-গুনা-গুন তানে,  
+ শোন্-শোনা-শোন সবাই শোনে, কিন্তু কানে কানে।  
+ “কি করগো রূপার মাতা? খাইছ কানের মাথা?  
+ ও-দিক যে তোর রূপার নামে রটছে গাঁয়ে যা তা!  
+ আমরা বলি রূপাই এমন সোনার কলি ছেলে,  
+ তার নামে হয় এমন কথা দেখব কি কাল গেলে?”  
+ এই বলিয়া বড়াই বুড়ি বসল বেড়ি দোর,  
+ রূপার মা কয়, “বুঝিনে বোন কি তোর কথার ঘোর!”  
+ বুড়ি যেন আচমকা হায় আকাশ হতে পড়ে,  
+ “সবাই জানে তুই না জানিস যে কথা তোর ঘরে?”  
+ ও-পাড়ার ও ডাগর ছুঁড়ী, সেখের বাড়ির “সাজু”  
+ তারে নাকি তোর ছেলে সে গড়িয়ে দেছে বাজু।  
+ ঢাকাই শাড়ী কিন্যা দিছে, হাঁসলী দিছে নাকি,  
+ এত করে এখন কেন শাদীর রাখিস বাকি?”  
+ রূপার মা কয়, “রূপা আমার এক-রত্তি ছেলে,  
+ আজও তাহার মুখ শুঁকিলে দুধের ঘিরাণ মেলে।  
+ তার নামে যে এমন কথা রটায় গাঁয়ে গাঁয়ে,  
+ সে যেন তার বেটার মাথা চিবায় বাড়ি যায়।”  
+  
+ রূপার মায়ের রুঠা কথায় উঠল বুড়ীর কাশ,  
+ একটু দিলে তামাক পাতা, নিলেন বুড়ী শ্বাস।  
+ এমন সময় ওই গাঁ হতে আসল খেঁদির মাতা,  
+ টুনির ফুপু আসল হাতে ডলতে তামাক পাতা।  
+ ক’জনকে আর থামিয়ে রাখে? বুঝল রূপার মা;  
+ রূপা তাহার সত্যি করেই এতটুকুন না।  
+ বুঝল মায়ে কেন ছেলে এমন উদাস পারা,  
+ হেথায় হোথায় কেবল ঘোরে হয়ে আপন হারা।  
+ ও পাড়ার ও দুখাই মিয়া ঘটকালিতে পাকা,  
+ সাজুর সাথেই জুড়ুর বিয়ে যতকে লাগুক টাকা।  
+  
+ শেখ বাড়িতে যেয়ে ঘটক বেকী-বেড়ার কাছে,  
+ দাঁড়িয়ে বলে, “সাজুর মাগো, একটু কথা আছে।”  
+ সাজুর মায়ে বসতে তারে এনে দিলেন পিঁড়ে,  
+ ডাব্বা হুঁকা লাগিয়ে বলে, “আস্তে টান ধীরে।”  
+ ঘটক বলে, সাজুর মাগো মেয়ে তোমার বড়,  
+ বিয়ের বয়স হল এখন ভাবনা কিছু কর।  
+ সাজুর মা কয় তোমরা আছ ময়-মুরুব্বি ভাই,  
+ মেয়ে মানুষ অত শত বুঝি কি আর ছাই!  
+ তোমরা যা কও ঠেলতে কি আর সাধ্য আছে মোর?  
+ ঘটক বলে, এই ত কথা, লাগবে না আর ঘোর।  
+ ও-পাড়ার ও রূপারে ত চেনই তুমি বোন্,  
+ তার সাথে দাও মেয়ের বিয়ে ঠিক করিয়ে মন।  
+ সাজুর মা কয়, জান ত ভাই! রটছে গাঁয়ে যাতা,  
+ রূপার সাথে বিয়ে দিলে থাকবে না আর মাথা।  
+  
+ ঘটক বলে, “কাঁটা দিয়েই তুলতে হবে কাঁটা,  
+ নিন্দা যারা করে তাদের পড়বে মুখে ঝাঁটা।  
+ রূপা ত আর নয় এ গাঁয়ে যেমন তেমন ছেলে,  
+ লক্ষ্মীরে দেই বউ বানায়ে অমন জামাই পেলে!  
+ ঠাটে ঘটক কয় গো কথা ঠোঁট-ভরাভর হাসে;  
+ সাজুর মায়ের পরাণ তারি জোয়ার-জলে ভাসে।  
+ দশ খান্দা জমি রূপার, তিনটি গরু হালে,  
+ ধানের-বেড়ী ঠেকে তাহার বড় ঘরের চালে।  
+ সাজু তোমার মেয়ে যেমন, রূপাও ছেলে তেমন,  
+ সাত গেরামের ঘটক আমি জোড় দেখিনি এমন।  
+  
+ তার পরেতে পাড়ল ঘটক রূপার কুলের কথা,  
+ রূপার দাদার নাম গুনে লোক কাঁপত যথা তথা।  
+ রূপার নানা সোয়েদ-ঘেঁষা, মিঞাই বলা যায়  
+ কাজী বাড়ির প্যায়দা ছিল কাজল-তলার গাঁয়।  
+ রূপার বাপের রাখত খাতির গাঁয়ের চৌকিদারে,  
+ আসেন বসেন মুখের কথা—গান বজিত তারে।  
+ রূপার চাচা অছিমদ্দী, নাম শোন নি তার?  
+ ইংরেজী তার বোল শুনিলে সব মানিত হার।  
+ কথা ঘটক বলল এঁটে, বলল কখন ঢিলে,  
+ সাজুর মায়ে সবগুলি তার ফেলল যেন গিলে।  
+  
+ মুখ দেখে বুঝল ঘটক লাগছে অষুধ হাড়ে,  
+ বলল, তোমার সাজুর বিয়া ঠিক কর এই বারে।  
+ সাজুর মা কয়,  যা বোঝ ভাই, তোমরা গ্যা তাই কর,  
+ দেখ যেন কথার আবার হয় না নড়চড়।  
+  
+ আউ ছি ছি! ঘটক বলে, শোনই কথা বোন,  
+ তোমার সাজুর বিয়া দিতে লাগবে কত পণ?  
+ পোণে দিব কুড়ি দেড়েক বায়না দেব তেরো,  
+ চিনি সন্দেশ আগোড়-বাগোড় এই গে ধর বারো।  
+ সবদ্যা হল দুই কুড়ি এ নিতেই হবে বোন,  
+ চাইলে বেশী জামাইর তোমার বেজার হবে মন!  
+ সাজুর মা কয়, ও-সব কথার কি-ইবা আমি জানি,  
+ তোমরা যা কও তাইত খোদার গুকুর বলে মানি।  
+ সাধে বলে দুখাই ঘটক ঘটকালিতে পাকা,  
+ আদ্য মধ্য বিয়ের কথা সব করিল ফাঁকা।  
+  
+ চল্-চলা-চল্ চলল দুখাই পথ বরাবর ধরি,  
+ তাগ্-ধিনা-ধিন্ নাচে যেন গুন্ গুনা গান করি।  
+ দুখাই ঘটক নেচে চলে নাচে তাহার দাড়ি,  
+ বুড়োর বটের শিকড় যেন চলছে নাড়ি নাড়ি;  
+ লম্ফে লম্ফে চলে ঘটক দম্ভ করে চায়,  
+ লুটের মহল দখল করে চলছে যেন গাঁয়!  
+ ঘটকালিরই টাকা যেন ঝন্-ঝনা-ঝন্ বাজে,  
+ হন্-হানা-হন্ চলল ঘটক একলা পথের মাঝে।  
+ ধানের জমি বাঁয় ফেলিয়া ফেলিয়া, ডাইনে ঘন পাট,  
+ জলীর বিলে নাও বাঁধিয়া ধরল গাঁয়ের বাট।  
+ কি কর গো রূপার মাতা, ভবছ বসি কিবা,  
+ সাজুর সাথেই ঠিক কইরাছি তোমার ছেলের বিবা।  
+ সহজে কি হয় সে রাজি, একশ টাকা পণ,  
+ এর কমেতে বসেইনাক সাজুর মায়ের মন।  
+  
+ আমিও আবার কুড়ি তিনেক উঠিনে তার পরে,  
+ সাজুর মায়ও নাছোড়-বান্দা, দিলাম তখন ধরে;  
+ আরেক কুড়ি, তয় সে কথা কইল হাসি হাসি,  
+ আমি  ভাবি, বিয়ার বুঝি বাজল সানাই বাঁশী।  
+ এখন বলি রূপার মাতা, আড়াই কুড়ি টাকা,  
+ মোর কাছেতে দিবা, কথা হয় না যেন ফাঁকা!  
+ আসব দিয়ে গোপনে তায়, নইলে গাঁয়ের লোকে,  
+ মেজবানী দাও বলে তারে ধরবে চীনে জোঁকে।  
+ বিয়ের দিনে নিবে সে তাই তিরিশ টাকা যেচে,  
+ যারে তারে বলতে পার এই কথাটি নেচে।  
+ চিনি সন্দেশ আগোড়-বাগোড় তার লাগিবে ষোলো,  
+ এই ধরগ্যা রূপার বিয়া আজই যেন হল।  
+  
+ রূপার মায়ের আহ্লাদে প্রাণ ধরেইনাক আর,  
+ ইচ্ছে করে নেচে নেচে বেড়ায় বারে বার।  
+ ও রূপা তুই কোথায় গেলি? ভাবিসনাক মোটে,  
+ কপাল গুণি বিয়ে যে তোর সাজুর সাথেই জোটে!  
+ এই বলিয়া রূপার মাতা ছুটল গাঁয়ের পানে,  
+ ঘটক গেল নিজের বাড়ি গুন্-গুনা-গুন্ গানে। 
+  
+====== 
+" android:textIsSelectable="true" />
+                </ScrollView>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:textSize="22sp" android:textColor="#fffffa00" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_8" android:background="@drawable/kobitabtn1" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0x2801" android:text="নক্সী কাঁথার মাঠ (০৮/১৪)" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+                <ScrollView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/sv_8" android:background="@drawable/kobita_back2" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                    <TextView android:textSize="18sp" android:textColor="#ffffffff" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_08" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="বিয়ের কুটুম এসেছে আজ সাজুর মায়ের বাড়ি,  
+ কাছারী ঘর গুম্-গুমা-গুম্, লোক হয়েছে ভারি।  
+ গোয়াল-ঘরে ঝেড়ে পুছে বিছান দিল পাতি;  
+ বসল গাঁয়ের মোল্লা মোড়ল গল্প-গানে মাতি।  
+ কেতাব পড়ার উঠল তুফান; -চম্পা কালু গাজী,  
+ মামুদ হানিফ সোনবান ও জয়গুন বিবি আজি;  
+ সবাই মিলে ফিরছে যেন হাত ধরাধর করি।  
+ কেতাব পড়ার সুরে সুরে চরণ ধরি ধরি।  
+ পড়ে কেতাব গাঁয়ের মোড়ল নাচিয়ে ঘন দাড়ি,  
+ পড়ে কেতাব গাঁয়ের মোল্লা মাঠ-ফাটা ডাক ছাড়ি।  
+  
+ কৌতুহলী গাঁয়ের লোকে শুনছে পেতে কান,  
+ জুমজুমেরি পানি যেন করছে তারা পান!  
+ দেখছে কখন মনের সুখে মামুদ হানিফ যায়,  
+ লাল ঘোড়া তার উড়ছে যেন লাল পাখিটির প্রায়।  
+ কাতার কাতার সৈন্য কাটে যেমন কলার বাগ,  
+ মেষের পালে পড়ছে যেন সুন্দর-বুনো বাঘ!  
+ স্বপ্ন দেখে, জয়গুন বিবি পালঙ্কেতে শুয়ে;  
+ মেঘের বরণ চুলগুলি তার পড়ছে এসে ভূঁয়ে;  
+ আকাশেরি চাঁদ সূরুজে মুখ দেখে পায় লাজ,  
+ সেই কনেরে চোখের কাছে দেখছে চাষী আজ ।  
+ দেখছে চোখে কারবালাতে ইমাম হোসেন মরে,  
+ রক্ত যাহার জমছে আজো সন্ধ্যা মেঘের গোরে;  
+ কারবালারি ময়দানে সে ব্যথার উপাখ্যান;  
+ সারা গাঁয়ের চোখের জলে করিয়া গেল সান।  
+  
+ উঠান পরে হল্লা-করে পাড়ার ছেলে মেয়ে,  
+ রঙিন বসন উড়ছে তাদের নধর তনু ছেয়ে।  
+ কানা-ঘুষা করত যারা রূপার স্বভাব নিয়ে,  
+ ঘোর কলিকাল দেখে যাদের কানত সদা হিয়ে;  
+ তারাই এখন বিয়ের কাজে ফিরছে সবার আগে,  
+ ভাভা গড়ার সকল কাজেই তাদের সমান লাগে।  
+ বউ-ঝিরা সব রান্না-বাড়ায় ব্যস্ত সকল ক্ষণ;  
+ সারা বাড়ি আনন্দ আজ খুশী সবার মন।  
+ বাহিরে আজ এই যে আমোদ দেখছে জনে জনে;  
+ ইহার চেয়ে দ্বিগুণ আমোদ উঠছে রূপার মনে।  
+ ফুল পাগড়ী মাথায় তাহার “জোড়া জামা” গায়,  
+ তেল-কুচ্-কাচ্ কালো রঙে ঝলক্ দিয়ে যায়।  
+  
+ বউ-ঝিরা সব ঘরের বেড়ার খানিক করে ফাঁক,  
+ নতুন দুলার রূপ দেখি আজ চক্ষে মারে তাক।  
+ এমন সময় শোর উঠিল- “বিয়ের যোগাড় কর,  
+ জলদী করে দুলার মুখে পান শরবত ধর।”  
+ সাজুর মামা খটকা লাগায়, “বিয়ের কিছু গৌণ,  
+ সাদার পাতা আনেনি তাই বেজার সবার মন।”  
+ রূপার মামা লম্ফে দাঁড়ায় দম্ভে চলে বাড়ি;  
+ সেরেক পাঁচেক সাদার পাতা আনল তাড়াতাড়ি।  
+ কনের খালু উঠিয়া বলে “সিঁদুর হল ঊনা!”  
+ রূপার খালু আনিয়া দিল যা লাগে তার দুনা!  
+  
+ কনের চাচার মন উঠে না, “খাটো হয়েছে শাড়ী।”  
+ রূপার চাচা দিল তখন “ইংরাজী বোল ছাড়ি”।  
+ “কিরে বেটা বকিস নাকি?” কনের চাচা হাঁকে,  
+ জালির কলার পাতার মত গা কাঁপে তার রাগে।  
+ “কোথায় গেলি ছদন চাচা, ছমির শেখের নাতি,  
+ দেখিয়ে দেই দুলার চাচার কতই বুকের ছাতি!  
+ বেরো বেটা নওশা নিয়ে, দিব না আজ বিয়া;”  
+ বলতে যেন আগুন ছোটে চোখ দুটি তার দিয়া।  
+  
+ বরপক্ষের লোকগুলি সব আর যে বরের চাচা,  
+ পালিয়ে যেতে খুঁজছে যেন রশুই ঘরের মাচা।  
+  
+ মোড়ল এসে কনের চাচায় অনেক করে বলে,  
+ থামিয়ে তারে বিয়ের কথা পাতেন কুতূহলে।  
+ কনের চাচা বসল বরের চাচার কাছে,  
+ কে বলে ঝড় এদের মাঝে হয়েছে যে পাছে!  
+ মোল্লা তখন কলমা পড়ায় সাক্ষী-উকিল ডাকি,  
+ বিয়ে রূপার হয়ে গেল, ক্ষীর-ভোজনী বাকি!  
+  
+ তার মাঝেতে এমন তেমন হয়নি কিছু গোল,  
+ কেবল একটি বিষয় নিয়ে উঠল হাসির রোল।  
+ এয়োরা সব ক্ষীর ছোঁয়ায়ে কনের ঠোঁটের কাছে;  
+ সে ক্ষীর আবার ধরল যখন রূপার ঠোঁটের পাছে;  
+ রূপা তখন ফেলল খেয়ে ঠোঁট ছোঁয়া সেই ক্ষীর,  
+ হাসির তুফান উঠল নেড়ে মেয়ের দলের ভীড়।  
+ ভাবল রূপাই—অমন ঠোঁটে যে ক্ষীর গেছে ছুঁয়ে,  
+ দোজখ যাবে না খেয়ে তা ফেলবে যে জন ভূঁয়ে। 
+  
+====== 
+" android:textIsSelectable="true" />
+                </ScrollView>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:textSize="22sp" android:textColor="#fffffa00" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_9" android:background="@drawable/kobitabtn1" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0x2801" android:text="নক্সী কাঁথার মাঠ (০৯/১৪)" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+                <ScrollView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/sv_9" android:background="@drawable/kobita_back2" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                    <TextView android:textSize="18sp" android:textColor="#ffffffff" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_09" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5pt" android:text="আষাঢ় মাসে রূপীর মায়ে মরল বিকার জ্বরে,  
+ রূপা সাজু খায়নি খানা সাত আট দিন ধরে।  
+ লালন পালন যে করিত “ঠোঁটের” আধার দিয়া,  
+ সেই মা আজি মরে রূপার ভাঙল সুখের হিয়া।  
+ ঘামলে পরে যে তাহারে করত আবের পাখা;  
+ সেই শাশুড়ী মরে, সাজুর সব হইল ফাঁকা।  
+ সাজু রূপা দুই জনেতে কান্দে গলাগলি;  
+ গাছের পাতা যায় যে ঝরে, ফুলের ভাঙে কলি।  
+ এত দুখের দিনও তাদের আস্তে হল গত,  
+ আবার তারা সুখেরি ঘর বাঁধল মনের মত। 
+  
+====== 
+" android:textIsSelectable="true" />
+                </ScrollView>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:textSize="22sp" android:textColor="#fffffa00" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_10" android:background="@drawable/kobitabtn1" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0x2801" android:text="নক্সী কাঁথার মাঠ (১০/১৪)" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+                <ScrollView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/sv_10" android:background="@drawable/kobita_back2" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                    <TextView android:textSize="18sp" android:textColor="#ffffffff" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_010" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5pt" android:text="নতুন চাষা ও নতুন চাষাণী পাতিল নতুন ঘর,  
+ বাবুই পাখিরা নীড় বাঁধে যথা তালের গাছের পর।  
+ মাঠের কাজেতে ব্যস্ত রূপাই, নয়া বউ গেহ কাজে,  
+ দুইখান হতে দুটি সুর যেন এ উহারে ডেকে বাজে।  
+ ঘর চেয়ে থাকে কেন মাঠ পানে, মাঠ কেন ঘর পানে,  
+ দুইখানে রহি দুইজন আজি বুঝিছে ইহার মানে।  
+  
+ আশ্বিন গেল, কার্তিক মাসে পাকিল খেতের ধান,  
+ সারা মাঠ ভরি গাহিতেছে কে যেন হল্ দি-কোটার গান।  
+ ধানে ধান লাগি বাজিছে বাজনা, গন্ধ উড়িছে বায়,  
+ কলমীলতায় দোলন লেগেছে, হেসে কূল নাহি পায়।  
+ আজো এই গাঁও অঝোরে চাহিয়া ওই গাঁওটির পানে,  
+ মাঝে মাঠখানি চাদর বিছায়ে হলুদ বরণ ধানে।  
+  
+ আজকে রূপার বড় কাজ—কাজ—কোন অবসর নাই,  
+ মাঠে যেই ধান ধরেনাক আজি ঘরে দেবে তারে ঠাঁই।  
+ সারা মাঠে ধান, পথে ঘাটে ধান উঠানেতে ছড়াছড়ি,  
+ সারা গাঁও ভরি চলেছে কে কবি ধানের কাব্য পড়ি।  
+  
+ আজকে রূপার মনে পড়েনাক শাপলার লতা দিয়ে,  
+ নয়া গৃহিনীর খোঁপা বেঁধে দিত চুলগুলি তার নিয়ে।  
+ সিঁদুর লইয়া মান হয়নাক বাজে না বাঁশের বাঁশী,  
+ শুধু কাজ—কাজ, কি যাদু-মন্ত্র ধানেরা পড়িছে আসি।  
+  
+ সারাটি বরষা কে কবি বসিয়া বেঁধেছে ধানের গান,  
+ কত সুদীর্ঘ দিবস রজনী করিয়া সে অবসান।  
+ আজকে তাহার মাঠের কাব্য হইয়াছে বুঝি সারা,  
+ ছুটে গেঁয়ো পাখি ফিঙে বুলবুল তারি গানে হয়ে হারা।  
+  
+ কৃষাণীর গায়ে গহনা পরায় নতুন ধানের কুটো;  
+ এত কাজ তবু হাসি ধরেনাক, মুখে ফুল ফুটো ফুটো!  
+ আজকে তাহার পাড়া-বেড়ানর অবসর মোটে নাই,  
+ পার খাড়ুগাছি কোথা পড়ে আছে, কেবা খোঁজ রাখে ছাই!  
+  
+ অর্ধেক রাত উঠোনেতে হয় ধানের মলন মলা,  
+ বনের পশুরা মানুষের কাজে মিশায় গলায় গলা।  
+ দাবায় শুইয়া কৃষাণ ঘুমায়, কৃষাণীর কাজ ভারি,  
+ ঢেকির পারেতে মুখর করিছে একেলা সারাটি বাড়ি।  
+ কোন দিন চাষী শুইয়া শুইয়া গাহে বিরহের গান,  
+ কৃষাণের নারী ঘুমাইয়া পড়ে, ঝাড়িতে ঝাড়িতে ধান।  
+ হেমন্ত চাঁদ অর্ধেক হেলি জ্যোত্স্নার জাল পাতি,  
+ টেনে টেনে তারে হয়রান হয়ে ডুবে যায় রাতারাতি।  
+  
+ এমনি করিয়া ধানের কাব্য হইয়া আসিল সারা,  
+ গানের কাব্য আরম্ভ হল সারাটা কৃষাণ পাড়া!  
+ রাতেরে উহারা মানিবে না যেন, নতুন গলার গানে,  
+ বাঁশী বাজাইয়া আজকে রাতের করিবে নতুন মানে।  
+  
+ আজিকে রূপার কোন কাজ নাই, ঘুম হতে যেন জাগি,  
+ শিয়রে দেখিছে রাজার কুমারী তাহারই ব্যথার ভাগী।  
+  
+ সাজুও দেখিছে কোথাকার যেন রাজার কুমার আজি,  
+ ঘুম হতে তারে সবে জাগায়েছে অরুণ-আলোয় সাজি।  
+  
+ নতুন করিয়া আজকে উহারা চাহিছে এ ওর পানে,  
+ দীর্ঘ কাজের অবসর যেন কহিছে নতুন মানে!  
+ নতুন চাষার নতুন চাষাণী নতুন বেঁধেছে ঘর,  
+ সোহাগে আদরে দুটি প্রাণ যেন করিতেছে নড়নড়!  
+ বাঁশের বাঁশীতে ঘুণ ধরেছিল, এতদিন পরে আজ,  
+ তেলে জলে আর আদরে তাহার হইল নতুন সাজ।  
+ সন্ধ্যার পরে দাবায় বসিয়া রূপাই বাজায় বাঁশী,  
+ মহাশূণ্যের পথে সে ভাসায় শূণ্যের সুররাশি!  
+ ক্রমে রাত বাড়ে, বউ বসে দূরে, দুটি চোখ ঘুমে ভার,  
+ পায়ে পড়ি ওগো চলো শুতে যাই, ভাল লাগে নাক আর।  
+ রূপা ত সে কথা শোনেই নি যেন, বাঁশী বাজে সুরে সুরে,  
+ ঘরে দেখে যারে সেই যেন আজি ফেরে ওই দূরে দূরে।  
+ বউ রাগ করে, দেখ, বলে রাখি, ভাল হবেনাক পরে,  
+ কালকের মত কর যদি তবে দেখিও মজাটি করে।  
+ ওমনি করিয়া সারারাত আজি বাজাইবে যদি বাঁশী,  
+ সিঁদুর আজিকে পরিব না ভালে, কাজল হইবে বাসি।  
+ দেখ, কথা শোন, নইলে এখনি খুলিব কানের দুল,  
+ আজকে ত আমি খোঁপা বাঁধিব না, আলগা রহিবে চুল।  
+ বেচারী রূপাই বাঁশী বাজাইতে এমনি অত্যাচার,  
+ কৃষাণের ছেলে! অত কিবা বোঝে, তখনই মানিল হার।  
+  
+ কহে জোড় করে, শোন গো হুজুর, অধম বাঁশীর প্রতি,  
+ মৌন থাকার কঠোর দণ্ড অন্যায় এ যে অতি।  
+ আজকে ও-ভালে সিঁদুর দিবে না, খুলিবে কানের দুল,  
+ সন্ধ্যে হবে না সিঁদুরে রঙের ভোরে হাসিবে না ফুল!  
+ এক বড় কথা! আচ্ছা দেখাই, ওরে ও অধম বাঁশী,  
+ এই তরুণীর অধরের গানে তোমার হইবে ফাঁসী!  
+ হাতে লয়ে বাঁশী বাজাইল রূপা মাঠের চিকন সুরে,  
+ কভু দোলাইয়া বউটির ঠোঁটে কভু তারে ঘুরে ঘুরে।  
+ বউটি যেন গো হেসে হয়রান, কহে ঠোঁটে ঠোঁট চাপি,  
+ বাঁশীর দণ্ড হইল, কিন্তু যে বাজাল সে পাপী?  
+ পুনঃ জোর করে রূপা কহে, এই অধমের অপরাধ,  
+ ভয়ানক যদি, দণ্ড তাহার কিছু কম নিতে সাধ!  
+ রূপার বলার এমনি ভঙ্গী বউ হেসে কুটি কুটি,  
+ কখনও পড়িছে মাটিতে ঢলিয়া, কভু গায়ে পড়ে লুটি।  
+ পরে কহে, দেখো, আরও কাছে এসো, বাঁশীটি লও তো হাতে,  
+ এমনি করিয়া দোলাও ত দেখি নোলক দোলার সাথে!  
+  
+ বাঁশী বাজে আর নোলক যে দোলে, বউ কহে আর বার,  
+ আচ্ছা আমার বাহুটি নাকিগো সোনালী লতার হার?  
+ এই ঘুরালেম, বাজাও ত দেখি এরি মত কোন সুর,  
+ তেমনি বাহুর পরশের মত বাজে বাঁশী সুমধুর!  
+ দুটি করে রাঙা ঠোঁটখানি টেনে কহে বউ, এরি মত,  
+ তোমার বাঁশীতে সুর যদি থাকে বাজাইলে বেশ হত।  
+ চলে মেঠো বাঁশী দুটি ঠোঁট ছুঁয়ে কলমী ফুলের বুকে,  
+ ছোট চুমু রাখি চলে যেন বাঁশী, চলে সে যে কোন লোকে।  
+  
+ এমনি করিয়া রাত কেটে যায়; হাসে রবি ধীরি ধীরি,  
+ বেড়ার ফাঁকেতে উঁকি মেরে দেখি দুটি খেয়ালীর ছিরি।  
+ সেদিন রাত্রে বাঁশী শুনে শুনে বউটি ঘুমায়ে পড়ে,  
+ তারি রাঙা মুখে বাঁশী-সুরে রূপা বাঁকা চাঁদ এনে ধরে।  
+ তারপরে খুলে চুলের বেণীটি বার বার করে দেখে,  
+ বাহুখানি দেখে নাড়িয়া নাড়িয়া বুকের কাছেতে রেখে।  
+ কুসুম-ফুলেতে রাঙা পাও দুটি দেখে আরো রাঙা করি,  
+ মৃদু তালে তালে নিঃশ্বাস লয়, শুনে মুখে মুখ ধরি।  
+ ভাবে রূপা, ও-যে দেহ ভরি যেন এনেছে ভোরের ফুল,  
+ রোদ উঠিলেই শুকাইয়া যাবে, শুধু নিমিষের ভুল!  
+ হায় রূপা, তুই চোখের কাজলে আঁকিলি মোহন ছবি,  
+ এতটুকু ব্যথা না লাগিতে যেরে ধুয়ে যাবে তোর সবি!  
+  
+ ওই বাহু আর ওই তনু-লতা ভাসিছে সোঁতের ফুল,  
+ সোঁতে সোঁতে ও যে ভাসিয়া যাইবে ভাঙিয়া রূপার কূল!  
+ বাঁশী লয়ে রূপা বাজাতে বসিল বড় ব্যথা তার মনে,  
+ উদাসীয়া সুর মাথা কুটে মরে তাহার ব্যথার সনে।  
+  
+ ধারায় ধারায় জল ছুটে যায় রূপার দুচোখ বেয়ে,  
+ বইটি তখন জাগিয়া উঠিল তাহার পরশ পেয়ে।  
+ ওমা ওকি? তুমি এখনো শোওনি! খোলা কেন মোর চুল?  
+ একি! দুই পায়ে কে দেছে ঘষিয়া রঙিন কুসুম ফুল?  
+ ওকি! ওকি!! তুমি কাঁদছিলে বুঝি! কেন কাঁদছিলে বল?  
+ বলিতে বলিতে বউটির চোখ জলে করে ছল ছল!  
+ বাহুখানা তার কাঁধ পরে রাখি রূপা কয় মৃদু সুরে,  
+ শোন শোন সই, কে যেন তোমায় নিয়ে যেতে চায় দূরে!  
+  
+ সে দূর কোথায়? অনেক অনেক দেশ যেতে হয় ছেড়ে,  
+ সেথা কেউ নাই শুধু আমি তুমি আর সেই সে অচেনা ফেরে।  
+ তুমি ঘুমাইলে সে এসে আমায় কয়ে যায় কানে কানে,  
+ যাই যাই ওরে নিয়ে যাই আমি আমার দেশের পানে।  
+ বল, তুমি সেথা কখনও যাবে না, সত্যি করিয়া বল!  
+ নয়! নয়! নয়! বউ কহে তার চোখ দুটি ছল ছল।  
+  
+ রূপা কয় শোন সোনার বরণি, আমার এ কুঁড়ে ঘর,  
+ তোমার রূপের উপহাস শুধু করে সারা দিনভর।  
+ তুমি ফুল! তব ফুলের গায়েতে বহে বিহানের বায়ু,  
+ আমি কাঁদি সই রোদ উঠিলে যে ফুরাবে রঙের আয়ু।  
+ আহা আহা সখি, তুমি যাহা কর, মোর মনে লয় তাই,  
+ তোমার ফুলের পরাণে কেবল দিয়া যায় বেদনাই।  
+ এমন সময় বাহির হইতে বছির মামুর ডাকে,  
+ ধড়মড় করি উঠিয়া রূপাই চাহিল বেড়ার ফাঁকে। 
+  
+====== 
+" android:textIsSelectable="true" />
+                </ScrollView>
+            </LinearLayout>
+        </LinearLayout>
+    </HorizontalScrollView>
+    <FrameLayout android:id="@+id/bottom_frame" android:background="#043800" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2301" android:layout_alignParentBottom="true">
+        <Button android:textColor="#d7d7d7" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/DayMode" android:background="@drawable/btn_100x35" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x2301" android:layout_marginLeft="10dp" android:text="Day Mode" android:onClick="Day_Mode" android:textAllCaps="false" />
+        <Button android:textColor="#d7d7d7" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/Default" android:background="@drawable/btn_100x35_back" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x2301" android:text="Default" android:onClick="Default" android:textAllCaps="false" />
+        <Button android:textColor="#d7d7d7" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/NightMode" android:background="@drawable/btn_100x35" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x2301" android:layout_marginRight="10dp" android:text="Night Mode" android:onClick="Night_Mode" android:textAllCaps="false" />
+    </FrameLayout>
+    <com.google.android.gms.ads.AdView android:id="@+id/adView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/top_frame" android:layout_centerHorizontal="true" android:adSize="BANNER" android:adUnitId="ca-app-pub-7960193263009665/4951506033" />
+</RelativeLayout>

@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/RL_Main" android:background="@drawable/kobita_back1" android:layout_width="match_parent" android:layout_height="match_parent" android:keepScreenOn="true">
+    <FrameLayout android:id="@+id/top_frame" android:background="@drawable/btn_border" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3c01">
+        <ImageView android:background="@drawable/f_humayon_ahmed" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="22sp" android:textColor="#fffc34" android:id="@+id/kobi_name" android:paddingLeft="60dp" android:paddingTop="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="হুমায়ূন আহমেদ" />
+        <TextView android:textSize="14sp" android:textColor="#ffffff" android:id="@+id/kobi_birth" android:paddingLeft="60dp" android:paddingTop="33dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="(জন্ম-১৯৪৮ / মৃত্যু-২০১২)" />
+        <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textColor="#ffffff" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/pata" android:background="@drawable/kobitabtn_60x50" android:layout_width="UNKNOWN_DATA_0x3c01" android:layout_height="UNKNOWN_DATA_0x3c01" android:layout_marginRight="10dp" android:text="১ম 
+পাতা" />
+    </FrameLayout>
+    <HorizontalScrollView android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginBottom="35dp" android:layout_below="@+id/adView">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="match_parent"
+            <LinearLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:textSize="22sp" android:textColor="#fffffa00" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_1" android:background="@drawable/kobitabtn1" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0x2801" android:text="বাসর" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+                <ScrollView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/sv_1" android:background="@drawable/kobita_back2" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                    <TextView android:enabled="true" android:textSize="18sp" android:textColor="#ffffffff" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_01" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="কপাটহীন একটা অস্থির ঘরে তার সঙ্গে দেখা ।  
+লোহার তৈরি ছোট্ট একটা ঘর ।  
+বাইরের পৃথিবীর সঙ্গে কোন যোগ নেই ।  
+ঘরটা শুধু উঠছে আর নামছে ।  
+নামছে আর উঠছে ।  
+মানুষ ক্লান্ত হয় –  
+এ ঘরের কোন ক্লান্তি নেই।  
+এ রকম একটা ঘরেই বোধহয় বেহুলার বাসর হয়েছিল ।  
+নিশ্ছিদ্র লোহার একটা ঘর ।  
+কোন সাপ সেখানে ঢুকতে পারবে না ।  
+হিস হিস করে বলতে পারবে না, পাপ করো। পৃথিবীর সব আনন্দ পাপে ।  
+পুণ্য আনন্দহীন । উল্লাসহীন ।  
+পুণ্য করবে আকাশের ফিরিশতারা ।  
+কারণ পুণ্য করার জন্যেই তাদের তৈরি করা হয়েছে ।  
+লোহার সেই ঘরে ঢোকার জন্য সাপটা পথ খুঁজছিলো ।  
+সেই ফাঁকে বেহুলা তাঁর স্বামীকে বললেন, কি হয়েছে, তুমি ঘামছ কেন ?  
+আর তখন একটা সুতা সাপ ঢুকে গেলো।  
+ফিসফিস করে কোন একটা পরামর্শ দিতে গেলো ।  
+বেহুলা সেই পরামর্শ শুনলেন না বলেই কি লখিন্দরকে মরতে হল ?   
+  
+তার সঙ্গে আমার দেখা কপাটহীন একটা অস্থির ঘরে ।  
+ঘরটা শুধু ওঠে আর নামে ।  
+আমি তাকে বলতে গেলাম - আচ্ছা শুনুন, আপনার কি মনে হচ্ছে না  
+এই ঘরটা আসলে আমাদের বাসর ঘর ?  
+আপনি আর কেউ নন, আপনি বেহুলা ।  
+যেই আপনি ভালবেসে আমাকে কিছু বলতে যাবেন  
+ওম্নি একটা সুতা সাপ এসে আমাকে কামড়ে দেবে ।  
+আমাকে বাঁচিয়ে রাখুন । দয়া করে কিছু বলবেন না ।  
+  
+====== 
+" android:textIsSelectable="true" />
+                </ScrollView>
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:textSize="22sp" android:textColor="#fffffa00" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_2" android:background="@drawable/kobitabtn1" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0x2801" android:text="রাশান রোলেট" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:textIsSelectable="true" />
+                <ScrollView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/sv_2" android:background="@drawable/kobita_back2" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                    <TextView android:textSize="18sp" android:textColor="#ffffffff" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_02" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5pt" android:text="টেবিলের চারপাশে আমরা ছ'জন  
+চারজন চারদিকে ; দু'জন কোনাকুনি  
+দাবার বোড়ের মত  
+খেলা শুরু হলেই একজন আরেকজনকে খেয়ে ফেলতে উদ্যত ।  
+আমরা চারজন শান্ত, শুধু দু'জন নিঃশ্বাস বন্ধ করে বসে আছে ।  
+তাদের স্নায়ু টানটান।  
+বেড়ালের নখের মত তাদের হৃদয় থেকে  
+বেরিয়ে আসবে তীক্ষ্ম নখ ।  
+খেলা শুরু হতে দেরি হচ্ছে,  
+আম্পায়ার এখনো আসেনি।  
+খেলার সরঞ্জাম একটা ধবধবে সাদা পাতা  
+আর একটা কলম ।  
+কলমটা মিউজিক্যাল পিলো হাতে হাতে ঘুরবে  
+আমরা চারজন চারটা পদ লিখবো ।  
+শুধু যে দু'জন নখ বের করে কোনাকুনি বসে আছে  
+তারা কিছু লিখবে না ।  
+তারা তাদের নখ ধারালো করবে  
+লেখার মত সময় তাদের কোথায় ?  
+প্রথম কলম পেয়েছি আমি,  
+আম্পায়ার এসে গেছেন।  
+পিস্তল আকাশের দিকে তাক করে তিনি বললেন,  
+এ এক ভয়ংকর খেলা,  
+কবিতার রাশান রোলেট -  
+যিনি সবচে ভালো পদ লিখবেন  
+তাকে তৎক্ষণাৎ মেরে ফেলা হবে ।  
+আমার হাতে কলম কম্পমান  
+সবচে সুন্দর পদ এসে গেছে আমার মুঠোয়।  
+  
+====== 
+" android:textIsSelectable="true" />
+                </ScrollView>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:textSize="22sp" android:textColor="#fffffa00" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_3" android:background="@drawable/kobitabtn1" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0x2801" android:text="বাবার চিঠি" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+                <ScrollView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/sv_3" android:background="@drawable/kobita_back2" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                    <TextView android:textSize="18sp" android:textColor="#ffffffff" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_03" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="আমি যাচ্ছি নাখালপাড়ায়।  
+আমার বৃদ্ধ পিতা আমাকে পাঠাচ্ছেন তাঁর  
+প্রথম প্রেমিকার কাছে।  
+আমার প্যান্টের পকেটে সাদা খামে মোড়া বাবার লেখা দীর্ঘ পত্র।  
+খুব যত্নে খামের উপর তিনি তাঁর প্রণয়িনীর নাম লিখেছেন।  
+কে জানে চিঠিতে কি লেখা - ?  
+তাঁর শরীরের সাম্প্রতিক অবস্থার বিস্তারিত বর্ণনা ?  
+রাতে ঘুম হচ্ছেনা, রক্তে সুগার বেড়ে গেছে  
+কষ্ট পাচ্ছেন হাঁপানিতে - এইসব হাবিজাবি। প্রেমিকার কাছে  
+লেখা চিঠি বয়সের ভারে প্রসঙ্গ পাল্টায়  
+অন্য রকম হয়ে যায়।  
+সেখানে জোছনার কথা থাকে না,  
+সাম্প্রতিক শ্বাসকষ্ট বড় হয়ে উঠে।  
+প্রেমিকাও একটা নির্দিষ্ট বয়সের পর  
+রোগভুগের কথা পড়তে ভালবাসেন।  
+চিঠি পড়তে পড়তে দরদে গলিত হন –  
+আহা, বেচারা ইদানিং বড্ড কষ্ট পাচ্ছে তো ...  
+  
+====== 
+" android:textIsSelectable="true" />
+                </ScrollView>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:textSize="22sp" android:textColor="#fffffa00" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_4" android:background="@drawable/kobitabtn1" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0x2801" android:text="কাচপোকা" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+                <ScrollView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/sv_4" android:background="@drawable/kobita_back2" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                    <TextView android:textSize="18sp" android:textColor="#ffffffff" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_04" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5pt" android:text="একটা ঝকঝকে রঙিন কাচপোকা  
+হাঁটতে হাঁটতে এক ঝলক রোদের মধ্যে পড়ে গেল।  
+ঝিকমিকিয়ে উঠল তার নকশাকাটা লাল নীল সবুজ শরীর।  
+বিরক্ত হয়ে বলল,রোদ কেন?  
+আমি চাই অন্ধকার ।চির অন্ধকার  
+আমার ষোলটা পায়ে একটা ভারি শরীর বয়ে নিয়ে যাচ্ছি-  
+অন্ধকার দেখব বলে।  
+আমি চাই অন্ধকার ।চির অন্ধকার  
+একটা সময়ে এসে রোদ নিভে গেল  
+বাদুড়ে ডানায় ভর করে নামল আঁধার।  
+কি গাঢ়,পিচ্ছিল থকথকে অন্ধকার !  
+কাচপোকার ষোলটা ক্লান্ত পা বার বার  
+সেই পিচ্ছিল আঠালো অন্ধকারে ডেবে যাচ্ছিল।  
+তার খুব কষ্ট হচ্ছিল হাঁটতে  
+তবু সে হাঁটছে-  
+তাকে যেতে হবে আরও গভীর অন্ধকারে।  
+যে অন্ধকার-আলোর জন্মদাত্রী।  
+  
+====== 
+" android:textIsSelectable="true" />
+                </ScrollView>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:textSize="22sp" android:textColor="#fffffa00" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_5" android:background="@drawable/kobitabtn1" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0x2801" android:text="তিনি" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+                <ScrollView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/sv_5" android:background="@drawable/kobita_back2" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                    <TextView android:textSize="18sp" android:textColor="#ffffffff" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_05" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="এক জরাগ্রস্থ বৃদ্ধ ছিলেন নিজ মনে  
+আপন ভুবনে।  
+জরার কারণে তিনি পুরোপুরি বৃক্ষ এক।  
+বাতাসে বৃক্ষের পাতা কাঁপে  
+তাঁর কাঁপে হাতের আঙ্গুল।  
+বৃদ্ধের সহযাত্রী জবুথবু-  
+পা নেই,শুধু পায়ের স্মৃতি পড়ে আছে।  
+সেই স্মৃতি ঢাকা থাকে খয়েরি চাদরে।  
+জরাগ্রস্থ বৃদ্ধ ভাবে চাদরের রঙটা নীল হলে ভাল ছিল।  
+স্মৃতির রং সব সময় নীল।  
+  
+====== 
+" android:textIsSelectable="true" />
+                </ScrollView>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:textSize="22sp" android:textColor="#fffffa00" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_6" android:background="@drawable/kobitabtn1" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0x2801" android:text="কব্বর" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+                <ScrollView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/sv_6" android:background="@drawable/kobita_back2" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                    <TextView android:textSize="18sp" android:textColor="#ffffffff" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_06" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5pt" android:text="তিনি শায়িত ছিলেন গাঢ় কব্বরে  
+যার দৈর্ঘ্য-প্রস্থ বেঁধে দেয়া,  
+গভীরতা নয়।  
+কব্বরে শুয়ে তাঁর হাত কাঁপে পা কাঁপে  
+গভীর বিস্ময়বোধ হয়।  
+মনে জাগে নানা সংশয়।  
+মৃত্যু তো এসে গেছে, শুয়ে আছে পাশে  
+তবু কেন কাটে না এ বেহুদা সংশয়?  
+  
+====== 
+" android:textIsSelectable="true" />
+                </ScrollView>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:textSize="22sp" android:textColor="#fffffa00" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_7" android:background="@drawable/kobitabtn1" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0x2801" android:text="সংসার" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+                <ScrollView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/sv_7" android:background="@drawable/kobita_back2" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                    <TextView android:textSize="18sp" android:textColor="#ffffffff" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_07" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5pt" android:text="শোন মিলি।  
+দুঃখ তার বিষমাখা তীরে তোকে  
+বিঁধে বারংবার।  
+তবুও নিশ্চিত জানি,একদিন হবে তোর  
+সোনার সংসার ।।  
+উঠোনে পড়বে এসে একফালি রোদ  
+তার পাশে শিশু গুটিকয়  
+তাহাদের ধুলোমাখা হাতে - ধরা দেবে  
+পৃথিবীর সকল বিস্ময়।  
+  
+====== 
+" android:textIsSelectable="true" />
+                </ScrollView>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:textSize="22sp" android:textColor="#fffffa00" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_8" android:background="@drawable/kobitabtn1" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0x2801" android:text="অশ্রু" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+                <ScrollView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/sv_8" android:background="@drawable/kobita_back2" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                    <TextView android:textSize="18sp" android:textColor="#ffffffff" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_08" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="আমার বন্ধুর বিয়ে  
+উপহার বগলে নিয়ে  
+আমি আর আতাহার,  
+মৌচাক মোড়ে এসে বাস থেকে নামলাম  
+দু’সেকেন্ড থামলাম।।  
+টিপটিপ ঝিপঝিপ  
+বৃষ্টি কি পড়ছে?  
+আকাশের অশ্রু ফোঁটা ফোঁটা ঝরছে?   
+  
+আমি আর আতাহার  
+বলুন কি করি আর?  
+উপহার বগলে নিয়ে আকাশের অশ্রু  
+সারা গায়ে মাখলাম।।  
+হি হি করে হাসলাম।।  
+  
+====== 
+" android:textIsSelectable="true" />
+                </ScrollView>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:textSize="22sp" android:textColor="#fffffa00" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_9" android:background="@drawable/kobitabtn1" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0x2801" android:text="গৃহত্যাগী জ্যোৎস্না" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+                <ScrollView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/sv_9" android:background="@drawable/kobita_back2" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                    <TextView android:textSize="18sp" android:textColor="#ffffffff" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_09" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5pt" android:text="প্রতি পূর্নিমার মধ্যরাতে একবার আকাশের দিকে তাকাই  
+গৃহত্যাগী হবার মত জ্যোৎস্না কি উঠেছে ?  
+বালিকা ভুলানো জ্যোৎস্না নয়।  
+যে জ্যোৎস্নায় বালিকারা ছাদের রেলিং ধরে ছুটাছুটি করতে করতে বলবে-  
+ও মাগো, কি সুন্দর চাঁদ !  
+নবদম্পতির জ্যোৎস্নাও নয়।  
+যে জ্যোৎস্না দেখে স্বামী গাঢ় স্বরে স্ত্রীকে বলবেন-  
+দেখ দেখ নীতু চাঁদটা তোমার মুখের মতই সুন্দর !  
+কাজলা দিদির স্যাঁতস্যাতে জ্যোৎস্না নয়।  
+যে জ্যোৎস্না বাসি স্মৃতিপূর্ন ডাস্টবিন উল্টে দেয় আকাশে।  
+কবির জ্যোৎস্না নয়। যে জ্যোৎস্না দেখে কবি বলবেন-  
+কি আশ্চর্য রূপার থালার মত চাঁদ !  
+আমি সিদ্ধার্থের মত গৃহত্যাগী জ্যোৎস্নার জন্য বসে আছি।  
+যে জ্যোৎস্না দেখামাত্র গৃহের সমস্ত দরজা খুলে যাবে-  
+ঘরের ভেতরে ঢুকে পরবে বিস্তৃত প্রান্তর।  
+প্রান্তরে হাঁটব, হাঁটব আর হাঁটব-  
+পূর্নিমার চাঁদ স্থির হয়ে থাকবে মধ্য আকাশে।  
+চারদিক থেকে বিবিধ কন্ঠ ডাকবে- আয় আয় আয়।  
+  
+====== 
+" android:textIsSelectable="true" />
+                </ScrollView>
+            </LinearLayout>
+            <Button android:textSize="18sp" android:textColor="#ffffffff" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/btn_thanks" android:background="@connectionresult/SUCCESS" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0x3201" android:text="ধন্যবাদ" />
+        </LinearLayout>
+    </HorizontalScrollView>
+    <FrameLayout android:id="@+id/bottom_frame" android:background="#043800" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2301" android:layout_alignParentBottom="true">
+        <Button android:textColor="#d7d7d7" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/DayMode" android:background="@drawable/btn_100x35" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x2301" android:layout_marginLeft="10dp" android:text="Day Mode" android:onClick="Day_Mode" android:textAllCaps="false" />
+        <Button android:textColor="#d7d7d7" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/Default" android:background="@drawable/btn_100x35_back" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x2301" android:text="Default" android:onClick="Default" android:textAllCaps="false" />
+        <Button android:textColor="#d7d7d7" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/NightMode" android:background="@drawable/btn_100x35" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x2301" android:layout_marginRight="10dp" android:text="Night Mode" android:onClick="Night_Mode" android:textAllCaps="false" />
+    </FrameLayout>
+    <com.google.android.gms.ads.AdView android:id="@+id/adView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/top_frame" android:layout_centerHorizontal="true" android:adSize="BANNER" android:adUnitId="ca-app-pub-7960193263009665/4951506033" />
+</RelativeLayout>

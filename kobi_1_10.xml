@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/RL_Main" android:background="@drawable/kobita_back1" android:layout_width="match_parent" android:layout_height="match_parent" android:keepScreenOn="true">
+    <FrameLayout android:id="@+id/top_frame" android:background="@drawable/btn_border" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3c01">
+        <ImageView android:background="@drawable/f_kazi_nazrul_islam" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="22sp" android:textColor="#fffc34" android:id="@+id/kobi_name" android:paddingLeft="60dp" android:paddingTop="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="কাজী নজরুল ইসলাম" />
+        <TextView android:textSize="14sp" android:textColor="#ffffff" android:id="@+id/kobi_birth" android:paddingLeft="60dp" android:paddingTop="33dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="(জন্ম-১৮৯৯ / মৃত্যু-১৯৭৬)" />
+        <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textColor="#ffffff" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/pata" android:background="@drawable/kobitabtn_60x50" android:layout_width="UNKNOWN_DATA_0x3c01" android:layout_height="UNKNOWN_DATA_0x3c01" android:layout_marginRight="10dp" android:text="১০ম 
+পাতা" />
+    </FrameLayout>
+    <HorizontalScrollView android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginBottom="35dp" android:layout_below="@+id/adView">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="match_parent"
+            <LinearLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:textSize="22sp" android:textColor="#fffffa00" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_1" android:background="@drawable/kobitabtn1" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0x2801" android:text="উৎসর্গ (অগ্নিবীণা)" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+                <ScrollView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/sv_1" android:background="@drawable/kobita_back2" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                    <TextView android:enabled="true" android:textSize="18sp" android:textColor="#ffffffff" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_01" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="ভাঙা বাংলার রাঙা যুগের আদি পুরোহিত, সাগ্নিক বীর  
+ শ্রীবারীন্দ্রকুমার ঘোষ  
+ শ্রীশ্রীচরণারবিন্দেষু   
+  
+ অগ্নি-ঋষি! অগ্নি-বীণা তোমায় শুধু সাজে।  
+ তাই তো তোমার বহ্নি-রাগেও বেদন-বেহাগ বাজে॥  
+ দহন-বনের গহন-চারী–  
+ হায় ঋষি– কোন্ বংশীধারী  
+ নিঙ্‌ড়ে আগুন আন্‌লে বারি  
+ অগ্নি-মরুর মাঝে।  
+ সর্বনাশা কোন্ বাঁশি সে বুঝ্‌তে পারি না যে॥   
+  
+ দুর্বাসা হে! রুদ্র তড়িৎ হান্‌ছিলে বৈশাখে,  
+ হঠাৎ সে কার শুন্‌লে বেণু কদম্বের ঐ শাখে।  
+ বজ্রে তোমার বাজ্‌ল বাঁশি,  
+ বহ্নি হলো কান্না হাসি.  
+ সুরের ব্যথায় প্রাণ উদাসী–  
+ মন সরে না কাজে।  
+ তোমার   নয়ন-ঝুরা অগ্নি-সুরেও রক্ত-শিখা বাজে॥  
+  
+====== 
+" android:textIsSelectable="true" />
+                </ScrollView>
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:textSize="22sp" android:textColor="#fffffa00" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_2" android:background="@drawable/kobitabtn1" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0x2801" android:text="আগমনী" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:textIsSelectable="true" />
+                <ScrollView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/sv_2" android:background="@drawable/kobita_back2" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                    <TextView android:textSize="18sp" android:textColor="#ffffffff" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_02" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5pt" android:text="একি রণ-বাজা বাজে ঘন ঘন–  
+ ঝন রনরন রন ঝনঝন!  
+ সেকি    দমকি দমকি  
+ ধমকি ধমকি  
+ দামা-দ্রিমি-দ্রিমি গমকি গমকি  
+ ওঠে চোটে চোটে,  
+ ছোটে লোটে ফোটে  
+ বহ্নি-ফিনিকি     চমকি   চমকি  
+ ঢাল-তলোয়ারে খনখন!  
+ একি    রণ-বাজা বাজে ঘন ঘন  
+ রণ ঝনঝন ঝন রণরণ!   
+  
+ হৈ  হৈ রব  
+ ঐ  ভৈরব  
+ হাঁকে,   লাখে লাখে  
+ ঝাঁকে  ঝাঁকে ঝাঁকে  
+ লাল     গৈরিক-গায় সৈনিক ধায় তালে তালে  
+ ওই পালে পালে,  
+ ধরা কাঁপে দাপে।  
+ জাঁকে মহাকাল কাঁপে থরথর!  
+ রণে কড়কড় কাড়া-খাঁড়া-ঘাত,  
+ শির পিষে হাঁকে রথ-ঘর্ঘর-ধ্বনি ঘররর!  
+ 'গুরু গরগর' বোলে ভেরী তূরী,  
+ 'হর হর হর'  
+ করি চীৎকার ছোটে সুরাসুর-সেনা হনহন!  
+ ওঠে   ঝন্‌ঝা ঝাপটি দাপটি সাপটি  
+ হু-হু-হু-হু-হু-হু-শনশন!  
+ ছোটে  সুরাসুর-সেনা হনহন!   
+  
+ তাতা   থৈথৈ তাতা থৈথৈ খল খল খল  
+ নাচে   রণ-রঙ্গিণী সঙ্গিনী সাথে,  
+ ধকধক জ্বলে জ্বলজ্বল  
+ বুকে   মুখে চোখে রোষ-হুতাশন!  
+ রোস্ কোথা শোন্!   
+  
+ ঐ ডম্বরু-ঢোলে ডিমিডিমি বোলে,  
+ ব্যোম মরুৎ স-অম্বর দোলে,  
+ মম-বরুণ কী কল-কল্লোলে চলে উতরোলে  
+ ধ্বংসে মাতিয়া  তাথিয়া তাথিয়া  
+ নাচিয়া রঙ্গে! চরণ-ভঙ্গে  
+ সৃষ্টি সে টলে টলমল!   
+  
+ ওকি   বিজয়-ধ্বনি সিন্ধু গরজে কলকল কল কলকল!  
+ ওঠে কোলাহল,  
+ কূট  হলাহল  
+ ছোটে   মন্থনে পুন রক্ত-উদধি,  
+ ফেনা-বিষ ক্ষরে গলগল!  
+ টলে   নির্বিকার সে বিধাত্রীরো গো  
+ সিংহ-আসন টলমল!  
+ কার   আকাশ-জোড়া ও আনত-নয়ানে  
+ করুণা-অশ্রু ছলছল!   
+  
+ বাজে মৃত সুরাসুর-পাঁজরে ঝাঁজর ঝম্ঝম,  
+ নাচে ধূর্জটি সাথে প্রমথ ববম্ বম্‌বম্!  
+ লাল লালে-লাল ওড়ে ঈশানে নিশান যুদ্ধের,  
+ ওঠে ওঙ্কার রণ-ডঙ্কার,  
+ নাদে ওম্ ওম্ মহাশঙ্খ বিষাণ রুদ্রের!  
+ ছোটে   রক্ত-ফোয়ারা বহ্নির বান রে!  
+ কোটি   বীর-প্রাণ  
+ ক্ষণে  নির্বাণ  
+ তবু শত সূর্যের জ্বালাময় রোষ  
+ গমকে শিরায় গম্‌গম্!  
+ ভয়ে   রক্ত-পাগল প্রেত পিশাচেরও  
+ শিরদাঁড়া করে চন্‌চন্!  
+ যত    ডাকিনী যোগিনী বিস্ময়াহতা,  
+ নিশীথিনী ভয়ে থম্‌থম্!  
+ বাজে  মৃত সুরাসুর-পাঁজরে ঝাঁঝর ঝম্‌ঝম্!   
+  
+ ঐ অসুর-পশুর মিথ্যা দৈত্য-সেনা যত  
+ হত  আহত করে রে দেবতা সত্য!  
+ স্বর্গ, মর্ত, পাতাল, মাতাল রক্ত-সুরায়;  
+ ত্রস্ত বিধাতা,  
+ মস্ত পাগল পিনাক-পাণি স-ত্রিশূল প্রলয়-হস্ত ঘুরায়!  
+ ক্ষিপ্ত সবাই রক্ত-সুরায়!   
+  
+ চিতার উপরে চিতা সারি সারি,  
+ চারিপাশে তারি  
+ ডাকে কুক্কুর গৃহিনী শৃগাল!  
+ প্রলয়-দোলায় দুলিছে ত্রিকাল!  
+ প্রলয়-দোলায় দুলিছে ত্রিকাল!!  
+ আজ   রণ-রঙ্গিণী জগৎমাতার দেখ্ মহারণ,  
+ দশদিকে তাঁর দশ হাতে বাজে দশ প্রহরণ!  
+ পদতলে লুটে মহিষাসুর,  
+ মহামাতা ঐ সিংস-বাহিনী জানায় আজিকে বিশ্ববাসীকে–  
+ শাশ্বত নহে দানব-শক্তি, পায়ে পিষে যায় শির পশুর!  
+ 'নাই দানব  
+ নাই অসুর,–  
+ চাইনে সুর,  
+ চাই মানব!'–  
+ বরাভয়-বাণী ঐ রে কার  
+ শুনি, নহে হৈ রৈ এবার!   
+  
+ ওঠ্ রে ওঠ্,  
+ ছোট্ রে ছোট্!  
+ শান্ত মন,  
+ ক্ষান্ত রণ!–   
+  
+ খোল্ তোরণ,  
+ চল্ বরণ  
+ করব্ মা'য়;  
+ ডর্‌ব কায়?  
+ ধরব পা'য় কার্ সে আর,  
+ বিশ্ব-মা'ই পার্শ্বে যার?  
+ আজ   আকাশ-ডোবানো নেহারি তাঁহারি চাওয়া,  
+ ঐ শেফালিকা-তলে কে বালিকা চলে?  
+ কেশের গন্ধ আনিছে আশিন-হাওয়া!  
+ এসেছে রে সাথে উৎপলাক্ষী চপলা কুমারী কমলা ঐ,  
+ সরসিজ-নিভ শুভ্র বালিকা  
+ এল  বীণা-পাণি অমলা ঐ!   
+  
+ এসেছে গনেশ,  
+ এসেছে মহেশ,  
+ বাস্‌রে বাস্!  
+ জোর উছাস্!!  
+ এল সুন্দর সুর-সেনাপতি,  
+ সব মুখ এ যে চেনা-চেনা অতি!  
+ বাস্ রে বাস্‌   জোর উছাস্!!   
+  
+ হিমালয়! জাগো! ওঠো আজি,  
+ তব সীমা লয় হোক।  
+ ভুলে যাও শোক– চোখে জল ব'ক  
+ শান্তির– আজি শান্তি-নিলয় এ আলয় হোক!  
+ ঘরে ঘরে আজি দীপ জ্বলুক!  
+ মা'র আবাহন-গীত্ চলুক!  
+ দীপ জ্বলুক!  
+ গীত চলুক!!  
+ আজ   কাঁপুক মানব-কলকল্লোলে কিশলয় সম নিখিল ব্যোম্!  
+ স্বা-গতম্!  
+ স্বা-গতম্!!  
+ মা-তরম্!  
+ মা-তরম্!!  
+ ঐ   ঐ  ঐ  বিশ্ব কণ্ঠে  
+ বন্দনা- বাণী লুণ্ঠে-'বন্দে মাতরম্!!!'  
+  
+====== 
+" android:textIsSelectable="true" />
+                </ScrollView>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:textSize="22sp" android:textColor="#fffffa00" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_3" android:background="@drawable/kobitabtn1" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0x2801" android:text="ধূমকেতু" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+                <ScrollView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/sv_3" android:background="@drawable/kobita_back2" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                    <TextView android:textSize="18sp" android:textColor="#ffffffff" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_03" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="আমি যুগে যুগে আসি, আসিয়াছি পুন মহাবিপ্লব হেতু  
+ এই  স্রষ্টার শনি মহাকাল ধূমকেতু!  
+ সাত সাতশো নরক-জ্বালা জলে মম ললাটে,  
+ মম ধূম-কুণ্ডুলি করেছে শিবের ত্রিনয়ন ঘর ঘোলাটে!  
+ আমি অশিব তিক্ত অভিশাপ,  
+ আমি   স্রষ্টার বুকে সৃষ্টি-পাপের অনুতাপ-তাপ-হাহাকার–  
+ আর    মর্তে সাহারা-গোবি-ছাপ,  
+ আমি   অশিব তিক্ত অভিশাপ!   
+  
+ আমি  সর্বনাশের ঝাণ্ডা উড়ায়ে বোঁও বোঁও ঘুরি শূন্যে,  
+ আমি বিষ-ধূম-বাণ হানি একা ঘিরে ভগবান-অভিমুন্যে।  
+ শোঁও শন-নন-নন-শন-নন-নন শাঁই শাঁই,  
+ ঘুর্  পাক্ খাই, ধাই পাঁই পাঁই  
+ মম  পুচ্ছে জড়ায়ে সৃষ্টি;  
+ করি উল্কা-অশনি-বৃষ্টি,–  
+ আমি একটা বিশ্ব গ্রাসিয়াছি, পারি গ্রাসিতে এখনো ত্রিশটি।  
+ আমি   অপঘাত দুর্দৈব রে আমি সৃষ্টির অনাসৃষ্টি!   
+  
+ আমি   আপনার বিষ-জ্বালা-মদ-পিয়া মোচড় খাইয়া খাইয়া  
+ জোর বুঁদ হয়ে আমি চলেছি ধাইয়া ভাইয়া!  
+ শুনি মম বিষাক্ত 'রিরিরিরি'-নাদ  
+ শোনায় দ্বিরেফ-গুঞ্জন সম বিশ্ব-ঘোরার প্রণব-নিনাদ!  
+ ধূর্জটি-শিখ করাল পুচ্ছে  
+ দশ অবতারে বেঁধে ঝ্যাঁটা করে ঘুরাই উচ্চে, ঘুরাই–  
+ আমি   অগ্নি-কেতন উড়াই!–  
+ আমি   যুগে যুগে আসি, আসিয়াছি পুন মহাবিপ্লব হেতু  
+ এই    স্রষ্টার শনি মহাকাল ধূমকেতু!   
+  
+ ঐ বামন বিধি সে আমারে ধরিতে বাড়ায়েছিল রে হাত  
+ মম    অগ্নি-দাহনে জ্বলে পুড়ে তাই ঠুঁটো সে জগন্নাথ!  
+ আমি   জানি জানি ঐ স্রষ্টার ফাঁকি, সৃষ্টির ঐ চাতুরী,  
+ তাই   বিধি ও নিয়মে লাথি মেরে, ঠুকি বিধাতার বুকে হাতুড়ি।  
+ আমি   জানি জানি ঐ ভুয়ো ঈশ্বর দিয়ে যা হয়নি হবে তাও!  
+ তাই   বিপ্লব আনি বিদ্রোহ করি, নেচে নেচে দিই গোঁফে তাও!  
+ তোর   নিযুত নরকে ফুঁ দিয়ে নিবাই, মৃত্যুর মুখে থুথু দি!  
+ আর   যে যত রাগে রে তারে তত কাল্-আগুনের কাতুকুতু দি।  
+ মম তূরীয় লোকের তির্যক্ গতি তূর্য গাজন বাজায়  
+ মম বিষ নিশ্বাসে মারীভয় হানে অরাজক যত রাজায়!   
+  
+ কচি   শিশু-রসনায় ধানি-লঙ্কার পোড়া ঝাল  
+ আর   বন্ধ কারায় গন্ধক ধোঁয়া, এসিড, পটাশ, মোন্‌ছাল,  
+ আর কাঁচা কলিজায় পচা ঘা'র সম সৃষ্টিরে আমি দাহ করি  
+ আর স্রষ্টারে আমি চুষে খাই!  
+ পেলে   বাহান্ন-শও জাহান্নমেও আধা চুমুকে সে শুষে যাই!   
+  
+ আমি   যুগে যুগে আসি আসিয়াছি পুন মহাবিপ্লব হেতু–  
+ এই  স্রষ্টার শনি মহাকাল ধূমকেতু!  
+ আমি   শি শি শি প্রলয়-শিশ্ দিয়ে ঘুরি কৃতঘ্নী ঐ বিশ্বমাতার শোকাগ্নি,  
+ আমি   ত্রিভুবন তার পোড়ায়ে মারিয়া আমিই করিব মুখাগ্নি!  
+ তাই আমি ঘোর তিক্ত সুখে রে, একপাক ঘুরে বোঁও করে ফের দু'পাক নি!  
+ কৃতঘ্নী আমি কৃতঘ্নী ঐ বিশ্বমাতার শোকাগ্নি!   
+  
+ পঞ্জর মম খর্পরে জ্বলে নিদারুণ যেই বৈশ্বানর–  
+ শোন্ রে মর, শোন্ অমর!–  
+ সে যে তোদের ঐ বিশ্বপিতার চিতা!  
+ এ চিতাগ্নিতে জগদীশ্বর পুড়ে ছাই হবে, হে সৃষ্টি জানো কি তা?  
+ কি বলো? কি বলো? ফের বলো ভাই আমি শয়তান-মিতা!  
+ হো হো  ভগবানে আমি পোড়াব বলিয়া জ্বালায়েছি বুকে চিতা!  
+ ছোট   শন শন শন ঘর ঘর সাঁই সাঁই!  
+ ছোট পাঁই পাঁই!  
+ তুই অভিশাপ তুই শয়তান তোর অনন্তকাল পরমাই!  
+ ওরে ভয় নাই তোর মার নাই!!  
+ তুই    প্রলয়ঙ্কর ধূমকেতু,  
+ তুই  উগ্র ক্ষিপ্ত তেজ-মরীচিকা ন'স্ অমরার ঘুম-সেতু  
+ তুই ভৈরব ভয় ধূমকেতু!  
+ আমি    যুগে যুগে আসি আসিয়াছি পুন মহাবিপ্লব হেতু  
+ এই  স্রষ্টার শনি মহাকাল ধূমকেতু !   
+  
+ ঐ  ঈশ্বর-শির উল্লজ্ঘিতে আমি আগুনের সিঁড়ি,  
+ আমি   বসিব বলিয়া পেতেছে ভবানী ব্রহ্মার বুকে পিঁড়ি !  
+ খ্যাপা  মহেশের বিক্ষিপ্ত পিনাক, দেবরাজ-দম্ভোলি  
+ লোকে  বলে মোরে, শুনে হাসি আমি আর নাচি বব-বম্ বলি !  
+ এই    শিখায় আমার নিযুত ত্রিশূল বাশুলি বজ্র-ছড়ি  
+ ওরে   ছড়ানো রয়েছে, কত যায় গড়াগড়ি !  
+ মহা  সিংহাসনে সে কাঁপিছে বিশ্ব-সম্রাট নিরবধি,  
+ তার  ললাট তপ্ত অভিশাপ-ছাপ এঁকে দিই আমি যদি !  
+ তাই   টিটকিরি দিয়ে হাহা হেসে উঠি,   
+  
+ আমি   বাজাই আকাশে তালি দিয়া 'তাতা-উর্-তাক্'  
+ আর   সোঁও সোঁও করে প্যাঁচ দিয়ে খাই চিলে-ঘুড়ি সম ঘুরপাক!  
+ মম নিশাস আভাসে অগ্নি-গিরির বুক ফেটে ওঠে ঘুৎকার  
+ আর   পুচ্ছে আমার কোটি নাগ-শিশু উদ্গারে বিষ-ফুৎকার!   
+  
+ কাল বাঘিনী যেমন ধরিয়া শিকার  
+ তখনি রক্ত শোষে না রে তার,  
+ দৃষ্টি-সীমায় রাখিয়া তাহারে উগ্রচণ্ড-সুখে  
+ পুচ্ছ সাপটি খেলা করে আর শিকার মরে সে ধুঁকে!  
+ তেমনি করিয়া ভগবানে আমি  
+ দৃষ্টি-সীমায় রাখি দিবাযামী  
+ ঘিরিয়া  ঘিরিয়া খেলিতেছি খেলা, হাসি পিশাচের হাসি  
+ এই অগ্নি-বাঘিনী আমি যে সর্বনাশী!   
+  
+ আজ   রক্ত-মাতাল উল্লাসে মাতি রে–  
+ মম  পুচ্ছে ঠিকরে দশগুণ ভাতি,  
+ রক্ত রুদ্র উল্লাসে মাতি রে!  
+ ভগবান? সে তো হাতের শিকার!– মুখে ফেনা উঠে মরে!  
+ ভয়ে   কাঁপিছে, কখন পড়ি গিয়া তার আহত বুকের 'পরে!  
+ অথবা যেন রে অসহায় এক শিশুরে ঘিরিয়া   
+  
+ অজগর কাল-কেউটে সে কোন ফিরিয়া ফিরিয়া  
+ চায়, আর ঘোরে শন্‌ শন্ শন্,  
+ ভয়-বিহ্বল শিশু তার মাঝে কাঁপে রে যেমন–  
+ তেমনি করিয়া ভগবানে ঘিরে  
+ ধূমকেতু-কালনাগ অভিশাপ ছুটে চলেছি রে,  
+ আর সাপে-ঘেরা অসহায় শিশু সম  
+ বিধাতা তাদের কাঁপিছে রুদ্র ঘূর্ণির মাঝে মম!   
+  
+ আজিও ব্যথিত সৃষ্টির বুকে ভগবান কাঁদে ত্রাসে,  
+ স্রষ্টার চেয়ে সৃষ্টি পাছে বা বড় হয়ে তারে গ্রাসে!  
+  
+====== 
+" android:textIsSelectable="true" />
+                </ScrollView>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:textSize="22sp" android:textColor="#fffffa00" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_4" android:background="@drawable/kobitabtn1" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0x2801" android:text="রণ-ভেরী" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+                <ScrollView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/sv_4" android:background="@drawable/kobita_back2" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                    <TextView android:textSize="18sp" android:textColor="#ffffffff" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_04" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5pt" android:text="[গ্রীসের বিরুদ্ধে আঙ্গোরা-তুর্ক-গভর্ণমেন্ট যে যুদ্ধ চালাইতেছিলেন, সেই যুদ্ধে কামাল পাশার সাহায্যের জন্য ভারতবর্ষ  হইতে দশ হাজার স্বেচ্ছা-সৈনিক প্রেরণের প্রস্তাব শুনিয়া লিখিত]   
+  
+ ওরে  আয়!  
+ ঐ মহা-সিন্ধুর পার হতে ঘন রণ-ভেরী শোনা যায়–  
+ ওরে  আয়!  
+ ঐ  ইস্‌লাম ডুবে যায়!  
+ যত শয়তান  
+ সারা ময়দান  
+ জুড়ি  খুন তার পিয়ে হুঙ্কার দিয়ে জয়-গান শোন্ গায়!  
+ আজ   শখ করে জুতি-টক্করে  
+ তোড়ে  শহীদের খুলি দুশ্‌মন পায় পায়–  
+ ওরে আয়!  
+ তোর জান যায় যাক, পৌরুষ তোর মান যেন নাহি যায়!  
+ ধরে ঝন্‌ঝার ঝুঁটি দাপটিয়া শুরু মুস্‌লিম-পঞ্জায়!  
+ তোর মান যায় প্রাণ যায়–  
+ তবে বাজাও বিষাণ, ওড়াও নিশান! বৃথা ভীরু সম্‌ঝায়!  
+ রণ-দুর্মদ রণ চায়!  
+ ওরে আয়!  
+ ঐ  মহা-সিন্ধুর পার হতে ঘন রণ-ভেরী শোনা যায়!  
+ ওরে আয়!  
+ ঐ ঝননননন রণ-ঝনঝন ঝন্‌ঝনা শোনা যায়!  
+ শুনি এই ঝন্‌ঝনা-ব্যঞ্জনা নেবে গঞ্জনা কে রে হায়?  
+ ওরে   আয়!  
+ তোর ভাই ম্লান চোখে চায়,  
+ মরি লজ্জায়,  
+ ওরে সব যায়,  
+ তবু কব্‌জায় তোর শম্‌শের নাহি কাঁপে আফ্‌সোসে হায়?  
+ রণ-দুন্দুভি শুনি খুন-খুবি  
+ নাহি নাচে কি রে তোর মরদের ওরে দিলিরের গোর্দায়?   
+  
+ ওরে আয়  
+ মোরা দিলাবার খাঁড়া তলোয়ার হাতে আমাদেরি শোভা পায়!  
+ তারা  খিঞ্জির যারা জিঞ্জির-গলে ভূমি চুমি মূরছায়!  
+ আরে দূর দূর! যত কুক্কুর  
+ আসি শের-বব্বরে লাথি মারে ছি ছি ছাতি চড়ে! হাতি  
+ ঘা‌'ল হবে ফেরু-ঘায়?  
+ ঐ ঝননননন রণঝনঝন ঝন্‌ঝনা শোনা যায়!  
+ ওরে আয়!  
+ বোলে   দ্রিম্‌ দ্রিম্ তানা দ্রিম, দ্রিম্ ঘন রণ-কাড়া-নাকাড়ায়!  
+ ঐ শের-নর হাঁকড়ায়–  
+ ওরে আয়!  
+ ছোড়্  মন-দুখ,  
+ হোক কন্দুক  
+ ঐ বন্দুক তোপ, সন্দুক তোর পড়ে থাক, স্পন্দুক বুক ঘা'য়!  
+ নাচ্ তাতা থৈ থৈ তাতা থৈ–  
+ থৈ তা‌ণ্ডব, আজ পাণ্ডব সম খাণ্ডব-দাহ চাই!   
+  
+ ওরে আয়!  
+ কর কোর্‌বান আজ তোর জান দিল্ আল্লার নামে ভাই।  
+ ঐ দীন্ দীন্-রব আহব বিপুল বসুমতী ব্যোম ছায়!  
+ শেল– গর্জন  
+ করি তর্জন  
+ হাঁকে, বর্জন নয় অর্জন আজ, শির তোর চায় মায়!  
+ সব গৌরব যায় যায়;  
+ বোলে দ্রিম্ দ্রিম্ তানা দ্রিম্ দ্রিম্ ঘন রণ-কাড়া-নাকাড়ায়!  
+ ওরে আয় !  
+ ঐ কড়কড় বাজে রণ-বাজা, সাজ সাজ রণ-সাজ্জায়!  
+ ওরে  আয়!  
+ মুখ ঢাকিবি কি লজ্জায়?   
+  
+ হুর্  হুর্‌রে।  
+ কত দূর রে  
+ সেই পুর রে যথা খুন-খোশ্‌রোজ খেলে হর্‌রোজ দুশ্‌মন-খুনে ভাই!  
+ সেই বীর-দেশে চল্ বীর-বেশে,  
+ আজ মুক্ত দেশে রে মুক্তি দিতে রে বন্দীরা ঐ যায়!  
+ ওরে আয়!  
+ বল্ 'জয় সত্যম্ পুরুযোত্তম', ভীরু যারা মার খায়!  
+ নারী  আমাদেরি শুনি রণ-ভেরী হাসে খলখল হাত-তালি দিয়ে রণে ধায়!  
+ মোরা রণ চাই রণ চাই,  
+ তবে বাজহ দামামা, বাঁধই আমামা, হাথিয়ার পাঞ্জায়!  
+ মোরা সত্য ন্যায়ের সৈনিক, খুন-গৈরিক বাস গা'য়।  
+ ওরে আয়!  
+ ঐ কড়কড় বাজে রণ-বাজা, সাজ সাজ রণ-সজ্জায়!  
+ ওরে আয়!  
+ অব–রুদ্ধের দ্বারে যুদ্ধের হাঁক নকিব ফুকারি যায়!  
+ তোপ্ দ্রুম্ দ্রুম্ গান গায়!  
+ ওরে আয়!   
+  
+ ঐ ঝননরণন খঞ্জর-ঘাত পঞ্জরে মূরছায়!  
+ হাঁকো হাইদার,  
+ নাই নাই ডর,  
+ ঐ ভাই তোর ঘুর-চর্খীর সম খুন খেয়ে ঘুর্ খায়!  
+ ঝুটা  দৈত্যেরে  
+ নাশি  সত্যেরে  
+ দিবি জয়-টীকা তোরা, ভয় নাই ওরে ভয় নাই হত্যায়!   
+  
+ ওরে আয়!  
+ মোরা খুন্‌-জোশি বীর, কঞ্জুশি লেখা আমাদের খুনে নাই!  
+ দিয়ে সত্য ও ন্যায়ে বাদশাহি, মোরা জালিমের খুন খাই!  
+ মোরা দুর্মদ, ভর্‌পুর্ মদ  
+ খাই ইশ্‌কের, ঘাত-শম্‌শের ফের নিই বুক নাঙ্গায়!  
+ লাল পল্টন মোরা সাচ্চা,  
+ মোরা সৈনিক, মোরা শহীদান বীর বাচ্চা,  
+ মরি জালিমের দাঙ্গায়!  
+ মোরা অসি বুকে বরি হাসি মুখে মরি জয় স্বাধীনতা গাই!  
+ ওরে আয়!  
+ ঐ মহা-সিন্ধুর পার হতে ঘন রণ-ভেরী শোনা যায়!!  
+  
+ ——————————-  
+ শম্‌শের– তরবারি।  
+ খুন-খুবি– রক্তোন্মত্ততা  
+ দিলির– সাহসী, নির্ভীক  
+ দিলবার– প্রাণবন্তা।  
+ জিঞ্জির– শিকল  
+ শের-বববরে– সিংহ  
+ শের-নর– পুরুষসিংহ  
+ হাঁকাড়ায়– গর্জন করিতেছি  
+ কোরবান– উৎসর্গ  
+ খুন-খোশ-রোজ– রক্ত-মহোৎসব।  
+ হররোজ– প্রতিদিন  
+ আমামা – শিরস্ত্রাণ  
+ নকিব– তূর্যবাদক  
+ হাইদার– মহাবীর হজরত আলীর হাঁক  
+ খুন-জোশ– রক্ত-পাগলামি  
+ কঞ্জুশি– কৃপণতা  
+ ইশকের– প্রেমের  
+ শহীদান– Martyrs  
+  
+====== 
+" android:textIsSelectable="true" />
+                </ScrollView>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:textSize="22sp" android:textColor="#fffffa00" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_5" android:background="@drawable/kobitabtn1" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0x2801" android:text="খেয়া-পারের তরণী" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+                <ScrollView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/sv_5" android:background="@drawable/kobita_back2" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                    <TextView android:textSize="18sp" android:textColor="#ffffffff" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_05" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="যাত্রীরা রাত্তিরে হতে এল খেয়া পার,  
+ বজ্রেরি তূর্যে এ গর্জেছে কে আবার?  
+ প্রলয়েরি আহ্বান ধ্বনিল কে বিষাণে!  
+ ঝন্‌ঝা ও ঘন দেয়া স্বনিল রে ঈশানে!   
+  
+ নাচে পাপ-সিন্ধুতে তুঙ্গ তরঙ্গ!  
+ মৃত্যুর মহানিশা রুদ্র উলঙ্গ!  
+ নিঃশেষে নিশাচর গ্রাসে মহাবিশ্বে,  
+ ত্রাসে কাঁপে তরণীর পাপী যত নিঃস্বে।   
+  
+ তমসাবৃতা ঘোরা ‘কিয়ামত’ রাত্রি,  
+ খেয়া-পারে আশা নাই ডুবিল রে যাত্রী!  
+ দমকি দমকি দেয়া হাঁকে কাঁপে দামিনী,  
+ শিঙ্গার হুঙ্কারে থরথর যামিনী!   
+  
+ লঙ্ঘি এ সিন্ধুরে প্রলয়ের নৃত্যে  
+ ওগো কার তরী ধায় নির্ভীক চিত্তে–  
+ অবহেলি জলধির ভৈরব গর্জন  
+ প্রলয়ের ডঙ্কার ওঙ্কার তর্জন!   
+  
+ পুণ্য-পথের এ যে যাত্রীরা নিষ্পাপ,  
+ ধর্মেরি বর্মে সু-রক্ষিত দিল্ সাফ!  
+ নহে এরা শঙ্কিত বজ্র নিপাতেও  
+ কাণ্ডারী আহ্‌মদ তরী ভরা পাথেয়।   
+  
+ আবুবকর উস্‌মান উমর আলি হায়দর  
+ দাঁড়ি যে এ তরণীর, নাই ওরে নাই ডর!  
+ কাণ্ডারী এ তরীর পাকা মাঝি মাল্লা,  
+ দাঁড়ি-মুখে সারি-গান –লা-শরিক আল্লাহ!   
+  
+ ‘শাফায়ত’-পাল-বাঁধা তরণীর মাস্তুল,  
+ ‘জান্নাত্’ হতে ফেলে হুরি রাশ্ রাশ্ ফুল।  
+ শিরে নত স্নেহ-আঁখি মঙ্গল দাত্রী,  
+ গাও জোরে সারি-গান ও-পারের যাত্রী।  
+ বৃথা ত্রাসে প্রলয়ের সিন্ধু ও দেয়া-ভার,  
+ ঐ হলো পুণ্যের যাত্রীরা খেয়া পার।   
+  
+ ————————–  
+ আহমদ– মোহাম্মদ (সা)।  
+ লা-শরিক আল্লাহ– ঈশ্বর ভিন্ন অন্য কেহ উপাস্য নাই।  
+ শাফায়ত– পরিত্রাণ  
+ জান্নাত– স্বর্গ  
+  
+====== 
+" android:textIsSelectable="true" />
+                </ScrollView>
+            </LinearLayout>
+            <Button android:textSize="18sp" android:textColor="#ffffffff" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/btn_thanks" android:background="@connectionresult/SUCCESS" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0x3201" android:text="ধন্যবাদ" />
+        </LinearLayout>
+    </HorizontalScrollView>
+    <FrameLayout android:id="@+id/bottom_frame" android:background="#043800" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2301" android:layout_alignParentBottom="true">
+        <Button android:textColor="#d7d7d7" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/DayMode" android:background="@drawable/btn_100x35" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x2301" android:layout_marginLeft="10dp" android:text="Day Mode" android:onClick="Day_Mode" android:textAllCaps="false" />
+        <Button android:textColor="#d7d7d7" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/Default" android:background="@drawable/btn_100x35_back" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x2301" android:text="Default" android:onClick="Default" android:textAllCaps="false" />
+        <Button android:textColor="#d7d7d7" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/NightMode" android:background="@drawable/btn_100x35" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x2301" android:layout_marginRight="10dp" android:text="Night Mode" android:onClick="Night_Mode" android:textAllCaps="false" />
+    </FrameLayout>
+    <com.google.android.gms.ads.AdView android:id="@+id/adView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/top_frame" android:layout_centerHorizontal="true" android:adSize="BANNER" android:adUnitId="ca-app-pub-7960193263009665/4951506033" />
+</RelativeLayout>

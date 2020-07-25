@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/RL_Main" android:background="@drawable/kobita_back1" android:layout_width="match_parent" android:layout_height="match_parent" android:keepScreenOn="true">
+    <FrameLayout android:id="@+id/top_frame" android:background="@drawable/btn_border" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3c01">
+        <ImageView android:background="@drawable/f_jibonanondo_das" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="22sp" android:textColor="#fffc34" android:id="@+id/kobi_name" android:paddingLeft="60dp" android:paddingTop="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="জীবনানন্দ দাস" />
+        <TextView android:textSize="14sp" android:textColor="#ffffff" android:id="@+id/kobi_birth" android:paddingLeft="60dp" android:paddingTop="33dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="(জন্ম-১৮৯৯ / মৃত্যু-১৯৫৪)" />
+        <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textColor="#ffffff" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/pata" android:background="@drawable/kobitabtn_60x50" android:layout_width="UNKNOWN_DATA_0x3c01" android:layout_height="UNKNOWN_DATA_0x3c01" android:layout_marginRight="10dp" android:text="৩য় 
+পাতা" />
+    </FrameLayout>
+    <HorizontalScrollView android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginBottom="35dp" android:layout_below="@+id/adView">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="match_parent"
+            <LinearLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:textSize="22sp" android:textColor="#fffffa00" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_1" android:background="@drawable/kobitabtn1" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0x2801" android:text="অবশেষে" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+                <ScrollView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/sv_1" android:background="@drawable/kobita_back2" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                    <TextView android:enabled="true" android:textSize="18sp" android:textColor="#ffffffff" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_01" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="এখানে প্রশান্ত মনে খেলা করে উঁচু উঁচু গাছ।  
+ সবুজ পাতার পরে যখন নেমেছে এসে দুপুরের সূর্যের আঁচ  
+ নদীতে স্মরণ করে একবার পৃথিবীর সকাল বেলাকে।  
+ আবার বিকেল হলে অতিকায় হরিণের মতো শান্ত থাকে।  
+ এই সব গাছুগুলো, যেন কোন দূর থেকে অস্পষ্ট বাতাস  
+ বাঘের ঘ্রাণের মতো হৃদয়ে জাগায়ে যায় ত্রাস;  
+ চেয়ে দেখ ইহাদের পরস্পর নীলিম বিন্যাস  
+ নড়ে উঠে ত্রস্ততায় আধো নীল আকাশের বুকে  
+ হরিণের মতো দ্রুত ঠ্যাঙের তুরুকে  
+ অন্তর্হিত হয়ে যেতে পারে তারা বটে:  
+ একজোটে কাজ করে মানুষেরা যে রকম ভোটেরব্যালটে;  
+ তবুও বাঘিনী হয়ে বাতাসকে আলিঙ্গন করে–  
+ সাগরের বালি আর রাত্রির নক্ষত্রের তরে।
+  
+====== 
+" android:textIsSelectable="true" />
+                </ScrollView>
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:textSize="22sp" android:textColor="#fffffa00" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_2" android:background="@drawable/kobitabtn1" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0x2801" android:text="অবসরের গান-১" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:textIsSelectable="true" />
+                <ScrollView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/sv_2" android:background="@drawable/kobita_back2" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                    <TextView android:textSize="18sp" android:textColor="#ffffffff" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_02" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5pt" android:text="শুয়েছে ভোরের রোদ ধানের উপরে মাথা পেতে  
+ অলস গেঁয়োর মতো এইখানে কার্তিকের ক্ষেতে  
+ মাঠের ঘাসের গন্ধ বুকে তার — চোখে তার শিশিরের ঘ্রাণ,  
+ তাহার আস্বাদ পেয়ে অবসাদে পেকে ওঠে ধান,  
+ দেহের স্বাদের কথা কয় –  
+ বিকালের আলো এসে (হয়তো বা) নষ্ট করে দেবে তার সাধের সময়!  
+ চারি দিকে এখন সকাল –  
+ রোদের নরম রঙ শিশুর গালের মতো লাল!  
+ মাঠের ঘাসের পরে শৈশবের ঘ্রাণ –  
+ পাড়াগাঁর পথে ক্ষান্ত উৎসবের পড়েছে আহ্বান!  
+ চারি দিকে নুয়ে প’ড়ে ফলেছে ফসল,  
+ তাদের স্তনের থেকে ফোঁটা ফোঁটা পড়িতেছে শিশিরের জল!  
+ প্রচুর শস্যের গন্ধ থেকে থেকে আসিতেছে ভেসে  
+ পেঁচা আর ইঁদুরের ঘ্রাণে ভরা আমাদের ভাঁড়ারের দেশে!  
+ শরীর এলায়ে আসে এই খানে ফলন্ত ধানের মতো করে  
+ যেই রোদ একবার এসে শুধু চলে যায় তাহারঠোটের চুমো ধ’রে  
+ আহ্লাদের অবসাদে ভরে আসে আমার শরীর,  
+ চারি দিকে ছায়া — রোদ — ক্ষুদ — কুঁড়া — কার্তিকের ভিড়:  
+ চোখের সকল ক্ষুধা মিটে যায় এই খানে, এখানে হতেছে স্নিগ্ধ কান,  
+ পাড়াগাঁর গায় আজ লেগে আছে রূপাশালি ধান ভানা রূপসীর শরীরের ঘ্রাণ!  
+ আমি সেই সুন্দরীরে দেখে লই — নুয়ে আছে নদীর এপারে  
+ বিয়োবার দেরি না — রূপ ঝরে পড়ে তার –  
+ শীত এসে নষ্ট করে দিয়ে যাবে তারে!  
+ আজও তবুও ফুরায় নি বৎসরের নতুন বয়স,  
+ মাঠে মাঠে ঝ’রে পড়ে কাঁচা রোদ, ভাড়ারেররস!  
+ মাছির গানের মতো অনেক অলস শব্দ হয়  
+ সকালবেলা রৌদ্রে; কুঁড়িমির আজিকে সময়।  
+ গাছের ছায়ার তলে মদ লয়ে কোন্ ভাঁড় বেঁধেছিল ছড়া!  
+ তার সব কবিতার শেষ পাতা হবে আজ পড়া;  
+ ভুলে গিয়ে রাজ্য — জয় — সাম্রাজ্যের কথা  
+ অনেক মাটির তলে যেই মদ ঢাকা ছিল তুলে লব তার শীতলতা;  
+ ডেকে লব আইবুড় পাড়াগাঁর মেয়েদের সব –  
+ মাঠের নিস্তেজ রোদের নাচ হবে –  
+ শুরু হবে হেমন্তের নরম উৎসব।  
+ হাতে হাত ধরে ধরে গোল হয়ে ঘুরে ঘুরে ঘুরে  
+ কার্তিকের মিঠা রোদে আমাদের মুখ যাবে পুড়ে;  
+ ফলন্ত ধানের গন্ধে — রঙে তার — স্বাদে তার ভরে যাবে আমাদের সকলের দেহ;  
+ রাগ কেহ করিবে না — আমাদের দেখে হিংসা করিবে না কেহ।  
+ আমাদের অবসর বেশি নয — ভালোবাসা আহ্লাদের অলস সময়  
+ আমাদের সকলের আগে শেষ হয়  
+ দূরের নদীর মতো সুর তুলে অন্য এক ঘ্রাণ — অবসাদ –  
+ আমাদের ডেকে লয় — তুলে লয় আমাদের ক্লান্ত মাথা — অবসন্ন হাত।  
+ তখন শস্যের গন্ধ ফুরায়ে গিয়েছে ক্ষেতে — রোদ গেছে পড়ে,  
+ এসেছে বিকালবেলা তার শান্ত শাদা পথ ধরে;  
+ তখন গিয়েছে থেমে অই কুঁড়ে গেঁয়োদের মাঠের রগড়  
+ হেমন্ত বিয়ায়ে গেছে শেষ ঝরা মেয়ে তার শাদা মরা শেফালির  
+ বিছানার পর;  
+ মদের ফোঁটার শেষ হয়ে গেছে এ মাঠের মাটির ভিতর!  
+ তখন সবুজ ঘাস হয়ে গেছে শাদা সব, হয়ে গেছে আকাশ ধবল,  
+ চলে গেছে পাড়াগাঁর আইবুড়ো মেয়েদের দল!
+  
+====== 
+" android:textIsSelectable="true" />
+                </ScrollView>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:textSize="22sp" android:textColor="#fffffa00" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_3" android:background="@drawable/kobitabtn1" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0x2801" android:text="অবসরের গান- ২" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+                <ScrollView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/sv_3" android:background="@drawable/kobita_back2" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                    <TextView android:textSize="18sp" android:textColor="#ffffffff" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_03" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="পুরনো পেঁচারা সব কোটারের থেকে  
+ এসেছে বাহির হয়ে অন্ধকার দেখে  
+ মাঠের মুখের পরে  
+ সবুজ ধানের নিচে — মাটির ভিতরে  
+ ইঁদুরেরা চলে গেছে — আঁটির ভিতর থেকে চলে গেছে চাষা;  
+ শস্যের ক্ষেতের পাশে আজ রাতে আমাদের জেগেছে পিপাসা!  
+ ফলন্ত মঠের’ পরে আমরা খুঁজি না আজ মরণের স্থান,  
+ প্রেম আর পিপাসার গান  
+ আমরা গাহিয়া যাই পাড়াগাঁর ভাঁড়ের মতন!  
+ ফসল — ধানের ফলে যাহাদের মন  
+ ভরে উঠে উপেক্ষা করিয়া গেছে সাম্রাজ্যেরে, অবহেলা করে গেছে –  
+ পৃথিবীর সব সিংহাসন –  
+ আমাদের পাড়াগাঁর সেই সব ভাঁড় –  
+ যুবরাজ রাজাদের হাড়ে আজ তাহাদের হাড়  
+ মিশে গেছে অন্ধকারে অনেক মাটির নীচে পৃথিবীর তলে  
+ কোটালের মতো তারা নিশ্বাসের জলে  
+ ফুরায় নি তাদের সময়;  
+ পৃথিবীর পুরোহিতদের মতো তারা করে নাই ভয়!  
+ প্রণয়ীর মতো তারা ছেড়ে নি হৃদয়  
+ ছড়া বেঁধে শহরের মেয়েদের নামে!  
+ চাষাদের মতো তারা ক্লান্ত হয়ে কপালের ঘামে  
+ কাটায় নি — কাটায় কি কাল।  
+ অনেক মাটির নিচে তাদের কপাল  
+ কোনো এক সম্রাটের সাথে  
+ মিশিয়া রয়েছে আজ অন্ধকার রাতে!  
+ যোদ্ধা — জয়ী — বিজয়ীর পাঁচ ফুট জমিনের কাছে –  
+ পাশাপাশি –  
+ জিতিয়া রয়েছে আজ তাদের খুলির অট্টহাসি!  
+ অনেক রাতের আগে এসে তারা চলে গেছে — তাদের দিনের আলো  
+ হয়েছে আঁধার,  
+ সেই সব গেঁয়ো কবি — পাড়াগাঁর ভাঁড়  
+ আজ এই অন্ধকারে আসিবে কি আর?  
+ তাদের ফলন্ত দেহ শুষে ল’য়ে জন্মিয়াছে আজ এই খেতের ফসল;  
+ অনেক দিনের গন্ধে ভরা ঐ ইদুরের জানে তাহা — জানে তাহ  
+ নরম রাতের হাতে ঝরা এই শিশিরের জল!  
+ সে সব পেঁচারা আজ বিকালের নিশ্চলতা দেখে  
+ তাহাদের নাম ধরে যায় ডেকে ডেকে।  
+ মাটির নিচের থেকে তারা  
+ মৃতের মাথার স্বপ্নে নড়ে উঠে জানায় কীঅদ্ভুত ইশারা!  
+ আঁধারের মশা আর নক্ষত্র তা জানে –  
+ আমরাও আসিয়াছি ফসলের মাঠের আহ্বানে।  
+ সূর্যের আলোর দিন ছেড়ে দিয়ে, পৃথিবীর যশ পিছে ফেলে  
+ শহর — বন্দর — বস্তি — কারখানা দেশলাইয়ে জ্বেলে  
+ আসিয়াছি নেমে এই ক্ষেতে;  
+ শরীরের অবসাদ — হৃদয়ের জ্বর ভুলে যেতে।  
+ শীতল চাঁদের মতো শিশিরের ভিজা পথ ধরে  
+ আমরা চলিতে চাই, তারপর যেতে চাই মরে  
+ দিনের আলোয় লাল আগুনের মুখে পুড়ে মাছির মতন;  
+ অগাধ ধানের রসে আমাদের মন  
+ আমরা ভরিতে চাই গেয়ো কবি — পাড়াগার ভাঁড়ের মতন!  
+ – জমি উপড়ায়ে ফেলে চলে গেছে চাষা  
+ নতুন লাঙল তার পড়ে আছে — পুরনো পিপাসা  
+ জেগে আছে মাঠের উপরে;  
+ সময় হাঁকিয়া যায় পেঁচা অই আমাদের তরে!  
+ হেমন্তের ধান ওঠে ফলে –  
+ দুই পা ছড়ায়ে বস এইখানে পৃথিবীর কোলে।  
+ আকাশের মেঠো পথে থেমে ভেসে চলে চাঁদ  
+ অবসর আছে তার — অবোধের মতন আহ্লাদ  
+ আমাদের শেষ হবে যখন সে চলে যাবে পশ্চিমের পানে –  
+ এটুকু সময় তাই কেটে যাক রূপ আর কামনারগানে!
+  
+====== 
+" android:textIsSelectable="true" />
+                </ScrollView>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:textSize="22sp" android:textColor="#fffffa00" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_4" android:background="@drawable/kobitabtn1" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0x2801" android:text="অবসরের গান- ৩" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+                <ScrollView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/sv_4" android:background="@drawable/kobita_back2" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                    <TextView android:textSize="18sp" android:textColor="#ffffffff" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_04" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5pt" android:text="ফুরোনো ক্ষেতের গন্ধে এইখানে ভরেছে ভাঁড়ার;  
+ পৃথিবীর পথে গিয়ে কাজ নাই — কোনো কৃষকের মতো দরকার নাই  
+ দূরে মাঠে গিয়ে আর!  
+ রোধ — অবরোধ — ক্লেশ — কোলাহল শুনিবার নাহিকো সময় –  
+ জানিতে চাই না আর সম্রাট সেজেছে ভাঁড় কোন্খানে  
+ কোথায় নতুন করে বেবিলন ভেঙে গুঁড়ো হয়!  
+ আমার চোখের পাশে আনিয়ো না সৈন্যদের মশালের আগুনের রঙ  
+ দামামা থামায়ে ফেল — পেঁচার পাখার মতো অন্ধকারে ডুবে যাক  
+ রাজ্য আর সাম্রাজ্যের সঙ!  
+ এখানে নাহিকো কাজ — উৎসাহের ব্যথা নাই, উদ্যমের নাহিকো ভাবনা;  
+ এখানে ফুরায়ে গেছে মাথার অনেক উত্তেজনা।  
+ অলস মাছির শব্দে ভরে থাকে সকালের বিষন্ন সময়,  
+ পৃথিবীরে মায়াবীর নদীর পারের দেশ বলে মনে হয়!  
+ সকল পড়ন্ত রোদ চারি দিকে ছুটি পেয়ে জমিতেছে এইখানে এসে  
+ গ্রীষ্মের সমুদ্র থেকে চোখের ঘুমের গান আসিতেছে ভেসে,  
+ এখানে পালঙ্কে শুয়ে কাটিবে অনেক দিন –  
+ জেগে থেকে ঘুমবার সাধ ভালোবেসে।  
+ এখানে চকিত হতে হবে নাকো — ত্রস্ত হয়ে পড়িবার নাহিকো সময়;  
+ উদ্যমের ব্যথা নাই — এইখানে নাই আর উৎসাহের ভয়!  
+ এই খানে কাজ এসে জমে নাকো হাতে,  
+ মাথায় চিন্তার ব্যথা হয় না জমাতে!  
+ এখানে সৌন্দর্য এসে ধরিবে না হাত আর –  
+ রাখিবে না চোখ আর নয়নের পর;  
+ ভালোবাসা আসিবে না –  
+ জীবন্ত কৃমির কাজ এখানে ফুরায়ে গেছে মাথার ভিতর!  
+ অলস মাছির শব্দে ভরে থাকে সকালের বিষন্ন সময়  
+ পৃথিবীর মায়াবীর নদীর পারের দেশ বলে মনে হয়;  
+ সকল পড়ন্ত রোদ চারি দিকে ছুটি পেয়ে জমিতেছে এইখানে এসে,  
+ গ্রীষ্মের সমুদ্র থেকে চোখের ঘুমের গান আসিতেছে ভেসে,  
+ এখানে পালঙ্কে শুয়ে কাটিবে অনেক দিন জেগে থেকে ঘুমাবার  
+ সাধ ভালোবেসে!
+  
+====== 
+" android:textIsSelectable="true" />
+                </ScrollView>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:textSize="22sp" android:textColor="#fffffa00" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_5" android:background="@drawable/kobitabtn1" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0x2801" android:text="অস্তচাঁদে" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+                <ScrollView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/sv_5" android:background="@drawable/kobita_back2" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                    <TextView android:textSize="18sp" android:textColor="#ffffffff" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_05" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="ভালোবাসিয়াছি আমি অস্তচাঁদ, -ক্লান্ত শেষপ্রহরের শশী!  
+ -অঘোর ঘুমের ঘোরে ঢলে যবে কালো নদী-ঢেউয়ের কলসী,  
+ নিঝ্ঝুম বিছানার পরে  
+ মেঘবৌ'র খোঁপাখসা জোছনাফুল চুপে চুপে ঝরে,-  
+ চেয়ে থাকি চোখ তুলে'-যেন মোর পলাতকা প্রিয়া  
+ মেঘের ঘোমটা তুলে' প্রেত-চাঁদে সচকিতে ওঠে শিহরিয়া!  
+ সে যেন দেখেছে মোরে জন্মে জন্মে ফিরে' ফিরে' ফিরে'  
+ মাঠে ঘাটে একা একা, -বুনোহাঁস-জোনাকির ভিড়ে!  
+ দুশ্চর দেউলে কোন্-কোন্ যক্ষ-প্রাসাদের তটে,  
+ দূর উর-ব্যাবিলোন-মিশরের মরুভূ-সঙ্কটে,  
+ কোথা পিরামিড তলে, ঈসিসের বেদিকার মূলে,  
+ কেউটের মতো নীলা যেইখানে ফণা তুলে উঠিয়াছে ফুলে,  
+ কোন্ মনভুলানিয়া পথচাওয়া দুলালীর মনে  
+ আমারে দেখেছে জোছনা-চোর চোখে-অলস নয়নে!  
+ আমারে দেখেছে সে যে আসরীয় সম্রাটের বেশে  
+ প্রাসাদ-অলিন্দে যবে মহিমায় দাঁড়ায়েছি এসে-  
+ হাতে তার হাত, পায়ে হাতিয়ার রাখি  
+ কুমারীর পানে আমি তুলিয়াছি আনন্দের আরক্তিম আঁখি!  
+ ভোরগেলাসের সুরা-তহুরা, ক'রেছি মোরা চুপে চুপে পান,  
+ চকোরজুড়ির মতো কুহরিয়া গাহিয়াছি চাঁদিনীর গান!  
+ পেয়ালায়-পায়েলায় সেই নিশি হয় নি উতলা,  
+ নীল নিচোলের কোলে নাচে নাই আকাশের তলা!  
+ নটীরা ঘুমায়েছিল পুরে পুরে, ঘুমের রাজবধূ-  
+ চুরি করে পিয়েছিনু ক্রীতদাসী বালিকার যৌবনের মধু!  
+ সম্রাজ্ঞীর নির্দয় আঁখির দর্প বিদ্রূপ ভুলিয়া  
+ কৃষ্ণাতিথি-চাঁদিনীর তলে আমি ষোড়শীর উরু পরশিয়া  
+ লভেছিনু উল্লাস-উতরোল!-আজ পড়ে মনে  
+ সাধ-বিষাদের খেদ কত জন্মজন্মান্তের, রাতের নির্জনে!  
+  
+ আমি ছিনু 'ক্রবেদুর' কোন্ দূর 'প্রভেন্স্'-প্রান্তরে!  
+ -দেউলিয়া পায়দল্-অগোচর মনচোর-মানিনীর তরে  
+ সারেঙের সুর মোর এমনি উদাস রাত্রে উঠিত ঝঙ্কারি!  
+ আঙুরতলায় ঘেরা ঘুমঘোর ঘরখানা ছাড়ি  
+ ঘুঘুর পাখনা মেলি মোর পানে আসিল পিয়ারা;  
+ মেঘের ময়ূরপাখে জেগেছিল এলোমেলো তারা!  
+ -'অলিভ' পাতার ফাঁকে চুন চোখে চেয়েছিল চাঁদ,  
+ মিলননিশার শেষে-বৃশ্চিক, গোক্ষুরাফণা, বিষের বিস্বাদ!  
+  
+ স্পেইনের 'সিয়েরা'য় ছিনু আমি দস্যু-অশ্বারোহী-  
+ নির্মম-কৃতান্ত-কাল-তবু কী যে কাতর, বিরহী!  
+ কোন্ রাজনন্দিনীর ঠোঁটে আমি এঁকেছিনু বর্বর চুম্বন!  
+ অন্দরে পশিয়াছিনু অবেলার ঝড়ের মতন!  
+ তখন রতনশেজে গিয়েছিল নিভে মধুরাতি,  
+ নীল জানালার পাশে-ভাঙা হাটে-চাঁদের বেসাতি।  
+ চুপে চুপে মুখে কার পড়েছিনু ঝুঁকে!  
+ ব্যাধের মতন আমি টেনেছিনু বুকে  
+ কোন্ ভীরু কপোতীর উড়ু-উড়ু ডানা!  
+ -কালো মেঘে কেঁদেছিল অস্তচাঁদ-আলোর মোহানা!  
+  
+ বাংলার মাঠে ঘাটে ফিরেছিনু বেণু হাতে একা,  
+ গঙ্গার তীরে কবে কার সাথে হয়েছিল দেখা!  
+ 'ফুলটি ফুটিলে চাঁদিনী উঠিলে' এমনই রূপালি রাতে  
+ কদমতলায় দাঁড়াতাম গিয়ে বাঁশের বাঁশিটি হাতে!  
+ অপরাজিতার ঝাড়ে- নদীপারে কিশোরী লুকায়ে বুঝি!-  
+ মদনমোহন নয়ন আমার পেয়েছিল তারে খুঁজি!  
+ তারই লাগি বেঁধেছিনু বাঁকা চুলে ময়ূরপাখার চূড়া,  
+ তাহারই লাগিয়া শুঁড়ি সেজেছিনু-ঢেলে দিয়েছিনু সুরা!  
+ তাহারই নধর অধর নিঙাড়ি উথলিল বুকে মধু,  
+ জোনাকির সাথে ভেসে শেষরাতে দাঁড়াতাম দোরে বঁধু!  
+ মনে পড়ে কি তা!-চাঁদ জানে যাহা, জানে যা কৃষ্ণাতিথির শশী,  
+ বুকের আগুনে খুন চড়ে-মুখ চুন হয়ে যায় একেলা বসি!
+  
+====== 
+" android:textIsSelectable="true" />
+                </ScrollView>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:textSize="22sp" android:textColor="#fffffa00" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_6" android:background="@drawable/kobitabtn1" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0x2801" android:text="আজ তারা কই সব" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+                <ScrollView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/sv_6" android:background="@drawable/kobita_back2" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                    <TextView android:textSize="18sp" android:textColor="#ffffffff" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_06" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5pt" android:text="আজ  তারা কই সব? ওখানে হিজল গাছ ছিল এক — পুকুরের জলে  
+ বহুদিন মুখ দেখে গেছে তার; তারপর কি যে তার মনে হল কবে  
+ কখন সে ঝরে গেল, কখন ফুরাল, আহা, — চলেগেল কবে যে নীরবে,  
+ তাও আর জানি নাকো; ঠোট ভাঙা দাঁড়কাক ঐ বেলগাছটির তলে  
+ রোজ ভোরে দেখা দিত — অন্য সব কাক আর শালিখের হৃষ্ট কোলাহলে  
+ তারে আর দেখি নাকো — কতদিন দেখি নাই;সে আমার ছেলেবেলা হবে,  
+ জানালার কাছে এক বোলতার চাক ছিল — হৃদয়ের গভীর উৎসবে  
+ খেলা করে গেছে তারা কত দিন — ফড়িঙ কীটের দিন যত দিন চলে  
+ তাহারা নিকটে ছিলো — রোদের আনন্দে মেতে — অন্ধকারে শান্ত ঘুম খুঁজে  
+ বহুদিন কাছে ছিলো; — অনেক কুকুর আজ পথে ঘাটে নড়াচড়া করে  
+ তবুও আঁধারে ঢের মৃত কুকুরের মুখ — মৃত বিড়ালের ছায়া ভাসে;  
+ কোথায় গিয়েছে তারা? ওই দূর আকাশেল নীল লাল তারার ভিতরে  
+ অথবা মাটির বুকে মাটি হয়ে আছে শুধু — ঘাস হয়ে আছে শুধু ঘাসে?  
+ শুধালাম — উত্তর দিল না কেউ উদাসীন অসীম আকাশে।
+  
+====== 
+" android:textIsSelectable="true" />
+                </ScrollView>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:textSize="22sp" android:textColor="#fffffa00" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_7" android:background="@drawable/kobitabtn1" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0x2801" android:text="আট বছর আগের এক দিন" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+                <ScrollView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/sv_7" android:background="@drawable/kobita_back2" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                    <TextView android:textSize="18sp" android:textColor="#ffffffff" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_07" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5pt" android:text="শোনা গেল লাশকাটা ঘরে  
+ নিয়ে গেছে তারে;  
+ কাল রাতে - ফাল্গুনের রাতের আধাঁরে  
+  
+ যখন গিয়েছে ডুবে পঞ্চমীর চাঁদ  
+ মরিবার হল তার সাধ। বধূ শুয়ে ছিল পাশে - শিশুটিও ছিল;  
+ প্রেম ছিল,আশা ছিল-জোৎসনায়,-তবে সে দেখিল  
+ কোন ভূত? ঘুম কেন ভেঙে গেলো তার?  
+ অথবা হয়নি ঘুম বহুকাল - লাশকাটা ঘরে শুয়ে ঘুমায় এবার।  
+ এই ঘুম চেয়েছিলো বুঝি!  
+  
+ রক্তফেনা-মাখা মুখে মড়কের ইদুঁরের মত ঘাড় গুজি  
+ আধার ঘুজির বুকে ঘুমায় এবার;  
+ কোনোদিন জাগিবেনা আর।  
+  
+ কোনোদিন জাগিবেনা আর।  
+ জাগিবার গাঢ় বেদনার  
+ অবিরাম - অবিরাম ভার  
+ সহিবেনা আর -  
+ এই কথা বলেছিলো তারে  
+ চাঁদডুবে চ’লে গেলে - অদ্ভুদ আঁধারে  
+ যেন তার জানালার ধারে  
+ উটের গ্রীবার মতো কোন এক নিস্তব্ধতা এসে।  
+  
+ তবুও তো পেঁচা জাগে;  
+ গলিত স্থবির ব্যাঙ আরো দুই মুহূর্তের ভিক্ষা মাগে।  
+ আরেকটি প্রভাতের ইশারায় - অনুমেয় উষ্ণ অনুরাগে  
+ টের পাই যুথচারী আঁধারের গাঢ় নিরুদ্দেশে  
+ চারদিকে মশারির ক্ষমাহীন বিরুদ্ধতা  
+ মশা তার অন্ধকার সংগ্রামে জেগে থেকে জীবনের স্রোত ভালোবাসে  
+  
+ রক্ত ক্লেদ বসা থেকে রোদ্রে ফের উড়ে যায় মাছি;  
+ সোনালি রোদের ঢেউয়ে উড়ন্ত কীটের খেলা কতো দেখিয়াছি।  
+ ঘনিষ্ঠ আকাশ যেন - যেন কোন বির্কীন জীবন  
+ অধিকার ক’রে আছে ইহাদের মন;  
+ চাঁদ ডুবে গেলে পর প্রধান আঁধারে তুমি অশ্বথের কাছে  
+ একগাছা দড়ি হাতে গিয়েছিলে তবু একা - একা,  
+ যে জীবন ফড়িঙের,দোয়েলের-মানুষের সাথে তার হয়নাকো দেখা  
+ এই জেনে।  
+  
+ অশ্বথের শাখা  
+ করেনি কি প্রতিবাদ ? জোনাকির ভিড় এসে  
+ সোনালী ফুলের স্নিগ্ধ ঝাঁকে  
+ করেনি কি মাখামাখি?  
+ থুরথুরে অন্ধ পেঁচা এসে  
+ বলেনি কি; ‘বুড়ি চাঁদ গেছে বুঝি বেনোজলে ভেসে  
+ চমৎকার !  
+ ধরা যাক দু-একটা ইঁদুর এবার!’  
+ জানায়নি পেঁচা এসে এ-তুমুল গাড় সমাচার ?  
+  
+ জীবনের এই স্বাদ-সুপক্ক যবের ঘ্রান হেমন্তের বিকেলের-  
+ তোমার অসহ্য বোধ হ’লো;  
+ মর্গে কি হৃদয় জুড়ালো  
+ মর্গে - গুমোটে-  
+ থ্যাঁতা ইঁদুরের মতো রক্তমাখা ঠোঁটে।  
+ শোনো  
+ তবু এ মৃতের গল্প; কোনো  
+ নারীর প্রণয়ে ব্যর্থ হয় নাই;  
+ বিবাহিত জীবনের সাধ  
+ কোথাও রাখেনি কোন খাদ,  
+ সময়ের উদ্বর্তনে উঠে এসে বধু  
+ মধু-আর মননের মধু  
+ দিয়েছে জানিতে;  
+ হাড়হাবাতের গ্লানি বেদনার শীতে  
+ এ-জীবন কোনদিন কেঁপে ওঠে নাই;  
+ তাই  
+ লাশকাটা ঘরে  
+ চিৎ হ'য়ে শুয়ে আছে টেবিলের পরে।  
+  
+ জানি - তবু জানি  
+ নারীর হৃদয়-প্রেম-শিশু-গৃহ-নয় সবখানি;  
+ অর্থ নয়, কীর্তি নয়, সচ্ছলতা নয় -  
+ আর এক বিপন্ন বিষ্ময়  
+ আমাদের অন্তর্গত রক্তের ভিতরে  
+ খেলা করে;  
+ আমাদের ক্লান্ত করে,  
+ ক্লান্ত - ক্লান্ত করে;  
+ লাশকাটা ঘরে  
+ সেই ক্লান্তি নাই;  
+ তাই  
+ লাশকাটা ঘরে  
+ চিৎ হ'য়ে শুয়ে আছে টেবিলের পরে।  
+  
+ তবু রোজ রাতে আমি চেয়ে দেখি,আহা,  
+ থুরথুরে অন্ধ পেঁচা অশ্বত্থের ডালে বসে এসে,  
+ চোখ পাল্টায়ে কয়: ‘বুড়ি চাঁদ গেছে বুঝি বেনোজলে ভেসে ?’  
+ চমৎকার !  
+ ধরা যাক দু-একটা ইঁদুর এবার-  
+  
+ হে প্রগাঢ় পিতামহী,আজো চমৎকার ?  
+ আমিও তোমার মতো বুড়ো হবো-বুড়ি চাঁদটারে আমি  
+ ক’রে দিবো কালীদহে বেনোজলে পার;  
+ আমরা দুজনে মিলে শূন্য ক’রে চ’লে যাবো জীবনের প্রচুর ভাঁড়ার।
+  
+====== 
+" android:textIsSelectable="true" />
+                </ScrollView>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:textSize="22sp" android:textColor="#fffffa00" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_8" android:background="@drawable/kobitabtn1" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0x2801" android:text="আবহমান" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+                <ScrollView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/sv_8" android:background="@drawable/kobita_back2" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                    <TextView android:textSize="18sp" android:textColor="#ffffffff" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_08" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="পৃথিবী এখন ক্রমে হতেছে নিঝুম।  
+ সকলেরই চোখ ক্রমে বিজড়িত হ’য়ে যেন আসে;  
+ যদিও আকাশ সিন্ধু ভ’রে গেল অগ্নির উল্লাসে;  
+ যেমন যখন বিকেলবেলা কাটা হয় ক্ষেতের গোধূম  
+ চিলের কান্নার মতো শব্দ ক’রে মেঠো ইঁদুরের ভিড় ফসলের ঘুম  
+ গাঢ় করে দিয়ে যায়।-এইবার কুয়াশায় যাত্রা সকলের।  
+ সমূদ্রের রোল থেকে একটি আবেগ নিয়ে কেউ  
+ নদীর তরঙ্গে – ক্রমে তুষারের স্তুপে তার ঢেউ  
+ একবার টের পাবে, দ্বিতীয়বারের  
+ সময় আসার আগে নিজেকেই পাবে না সে ঢের।  
+ এইখানে সময়কে যতদুর দেখা যায় চোখে  
+ নির্জন ক্ষেতের দিকে চেয়ে দেখি দাঁড়ায়েছে অভিভুত চাষা;  
+ এখনো চালাতে আছে পৃথিবীর প্রথম তামাশা  
+ সকল সময় পান ক’রে ফেলে জলের মতন এক ঢোঁকে;  
+ অঘ্রানের বিকেলের কমলা আলোকে  
+ নিড়োনো ক্ষেতের কাজ ক’রে যায় ধীরে;  
+ একটি পাখির মতো ডিনামাইটের ’পরে ব’সে।  
+ পৃথিবীর মহত্তর অভিজ্ঞতা নিজের মনের মুদ্রাদোষে  
+ নষ্ট হয়ে খ’সে যায় চারিদিকে আমিষ তিমিরে;  
+ সোনালি সূর্যের সাথে মিশে গিয়ে মানুষটা আছে পিছু ফিরে।  
+ ভোরের স্ফটিক রৌদ্রে নগরী মলিন হয়ে আসে।  
+ মানুষের উৎসাহের কাছ থেকে শুরু হল মানুষের বৃত্তি আদায়।  
+ যদি কেউ কানাকড়ি দিতে পারে বুকের উপরেহাত রেখে  
+ তবে সে প্রেতের মতো ভেসে গিয়ে সিংহদরজায়  
+ আঘাত হানিতে গিয়ে মিশে যায় অন্ধকার বিম্বের মতন।  
+ অভিভূত হয়ে আছে — চেয়ে দ্যাখো — বেদনার নিজের নিয়ম।  
+ নেউলধূসর নদী আপনার কাজ বুঝে প্রবাহিত হয়;  
+ জলপাই অরণ্যের ওই পারে পাহাড়ের মেধাবী নীলিমা;  
+ ওই দিকে সৃষ্টি যেন উষ্ণ স্থির প্রেমের বিষয়;  
+ প্রিয়ের হাতের মতো লেগে আছে ঘড়ির সময় ভুলে গিয়ে  
+ আকাশের প্রসারিত হাতের ভিতরে।  
+ সেই আদি অরণির যুগ থেকে শুরু ক’রে আজ  
+ অনেক মনীষা, প্রেম, নিমীল ফসলরাশি ঘরে  
+ এসে গেছে মানুষের বেদনা ও সংবেদনাময়।  
+ পৃথিবীর রাজপথে-রক্তপথে-অন্ধকার অববাহিকায়  
+ এখনো মানুষ তবু খোঁড়া ঠ্যাঙে তৈমুরের মতো বার হয়।  
+ তাহার পায়ের নিচে তৃণের নিকটে তৃণ মুকঅপেক্ষায়;  
+ তাহার মাথার ‘পরে সূর্য, স্বাতী, সরমারভিড়;  
+ এদের নৃত্যের রোলে অবহিত হয়ে থেকে ক্রমে একদিন  
+ কবে তার ক্ষুদ্র হেমন্তের বেলা হবে নিসর্গের চেয়েও প্রবীণ?  
+ চেয়েছে মাটির দিকে — ভুগর্ভে তেলের দিকে  
+ সমস্ত মাথার ঘাম পায়ে ফেলে অবিরল যারা,  
+ মাথার উপরে চেয়ে দেখেছে এবার;  
+ দুরবীণে কিমাকার সিংহের সাড়া  
+ পাওয়া যায় শরতের নির্মেঘ রাতে।  
+ বুকের উপরে হাত রেখে দেয় তারা।  
+ যদিও গিয়েছে ঢের ক্যারাভান ম’রে,  
+ মশালের কেরোসিনে মানুষেরা অনেক পাহারা  
+ দিয়ে গেছে তেল, সোনা, কয়লা ও রমণীকে চেয়ে;  
+ চিরদিন এইসব হ্নদয় ও রুধিরের ধারা।  
+ মাটিও আশ্চর্য সত্য। ডান হাত অন্ধকারে ফেলে  
+ নক্ষত্রও প্রামাণিক; পরলোক রেখেছে সে জ্বেলে;  
+ অনৃত সে আমাদের মৃত্যুকে ছাড়া।  
+ মোমের আলোয় আজ গ্রস্থের কাছে ব’সে – অথবা ভোরের বেলা নদীর ভিতরে  
+ আমরা যতটা দূর চ’লে যাই -চেয়ে দেখি আরোকিছু আছে তারপরে।  
+ অনির্দিষ্ট আকাশের পানে উড়ে হরিয়াল আমারো বিবরে  
+ ছায়া ফ্যালে। ঘুরোনো সিঁড়ির পথ বেয়ে যারা উঠে যায় ধবল মিনারে,  
+ কিংবা যারা ঘুমন্তের মতো জেগে পায়চারি করে সিংহদ্বারে,  
+ অথবা যে সব থাম সমীচীন মিস্তিরির হাত থেকে উঠে গেছে বিদ্যুতের তারে,  
+ তাহারা ছবির মতো পরিতৃপ্ত বিবেকের রেখায় রয়েছে অনিমেষ।  
+ হয়তো অনেক এগিয়ে তারা দেখে গেছে মানুষের পরম আয়ুর পারে শেষ  
+ জলের রঙের মতো স্বচ্ছ রোদে একটিও বোলতার নেই অবলেশ।  
+ তাই তারা লোষ্ট্রের মতন স্তব্ধ। আমাদেরও জীবনের লিপ্ত অভিধানে  
+ বর্জাইস অক্ষরে লেখা আছে অন্ধকার দলিলের মানে।  
+ সৃষ্টির ভিতরে তবু কিছুই সুদীর্ঘতম নয় — এই জ্ঞানে  
+ লোকসানী বাজারের বাক্সের আতাফল মারীগুটিকার মতো পেকে  
+ নিজের বীজের তরে জোর করে সূর্যকে নিয়েআসে ডেকে।  
+ অকৃত্রিম নীল আলো খেলা করে ঢের আগে মৃত প্রেমিকের শব থেকে।  
+ একটি আলোক নিয়ে বসে থাকা চিরদিন;  
+ নদীর জলের মতো স্বচ্ছ এক প্রত্যাশাকে নিয়ে;  
+ সে সবের দিন শেষ হয়ে গেছে  
+ এখন সৃষ্টির মনে — অথবা মনীষীদের প্রাণের ভিতরে।  
+ সৃষ্টি আমাদের শত শতাব্দীর সাথে ওঠে বেড়ে।  
+ একদিন ছিলো যাহা অরণ্যের রোদে — বালুচরে,  
+ সে আজ নিজেকে চেনে মানুষের হৃদয়ের প্রতিভাকে নেড়ে।  
+ আমরা জটিল ঢের হয়ে গেছি — বহুদিন পুরাতন গ্রহে বেঁচে থেকে।  
+ যদি কেউ বলে এসে : ‘এই সেই নারী,  
+ একে তুমি চেয়েছিলে এই সেই বিশুদ্ধ সমাজ–  
+ তবুও দর্পণে অগ্নি দেখে কব্ে ফুরায়ে গিয়েছে কার কাজ?  
+ আমাদের মৃত্যু নেই আজ আর,  
+ যদিও অনেক মৃত্যুপরস্পরা ছিলো ইতিহাসে;  
+ বিস্তৃত প্রাসাদে তারা দেয়ালের অবলঙ ছবি;  
+ নানারুপ ক্ষতি ক্ষয় নানা দিকে মরে গেছি — মনে পড়ে বটে  
+ এইসব ছবি দেখি; বন্দীর মতন তবু নিস্তব্ধ পটে  
+ নেই কোনো দেবদত্ত, উদয়ন, চিত্রসেনী স্থাণু।  
+ এক দরজায় ঢুকে বহিস্কৃত হয়ে গেছে অন্যএক দুয়ারের দিকে  
+ অমেয় আলোয় হেঁটে তারা সব।  
+ (আমাদের পূর্বপুরুষেরা কোন্ বাতাসেরশব্দ শুনেছিল;  
+ তারপর হয়েছিলো পাথরের মতন নীরব?)  
+ আমাদের মণিবন্ধে সময়ের ঘড়ি  
+ কাচের গেলাসে জলে উজ্জুল শফরী;  
+ সমুদ্রের দিবারৌদ্রে আরক্তিম হাঙরের মতো;  
+ তারপর অন্য গ্রহ-নক্ষত্রেরা আমাদের ঘড়ির ভিতরে  
+ যা হয়েছে, যা হতেছে, অথবা যা হবে সব এক সাথে প্রচারিত করে।  
+ সৃষ্টির নাড়ীর ‘পরে হাত রেখে টের পাওয়া যায়  
+ অসম্ভব বেদনার সাথে মিশে রয়ে গেছে অমোঘ আমোদ;  
+ তবু তারা করে নাকো পরস্পরের ঋণশোধ।
+  
+====== 
+" android:textIsSelectable="true" />
+                </ScrollView>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:textSize="22sp" android:textColor="#fffffa00" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_9" android:background="@drawable/kobitabtn1" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0x2801" android:text="আমাকে তুমি" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+                <ScrollView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/sv_9" android:background="@drawable/kobita_back2" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                    <TextView android:textSize="18sp" android:textColor="#ffffffff" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_09" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5pt" android:text="আমাকে  
+ তুমি দেখিয়েছিলে একদিন;  
+ মস্ত বড় ময়দান — দেবদারু পামের নিবিড় মাথা — মাইলের পর মাইল;  
+ দুপুরবেলার জনবিরল গভীর বাতাস  
+ দূর শূন্যে চিলের পাটকিলে ডানার ভিতর অস্পষ্ট হয়ে হারিয়ে যায়;  
+ জোয়ারের মতো ফিরে আসে আবার;  
+ জানালায় জানালায় অনেক ক্ষণ ধরে কথা বলে:  
+ পৃথিবীকে মায়াবী নদীর পারের দেশ বলে মনে হয়।  
+ তারপর  
+ দূরে  
+ অনেক দূরে  
+ খররৌদ্রে পা ছড়িয়ে বর্ষীয়সী রূপসীর মাতা ধান ভানে — গান গায় — গান গায়  
+ এই দুপুরের বাতাস।  
+ এক-একটা দুপুরে এক-একটা পরিপুর্ণ জীবন অতিবাহিত হয়ে যায় যেন।  
+ বিকেলে নরম মুহুর্ত;  
+ নদীর জলের ভিতর শম্বর, নীলগাই, হরিণের ছায়ার আসা যাওয়া;  
+ একটা ধবর চিতল-হরিণীর ছায়া  
+ আতার ধূসর ক্ষীরে গড়া মুর্তির মতো  
+ নদীর জলে  
+ সমস্ত বিকেলবেলা ধরে  
+ স্থির!  
+ মাঝে মাঝে অনেক দূর থেকে শ্মশানের চন্দনকাঠের চিতার গন্ধ  
+ আগুণের — ঘিয়ের ঘ্রাণ;  
+ বিকেলে  
+ অসম্ভব বিষন্নতা।  
+ ঝাউ হরিতকী শাল, নিভস্ত সূর্যে  
+ পিয়াশাল পিয়াল আমলকী দেবদারু–  
+ বাতাসের বুকে স্পৃহা, উৎসাহ, জীবনের ফেনা;  
+ শাদা শাদাছিট কালো পায়রার ওড়াওড়ি জোছনায়–ছায়ায়,  
+ রাত্রি;  
+ নক্ষত্র ও নক্ষত্রের  
+ অতীত নিস্তব্ধতা!  
+ মরণের পরপারে বড়ো অন্ধকার  
+ এই সব আলো প্রেম ও নির্জনতার মতো।
+  
+====== 
+" android:textIsSelectable="true" />
+                </ScrollView>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:textSize="22sp" android:textColor="#fffffa00" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_10" android:background="@drawable/kobitabtn1" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0x2801" android:text="আমি কবি- সেই কবি" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+                <ScrollView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/sv_10" android:background="@drawable/kobita_back2" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                    <TextView android:textSize="18sp" android:textColor="#ffffffff" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_010" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5pt" android:text="আমি কবি-সেই কবি-  
+ আকাশে কাতর আঁখি তুলি হেরি ঝরা পালকের ছবি!  
+ আন্মনা আমি চেয়ে থাকি দূর হিঙুল-মেঘের পানে!  
+ মৌন নীলের ইশারায় কোন্ কামনা জাগিছে প্রাণে!  
+ বুকের বাদল উথলি উঠিছে কোন্ কাজরীর গানে!  
+ দাদুরী-কাঁদানো শাঙন-দরিয়া হৃদয়ে উঠিছে দ্রবি!  
+  
+ স্বপন-সুরার ঘোরে  
+ আখের ভুলিয়া আপনারে আমি রেখেছি দিওয়ানা ক'রে!  
+ জন্ম ভরিয়া সে কোন্ হেঁয়ালি হল না আমার সাধা-  
+ পায় পায় নাচে জিঞ্জির হায়, পথে পথে ধায় ধাঁধা!  
+ -নিমেষে পাসরি এই বসুধার নিয়তি-মানার বাধা  
+ সারাটি জীবন খেয়ালের খোশে পেয়ালা রেখেছি ভ'রে!  
+  
+ ভুঁয়ের চাঁপাটি চুমি  
+ শিশুর মতন, শিরীষের বুকে নীরবে পড়ি গো নুমি!  
+ ঝাউয়ের কাননে মিঠা মাঠে মাঠে মটর-ক্ষেতের শেষে  
+ তোতার মতন চকিতে কখন আমি আসিয়াছি ভেসে!  
+ -ভাটিয়াল সুর সাঁঝের আঁধারে দরিয়ার পারে মেশে,-  
+ বালুর ফরাশে ঢালু নদীটির জলে ধোঁয়া ওঠে ধূমি!  
+  
+ বিজন তারার সাঁঝে  
+ আমার প্রিয়ের গজল-গানের রেওয়াজ বুঝি বা বাজে!  
+ প'ড়ে আছে হেথা ছিন্ন নীবার, পাখির নষ্ট নীড়!  
+ হেথায় বেদনা মা-হারা শিশুর, শুধু বিধবার ভিড়!  
+ কোন্ যেন এক সুদূর আকাশ গোধূলিলোকের তীর  
+ কাজের বেলায় ডাকিছে আমারে, ডাকে অকাজের মাঝে!
+  
+====== 
+" android:textIsSelectable="true" />
+                </ScrollView>
+            </LinearLayout>
+        </LinearLayout>
+    </HorizontalScrollView>
+    <FrameLayout android:id="@+id/bottom_frame" android:background="#043800" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2301" android:layout_alignParentBottom="true">
+        <Button android:textColor="#d7d7d7" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/DayMode" android:background="@drawable/btn_100x35" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x2301" android:layout_marginLeft="10dp" android:text="Day Mode" android:onClick="Day_Mode" android:textAllCaps="false" />
+        <Button android:textColor="#d7d7d7" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/Default" android:background="@drawable/btn_100x35_back" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x2301" android:text="Default" android:onClick="Default" android:textAllCaps="false" />
+        <Button android:textColor="#d7d7d7" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/NightMode" android:background="@drawable/btn_100x35" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x2301" android:layout_marginRight="10dp" android:text="Night Mode" android:onClick="Night_Mode" android:textAllCaps="false" />
+    </FrameLayout>
+    <com.google.android.gms.ads.AdView android:id="@+id/adView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/top_frame" android:layout_centerHorizontal="true" android:adSize="BANNER" android:adUnitId="ca-app-pub-7960193263009665/4951506033" />
+</RelativeLayout>

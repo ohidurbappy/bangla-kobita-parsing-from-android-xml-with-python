@@ -1,0 +1,727 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:id="@+id/RL_Main"
+	android:background="@drawable/kobita_back1"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent" android:keepScreenOn="true">
+<FrameLayout android:id="@+id/top_frame"
+	android:background="@drawable/btn_border"
+	android:layout_width="match_parent"
+	android:layout_height="UNKNOWN_DATA_0x3c01"> <ImageView
+	android:background="@drawable/f_kazi_nazrul_islam"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content" /> <TextView
+	android:textSize="22sp" android:textColor="#fffc34"
+	android:id="@+id/kobi_name" android:paddingLeft="60dp"
+	android:paddingTop="5dp" android:layout_width="wrap_content"
+	android:layout_height="wrap_content" android:text="কাজী নজরুল ইসলাম" />
+<TextView android:textSize="14sp" android:textColor="#ffffff"
+	android:id="@+id/kobi_birth" android:paddingLeft="60dp"
+	android:paddingTop="33dp" android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="(জন্ম-১৮৯৯ / মৃত্যু-১৯৭৬)" /> <TextView
+	android:textAppearance="?unknown_attr_ref: 1010041"
+	android:textColor="#ffffff"
+	android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end"
+	android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end"
+	android:id="@+id/pata" android:background="@drawable/kobitabtn_60x50"
+	android:layout_width="UNKNOWN_DATA_0x3c01"
+	android:layout_height="UNKNOWN_DATA_0x3c01"
+	android:layout_marginRight="10dp" android:text="১ম 
+পাতা" /> </FrameLayout> <HorizontalScrollView
+	android:layout_width="wrap_content"
+	android:layout_height="match_parent" android:layout_marginBottom="35dp"
+	android:layout_below="@+id/adView"> <LinearLayout
+	android:orientation="horizontal" android:layout_width="wrap_content"
+	android:layout_height="match_parent"
+<LinearLayout
+	android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end"
+	android:orientation="vertical" android:layout_width="match_parent"
+	android:layout_height="match_parent">
+<Button android:textSize="22sp" android:textColor="#fffffa00"
+	android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end"
+	android:id="@+id/kobita_1" android:background="@drawable/kobitabtn1"
+	android:layout_width="UNKNOWN_DATA_0x12c01"
+	android:layout_height="UNKNOWN_DATA_0x2801" android:text="মুনাজাত"
+	android:layout_alignParentTop="true"
+	android:layout_centerHorizontal="true" />
+<ScrollView
+	android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end"
+	android:id="@+id/sv_1" android:background="@drawable/kobita_back2"
+	android:layout_width="UNKNOWN_DATA_0x12c01"
+	android:layout_height="match_parent" android:layout_marginLeft="10dp"
+	android:layout_marginRight="10dp"> <TextView
+	android:enabled="true" android:textSize="18sp"
+	android:textColor="#ffffffff"
+	android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end"
+	android:id="@+id/kobita_01" android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:text="আমারে সকল ক্ষুদ্রতা হতে  
+বাঁচাও প্রভু উদার।  
+হে প্রভু! শেখাও -নীচতার চেয়ে  
+নীচ পাপ নাহি আর।  
+  
+ যদি শতেক জন্ম পাপে হই পাপী,  
+যুগ-যুগান্ত নরকেও যাপি,  
+জানি জানি প্রভু, তারও আছে ক্ষমা-  
+ক্ষমা নাহি নীচতার।।  
+  
+ ক্ষুদ্র করো না হে প্রভু আমার  
+হৃদয়ের পরিসর,  
+যেন সম ঠাঁই পায়  
+শত্রু-মিত্র-পর।  
+  
+ নিন্দা না করি ঈর্ষায় কারো  
+অন্যের সুখে সুখ পাই আরো,  
+কাঁদি তারি তরে অশেষ দুঃখী  
+ক্ষুদ্র আত্মা তার।।  
+  
+====== 
+ "
+	android:textIsSelectable="true" /> </ScrollView> </LinearLayout> <LinearLayout
+	android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end"
+	android:orientation="vertical" android:layout_width="match_parent"
+	android:layout_height="match_parent">
+<Button android:textSize="22sp" android:textColor="#fffffa00"
+	android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end"
+	android:id="@+id/kobita_2" android:background="@drawable/kobitabtn1"
+	android:layout_width="UNKNOWN_DATA_0x12c01"
+	android:layout_height="UNKNOWN_DATA_0x2801" android:text="মানুষ"
+	android:layout_alignParentTop="true"
+	android:layout_centerHorizontal="true" android:textIsSelectable="true" />
+<ScrollView
+	android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end"
+	android:id="@+id/sv_2" android:background="@drawable/kobita_back2"
+	android:layout_width="UNKNOWN_DATA_0x12c01"
+	android:layout_height="match_parent" android:layout_marginLeft="10dp"
+	android:layout_marginRight="10dp"> <TextView
+	android:textSize="18sp" android:textColor="#ffffffff"
+	android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end"
+	android:id="@+id/kobita_02" android:layout_width="match_parent"
+	android:layout_height="wrap_content" android:layout_margin="5pt"
+	android:text="গাহি সাম্যের গান-  
+মানুষের চেয়ে কিছু নাই, নহে কিছু মহীয়ান,  
+নাই দেশ-কাল-পাত্রের ভেদ, অভেদ ধর্মজাতি,  
+সব দেশে, সল কালে, ঘরে-ঘরে তিনি মানুষের জ্ঞাতি।  
+‘পূজারী, দুয়ার খোল,  
+ক্ষুদার ঠাকুর দাঁড়ায়ে দুয়ারে পূজার সময় হলো!’  
+স্বপ্ন দেখিয়া আকুল পূজারী খুলিল ভজনালয়  
+দেবতার বরে আজ রাজা-টাজা হ’য়ে যাবে নিশ্চয়!  
+জীর্ণ-বস্ত্র শীর্ণ-গাত্র, ক্ষুদায় কন্ঠ ক্ষীণ  
+ডাকিল পান্থ, ‘দ্বার খোল বাবা, খাইনি তো সাত দিন!’  
+সহসা বন্ধ হ’ল মন্দির, ভুখারী ফিরিয়া চলে,  
+তিমির রাত্রি, পথ জুড়ে তার ক্ষুদার মানিক জ্বলে!  
+ভুখারী ফুকারি’ কয়,  
+‘ঐ মন্দির পূজারীর, হায় দেবতা, তোমার নয়!’  
+  
+ মসজিদে কাল শিরনী আছিল, অঢেল গোস্ত রুটি  
+বাঁচিয়া গিয়াছে, মোল্লা সাহেব হেসে তাই কুটিকুটি!  
+এমন সময় এলো মুসাফির গায়ে-আজারির চিন্  
+বলে ‘বাবা, আমি ভুকা ফাকা আছি আজ নিয়ে সাত দিন!’  
+তেরিয়াঁ হইয়া হাঁকিল মোল্লা – ভ্যালা হ’ল দেখি লেঠা,  
+ভুখা আছ মর গো-ভাগাড়ে গিয়ে! নামাজ পড়িস বেটা?  
+ভুখারী কহিল, ‘না বাবা!’ মোল্লা হাঁকিল – তা’ হলে শালা  
+সোজা পথ দেখ!’ গোস্ত-রুটি নিয়া মসজিদে দিল তালা!  
+ভুখারী ফিরিয়া চলে,  
+চলিতে চলিতে বলে-  
+আশিটা বছর কেটে গেল, আমি ডাকিনি তোমায় কভু,  
+আমার ক্ষুদার অন্ন তা’বলে বন্ধ করোনি প্রভু  
+তব মসজিদ মন্দিরে প্রভু নাই মানুষের দাবী,  
+মোল্লা-পুরুত লাগায়েছে তার সকল দুয়ারে চাবী!  
+  
+====== 
+ "
+	android:textIsSelectable="true" /> </ScrollView> </LinearLayout> <LinearLayout
+	android:orientation="vertical" android:layout_width="match_parent"
+	android:layout_height="match_parent">
+<Button android:textSize="22sp" android:textColor="#fffffa00"
+	android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end"
+	android:id="@+id/kobita_3" android:background="@drawable/kobitabtn1"
+	android:layout_width="UNKNOWN_DATA_0x12c01"
+	android:layout_height="UNKNOWN_DATA_0x2801" android:text="বিদায় বেলায়"
+	android:layout_alignParentTop="true"
+	android:layout_centerHorizontal="true" />
+<ScrollView
+	android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end"
+	android:id="@+id/sv_3" android:background="@drawable/kobita_back2"
+	android:layout_width="UNKNOWN_DATA_0x12c01"
+	android:layout_height="match_parent" android:layout_marginLeft="10dp"
+	android:layout_marginRight="10dp"> <TextView
+	android:textSize="18sp" android:textColor="#ffffffff"
+	android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end"
+	android:id="@+id/kobita_03" android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:text="তুমি অমন ক’রে গো বারে বারে জল-ছল-ছল চোখে চেয়ো না,  
+জল-ছল-ছল চোখে চেয়ো না।  
+ঐ কাতর কন্ঠে থেকে থেকে শুধু বিদায়ের গান গেয়ো না,  
+শুধু বিদায়ের গান গেয়ো না।।  
+হাসি দিয়ে যদি লুকালে তোমার সারা জীবনের বেদনা,  
+আজো তবে শুধু হেসে যাও, আজ বিদায়ের দিনে কেঁদো না।  
+ঐ ব্যথাতুর আঁখি কাঁদো-কাঁদো মুখ  
+দেখি আর শুধু হেসে যাও,আজ বিদায়ের দিনে কেঁদো না।  
+চলার তোমার বাকী পথটুকু-  
+পথিক! ওগো সুদূর পথের পথিক-  
+হায়, অমন ক’রে ও অকর”ণ গীতে আঁখির সলিলে ছেয়ো না,  
+ওগো আঁখির সলিলে ছেয়ো না।।  
+  
+ দূরের পথিক! তুমি ভাব বুঝি  
+তব ব্যথা কেউ বোঝে না,  
+তোমার ব্যথার তুমিই দরদী একাকী,  
+পথে ফেরে যারা পথ-হারা,  
+কোন গৃহবাসী তারে খোঁজে না,  
+বুকে ক্ষত হ’য়ে জাগে আজো সেই ব্যথা-লেখা কি?  
+দূর বাউলের গানে ব্যথা হানে বুঝি শুধু ধূ-ধূ মাঠে পথিকে?  
+এ যে মিছে অভিমান পরবাসী! দেখে ঘর-বাসীদের ক্ষতিকে!  
+তবে জান কি তোমার বিদায়- কথায়  
+কত বুক-ভাঙা গোপন ব্যথায়  
+আজ কতগুলি প্রাণ কাঁদিছে কোথায়-  
+পথিক! ওগো অভিমানী দূর পথিক!  
+কেহ ভালোবাসিল না ভেবে যেন আজো  
+মিছে ব্যথা পেয়ে যেয়ো না,  
+ওগো যাবে যাও, তুমি বুকে ব্যথা নিয়ে যেয়ো না।।  
+  
+====== 
+ "
+	android:textIsSelectable="true" /> </ScrollView> </LinearLayout> <LinearLayout
+	android:orientation="vertical" android:layout_width="match_parent"
+	android:layout_height="match_parent">
+<Button android:textSize="22sp" android:textColor="#fffffa00"
+	android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end"
+	android:id="@+id/kobita_4" android:background="@drawable/kobitabtn1"
+	android:layout_width="UNKNOWN_DATA_0x12c01"
+	android:layout_height="UNKNOWN_DATA_0x2801"
+	android:text="আজ সৃষ্টি-সুখের উল্লাসে"
+	android:layout_alignParentTop="true"
+	android:layout_centerHorizontal="true" />
+<ScrollView
+	android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end"
+	android:id="@+id/sv_4" android:background="@drawable/kobita_back2"
+	android:layout_width="UNKNOWN_DATA_0x12c01"
+	android:layout_height="match_parent" android:layout_marginLeft="10dp"
+	android:layout_marginRight="10dp"> <TextView
+	android:textSize="18sp" android:textColor="#ffffffff"
+	android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end"
+	android:id="@+id/kobita_04" android:layout_width="match_parent"
+	android:layout_height="wrap_content" android:layout_margin="5pt"
+	android:text="আজ সৃষ্টি সুখের উল্লাসে-  
+মোর মুখ হাসে মোর চোখ হাসে মোর টগবগিয়ে খুন হাসে  
+আজ সৃষ্টি-সুখের উল্লাসে।  
+  
+ আজকে আমার রুদ্ধ প্রাণের পল্বলে-  
+বান ডেকে ঐ জাগল জোয়ার দুয়ার -ভাঙা কল্লোলে।  
+আসল হাসি, আসল কাঁদন  
+মুক্তি এলো, আসল বাঁধন,  
+মুখ ফুটে আজ বুক ফাটে মোর তিক্ত দুখের সুখ আসে।  
+ঐ রিক্ত বুকের দুখ আসে-  
+আজ সৃষ্টি-সুখের উল্লাসে!  
+  
+ আসল উদাস, শ্বসল হুতাশ  
+সৃষ্টি-ছাড়া বুক-ফাটা শ্বাস,  
+ফুললো সাগর দুললো আকাশ ছুটলো বাতাস,  
+গগন ফেটে চক্র ছোটে, পিণাক-পাণির শূল আসে!  
+ঐ ধূমকেতু আর উল্কাতে  
+চায় সৃষ্টিটাকে উল্টাতে,  
+  
+ আজ তাই দেখি আর বক্ষে আমার লক্ষ বাগের ফুল হাসে  
+আজ সৃষ্টি-সুখের উল্লাসে!  
+আজ হাসল আগুন, শ্বসল ফাগুন,  
+মদন মারে খুন-মাখা তূণ  
+পলাশ অশোক শিমুল ঘায়েল  
+ফাগ লাগে ঐ দিক-বাসে  
+গো দিগ বালিকার পীতবাসে;  
+  
+ আজ রঙ্গন এলো রক্তপ্রাণের অঙ্গনে মোর চারপাশে  
+আজ সৃষ্টি সুখের উল্লাসে!  
+আজ কপট কোপের তূণ ধরি,  
+ঐ আসল যত সুন্দরী,  
+কারুর পায়ে বুক ডলা খুন, কেউ বা আগুন,  
+কেউ মানিনী চোখের জলে বুক ভাসে!  
+তাদের প্রাণের ‘বুক-ফাটে-তাও-মুখ-ফোটে-না’ বাণীর বীণা মোর পাশে  
+ঐ তাদের কথা শোনাই তাদের  
+আমার চোখে জল আসে  
+আজ সৃষ্টি সুখের উল্লাসে!  
+  
+ আজ আসল ঊষা, সন্ধ্যা, দুপুর,  
+আসল নিকট, আসল সুদূর  
+আসল বাধা-বন্ধ-হারা ছন্দ-মাতন  
+পাগলা-গাজন-উচ্ছ্বাসে!  
+ঐ আসল আশিন শিউলি শিথিল  
+হাসল শিশির দুবঘাসে  
+আজ সৃষ্টি-সুখের উল্লাসে!  
+  
+ আজ জাগল সাগর, হাসল মরু  
+কাঁপল ভূধর, কানন তরু  
+বিশ্ব-ডুবান আসল তুফান, উছলে উজান  
+ভৈরবীদের গান ভাসে,  
+মোর ডাইনে শিশু সদ্যোজাত জরায়-মরা বামপাশে।  
+  
+ মন ছুটছে গো আজ বল্গাহারা অশ্ব যেন পাগলা সে।  
+আজ সৃষ্টি-সুখের উল্লাসে!  
+আজ সৃষ্টি-সুখের উল্লাসে!!  
+  
+ ======  
+ "
+	android:textIsSelectable="true" /> </ScrollView> </LinearLayout> <LinearLayout
+	android:orientation="vertical" android:layout_width="match_parent"
+	android:layout_height="match_parent">
+<Button android:textSize="22sp" android:textColor="#fffffa00"
+	android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end"
+	android:id="@+id/kobita_5" android:background="@drawable/kobitabtn1"
+	android:layout_width="UNKNOWN_DATA_0x12c01"
+	android:layout_height="UNKNOWN_DATA_0x2801"
+	android:text="কান্ডারী হুশিয়ার" android:layout_alignParentTop="true"
+	android:layout_centerHorizontal="true" />
+<ScrollView
+	android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end"
+	android:id="@+id/sv_5" android:background="@drawable/kobita_back2"
+	android:layout_width="UNKNOWN_DATA_0x12c01"
+	android:layout_height="match_parent" android:layout_marginLeft="10dp"
+	android:layout_marginRight="10dp"> <TextView
+	android:textSize="18sp" android:textColor="#ffffffff"
+	android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end"
+	android:id="@+id/kobita_05" android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:text="দুর্গম গিরি, কান্তার-মরু, দুস্তর পারাবার  
+লঙ্ঘিতে হবে রাত্রি-নিশীথে, যাত্রীরা হুশিয়ার!  
+  
+ দুলিতেছে তরি, ফুলিতেছে জল, ভুলিতেছে মাঝি পথ,  
+ছিঁড়িয়াছে পাল, কে ধরিবে হাল, আছে কার হিম্মৎ?  
+কে আছ জোয়ান হও আগুয়ান হাঁকিছে ভবিষ্যৎ।  
+এ তুফান ভারী, দিতে হবে পাড়ি, নিতে হবে তরী পার।  
+  
+ তিমির রাত্রি, মাতৃমন্ত্রী সান্ত্রীরা সাবধান!  
+যুগ-যুগান্ত সঞ্চিত ব্যথা ঘোষিয়াছে অভিযান।  
+ফেনাইয়া উঠে বঞ্চিত বুকে পুঞ্জিত অভিমান,  
+ইহাদের পথে নিতে হবে সাথে, দিতে হবে অধিকার।  
+  
+ অসহায় জাতি মরিছে ডুবিয়া, জানে না সন্তরন  
+কান্ডারী! আজ দেখিব তোমার মাতৃমুক্তি পন।  
+হিন্দু না ওরা মুসলিম? ওই জিজ্ঞাসে কোন জন?  
+কান্ডারী! বল, ডুবিছে মানুষ, সন্তান মোর মার  
+  
+ গিরি সংকট, ভীরু যাত্রীরা গুরু গরজায় বাজ,  
+পশ্চাৎ-পথ-যাত্রীর মনে সন্দেহ জাগে আজ!  
+কান্ডারী! তুমি ভুলিবে কি পথ? ত্যজিবে কি পথ-মাঝ?  
+করে হানাহানি, তবু চলো টানি, নিয়াছ যে মহাভার!  
+  
+ কান্ডারী! তব সম্মুখে ঐ পলাশীর প্রান্তর,  
+বাঙালীর খুনে লাল হল যেথা ক্লাইভের খঞ্জর!  
+ঐ গঙ্গায় ডুবিয়াছে হায়, ভারতের দিবাকর!  
+উদিবে সে রবি আমাদেরি খুনে রাঙিয়া পূনর্বার।  
+  
+ ফাঁসির মঞ্চে গেয়ে গেল যারা জীবনের জয়গান,  
+আসি অলক্ষ্যে দাঁড়ায়েছে তারা, দিবে কোন্ বলিদান  
+আজি পরীক্ষা, জাতির অথবা জাতের করিবে ত্রাণ?  
+দুলিতেছে তরী, ফুলিতেছে জল, কান্ডারী হুশিয়ার!  
+  
+====== 
+ "
+	android:textIsSelectable="true" /> </ScrollView> </LinearLayout> <LinearLayout
+	android:orientation="vertical" android:layout_width="match_parent"
+	android:layout_height="match_parent">
+<Button android:textSize="22sp" android:textColor="#fffffa00"
+	android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end"
+	android:id="@+id/kobita_6" android:background="@drawable/kobitabtn1"
+	android:layout_width="UNKNOWN_DATA_0x12c01"
+	android:layout_height="UNKNOWN_DATA_0x2801" android:text="আপন-পিয়াসী"
+	android:layout_alignParentTop="true"
+	android:layout_centerHorizontal="true" />
+<ScrollView
+	android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end"
+	android:id="@+id/sv_6" android:background="@drawable/kobita_back2"
+	android:layout_width="UNKNOWN_DATA_0x12c01"
+	android:layout_height="match_parent" android:layout_marginLeft="10dp"
+	android:layout_marginRight="10dp"> <TextView
+	android:textSize="18sp" android:textColor="#ffffffff"
+	android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end"
+	android:id="@+id/kobita_06" android:layout_width="match_parent"
+	android:layout_height="wrap_content" android:layout_margin="5pt"
+	android:text="আমার আপনার চেয়ে আপন যে জন  
+খুঁজি তারে আমি আপনার,  
+আমি শুনি যেন তার চরণের ধ্বনি  
+আমারি তিয়াসী বাসনায়।।  
+  
+ আমারই মনের তৃষিত আকাশে  
+কাঁদে সে চাতক আকুল পিয়াসে,  
+কভু সে চকোর সুধা-চোর আসে  
+নিশীথে স্বপনে জোছনায়।।  
+  
+ আমার মনের পিয়াল তমালে হেরি তারে স্নেহ-মেঘ-শ্যাম,  
+অশনি-আলোকে হেরি তারে থির-বিজুলি-উজল অভিরাম।।  
+আমারই রচিত কাননে বসিয়া  
+পরানু পিয়ারে মালিকা রচিয়া,  
+সে মালা সহসা দেখিনু জাগিয়া,  
+আপনারি গলে দোলে হায়।।  
+  
+====== 
+ "
+	android:textIsSelectable="true" /> </ScrollView> </LinearLayout> <LinearLayout
+	android:orientation="vertical" android:layout_width="match_parent"
+	android:layout_height="match_parent">
+<Button android:textSize="22sp" android:textColor="#fffffa00"
+	android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end"
+	android:id="@+id/kobita_7" android:background="@drawable/kobitabtn1"
+	android:layout_width="UNKNOWN_DATA_0x12c01"
+	android:layout_height="UNKNOWN_DATA_0x2801" android:text="পথহারা"
+	android:layout_alignParentTop="true"
+	android:layout_centerHorizontal="true" />
+<ScrollView
+	android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end"
+	android:id="@+id/sv_7" android:background="@drawable/kobita_back2"
+	android:layout_width="UNKNOWN_DATA_0x12c01"
+	android:layout_height="match_parent" android:layout_marginLeft="10dp"
+	android:layout_marginRight="10dp"> <TextView
+	android:textSize="18sp" android:textColor="#ffffffff"
+	android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end"
+	android:id="@+id/kobita_07" android:layout_width="match_parent"
+	android:layout_height="wrap_content" android:layout_margin="5pt"
+	android:text="বেলা শেষে উদাস পথিক ভাবে,  
+সে যেন কোন অনেক দূরে যাবে –  
+উদাস পথিক ভাবে।  
+  
+  ‘ঘরে এস’ সন্ধ্যা সবায় ডাকে,  
+‘নয় তোরে নয়’ বলে একা তাকে;  
+পথের পথিক পথেই বসে থাকে,  
+জানে না সে কে তাহারে চাবে।  
+উদাস পথিক ভাবে।  
+  
+ বনের ছায়া গভীর ভালোবেসে  
+আঁধার মাথায় দিগবধূদের কেশে,  
+ডাকতে বুঝি শ্যামল মেঘের দেশে  
+শৈলমূলে শৈলবালা নাবে –  
+উদাস পথিক ভাবে।  
+  
+ বাতি আনি রাতি আনার প্রীতি,  
+বধূর বুকে গোপন সুখের ভীতি,  
+বিজন ঘরে এখন সে গায় গীতি,  
+একলা থাকার গানখানি সে গাবে-  
+উদাস পথিক ভাবে।  
+  
+ হঠাৎ তাহার পথের রেখা হারায়  
+গহন বাঁধায় আঁধার-বাঁধা কারায়,  
+পথ-চাওয়া তার কাঁদে তারায় তারায়  
+আর কি পূবের পথের দেখা পাবে  
+উদাস পথিক ভাবে।  
+  
+====== 
+ "
+	android:textIsSelectable="true" /> </ScrollView> </LinearLayout> <LinearLayout
+	android:orientation="vertical" android:layout_width="match_parent"
+	android:layout_height="match_parent">
+<Button android:textSize="22sp" android:textColor="#fffffa00"
+	android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end"
+	android:id="@+id/kobita_8" android:background="@drawable/kobitabtn1"
+	android:layout_width="UNKNOWN_DATA_0x12c01"
+	android:layout_height="UNKNOWN_DATA_0x2801" android:text="ঈশ্বর"
+	android:layout_alignParentTop="true"
+	android:layout_centerHorizontal="true" />
+<ScrollView
+	android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end"
+	android:id="@+id/sv_8" android:background="@drawable/kobita_back2"
+	android:layout_width="UNKNOWN_DATA_0x12c01"
+	android:layout_height="match_parent" android:layout_marginLeft="10dp"
+	android:layout_marginRight="10dp"> <TextView
+	android:textSize="18sp" android:textColor="#ffffffff"
+	android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end"
+	android:id="@+id/kobita_08" android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:text="কে তুমি খুঁজিছ জগদীশ ভাই আকাশ পাতাল জুড়ে’  
+কে তুমি ফিরিছ বনে-জঙ্গলে, কে তুমি পাহাড়-চূড়ে?  
+হায় ঋষি দরবেশ,  
+বুকের মানিকে বুকে ধ’রে তুমি খোঁজ তারে দেশ-দেশ।  
+সৃষ্টি রয়েছে তোমা পানে চেয়ে তুমি আছ চোখ বুঁজে,  
+স্রষ্টারে খোঁজো-আপনারে তুমি আপনি ফিরিছ খুঁজে!  
+ইচ্ছা-অন্ধ! আঁখি খোলো, দেশ দর্পণে নিজ-কায়া,  
+দেখিবে, তোমারি সব অবয়বে প’ড়েছে তাঁহার ছায়া।  
+শিহরি’ উঠো না, শাস্ত্রবিদের ক’রো না ক’ বীর, ভয়-  
+তাহারা খোদার খোদ ‘ প্রাইভেট সেক্রেটারী’ ত নয়!  
+সকলের মাঝে প্রকাশ তাঁহার, সকলের মাঝে তিনি!  
+আমারে দেখিয়া আমার অদেখা জন্মদাতারে চিনি!  
+রত্ন লইয়া বেচা-কেনা করে বণিক সিন্ধু-কুলে-  
+রত্নাকরের খবর তা ব’লে পুছো না ওদের ভুলে’।  
+উহারা রত্ন-বেনে,  
+রত্ন চিনিয়া মনে করে ওরা রত্নাকরেও চেনে!  
+ডুবে নাই তা’রা অতল গভীর রত্ন-সিন্ধুতলে,  
+শাস্ত্র না ঘেঁটে ডুব দাও, সখা, সত্য-সিন্ধু-জলে।  
+  
+====== 
+ "
+	android:textIsSelectable="true" /> </ScrollView> </LinearLayout> <LinearLayout
+	android:orientation="vertical" android:layout_width="match_parent"
+	android:layout_height="match_parent">
+<Button android:textSize="22sp" android:textColor="#fffffa00"
+	android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end"
+	android:id="@+id/kobita_9" android:background="@drawable/kobitabtn1"
+	android:layout_width="UNKNOWN_DATA_0x12c01"
+	android:layout_height="UNKNOWN_DATA_0x2801" android:text="বিদ্রোহী"
+	android:layout_alignParentTop="true"
+	android:layout_centerHorizontal="true" />
+<ScrollView
+	android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end"
+	android:id="@+id/sv_9" android:background="@drawable/kobita_back2"
+	android:layout_width="UNKNOWN_DATA_0x12c01"
+	android:layout_height="match_parent" android:layout_marginLeft="10dp"
+	android:layout_marginRight="10dp"> <TextView
+	android:textSize="18sp" android:textColor="#ffffffff"
+	android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end"
+	android:id="@+id/kobita_09" android:layout_width="match_parent"
+	android:layout_height="wrap_content" android:layout_margin="5pt"
+	android:text="বল বীর –  
+বল উন্নত মম শির!  
+শির নেহারি’ আমারি নতশির ওই শিখর হিমাদ্রির!  
+বল বীর –  
+বল মহাবিশ্বের মহাকাশ ফাড়ি’  
+চন্দ্র সূর্য গ্রহ তারা ছাড়ি’  
+ভূলোক দ্যুলোক গোলক ভেদিয়া  
+খোদার আসন ‘আরশ’ ছেদিয়া,  
+উঠিয়াছি চির-বিস্ময় আমি বিশ্ববিধাতৃর!  
+মম ললাটে রুদ্র ভগবান জ্বলে রাজ-রাজটীকা দীপ্ত জয়শ্রীর!  
+বল বীর –  
+আমি চির উন্নত শির!  
+  
+ আমি চিরদূর্দম, দুর্বিনীত, নৃশংস,  
+মহা- প্রলয়ের আমি নটরাজ, আমি সাইক্লোন, আমি ধ্বংস!  
+আমি মহাভয়, আমি অভিশাপ পৃথ্বীর,  
+আমি দুর্বার,  
+আমি ভেঙে করি সব চুরমার!  
+আমি অনিয়ম উচ্ছৃঙ্খল,  
+আমি দ’লে যাই যত বন্ধন, যত নিয়ম কানুন শৃঙ্খল!  
+আমি মানি না কো কোন আইন,  
+আমি ভরা-তরী করি ভরা-ডুবি, আমি টর্পেডো, আমি ভীম ভাসমান মাইন!  
+আমি ধূর্জটি, আমি এলোকেশে ঝড় অকাল-বৈশাখীর  
+আমি বিদ্রোহী, আমি বিদ্রোহী-সুত বিশ্ব-বিধাতৃর!  
+বল বীর –  
+চির-উন্নত মম শির!  
+  
+ আমি ঝন্ঝা, আমি ঘূর্ণি,  
+আমি পথ-সমূখে যাহা পাই যাই চূর্ণি’।  
+আমি নৃত্য-পাগল ছন্দ,  
+আমি আপনার তালে নেচে যাই, আমি মুক্ত জীবনানন্দ।  
+আমি হাম্বার, আমি ছায়ানট, আমি হিন্দোল,  
+আমি চল-চঞ্চল, ঠমকি’ ছমকি’  
+পথে যেতে যেতে চকিতে চমকি’  
+ফিং দিয়া দিই তিন দোল;  
+আমি চপলা-চপল হিন্দোল।  
+আমি তাই করি ভাই যখন চাহে এ মন যা,  
+করি শত্রুর সাথে গলাগলি, ধরি মৃত্যুর সাথে পান্জা,  
+আমি উন্মাদ, আমি ঝন্ঝা!  
+আমি মহামারী আমি ভীতি এ ধরিত্রীর;  
+আমি শাসন-ত্রাসন, সংহার আমি উষ্ন চির-অধীর!  
+বল বীর  
+আমি চির উন্নত শির!  
+  
+ আমি চির-দুরন্ত দুর্মদ,  
+আমি দুর্দম, মম প্রাণের পেয়ালা হর্দম হ্যায় হর্দম ভরপুর মদ।  
+  
+ আমি হোম-শিখা, আমি সাগ্নিক জমদগ্নি,  
+আমি যজ্ঞ, আমি পুরোহিত, আমি অগ্নি।  
+আমি সৃষ্টি, আমি ধ্বংস, আমি লোকালয়, আমি শ্মশান,  
+আমি অবসান, নিশাবসান।  
+আমি ইন্দ্রাণী-সুত হাতে চাঁদ ভালে সূর্য  
+মম এক হাতে বাঁকা বাঁশের বাঁশরী আর রণ-তূর্য;  
+আমি কৃষ্ন-কন্ঠ, মন্থন-বিষ পিয়া ব্যথা-বারিধীর।  
+আমি ব্যোমকেশ, ধরি বন্ধন-হারা ধারা গঙ্গোত্রীর।  
+বল বীর  
+চির উন্নত মম শির!  
+  
+ আমি সন্ন্যাসী, সুর-সৈনিক,  
+আমি যুবরাজ, মম রাজবেশ ম্লান গৈরিক।  
+আমি বেদুঈন, আমি চেঙ্গিস,  
+আমি আপনারে ছাড়া করি না কাহারে কুর্ণিশ!  
+আমি বজ্র, আমি ঈশান-বিষাণে ওঙ্কার,  
+আমি ইস্রাফিলের শিঙ্গার মহা হুঙ্কার,  
+আমি পিণাক-পাণির ডমরু ত্রিশূল, ধর্মরাজের দন্ড,  
+আমি চক্র ও মহা শঙ্খ, আমি প্রণব-নাদ প্রচন্ড!  
+আমি ক্ষ্যাপা দুর্বাসা, বিশ্বামিত্র-শিষ্য,  
+আমি দাবানল-দাহ, দাহন করিব বিশ্ব।  
+আমি প্রাণ খোলা হাসি উল্লাস, আমি সৃষ্টি-বৈরী মহাত্রাস,  
+আমি মহা প্রলয়ের দ্বাদশ রবির রাহু গ্রাস!  
+আমি কভূ প্রশান্ত কভূ অশান্ত দারুণ স্বেচ্ছাচারী,  
+আমি অরুণ খুনের তরুণ, আমি বিধির দর্পহারী!  
+আমি প্রভোন্জনের উচ্ছ্বাস, আমি বারিধির মহা কল্লোল,  
+আমি উদ্জ্বল, আমি প্রোজ্জ্জ্বল,  
+আমি উচ্ছ্বল জল-ছল-ছল, চল-ঊর্মির হিন্দোল-দোল!  
+  
+ আমি বন্ধন-হারা কুমারীর বেণু, তন্বী-নয়নে বহ্ণি  
+আমি ষোড়শীর হৃদি-সরসিজ প্রেম উদ্দাম, আমি ধন্যি!  
+আমি উন্মন মন উদাসীর,  
+আমি বিধবার বুকে ক্রন্দন-শ্বাস, হা হুতাশ আমি হুতাশীর।  
+আমি বন্চিত ব্যথা পথবাসী চির গৃহহারা যত পথিকের,  
+আমি অবমানিতের মরম বেদনা, বিষ জ্বালা, প্রিয় লান্চিত বুকে গতি ফের  
+আমি অভিমানী চির ক্ষুব্ধ হিয়ার কাতরতা, ব্যথা সুনিবিড়  
+চিত চুম্বন-চোর কম্পন আমি থর-থর-থর প্রথম প্রকাশ কুমারীর!  
+আমি গোপন-প্রিয়ার চকিত চাহনি, ছল-করে দেখা অনুখন,  
+আমি চপল মেয়ের ভালোবাসা, তা’র কাঁকন-চুড়ির কন-কন!  
+আমি চির-শিশু, চির-কিশোর,  
+আমি যৌবন-ভীতু পল্লীবালার আঁচড় কাঁচলি নিচোর!  
+আমি উত্তর-বায়ু মলয়-অনিল উদাস পূরবী হাওয়া,  
+আমি পথিক-কবির গভীর রাগিণী, বেণু-বীণে গান গাওয়া।  
+আমি আকুল নিদাঘ-তিয়াসা, আমি রৌদ্র-রুদ্র রবি  
+আমি মরু-নির্ঝর ঝর ঝর, আমি শ্যামলিমা ছায়া-ছবি!  
+আমি তুরীয়ানন্দে ছুটে চলি, এ কি উন্মাদ আমি উন্মাদ!  
+আমি সহসা আমারে চিনেছি, আমার খুলিয়া গিয়াছে সব বাঁধ!  
+  
+ আমি উথ্থান, আমি পতন, আমি অচেতন-চিতে চেতন,  
+আমি বিশ্ব-তোরণে বৈজয়ন্তী, মানব-বিজয়-কেতন।  
+ছুটি ঝড়ের মতন করতালি দিয়া  
+স্বর্গ মর্ত্য-করতলে,  
+তাজী বোররাক আর উচ্চৈঃশ্রবা বাহন আমার  
+হিম্মত-হ্রেষা হেঁকে চলে!  
+  
+ আমি বসুধা-বক্ষে আগ্নিয়াদ্রি, বাড়ব-বহ্ণি, কালানল,  
+আমি পাতালে মাতাল অগ্নি-পাথার-কলরোল-কল-কোলাহল!  
+আমি তড়িতে চড়িয়া উড়ে চলি জোর তুড়ি দিয়া দিয়া লম্ফ,  
+আমি ত্রাস সন্চারি ভুবনে সহসা সন্চারি ভূমিকম্প।  
+  
+ ধরি বাসুকির ফণা জাপটি  
+ধরি স্বর্গীয় দূত জিব্রাইলের আগুনের পাখা সাপটি’।  
+আমি দেব শিশু, আমি চঞ্চল,  
+আমি ধৃষ্ট, আমি দাঁত দিয়া ছিঁড়ি বিশ্ব মায়ের অন্চল!  
+আমি অর্ফিয়াসের বাঁশরী,  
+মহা- সিন্ধু উতলা ঘুমঘুম  
+ঘুম চুমু দিয়ে করি নিখিল বিশ্বে নিঝঝুম  
+মম বাঁশরীর তানে পাশরি  
+আমি শ্যামের হাতের বাঁশরী।  
+আমি রুষে উঠি যবে ছুটি মহাকাশ ছাপিয়া,  
+ভয়ে সপ্ত নরক হাবিয়া দোজখ নিভে নিভে যায় কাঁপিয়া!  
+আমি বিদ্রোহ-বাহী নিখিল অখিল ব্যাপিয়া!  
+  
+ আমি শ্রাবণ-প্লাবন-বন্যা,  
+কভু ধরনীরে করি বরণীয়া, কভু বিপুল ধ্বংস-ধন্যা-  
+আমি ছিনিয়া আনিব বিষ্ণু-বক্ষ হইতে যুগল কন্যা!  
+আমি অন্যায়, আমি উল্কা, আমি শনি,  
+আমি ধূমকেতু-জ্বালা, বিষধর কাল-ফণী!  
+আমি ছিন্নমস্তা চন্ডী, আমি রণদা সর্বনাশী,  
+আমি জাহান্নামের আগুনে বসিয়া হাসি পুষ্পের হাসি!  
+  
+ আমি মৃন্ময়, আমি চিন্ময়,  
+আমি অজর অমর অক্ষয়, আমি অব্যয়।  
+আমি মানব দানব দেবতার ভয়,  
+বিশ্বের আমি চির-দুর্জয়,  
+জগদীশ্বর-ঈশ্বর আমি পুরুষোত্তম সত্য,  
+আমি তাথিয়া তাথিয়া মাথিয়া ফিরি স্বর্গ-পাতাল মর্ত্য!  
+আমি উন্মাদ, আমি উন্মাদ!!  
+আমি চিনেছি আমারে, আজিকে আমার খুলিয়া গিয়াছে সব বাঁধ!!  
+  
+ আমি পরশুরামের কঠোর কুঠার  
+নিঃক্ষত্রিয় করিব বিশ্ব, আনিব শান্তি শান্ত উদার!  
+আমি হল বলরাম-স্কন্ধে  
+আমি উপাড়ি ফেলিব অধীন বিশ্ব অবহেলে নব সৃষ্টির মহানন্দে।  
+মহা-বিদ্রোহী রণ ক্লান্ত  
+আমি সেই দিন হব শান্ত,  
+যবে উত্পীড়িতের ক্রন্দন-রোল আকাশে বাতাসে ধ্বনিবে না  
+অত্যাচারীর খড়গ কৃপাণ ভীম রণ-ভূমে রণিবে না  
+বিদ্রোহী রণ ক্লান্ত  
+আমি সেই দিন হব শান্ত।  
+  
+ আমি বিদ্রোহী ভৃগু, ভগবান বুকে এঁকে দিই পদ-চিহ্ন,  
+আমি স্রষ্টা-সূদন, শোক-তাপ হানা খেয়ালী বিধির বক্ষ করিব ভিন্ন!  
+আমি বিদ্রোহী ভৃগু, ভগবান বুকে এঁকে দেবো পদ-চিহ্ন!  
+আমি খেয়ালী-বিধির বক্ষ করিব ভিন্ন!  
+  
+ আমি চির-বিদ্রোহী বীর  
+বিশ্ব ছাড়ায়ে উঠিয়াছি একা চির-উন্নত শির!  
+  
+====== 
+ "
+	android:textIsSelectable="true" /> </ScrollView> </LinearLayout> <LinearLayout
+	android:orientation="vertical" android:layout_width="match_parent"
+	android:layout_height="match_parent">
+<Button android:textSize="22sp" android:textColor="#fffffa00"
+	android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end"
+	android:id="@+id/kobita_10" android:background="@drawable/kobitabtn1"
+	android:layout_width="UNKNOWN_DATA_0x12c01"
+	android:layout_height="UNKNOWN_DATA_0x2801" android:text="লিচু চোর"
+	android:layout_alignParentTop="true"
+	android:layout_centerHorizontal="true" />
+<ScrollView
+	android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end"
+	android:id="@+id/sv_10" android:background="@drawable/kobita_back2"
+	android:layout_width="UNKNOWN_DATA_0x12c01"
+	android:layout_height="match_parent" android:layout_marginLeft="10dp"
+	android:layout_marginRight="10dp"> <TextView
+	android:textSize="18sp" android:textColor="#ffffffff"
+	android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end"
+	android:id="@+id/kobita_010" android:layout_width="match_parent"
+	android:layout_height="wrap_content" android:layout_margin="5pt"
+	android:text="বাবুদের তাল-পুকুরে  
+হাবুদের ডাল-কুকুরে  
+সে কি বাস করলে তাড়া,  
+বলি থাম একটু দাড়া।  
+  
+ পুকুরের ঐ কাছে না  
+লিচুর এক গাছ আছে না  
+হোথা না আস্তে গিয়ে  
+য়্যাব্বড় কাস্তে নিয়ে  
+গাছে গো যেই চড়েছি  
+ছোট এক ডাল ধরেছি,  
+  
+ ও বাবা মড়াত করে  
+পড়েছি সরাত জোরে।  
+পড়বি পড় মালীর ঘাড়েই,  
+সে ছিল গাছের আড়েই।  
+ব্যাটা ভাই বড় নচ্ছার,  
+ধুমাধুম গোটা দুচ্চার  
+দিলে খুব কিল ও ঘুষি  
+একদম জোরসে ঠুসি।  
+  
+ আমিও বাগিয়ে থাপড়  
+দে হাওয়া চাপিয়ে কাপড়  
+লাফিয়ে ডিঙনু দেয়াল,  
+দেখি এক ভিটরে শেয়াল!  
+ও বাবা শেয়াল কোথা  
+ভেলোটা দাড়িয়ে হোথা  
+দেখে যেই আঁতকে ওঠা  
+কুকুরও জাড়লে ছোটা!  
+আমি কই কম্ম কাবার  
+কুকুরেই করবে সাবাড়!  
+  
+  ‘বাবা গো মা গো’ বলে  
+পাঁচিলের ফোঁকল গলে  
+ঢুকি গিয়ে বোসদের ঘরে,  
+যেন প্রাণ আসলো ধড়ে!  
+  
+ যাব ফের? কান মলি ভাই,  
+চুরিতে আর যদি যাই!  
+তবে মোর নামই মিছা!  
+কুকুরের চামড়া খিঁচা  
+সেকি ভাই যায় রে ভুলা-  
+মালীর ঐ পিটুনিগুলা!  
+কি বলিস ফের হপ্তা!  
+তৌবা-নাক খপ্তা…!  
+  
+====== 
+ "
+	android:textIsSelectable="true" /> </ScrollView> </LinearLayout> </LinearLayout> </HorizontalScrollView> <FrameLayout
+	android:id="@+id/bottom_frame" android:background="#043800"
+	android:layout_width="match_parent"
+	android:layout_height="UNKNOWN_DATA_0x2301"
+	android:layout_alignParentBottom="true">
+<Button android:textColor="#d7d7d7"
+	android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end"
+	android:id="@+id/DayMode" android:background="@drawable/btn_100x35"
+	android:layout_width="wrap_content"
+	android:layout_height="UNKNOWN_DATA_0x2301"
+	android:layout_marginLeft="10dp" android:text="Day Mode"
+	android:onClick="Day_Mode" android:textAllCaps="false" />
+<Button android:textColor="#d7d7d7"
+	android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end"
+	android:id="@+id/Default"
+	android:background="@drawable/btn_100x35_back"
+	android:layout_width="wrap_content"
+	android:layout_height="UNKNOWN_DATA_0x2301" android:text="Default"
+	android:onClick="Default" android:textAllCaps="false" />
+<Button android:textColor="#d7d7d7"
+	android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end"
+	android:id="@+id/NightMode" android:background="@drawable/btn_100x35"
+	android:layout_width="wrap_content"
+	android:layout_height="UNKNOWN_DATA_0x2301"
+	android:layout_marginRight="10dp" android:text="Night Mode"
+	android:onClick="Night_Mode" android:textAllCaps="false" />
+</FrameLayout> <com.google.android.gms.ads.AdView android:id="@+id/adView"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_below="@+id/top_frame"
+	android:layout_centerHorizontal="true" android:adSize="BANNER"
+	android:adUnitId="ca-app-pub-7960193263009665/4951506033" /> </RelativeLayout>

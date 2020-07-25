@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/RL_Main" android:background="@drawable/kobita_back1" android:layout_width="match_parent" android:layout_height="match_parent" android:keepScreenOn="true">
+    <FrameLayout android:id="@+id/top_frame" android:background="@drawable/btn_border" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3c01">
+        <ImageView android:background="@drawable/f_purnendu_potri" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="22sp" android:textColor="#fffc34" android:id="@+id/kobi_name" android:paddingLeft="60dp" android:paddingTop="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="পুর্নেন্দু পত্রী" />
+        <TextView android:textSize="14sp" android:textColor="#ffffff" android:id="@+id/kobi_birth" android:paddingLeft="60dp" android:paddingTop="33dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="(জন্ম-১৯৩১ / মৃত্যু-১৯৯৭)" />
+        <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textColor="#ffffff" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/pata" android:background="@drawable/kobitabtn_60x50" android:layout_width="UNKNOWN_DATA_0x3c01" android:layout_height="UNKNOWN_DATA_0x3c01" android:layout_marginRight="10dp" android:text="৮ম 
+পাতা" />
+    </FrameLayout>
+    <HorizontalScrollView android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginBottom="35dp" android:layout_below="@+id/adView">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="match_parent"
+            <LinearLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:textSize="22sp" android:textColor="#fffffa00" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_1" android:background="@drawable/kobitabtn1" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0x2801" android:text="হে সময়, অশ্বারোহী হও" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+                <ScrollView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/sv_1" android:background="@drawable/kobita_back2" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                    <TextView android:enabled="true" android:textSize="18sp" android:textColor="#ffffffff" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_01" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="বিরক্ত নদীর মতো ভুরু কুঁচকে বসে আছে আমাদের কাল।  
+ যাচ্ছি যাব, যাচ্ছি যাব এই গড়িমসি করে চূড়ো ভাঙা চাকা ভাঙা রথ  
+ যে রকম ঘাড় গুজে ধুলোয় কাতর, সে রকমই শুয়ে বসে আছে।  
+ খেয়াঘাটে পারাপার ভুলে-যাওয়া, নৌকার মতন, সময় এখন।   
+  
+ মনে হয় সময়ের পায়ে ফুটে গেছে দীর্ঘ পেরেক বা মনসার কাঁটা  
+ ছিড়ে গেছে স্ম্যান্ডেলের স্ট্র্যাপ কিংবা জুতোর গোড়ালি  
+ মনে হয় তার সব কোটপ্যান্ট ধোবার ভাটিতে  
+ হয়তো বা কোনও এক লেকা্যাল ট্রেনের হু হু ভিড়ে  
+ চুরি হয়ে গেছে পার্স, পার্সে ছিল অগ্রিম টিকিট।   
+  
+ প্রতিশ্রুতি দিয়েছিলে নিয়ে যাবে পাহাড়ের সোনালী চূড়োয়  
+ প্রতিশ্রুতি দিয়েছিলে আকাশের সিথি থেকে সিদুরের টিপ এনে দেবে  
+ প্রতিশ্রুতি দিয়েছিলে নক্ষত্রের ক্যামেরায় ছবি তুলে উপহার দেবে অ্যলবাম  
+ প্রতিশ্রুতি দিয়েছিলে কলকাতায় এন দেবে শঙ্খের সাগর।   
+  
+ প্রতিশ্রুতি যত্রতত্র ছড়াবার ছিটোবার কথ, থুতু, মলমুত্র নয়  
+ প্রতিশ্রুতি লাল নীল পতাকার ব্যতিব্যস্ত ওড়াউড়ি নয়  
+ প্রতিশ্রুতি প্রেসনোট, দৈববাণী, দেয়ারের লিপিচিত্র নয়।  
+ প্রতিশ্রুতি শীতের চাদর  
+ প্রতিশ্রুতি ভাঙা চালে খড়  
+ প্রতিশ্রুতি সাদা ভাত, ভাতে দুধ, দুধে ঘন সর  
+ প্রতিশ্রুতি চেতনার স্তরে স্তরে সপ্তসিন্ধুজলের মর্মর।   
+  
+ হে সময়, হে বিকলাঙ্গ বিভ্রান্ত সময়  
+ কানা কুকুরের মতো এটো-কাটা ঘাঁটাঘাঁটি ভুলে  
+ পৃথিবীর আয়নায় মুখ রেখে জামা জুতো পরে  
+ সূর্যের বল্লম হাতে, একবার অশ্বারোহী হও।  
+  
+====== 
+" android:textIsSelectable="true" />
+                </ScrollView>
+            </LinearLayout>
+            <Button android:textSize="18sp" android:textColor="#ffffffff" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/btn_thanks" android:background="@connectionresult/SUCCESS" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0x3201" android:text="ধন্যবাদ" />
+        </LinearLayout>
+    </HorizontalScrollView>
+    <FrameLayout android:id="@+id/bottom_frame" android:background="#043800" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2301" android:layout_alignParentBottom="true">
+        <Button android:textColor="#d7d7d7" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/DayMode" android:background="@drawable/btn_100x35" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x2301" android:layout_marginLeft="10dp" android:text="Day Mode" android:onClick="Day_Mode" android:textAllCaps="false" />
+        <Button android:textColor="#d7d7d7" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/Default" android:background="@drawable/btn_100x35_back" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x2301" android:text="Default" android:onClick="Default" android:textAllCaps="false" />
+        <Button android:textColor="#d7d7d7" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/NightMode" android:background="@drawable/btn_100x35" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x2301" android:layout_marginRight="10dp" android:text="Night Mode" android:onClick="Night_Mode" android:textAllCaps="false" />
+    </FrameLayout>
+    <com.google.android.gms.ads.AdView android:id="@+id/adView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/top_frame" android:layout_centerHorizontal="true" android:adSize="BANNER" android:adUnitId="ca-app-pub-7960193263009665/4951506033" />
+</RelativeLayout>

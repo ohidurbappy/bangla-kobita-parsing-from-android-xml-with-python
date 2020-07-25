@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/RL_Main" android:background="@drawable/kobita_back1" android:layout_width="match_parent" android:layout_height="match_parent" android:keepScreenOn="true">
+    <FrameLayout android:id="@+id/top_frame" android:background="@drawable/btn_border" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3c01">
+        <ImageView android:background="@drawable/f_jashimuddin" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="22sp" android:textColor="#fffc34" android:id="@+id/kobi_name" android:paddingLeft="60dp" android:paddingTop="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="জসীমউদ্দীন" />
+        <TextView android:textSize="14sp" android:textColor="#ffffff" android:id="@+id/kobi_birth" android:paddingLeft="60dp" android:paddingTop="33dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="(জন্ম-১৯০৩ / মৃত্যু-১৯৭৬)" />
+        <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textColor="#ffffff" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/pata" android:background="@drawable/kobitabtn_60x50" android:layout_width="UNKNOWN_DATA_0x3c01" android:layout_height="UNKNOWN_DATA_0x3c01" android:layout_marginRight="10dp" android:text="১ম 
+পাতা" />
+    </FrameLayout>
+    <HorizontalScrollView android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginBottom="35dp" android:layout_below="@+id/adView">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="match_parent"
+            <LinearLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:textSize="22sp" android:textColor="#fffffa00" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_1" android:background="@drawable/kobitabtn1" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0x2801" android:text="কবর" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+                <ScrollView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/sv_1" android:background="@drawable/kobita_back2" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                    <TextView android:enabled="true" android:textSize="18sp" android:textColor="#ffffffff" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_01" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="এই খানে তোর দাদির কবর ডালিম-গাছের তলে,  
+ তিরিশ বছর ভিজায়ে রেখেছি দুই নয়নের জলে।  
+ এতটুকু তারে ঘরে এনেছিনু সোনার মতন মুখ,  
+ পুতুলের বিয়ে ভেঙে গেল বলে কেঁদে ভাসাইত বুক।  
+ এখানে ওখানে ঘুরিয়া ফিরিতে ভেবে হইতাম সারা,  
+ সারা বাড়ি ভরি এত সোনা মোর ছড়াইয়া দিল কারা!  
+ সোনালি ঊষার সোনামুখ তার আমার নয়নে ভরি  
+ লাঙল লইয়া খেতে ছুটিলাম গাঁয়ের ও-পথ ধরি।  
+ যাইবার কালে ফিরে ফিরে তারে দেখে লইতাম কত  
+ এ কথা লইয়া ভাবি-সাব মোরে তামাশা করিত শত।  
+ এমনি করিয়া জানি না কখন জীবনের সাথে মিশে  
+ ছোট-খাট তার হাসি ব্যথা মাঝে হারা হয়ে গেনু দিশে।  
+  
+ বাপের বাড়িতে যাইবার কাল কহিত ধরিয়া পা  
+ আমারে দেখিতে যাইও কিন্তু উজান-তলীর গাঁ।  
+ শাপলার হাটে তরমুজ বেচি পয়সা করি দেড়ী,  
+ পুঁতির মালার একছড়া নিতে কখনও হত না দেরি।  
+ দেড় পয়সার তামাক এবং মাজন লইয়া গাঁটে,  
+ সন্ধাবেলায় ছুটে যাইতাম শ্বশুরবাড়ির বাটে!  
+ হেস না¬ হেস না¬ শোন দাদু, সেই তামাক মাজন পেয়ে,  
+ দাদি যে তোমার কত খুশি হত দেখিতিস যদি চেয়ে!  
+ নথ নেড়ে নেড়ে কহিত হাসিয়া, এতদিন পরে এলে,  
+ পথ পানে চেয়ে আমি যে হেথায় কেঁদে মরি আঁখিজলে।  
+ আমারে ছাড়িয়া এত ব্যথা যার কেমন করিয়া হায়,  
+ কবর দেশেতে ঘুমায়ে রয়েছে নিঝঝুম নিরালায়!  
+ হাত জোড় করে দোয়া মাঙ দাদু, আয় খোদা! দয়াময়,  
+ আমার দাদীর তরেতে যেন গো ভেস্ত নসিব হয়।  
+  
+ তারপর এই শূন্য জীবনে যত কাটিয়াছি পাড়ি  
+ যেখানে যাহারে জড়ায়ে ধরেছি সেই চলে গেছে ছাড়ি।  
+ শত কাফনের, শত কবরের অঙ্ক হৃদয়ে আঁকি,  
+ গণিয়া গণিয়া ভুল করে গণি সারা দিনরাত জাগি।  
+ এই মোর হাতে কোদাল ধরিয়া কঠিন মাটির তলে,  
+ গাড়িয়া দিয়াছি কত সোনামুখ নাওয়ায়ে চোখের জলে।  
+ মাটিরে আমি যে বড় ভালবাসি, মাটিতে মিশায়ে বুক,  
+ আয়-আয় দাদু, গলাগলি ধরি কেঁদে যদি হয় সুখ।  
+  
+ এইখানে তোর বাপজি ঘুমায়, এইখানে তোর মা,  
+ কাঁদছিস তুই? কী করিব দাদু! পরাণ যে মানে না।  
+ সেই ফালগুনে বাপ তোর এসে কহিল আমারে ডাকি,  
+ বা-জান, আমার শরীর আজিকে কী যে করে থাকি থাকি।  
+ ঘরের মেঝেতে সপটি বিছায়ে কহিলাম বাছা শোও,  
+ সেই শোওয়া তার শেষ শোওয়া হবে তাহা কী জানিত কেউ?  
+ গোরের কাফনে সাজায়ে তাহারে চলিলাম যবে বয়ে,  
+ তুমি যে কহিলা বা-জানরে মোর কোথা যাও দাদু লয়ে?  
+ তোমার কথার উত্তর দিতে কথা থেমে গেল মুখে,  
+ সারা দুনিয়ার যত ভাষা আছে কেঁদে ফিরে গেল দুখে!  
+  
+ তোমার বাপের লাঙল-জোয়াল দুহাতে জঢ়ায়ে ধরি,  
+ তোমার মায়ে যে কতই কাঁদিতে সারা দিনমান ভরি।  
+ গাছের পাতার সেই বেদনায় বুনো পথে যেতো ঝরে,  
+ ফালগুনী হাওয়া কাঁদিয়া উঠিত শুনো-মাঠখানি ভরে।  
+ পথ দিয়া যেতে গেঁয়ো পথিকেরা মুছিয়া যাইত চোখ,  
+ চরণে তাদের কাঁদিয়া উঠিত গাছের পাতার শোক।  
+ আথালে দুইটি জোয়ান বলদ সারা মাঠ পানে চাহি,  
+ হাম্বা রবেতে বুক ফাটাইত নয়নের জলে নাহি।  
+ গলাটি তাদের জড়ায়ে ধরিয়া কাঁদিত তোমার মা,  
+ চোখের জলের গহীন সায়রে ডুবায়ে সকল গাঁ।  
+  
+ ঊদাসিনী সেই পল্লী-বালার নয়নের জল বুঝি,  
+ কবর দেশের আন্ধারে ঘরে পথ পেয়েছিল খুজি।  
+ তাই জীবনের প্রথম বেলায় ডাকিয়া আনিল সাঁঝ,  
+ হায় অভাগিনী আপনি পরিল মরণ-বিষের তাজ।  
+ মরিবার কালে তোরে কাছে ডেকে কহিল, বাছারে যাই,  
+ বড় ব্যথা র’ল, দুনিয়াতে তোর মা বলিতে কেহ নাই;  
+ দুলাল আমার, যাদুরে আমার, লক্ষী আমার ওরে,  
+ কত ব্যথা মোর আমি জানি বাছা ছাড়িয়া যাইতে তোরে।  
+ ফোঁটায় ফোঁটায় দুইটি গন্ড ভিজায়ে নয়ন¬জলে,  
+ কী জানি আশিস করে গেল তোরে মরণ¬ব্যথার ছলে।  
+  
+ ক্ষণপরে মোরে ডাকিয়া কহিল¬ আমার কবর গায়  
+ স্বামীর মাথার মাথালখানিরে ঝুলাইয়া দিও বায়।  
+ সেই যে মাথাল পচিয়া গলিয়া মিশেছে মাটির সনে,  
+ পরাণের ব্যথা মরে নাকো সে যে কেঁদে ওঠে ক্ষণে ক্ষণে।  
+ জোড়মানিকেরা ঘুমায়ে রয়েছে এইখানে তরু¬ছায়,  
+ গাছের শাখারা স্নেহের মায়ায় লুটায়ে পড়েছে গায়।  
+ জোনকি¬মেয়েরা সারারাত জাগি জ্বালাইয়া দেয় আলো,  
+ ঝিঁঝিরা বাজায় ঘুমের নূপুর কত যেন বেসে ভালো।  
+ হাত জোড় করে দোয়া মাঙ দাদু, রহমান খোদা! আয়;  
+ ভেস্ত নসিব করিও আজিকে আমার বাপ ও মায়!  
+  
+ এখানে তোর বুজির কবর, পরীর মতন মেয়ে,  
+ বিয়ে দিয়েছিনু কাজিদের বাড়ি বনিয়াদি ঘর পেয়ে।  
+ এত আদরের বুজিরে তাহারা ভালবাসিত না মোটে,  
+ হাতেতে যদিও না মারিত তারে শত যে মারিত ঠোঁটে।  
+ খবরের পর খবর পাঠাত, দাদু যেন কাল এসে  
+ দুদিনের তরে নিয়ে যায় মোরে বাপের বাড়ির দেশে।  
+ শ্বশুর তাহার কশাই চামার, চাহে কি ছাড়িয়া দিতে  
+ অনেক কহিয়া সেবার তাহারে আনিলাম এক শীতে।  
+ সেই সোনামুখ মলিন হয়েছে ফোটে না সেথায় হাসি,  
+ কালো দুটি চোখে রহিয়া রহিয়া অশ্রু উঠিছে ভাসি।  
+ বাপের মায়ের কবরে বসিয়া কাঁদিয়া কাটাত দিন,  
+ কে জানিত হায়, তাহারও পরাণে বাজিবে মরণ¬বীণ!  
+ কী জানি পচানো জ্বরেতে ধরিল আর উঠিল না ফিরে,  
+ এইখানে তারে কবর দিয়েছি দেখে যাও দাদু! ধীরে।  
+  
+ ব্যথাতুরা সেই হতভাগিনীরে বাসে নাই কেহ ভালো,  
+ কবরে তাহার জড়ায়ে রয়েছে বুনো ঘাসগুলি কালো।  
+ বনের ঘুঘুরা উহু উহু করি কেঁদে মরে রাতদিন,  
+ পাতায় পাতায় কেঁপে উঠে যেন তারি বেদনার বীণ।  
+ হাত জোড় করে দোয়া মাঙ দাদু, আয় খোদা! দয়াময়।  
+ আমার বু¬জীর তরেতে যেন গো বেস্ত নসিব হয়।  
+  
+ হেথায় ঘুমায় তোর ছোট ফুপু, সাত বছরের মেয়ে,  
+ রামধনু বুঝি নেমে এসেছিল ভেস্তের দ্বার বেয়ে।  
+ ছোট বয়সেই মায়েরে হারায়ে কী জানি ভাবিত সদা,  
+ অতটুকু বুকে লুকাইয়াছিল কে জানিত কত ব্যথা!  
+ ফুলের মতন মুখখানি তার দেখিতাম যবে চেয়ে,  
+ তোমার দাদির ছবিখানি মোর হদয়ে উঠিত ছেয়ে।  
+ বুকেতে তাহারে জড়ায়ে ধরিয়া কেঁদে হইতাম সারা,  
+ রঙিন সাঁঝেরে ধুয়ে মুছে দিত মোদের চোখের ধারা।  
+  
+ একদিন গেনু গজনার হাটে তাহারে রাখিয়া ঘরে,  
+ ফিরে এসে দেখি সোনার প্রতিমা লুটায় পথের পরে।  
+ সেই সোনামুখ গোলগাল হাত সকলি তেমন আছে।  
+ কী জানি সাপের দংশন পেয়ে মা আমার চলে গেছে।  
+ আপন হস্তে সোনার প্রতিমা কবরে দিলাম গাড়ি,  
+ দাদু! ধর¬ধর¬ বুক ফেটে যায়, আর বুঝি নাহি পারি।  
+ এইখানে এই কবরের পাশে আরও কাছে আয় দাদু,  
+ কথা কস নাকো, জাগিয়া উটিবে ঘুম¬ভোলা মোর যাদু।  
+ আস্তে আস্তে খুঁড়ে দেখ দেখি কঠিন মাটির তলে,  
+  
+ ওই দূর বনে সন্ধ্যা নামিয়ে ঘন আবিরের রাগে,  
+ অমনি করিয়া লুটায়ে পড়িতে বড় সাধ আজ জাগে।  
+ মসজিদ হইতে আযান হাঁকিছে বড় সুকরুণ সুরে,  
+ মোর জীবনের রোজকেয়ামত ভাবিতেছি কত দূরে।  
+ জোড়হাত দাদু মোনাজাত কর, আয় খোদা! রহমান।  
+ ভেস্ত নসিব করিও সকল মৃত্যু¬ব্যথিত প্রাণ। 
+  
+====== 
+" android:textIsSelectable="true" />
+                </ScrollView>
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:textSize="22sp" android:textColor="#fffffa00" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_2" android:background="@drawable/kobitabtn1" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0x2801" android:text="নিমন্ত্রণ" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:textIsSelectable="true" />
+                <ScrollView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/sv_2" android:background="@drawable/kobita_back2" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                    <TextView android:textSize="18sp" android:textColor="#ffffffff" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_02" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5pt" android:text="তুমি যাবে ভাই – যাবে মোর সাথে, আমাদের ছোট গাঁয়,  
+ গাছের ছায়ায় লতায় পাতায় উদাসী বনের বায়;  
+ মায়া মমতায় জড়াজড়ি করি  
+ মোর গেহখানি রহিয়াছে ভরি,  
+ মায়ের বুকেতে, বোনের আদরে, ভাইয়ের স্নেহের ছায়,  
+ তুমি যাবে ভাই – যাবে মোর সাথে, আমাদের ছোট গাঁয়,  
+  
+ ছোট গাঁওখানি- ছোট নদী চলে, তারি একপাশ দিয়া,  
+ কালো জল তার মাজিয়াছে কেবা কাকের চক্ষু নিয়া;  
+ ঘাটের কিনারে আছে বাঁধা তরী  
+ পারের খবর টানাটানি করি;  
+ বিনাসুতি মালা গাথিছে নিতুই এপার ওপার দিয়া;  
+ বাঁকা ফাঁদ পেতে টানিয়া আনিছে দুইটি তটের হিয়া।  
+  
+ তুমি যাবে ভাই- যাবে মোর সাথে, ছোট সে কাজল গাঁয়,  
+ গলাগলি ধরি কলা বন; যেন ঘিরিয়া রয়েছে তায়।  
+ সরু পথ খানি সুতায় বাঁধিয়া  
+ দূর পথিকেরে আনিছে টানিয়া,  
+ বনের হাওয়ায়, গাছের ছায়ায়, ধরিয়া রাখিবে তায়,  
+ বুকখানি তার ভরে দেবে বুঝি, মায়া আর মমতায়!  
+  
+ তুমি যাবে ভাই যাবে মোর সাথে – নরম ঘাসের পাতে  
+ চম্বন রাখি অধরখানিতে মেজে লয়ো নিরালাতে।  
+ তেলাকুচা – লতা গলায় পরিয়া  
+ মেঠো ফুলে নিও আঁচল ভরিয়া,  
+ হেথায় সেথায় ভাব করো তুমি বুনো পাখিদের সাথে,  
+ তোমার গায়ের রংখানি তুমি দেখিবে তাদের পাতে।  
+  
+ তুমি যদি যাও আমাদের গাঁয়ে, তোমারে সঙ্গে করি  
+ নদীর ওপারে চলে যাই তবে লইয়া ঘাটের তরী।  
+ মাঠের যত না রাখাল ডাকিয়া  
+ তোর সনে দেই মিতালী করিয়া  
+ ঢেলা কুড়িইয়া গড়ি ইমারত সারা দিনমান ধরি,  
+ সত্যিকারের নগর ভুলিয়া নকল নগর গড়ি।  
+  
+ তুমি যদি যাও – দেখিবে সেখানে মটর লতার সনে,  
+ সীম আর সীম – হাত বাড়াইলে মুঠি ভরে সেই খানে।  
+ তুমি যদি যাও সে – সব কুড়ায়ে  
+ নাড়ার আগুনে পোড়ায়ে পোড়ায়ে,  
+ খাব আর যত গেঁয়ো – চাষীদের ডাকিয়া নিমন্ত্রণে,  
+ হাসিয়া হাসিয়া মুঠি মুঠি তাহা বিলাইব দুইজনে।  
+  
+ তুমি যদি যাও – শালুক কুড়ায়ে, খুব – খুব বড় করে,  
+ এমন একটি গাঁথিব মালা যা দেখনি কাহারো করে,  
+ কারেও দেব না, তুমি যদি চাও  
+ আচ্ছা না হয় দিয়ে দেব তাও,  
+ মালাটিরে তুমি রাখিও কিন্তু শক্ত করিয়া ধরে,  
+ ও পাড়ার সব দুষ্ট ছেলেরা নিতে পারে জোর করে;  
+  
+ সন্ধ্যা হইলে ঘরে ফিরে যাব, মা যদি বকিতে চায়,  
+ মতলব কিছু আঁটিব যাহাতে খুশী তারে করা যায়!  
+ লাল আলোয়ানে ঘুঁটে কুড়াইয়া  
+ বেঁধে নিয়ে যাব মাথায় করিয়া  
+ এত ঘুষ পেয়ে যদি বা তাহার মন না উঠিতে চায়,  
+ বলিব – কালিকে মটরের শাক এনে দেব বহু তায়।  
+  
+ খুব ভোর ক’রে উঠিতে হইবে, সূয্যি উঠারও আগে,  
+ কারেও ক’বি না, দেখিস্ পায়ের শব্দে কেহ না জাগে  
+ রেল সড়কের ছোট খাদ ভরে  
+ ডানকিনে মাছ কিলবিল করে;  
+ কাদার বাঁধন গাঁথি মাঝামাঝি জল সেঁচে আগে ভাগে  
+ সব মাছগুলো কুড়ায়ে আনিব কাহারো জানার আগে।  
+  
+ ভর দুপুরেতে এক রাশ কাঁদা আর এক রাশ মাছ,  
+ কাপড়ে জড়ায়ে ফিরিয়া আসিব আপন বাড়ির কাছ।  
+ ওরে মুখ – পোড়া ওরে বাঁদর।  
+ গালি – ভরা মার অমনি আদর,  
+ কতদিন আমি শুনি নারে ভাই আমার মায়ের পাছ;  
+ যাবি তুই ভাই, আমাদের গাঁয়ে যেথা ঘন কালো গাছ।  
+  
+ যাবি তুই ভাই, যাবি মোর সাথে আমাদের ছোট গাঁয়।  
+ ঘন কালো বন মায়া মমতায় বেঁধেছে বনের বায়।  
+ গাছের ছায়ায় বনের লতায়  
+ মোর শিশুকাল লুকায়েছে হায়!  
+ আজি সে সব সরায়ে সরায়ে খুজিয়া লইব তায়,  
+ যাবি তুই ভাই, যাবি মোর সাথে আমাদের ছোট গায়।  
+  
+ তোরে নিয়ে যাব আমাদের গাঁয়ে ঘন-পল্লব তলে  
+ লুকায়ে থাকিস, খুজে যেন কেহ পায় না কোনই বলে।  
+ মেঠো কোন ফুল কুড়াইতে যেয়ে,  
+ হারাইয়া যাস পথ নাহি পেয়ে;  
+ অলস দেহটি মাটিতে বিছায়ে ঘুমাস সন্ধ্যা হলে,  
+ সারা গাঁও আমি খুজিয়া ফিরিব তোরি নাম বলে বলে। 
+  
+====== 
+" android:textIsSelectable="true" />
+                </ScrollView>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:textSize="22sp" android:textColor="#fffffa00" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_3" android:background="@drawable/kobitabtn1" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0x2801" android:text="ফুটবল খেলোয়াড়" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+                <ScrollView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/sv_3" android:background="@drawable/kobita_back2" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                    <TextView android:textSize="18sp" android:textColor="#ffffffff" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_03" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="আমাদের মেসে ইমদাদ হক ফুটবল খেলোয়াড়,  
+ হাতে পায়ে মুখে শত আঘাতের ক্ষতে খ্যাতি লেখা তার।  
+ সন্ধ্যা বেলায় দেখিবে তাহারে পটি বাঁধি পায়ে হাতে,  
+ মালিশ মাখিছে প্রতি গিঠে গিঠে কাত হয়ে বিছানাতে।  
+ মেসের চাকর হয় লবেজান সেঁক দিতে ভাঙ্গা হাড়ে,  
+ সারা রাত শুধু ছটফট করে কেঁদে কেঁদে ডাক ছাড়ে।  
+ আমরা তো ভাবি ছমাসের তরে পঙ্গু সে হল হায়,  
+ ফুটবল-টিমে বল লয়ে কভু দেখিতে পাব না তায়।  
+ প্রভাত বেলায় খবর লইতে ছুটে যাই তার ঘরে,  
+ বিছানা তাহার শূন্য পড়িয়া ভাঙা খাটিয়ার পরে।  
+ টেবিলের পরে ছোট বড় যত মালিশের শিশিগুলি,  
+ উপহাস যেন করিতেছে মোরে ছিপি- পরা দাঁত তুলি।  
+ সন্ধ্যা বেলায় খেলার মাঠেতে চেয়ে দেখি বিস্ময়ে,  
+ মোদের মেসের ইমদাদ হক আগে ছোটে বল লয়ে!  
+ বাপ পায়ে বল ড্রিবলিং করে ডান পায়ে মারে ঠেলা,  
+ ভাঙা কয়খানা হাতে পায়ে তার বজ্র করিছে খেলা।  
+ চালাও চালাও আরও আগে যাও বাতাসের মত ধাও,  
+ মারো জোরে মারো- গোলের ভেতরে বলেরে ছুঁড়িয়া দাও।  
+ গোল-গোল-গোল, চারিদিক হতে ওঠে কোলাহলকল,  
+ জীবনের পণ, মরণের পণ, সব বাঁধা, পায়ে দল।  
+ গোল-গোল-গোল-মোদের মেসের ইমদাদ হক কাজি,  
+ ভাঙা দুটি পায়ে জয়ের ভাগ্য লুটিয়া আনিল আজি।  
+ দর্শকদল ফিরিয়া চলেছে মহা-কলবর করে,  
+ ইমদাদ হক খোড়াতে খোড়াতে আসে যে মেসের ঘরে।  
+ মেসের চাকর হয়রান হয় পায়েতে মালিশ মাখি,  
+ বে-ঘুম রাত্র কেটে যায় তার চীৎকার করিডাকি।  
+ সকালে সকালে দৈনিক খুলি মহা-আনন্দে পড়ে,  
+ ইমদাদ হক কাল যা খেলেছে কমই তা নজরে পড়ে। 
+  
+====== 
+" android:textIsSelectable="true" />
+                </ScrollView>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:textSize="22sp" android:textColor="#fffffa00" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_4" android:background="@drawable/kobitabtn1" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0x2801" android:text="প্রতিদান" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+                <ScrollView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/sv_4" android:background="@drawable/kobita_back2" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                    <TextView android:textSize="18sp" android:textColor="#ffffffff" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_04" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5pt" android:text="আমার এ ঘর ভাঙ্গিয়াছে যেবা, আমি বাধি তার ঘর,  
+ আপন করিতে কাঁদিয়া বেড়াই যে মোরে করেছে পর।  
+ যে মোরে করিল পথের বিবাগী;  
+ পথে পথে আমি ফিরি তার লাগি;  
+ দীঘল রজনী তার তরে জাগি ঘুম যে হয়েছে মোর;  
+ আমার এ ঘর ভাঙ্গিয়াছে যেবা, আমি বাধি তার ঘর।  
+  
+ আমার একুল ভাঙ্গিয়াছে যেবা আমি তার কুল বাধি,  
+ যে গেছে বুকেতে আঘাত হানিয়া তার লাগি আমি কাঁদি;  
+ সে মোরে দিয়েছে বিষ ভরা বান,  
+ আমি দেই তারে বুক ভরা গান;  
+ কাটা পেয়ে তারে ফুল করি দান সারাটি জনম ভর,  
+ আপন করিতে কাদিঁয়া বেড়াই যে মোরে করেছে পর।  
+ মোর বুকে যেবা কবর বেধেছে আমি তার বুক ভরি,  
+ রঙ্গীন ফুলের সোহাগ জড়ান ফুল মালঞ্চ ধরি।  
+ যে মুখে সে নিঠুরিয়া বাণী,  
+ আমি লয়ে সখী, তারি মুখ খানি,  
+ কত ঠাই হতে কত কি যে আনি, সাজাই নিরন্তর,  
+ আপন করিতে কাদিয়া বেড়াই যে মোরে করিয়াছে পর। 
+  
+====== 
+" android:textIsSelectable="true" />
+                </ScrollView>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:textSize="22sp" android:textColor="#fffffa00" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_5" android:background="@drawable/kobitabtn1" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0x2801" android:text="এত হাসি কোথায় পেলে" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+                <ScrollView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/sv_5" android:background="@drawable/kobita_back2" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                    <TextView android:textSize="18sp" android:textColor="#ffffffff" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_05" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="এত হাসি কোথায় পেলে  
+ এত কথার খলখলানি  
+ কে দিয়েছে মুখটি ভরে  
+ কোন বা গাঙের কলকলানি।  
+ কে দিয়েছে রঙিন ঠোঁটে  
+ কলমী ফুলের গুলগুলানি।  
+ কে দিয়েছে চলন বলন  
+ কোন সে লতার দোল দুলানী।  
+  
+ কাদের ঘরে রঙিন পুতুল  
+ আদরে যে টইটুবানি।  
+ কে এনেছে বরণ ডালায়  
+ পাটের বনের বউটুবানী।  
+ কাদের পাড়ার ঝামুর ঝুমুর  
+ কাদের আদর গড়গড়ানি  
+ কাদের দেশের কোন সে চাঁদের  
+ জোছনা ফিনিক ফুল ছড়ানি।  
+  
+ তোমায় আদর করতে আমার  
+ মন যে হলো উড়উড়ানি  
+ উড়ে গেলাম সুরে পেলাম  
+ ছড়ার গড়ার গড়গড়ানি। 
+  
+====== 
+" android:textIsSelectable="true" />
+                </ScrollView>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:textSize="22sp" android:textColor="#fffffa00" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_6" android:background="@drawable/kobitabtn1" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0x2801" android:text="পালের নাও" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+                <ScrollView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/sv_6" android:background="@drawable/kobita_back2" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                    <TextView android:textSize="18sp" android:textColor="#ffffffff" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_06" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5pt" android:text="পালের নাও, পালের নাও, পান খেয়ে যাও–  
+ ঘরে আছে ছোট বোনটি তারে নিয়ে যাও।  
+ কপিল-সারি গাইয়ের দুধ যেয়ো পান করে’  
+ কৌটা ভরি সিঁদুর দেব কপালটি ভরে’!  
+ গুয়ার গায়ে ফুল চন্দন দেব ঘসে’ ঘসে’,  
+ মামা-বাড়ীর বলব কথা শুনো বসে বসে!  
+  
+ কে যাওরে পাল ভরে’ কোন্ দেশে ঘর  
+ পাছা নায়ে বসে আছে কোন্ সওদাগর?  
+ কোন্ দেশে কোন্ গাঁয়ে হিরে ফুল ঝরে।  
+ কোন্ দেশে হিরামন পাখী বাস করে!  
+ কোন্ দেশে রাজ-কনে খালি ঘুম যায়,  
+ ঘুম যায় আর হাসে হিম্-সিম্ বায়।  
+ সেই দেশে যাব আমি কিছু নাহি চাই,  
+ ছোট মোর বোনটিরে যদি সাথে পাই!  
+  
+ পালের নাও, পালের নাও, পান খেয়ে যাও,  
+ তোমার যে পাল নাচে ফুলঝুরি বাও।  
+ তোমার যে না’র ছই আবের ঢাকনী  
+ ঝলমল জ্বলিতেছে সোনার বাঁধনী।  
+ সোনার না বাঁধন্ রে তার গোড়ে গোড়ে  
+ হিরামন পঙ্খীর লাল পাখা ওড়ে।  
+ তারপর ওড়েরে ঝালরের ছাতি,  
+ ঝলমল জলে জ্বলে রতনের বাতি।  
+ এই নাও বেয়ে যায় কোন্ সদাগর,  
+ কয়ে যাও -কয়ে যাও কোন্ দেশে ঘর?  
+  
+ পালের নাও, পালের নাও, পান খেয়ে যাও,  
+ ঘরে আছে ছোট বোন্ তারে নিয়ে যাও,-  
+ চেনা গাঙে সাত ধার করে গলাগলি,  
+ সেথা বাস কেহেলার -লোকে গেছে বলি।  
+ পারাপার দুই নদী -মাঝে বালুচর  
+ সেইখানে বাস করে চাঁদ সওদাগর।  
+  
+ এ পারে ধুতুমের বাসা ও পারেতে টিয়া-  
+ সেখানেতে যেও না রে নাও খানি নিয়া।  
+ ভাইটাল গাঙ্ দোলে ভাটা গেঁয়ো সোতে,  
+ হবে নারে নাও বাওয়া সেথা কোন মতে। 
+  
+====== 
+" android:textIsSelectable="true" />
+                </ScrollView>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:textSize="22sp" android:textColor="#fffffa00" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_7" android:background="@drawable/kobitabtn1" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0x2801" android:text="মামার বাড়ি" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+                <ScrollView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/sv_7" android:background="@drawable/kobita_back2" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                    <TextView android:textSize="18sp" android:textColor="#ffffffff" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_07" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5pt" android:text="আয় ছেলেরা, আয় মেয়েরা,  
+ ফুল তুলিতে যাই  
+ ফুলের মালা গলায় দিয়ে  
+ মামার বাড়ি যাই।  
+ মামার বাড়ি পদ্মপুকুর  
+ গলায় গলায় জল,  
+ এপার হতে ওপার গিয়ে  
+ নাচে ঢেউয়ের দল।  
+  
+ দিনে সেথায় ঘুমিয়ে থাকে  
+ লাল শালুকের ফুল,  
+ রাতের বেলা চাঁদের সনে  
+ হেসে না পায় কূল।  
+ আম-কাঁঠালের বনের ধারে  
+ মামা-বাড়ির ঘর,  
+ আকাশ হতে জোছনা-কুসুম  
+ ঝরে মাথার ‘পর।  
+  
+ রাতের বেলা জোনাক জ্বলে  
+ বাঁশ-বাগানের ছায়,  
+ শিমুল গাছের শাখায় বসে  
+ ভোরের পাখি গায়।  
+ ঝড়ের দিনে মামার দেশে  
+ আম কুড়াতে সুখ  
+ পাকা জামের শাখায় উঠি  
+ রঙিন করি মুখ।  
+ কাঁদি-ভরা খেজুর গাছে  
+ পাকা খেজুর দোলে  
+ ছেলেমেয়ে, আয় ছুটে যাই  
+ মামার দেশে চলে। 
+  
+====== 
+" android:textIsSelectable="true" />
+                </ScrollView>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:textSize="22sp" android:textColor="#fffffa00" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_8" android:background="@drawable/kobitabtn1" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0x2801" android:text="রাখাল ছেলে" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+                <ScrollView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/sv_8" android:background="@drawable/kobita_back2" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                    <TextView android:textSize="18sp" android:textColor="#ffffffff" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_08" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="'রাখাল ছেলে! রাখাল ছেলে! বারেক ফিরে চাও,  
+ বাঁকা গাঁয়ের পথটি বেয়ে কোথায় চলে যাও?'  
+  
+ 'ওই যে দেখ নীল-নোয়ান সবুজ ঘেরা গাঁ  
+ কলার পাতা দোলায় চামর শিশির ধোয়ায় পা;  
+ সেথায় আছে ছোট্ট কুটির সোনার পাতায় ছাওয়া,  
+ সেই ঘরেতে একলা বসে ডাকছে আমার মা  
+ সেথায় যাব, ও ভাই এবার আমায় ছাড় না!'  
+  
+ রাখাল ছেলে! রাখাল ছেলে! আবার কোথায় ধাও,  
+ পূব আকাশে ছাড়ল সবে রঙিন মেঘের নাও।'  
+  
+ 'ঘুম হতে আজ জেগেই দেখি শিশির-ঝরা ঘাসে,  
+ সারা রাতের স্বপন আমার মিঠেল রোদে হাসে।  
+ আমার সাথে করতে খেলা প্রভাত হাওয়া ভাই,  
+ সরষে ফুলের পাঁপড়ি নাড়ি ডাকছে মোরে তাই।  
+ চলতে পথে মটরশুঁটি জড়িয়ে দু-খান পা,  
+ বলছে ডেকে, 'গাঁয়ের রাখাল একটু খেলে যা!'  
+ সারা মাঠের ডাক এসেছে, খেলতে হবে ভাই!  
+ সাঁঝের বেলা কইব কথা এখন তবে যাই!'  
+  
+ 'রাখাল ছেলে! রাখাল ছেলে! সারাটা দিন খেলা,  
+ এ যে বড় বাড়াবাড়ি, কাজ আছে যে মেলা!'  
+  
+ 'কাজের কথা জানিনে ভাই, লাঙল দিয়ে খেলি  
+ নিড়িয়ে দেই ধানের ক্ষেতের সবিজ রঙের চেলি  
+ সরষে বালা নুইয়ে গলা হলদে হওয়ার সুখে  
+ মটর বোনে ঘোমটা খুলে চুম দিয়ে যায় মুখে!  
+ ঝাউয়ের ঝাড়ে বাজায় বাঁশি পঊষ-পাগল বুড়ি,  
+ আমরা সেথা চষতে লাঙল মুর্শিদা-গান জুড়ি।  
+ খেলা মোদের গান গাওয়া ভাই, খেলা লাঙল-চষা  
+ সারাটা দিন খেলতে জানি, জানিইনেকো বসা।' 
+  
+====== 
+" android:textIsSelectable="true" />
+                </ScrollView>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:textSize="22sp" android:textColor="#fffffa00" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_9" android:background="@drawable/kobitabtn1" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0x2801" android:text="খুকির সম্পত্তি" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+                <ScrollView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/sv_9" android:background="@drawable/kobita_back2" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                    <TextView android:textSize="18sp" android:textColor="#ffffffff" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_09" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5pt" android:text="শিউলি নামের খুকির সনে আলাপ আমার অনেক দিনের থেকে  
+ হাসিখুশি মিষ্টমিশি অনেক কথা কই যে তারে ডেকে।  
+ সেদিন তার কইনু 'খুকি- কী কী জিনিস কওতো তোমার আছে?  
+ সগৌরবে বলর, অনেক-অনেক কিছু আছে তাহার কাছে;  
+ সাতটা ভাঙা পেন্সিল আর নীল বরণের ভাঙা দু-খান কাঁচ,  
+ মারবেল আছে তিন-চারটে, কড়ি আছে গণ্ডা ছ কি পাঁচ।  
+  
+ ডলি পুতুল, মিনি পুতুল, কাঠের পুতুল, মাটির পুতুল আর-  
+ পুঁতির মালা, রঙিন ঝিনুক, আরও অনেক খেলনা আছে তার।  
+ আছে তাহার পাতার বাঁশি, টিনের উনুন, শোলার পাখির ছা,  
+ সাতটা আছে ঝুমঝুমি তার আর আছে তার একটি খেলার মা। 
+  
+====== 
+" android:textIsSelectable="true" />
+                </ScrollView>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:textSize="22sp" android:textColor="#fffffa00" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_10" android:background="@drawable/kobitabtn1" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0x2801" android:text="আসমানী" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+                <ScrollView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/sv_10" android:background="@drawable/kobita_back2" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                    <TextView android:textSize="18sp" android:textColor="#ffffffff" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_010" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5pt" android:text="আসমানীরে দেখতে যদি তোমরা সবে চাও,  
+ রহিমদ্দির ছোট্ট বাড়ি রসুলপুরে যাও।  
+ বাড়ি তো নয় পাখির বাসা ভেন্না পাতার ছানি,  
+ একটুখানি বৃষ্টি হলেই গড়িয়ে পড়ে পানি।  
+ একটুখানি হাওয়া দিলেই ঘর নড়বড় করে,  
+ তারি তলে আসমানীরা থাকে বছর ভরে।  
+ পেটটি ভরে পায় না খেতে, বুকের ক-খান হাড়,  
+ সাক্ষী দিছে অনাহারে কদিন গেছে তার।  
+ মিষ্টি তাহার মুখটি হতে হাসির প্রদীপ-রাশি  
+ থাপড়েতে নিবিয়ে দেছে দারুণ অভাব আসি।  
+ পরনে তার শতেক তালির শতেক ছেঁড়া বাস,  
+ সোনালি তার গা বরণের করছে উপহাস।  
+ ভোমর-কালো চোখ দুটিতে নাই কৌতুক-হাসি,  
+ সেখান দিয়ে গড়িয়ে পড়ে অশ্রু রাশি রাশি।  
+ বাঁশির মতো সুরটি গলায় ক্ষয় হল তাই কেঁদে,  
+ হয় নি সুযোগ লয় যে সে-সুর গানের সুরে বেঁধে।  
+ আসমানীদের বাড়ির ধারে পদ্ম-পুকুর ভরে  
+ ব্যাঙের ছানা শ্যাওলা-পানা কিল্-বিল্-বিল করে।  
+ ম্যালেরিয়ার মশক সেথা বিষ গুলিছে জলে,  
+ সেই জলেতে রান্না-খাওয়া আসমানীদের চলে।  
+ পেটটি তাহার দুলছে পিলেয়, নিতুই যে জ্বর তার,  
+ বৈদ্য ডেকে ওষুধ করে পয়সা নাহি আর। 
+  
+====== 
+" android:textIsSelectable="true" />
+                </ScrollView>
+            </LinearLayout>
+        </LinearLayout>
+    </HorizontalScrollView>
+    <FrameLayout android:id="@+id/bottom_frame" android:background="#043800" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2301" android:layout_alignParentBottom="true">
+        <Button android:textColor="#d7d7d7" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/DayMode" android:background="@drawable/btn_100x35" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x2301" android:layout_marginLeft="10dp" android:text="Day Mode" android:onClick="Day_Mode" android:textAllCaps="false" />
+        <Button android:textColor="#d7d7d7" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/Default" android:background="@drawable/btn_100x35_back" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x2301" android:text="Default" android:onClick="Default" android:textAllCaps="false" />
+        <Button android:textColor="#d7d7d7" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/NightMode" android:background="@drawable/btn_100x35" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x2301" android:layout_marginRight="10dp" android:text="Night Mode" android:onClick="Night_Mode" android:textAllCaps="false" />
+    </FrameLayout>
+    <com.google.android.gms.ads.AdView android:id="@+id/adView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/top_frame" android:layout_centerHorizontal="true" android:adSize="BANNER" android:adUnitId="ca-app-pub-7960193263009665/4951506033" />
+</RelativeLayout>

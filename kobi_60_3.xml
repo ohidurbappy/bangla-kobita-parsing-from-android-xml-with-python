@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/RL_Main" android:background="@drawable/kobita_back1" android:layout_width="match_parent" android:layout_height="match_parent" android:keepScreenOn="true">
+    <FrameLayout android:id="@+id/top_frame" android:background="@drawable/btn_border" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3c01">
+        <ImageView android:background="@drawable/f_krishna_chandra_majumdar" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="22sp" android:textColor="#fffc34" android:id="@+id/kobi_name" android:paddingLeft="60dp" android:paddingTop="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="কৃষ্ণচন্দ্র মজুমদার" />
+        <TextView android:textSize="14sp" android:textColor="#ffffff" android:id="@+id/kobi_birth" android:paddingLeft="60dp" android:paddingTop="33dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="(জন্ম-১৮৩৪ / মৃত্যু-১৯০৭)" />
+        <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textColor="#ffffff" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/pata" android:background="@drawable/kobitabtn_60x50" android:layout_width="UNKNOWN_DATA_0x3c01" android:layout_height="UNKNOWN_DATA_0x3c01" android:layout_marginRight="10dp" android:text="৩য় 
+পাতা" />
+    </FrameLayout>
+    <HorizontalScrollView android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginBottom="35dp" android:layout_below="@+id/adView">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="match_parent"
+            <LinearLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:textSize="22sp" android:textColor="#fffffa00" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_1" android:background="@drawable/kobitabtn1" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0x2801" android:text="অধীনতা" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+                <ScrollView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/sv_1" android:background="@drawable/kobita_back2" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                    <TextView android:enabled="true" android:textSize="18sp" android:textColor="#ffffffff" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/kobita_01" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="কোটকল্প নরকের বাস ইচ্ছা হয়, 
+পলকের অধীনতা তবু প্রিয় নয়। 
+অধীনতা-পাশে বাঁধা যাদের চরণ, 
+কে আর অসুখী বল তাদের মতন? 
+থাকে থাক গৃহ পূর্ণ বিবিধ রতনে, 
+অধীন যে জন তার সুখ কোথা মনে? 
+খায় খায় নানাবিধ খাদ্য পরিকর, 
+সে কেমনে সুখ পাবে অধীন যে নর? 
+স্বাধীনের ক্ষুদ্রতর কুটীর ভিতরে, 
+যেইরূপ নিরমল আনন্দ বিহরে, 
+অধীনের মনোহর সুচারু আলয়, 
+তেমন আনন্দময় নয় নয় নয়। 
+স্বাধীন শাকান্নে পায় তৃপ্তি-সুখ যত, 
+অধীন পালান্নে সুখ কোথা পাবে তত? 
+স্বাধীনের যত সুখ মাটির শয্যায়, 
+অধীনের স্বর্ণ খাটে সে সুখ কোথায়? 
+বল্কলে আনন্দ যত স্বাধীনের মনে, 
+অধীনের কোথা তত বিচিত্র বসনে? 
+অই যে করিছে চাষা ভূমি করষণ, 
+সহিতেছে খরতর-তপন কিরণ, 
+তনু বেয়ে ঝর ঝর বহিতেছে জল, 
+শুকায়েছে পরিশ্রমে বদনমন্ডল, 
+যত সুখাকর এর স্বাধীন অন্তর, 
+অধীনের সে সুখ স্বপ্নের অগোচর। 
+কর্ম কাজ শেষ করি সারাদিন পরে, 
+ধীরে ধীরে যখন গমন করে ঘরে, 
+স্নেহময় পরিজন করি দরশন, 
+মরি কি বিমল সুখে পশে এর মন, 
+নিরখিয়া তনয়ের মুখ-শশধরে, 
+উথলে কি সুখসিন্ধু হৃদয় ভিতরে, 
+পতিপ্রাণা প্রেয়সীর প্রিয় সম্ভাষণ, 
+অহো! এর মন করে প্রফুল্ল কেমন, 
+দুখকর অধীনতা-পাশে বাঁধা যারা, 
+এমন বিশুদ্ধ শুখ কোথা পাবে তারা? 
+হায় রে! যে প্রকৃতির মূরতি মোহন, 
+শোকাতুর জনের প্রফুল্ল করে মন, 
+সে প্রকৃতি অধীনের চিন্তিত হৃদয়, 
+পুলকিত করিতে সক্ষম কভু নয়। 
+বাস করি চিরদিন সুখের মহীতে, 
+অধীন সুখের স্বাদ না পারে বুঝিতে। 
+সুধা-সিন্ধু-বাসী মান বঞ্চিত সুধায়, 
+সামান্য আক্ষেপ একি হায় হায় হায়! 
+পরমেশ প্রয়োজন সাধনের তরে, 
+দিয়াছেন বিবিধ ইন্দ্রিয় সব নরে, 
+কিন্তু হায়! এ জগতে অধীন যে জন, 
+তাহার ইন্দ্রিয় নয় তাহার কখন। 
+সাধিতেছে সদা তায় প্রভু প্রয়োজন, 
+হায় রে অধীন! তোর কপাল কেমন। 
+কত কাল সবে আর এ যাতনা? 
+অই দেখ পিঞ্জর-নিবাসী পাখীগণ, 
+কননে উড়িয়া যেতে চঞ্চল কেমন, 
+ঘুরে ঘুরে করিছে পথের অন্বেষণ, 
+চঞ্চুপটে কাটিতেছে খাঁচার বন্ধন। 
+তুমি কেন আপন শৃঙ্খল, কও কও, 
+মোচন করিতে কিছু সমুতসুক নও? 
+বনের পাখির কাছে যহা সুখময়, 
+তোমার কি প্রিয় সেই স্বাধীনতা নয়? 
+কত দুখ অধীনতা দিতেছে তোমারে, 
+তবু কেন এত তুমি ভালবাস তারে? 
+আছে কত স্বাধীন ব্যবসা সুখময়, 
+কর না কর না কেন সে সব আশ্রয়? 
+অথবা বিজন বনে করহ গমন, 
+ফল মূলে কর পোড়া উদর পূরণ, 
+পিপাসা বারণ কর উনুইর জলে, 
+যামিনী যাপন কর বসি তরুতলে, 
+তথাপি রেখনা পায় অধীনতা পাশ, 
+তার চেয়ে শত গুণে ভাল বনবাস। 
+
+==========
+" android:textIsSelectable="true" />
+                </ScrollView>
+            </LinearLayout>
+            <Button android:textSize="18sp" android:textColor="#ffffffff" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/btn_thanks" android:background="@connectionresult/SUCCESS" android:layout_width="UNKNOWN_DATA_0x12c01" android:layout_height="UNKNOWN_DATA_0x3201" android:text="ধন্যবাদ" />
+        </LinearLayout>
+    </HorizontalScrollView>
+    <FrameLayout android:id="@+id/bottom_frame" android:background="#043800" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2301" android:layout_alignParentBottom="true">
+        <Button android:textColor="#d7d7d7" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/DayMode" android:background="@drawable/btn_100x35" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x2301" android:layout_marginLeft="10dp" android:text="Day Mode" android:onClick="Day_Mode" android:textAllCaps="false" />
+        <Button android:textColor="#d7d7d7" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/Default" android:background="@drawable/btn_100x35_back" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x2301" android:text="Default" android:onClick="Default" android:textAllCaps="false" />
+        <Button android:textColor="#d7d7d7" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/NightMode" android:background="@drawable/btn_100x35" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x2301" android:layout_marginRight="10dp" android:text="Night Mode" android:onClick="Night_Mode" android:textAllCaps="false" />
+    </FrameLayout>
+    <com.google.android.gms.ads.AdView android:id="@+id/adView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/top_frame" android:layout_centerHorizontal="true" android:adSize="BANNER" android:adUnitId="ca-app-pub-7960193263009665/4951506033" />
+</RelativeLayout>
